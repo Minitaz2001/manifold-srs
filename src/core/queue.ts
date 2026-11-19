@@ -348,6 +348,9 @@ export function buildDailyQueue(params: {
   const canonicalLogsToday = todayLogs.filter((l) => !l.is_probe && l.task_type !== 'ratio_probe');
   const probeRanToday = todayLogs.some((l) => l.is_probe || l.task_type === 'ratio_probe');
   const reviewedTodayKeys = new Set(canonicalLogsToday.map((l) => l.item_key));
+  // The card just answered never comes straight back via automatic learn-ahead (it looked frozen).
+  const lastReviewedKey = canonicalLogsToday.length ? canonicalLogsToday[canonicalLogsToday.length - 1].item_key : null;
+  const buriedToday = new Set(settings.buried && settings.buried.day === dayStart ? settings.buried.keys : []);
 
   // Count how many new items were FIRST introduced today (robust even if re-reviewed in learning steps today)
   const introducedTodayKeys = new Set<string>();
@@ -414,6 +417,7 @@ export function buildDailyQueue(params: {
   for (const item of allItems) {
     const st = states.get(item.item_key);
     if (st?.suspended) continue;
+    if (buriedToday.has(item.item_key)) continue;
 
     // Hygiene Rule #4: volatile facts > 24 months old (by as_of or content release_date) auto-suspend
     const asOf = item.fact?.as_of ?? item.plain_card?.as_of;
@@ -446,7 +450,8 @@ export function buildDailyQueue(params: {
       else {
         learningPending++;
         if (nextLearningDue === null || dueMs < nextLearningDue) nextLearningDue = dueMs;
-        if (dueMs <= nowTs + learnAheadMs) learningAhead.push(entry);
+        const explicit = learnAheadMs === Number.POSITIVE_INFINITY;
+        if (dueMs <= nowTs + learnAheadMs && (explicit || item.item_key !== lastReviewedKey)) learningAhead.push(entry);
       }
       continue;
     }

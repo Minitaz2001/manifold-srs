@@ -98,12 +98,18 @@ export function FlashWidget({ entity, dimension, fact, isNew, onComplete }: Flas
 }
 
 export function GradeRow({ onGrade }: { onGrade: (g: GradeName) => void }) {
+  // The reveal button sits where these appear: swallow the second tap of a double-tap.
+  const shownAt = useRef(nowMs());
+  const guard = (g: GradeName) => () => {
+    if (nowMs() - shownAt.current < 350) return;
+    onGrade(g);
+  };
   return (
     <div className="action-row four-up">
-      <button type="button" className="btn-again" onClick={() => onGrade('Again')}>Again</button>
-      <button type="button" className="btn-hard" onClick={() => onGrade('Hard')}>Hard</button>
-      <button type="button" className="btn-good" onClick={() => onGrade('Good')}>Good</button>
-      <button type="button" className="btn-easy" onClick={() => onGrade('Easy')}>Easy</button>
+      <button type="button" className="btn-again" onClick={guard('Again')}>Again</button>
+      <button type="button" className="btn-hard" onClick={guard('Hard')}>Hard</button>
+      <button type="button" className="btn-good" onClick={guard('Good')}>Good</button>
+      <button type="button" className="btn-easy" onClick={guard('Easy')}>Easy</button>
     </div>
   );
 }

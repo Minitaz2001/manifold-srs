@@ -80,7 +80,7 @@ export function SettingsDrawer({
   );
 
   const leeches = useMemo(
-    () => Array.from(states.values()).filter((s) => s.suspended && s.suspend_reason === 'leech'),
+    () => Array.from(states.values()).filter((s) => s.suspended && (s.suspend_reason === 'leech' || s.suspend_reason === 'manual')),
     [states]
   );
 
@@ -285,9 +285,9 @@ export function SettingsDrawer({
 
         {/* Leeches & Stale */}
         <section className="settings-section">
-          <h3>Hygiene ({leeches.length} leeches · {staleKeys.length} stale)</h3>
+          <h3>Hygiene ({leeches.length} suspended · {staleKeys.length} stale)</h3>
           {leeches.length === 0 ? (
-            <p className="muted-note">No leeches (auto-suspend triggers at 5 lapses).</p>
+            <p className="muted-note">Nothing suspended (leeches auto-suspend at 8 lapses; Suspend on a card puts it here too).</p>
           ) : (
             <div className="leech-list">
               {leeches.map((l) => {
@@ -298,7 +298,7 @@ export function SettingsDrawer({
                     <div>
                       <div className="leech-name">{label}</div>
                       <div className="leech-meta mono">
-                        {l.dimension_id} · {l.lapses} lapses
+                        {l.dimension_id} · {l.suspend_reason === 'manual' ? 'suspended by you' : `${l.lapses} lapses`}
                       </div>
                     </div>
                     <div className="btn-row compact">

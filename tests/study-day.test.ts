@@ -73,7 +73,8 @@ describe('keep going: learn-ahead and caps', () => {
     const now = local(12);
     const st = stateAt(key, { reps: 1, state: 1, due: new Date(now.getTime() + 8 * 60_000).toISOString(), last_review: now.toISOString() });
     const states = new Map([[key, st]]);
-    const logs = [log(key, now)];
+    // last answer was some other card, so this one may be pulled ahead
+    const logs = [log(key, new Date(now.getTime() - 60_000)), log('other::power_w::flash', now)];
     const settings = { ...DEFAULT_SETTINGS, new_per_day: 1 };
 
     const ahead = buildDailyQueue({ content, states, probes: [], todayLogs: logs, allLogs: logs, settings, now });
@@ -83,6 +84,31 @@ describe('keep going: learn-ahead and caps', () => {
     expect(noAhead.queue).toHaveLength(0);
     expect(noAhead.learning_pending).toBe(1);
     expect(noAhead.next_learning_due).toBe(now.getTime() + 8 * 60_000);
+  });
+
+  it('never pulls the card just answered straight back (Again/Hard looked frozen)', () => {
+    const content = compileContentPacks([pack(1)]);
+    const key = 'ent-0::power_w::flash';
+    const now = local(12);
+    const st = stateAt(key, { reps: 3, state: 1, due: new Date(now.getTime() + 60_000).toISOString(), last_review: now.toISOString() });
+    const logs = [log(key, now, 'Again')];
+    const settings = { ...DEFAULT_SETTINGS, new_per_day: 0 };
+    const auto = buildDailyQueue({ content, states: new Map([[key, st]]), probes: [], todayLogs: logs, allLogs: logs, settings, now });
+    expect(auto.queue).toHaveLength(0);
+    expect(auto.learning_pending).toBe(1);
+    const explicit = buildDailyQueue({ content, states: new Map([[key, st]]), probes: [], todayLogs: logs, allLogs: logs, settings, now, learnAheadMs: Number.POSITIVE_INFINITY });
+    expect(explicit.queue.map((q) => q.item_key)).toEqual([key]);
+  });
+
+  it('hides buried cards until the next rollover', () => {
+    const content = compileContentPacks([pack(3)]);
+    const now = local(12);
+    const buried = 'ent-0::power_w::flash';
+    const settings = { ...DEFAULT_SETTINGS, new_per_day: 3, buried: { day: startOfLocalDay(now), keys: [buried] } };
+    const today = buildDailyQueue({ content, states: new Map(), probes: [], todayLogs: [], allLogs: [], settings, now });
+    expect(today.queue.map((q) => q.item_key)).not.toContain(buried);
+    const tomorrow = buildDailyQueue({ content, states: new Map(), probes: [], todayLogs: [], allLogs: [], settings, now: local(12, 0, 1) });
+    expect(tomorrow.queue.map((q) => q.item_key)).toContain(buried);
   });
 
   it('never lets learning-step repeats eat the review cap', () => {

@@ -4882,6 +4882,281 @@
       "source_note": "Standard physical scaling law / SI unit conversion",
       "as_of": "2026-11-19",
       "volatile": false
+    },
+    {
+      "id": "phy-op-geomean",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "estimation"
+      ],
+      "front": "Fermi estimating: all you know is that a quantity lies between A and B. What is the best single guess?",
+      "back": "The geometric mean √(A·B), which is the midpoint in log space. 'Somewhere between 10 and 1,000' → about 100, not 500.",
+      "source_url": "https://mitpress.mit.edu/9780262536318/the-art-of-insight-in-science-and-engineering/",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-geomean-car",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "estimation"
+      ],
+      "front": "Your gut says a car weighs 'somewhere between 300 kg and 3 t'. What's the log-space midpoint?",
+      "back": "√(300 × 3000) ≈ 950 kg → call it ~1 t. (A typical car is ~1.5 t, inside a factor of 2.)",
+      "source_url": "https://mitpress.mit.edu/9780262536318/the-art-of-insight-in-science-and-engineering/",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-fermi-error",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "estimation"
+      ],
+      "front": "In a Fermi estimate, why does splitting the problem into factors beat one gut guess?",
+      "back": "Errors in independent factors partly cancel instead of compounding, so a chain of rough factors usually lands within ~3× (half an order of magnitude).",
+      "source_url": "https://en.wikipedia.org/wiki/Fermi_problem",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-log-anchors",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "estimation",
+        "logs"
+      ],
+      "front": "Base-10 logs worth memorising: log 2, log 3, log 5, log 7?",
+      "back": "0.30, 0.48, 0.70, 0.85. With these you can read any 'log 4.53'-style number back into a value: 10^0.53 ≈ 3.4.",
+      "source_url": "https://en.wikipedia.org/wiki/Common_logarithm",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-log-multiply",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "estimation",
+        "logs"
+      ],
+      "front": "Multiply 3 × 10⁴ by 7 × 10⁵ in your head, using logs.",
+      "back": "log 3 + log 7 ≈ 0.48 + 0.85 = 1.33, and the exponents add to 9 → 10^10.33 ≈ 2.1 × 10¹⁰.",
+      "source_url": "https://en.wikipedia.org/wiki/Common_logarithm",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-stock-flow",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "flows"
+      ],
+      "front": "Stock, flow and residence time: how are they related?",
+      "back": "stock = flow × residence time (Little's law). Know any two and you get the third: lake volume ÷ outflow = how long water stays.",
+      "source_url": "https://en.wikipedia.org/wiki/Little%27s_law",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-stock-flow-blood",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "flows",
+        "body"
+      ],
+      "front": "You have ~5 L of blood and a resting heart pumps ~5 L/min. How long does one full circulation take?",
+      "back": "stock ÷ flow = 5 L ÷ 5 L/min ≈ 1 minute.",
+      "source_url": "https://en.wikipedia.org/wiki/Cardiac_output",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-stock-flow-vapour",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "flows",
+        "earth"
+      ],
+      "front": "The atmosphere holds ~13,000 km³ of water vapour, and global precipitation is ~500,000 km³/yr. How long does a water molecule stay airborne?",
+      "back": "13,000 ÷ 500,000 ≈ 0.026 yr ≈ 9–10 days.",
+      "source_url": "https://en.wikipedia.org/wiki/Water_cycle",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-per-capita",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "per-capita"
+      ],
+      "front": "How do you turn a per-person rate into a world total?",
+      "back": "Multiply by ~8 × 10⁹ people. 1 kg per person per day → 8 Mt/day → ~3 Gt/yr.",
+      "source_url": "https://population.un.org/wpp/",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-per-capita-energy",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "per-capita",
+        "energy"
+      ],
+      "front": "World primary energy is ~600 EJ/yr. What is that per person, in watts?",
+      "back": "600 × 10¹⁸ J ÷ 3.15 × 10⁷ s ≈ 19 TW; ÷ 8 × 10⁹ people ≈ 2.4 kW each, continuously (≈ 24 bodies' worth).",
+      "source_url": "https://www.energyinst.org/statistical-review",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-power-time",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "energy"
+      ],
+      "front": "Power × time: what is 1 W running all year, and 1 kW running all day?",
+      "back": "1 W × 1 yr ≈ 31.5 MJ ≈ 8.8 kWh. 1 kW × 24 h = 24 kWh ≈ 86 MJ.",
+      "source_url": "https://www.withouthotair.com/",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-kwh-joule",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "energy",
+        "units"
+      ],
+      "front": "How many joules are in a kilowatt-hour?",
+      "back": "1,000 W × 3,600 s = 3.6 × 10⁶ J = 3.6 MJ.",
+      "source_url": "https://en.wikipedia.org/wiki/Kilowatt-hour",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-power-food",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "energy",
+        "body"
+      ],
+      "front": "A body runs at ~100 W. How much food energy is that per day?",
+      "back": "100 W × 86,400 s ≈ 8.6 MJ ≈ 2,100 kcal.",
+      "source_url": "https://en.wikipedia.org/wiki/Basal_metabolic_rate",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-human-kw",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "energy",
+        "body"
+      ],
+      "front": "Sanity-check a power figure against people: what is 1 kW in human terms?",
+      "back": "Body heat is ~100 W, so 1 kW ≈ 10 people at rest. A trained cyclist sustains ~250–400 W, which makes one horsepower (746 W) a lot.",
+      "source_url": "https://en.wikipedia.org/wiki/Human_power",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-dimensional",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "dimensional"
+      ],
+      "front": "Dimensional analysis: a pendulum's period can only depend on length L and gravity g. What form must it take?",
+      "back": "Only √(L/g) has units of time, so T ∝ √(L/g) (exactly 2π√(L/g)). A 1 m pendulum swings with a ~2 s period.",
+      "source_url": "https://en.wikipedia.org/wiki/Dimensional_analysis",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-dimensional-waves",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "dimensional"
+      ],
+      "front": "Deep-water wave speed depends only on wavelength λ and g. What form does it take, and how fast is a 100 m wave?",
+      "back": "v ∝ √(gλ) (exactly √(gλ/2π)). For λ = 100 m: √(9.8 × 100 / 6.28) ≈ 12.5 m/s.",
+      "source_url": "https://en.wikipedia.org/wiki/Dispersion_(water_waves)",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-square-cube-stress",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "scaling"
+      ],
+      "front": "Scale a structure or animal up 10× in every length. What happens to the stress in its legs or columns?",
+      "back": "Load ∝ volume (1000×) while cross-section ∝ area (100×), so stress rises 10×. Big things need proportionally fatter members.",
+      "source_url": "https://en.wikipedia.org/wiki/Square%E2%80%93cube_law",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-rule-of-70",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "growth"
+      ],
+      "front": "Something grows at r % a year. What is its doubling time?",
+      "back": "≈ 70 / r years (because ln 2 ≈ 0.69). 7 %/yr → 10 years. Ten doublings ≈ 1,000×.",
+      "source_url": "https://en.wikipedia.org/wiki/Rule_of_72",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-growth-century",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "growth"
+      ],
+      "front": "2 % annual growth for a century: how much bigger at the end?",
+      "back": "Doubling time ≈ 35 yr → ~2.9 doublings ≈ 7× (exactly 1.02¹⁰⁰ ≈ 7.2).",
+      "source_url": "https://en.wikipedia.org/wiki/Rule_of_72",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-efficiency-chain",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "energy",
+        "efficiency"
+      ],
+      "front": "Efficiencies in series: a power plant at 40 %, grid at 93 %, motor at 90 %. Overall?",
+      "back": "Multiply them: 0.40 × 0.93 × 0.90 ≈ 0.33. Chains lose fast, so the weakest link sets the order of magnitude.",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_conversion_efficiency",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-fuel-vs-battery",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "energy",
+        "efficiency"
+      ],
+      "front": "Petrol holds ~45 MJ/kg and Li-ion ~0.7 MJ/kg. Raw ratio, and the gap after drivetrain efficiency?",
+      "back": "Raw ≈ 65×. An engine converts ~25 % to motion and an electric drive ~90 %, so the effective gap shrinks to ~20×.",
+      "source_url": "https://www.withouthotair.com/",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
+    },
+    {
+      "id": "phy-op-solar-area",
+      "module": "physics",
+      "tags": [
+        "operator",
+        "energy",
+        "per-area"
+      ],
+      "front": "Sunlight peaks at ~1 kW/m² at the ground but averages ~150–250 W/m² over day, night and weather. What is 20 % PV, averaged, per m²?",
+      "back": "~30–50 W/m² of panel. Land-averaged solar farms (with spacing) deliver more like 5–20 W/m².",
+      "source_url": "https://www.withouthotair.com/",
+      "source_note": "Operator card: a reusable estimation move, checked by hand arithmetic."
     }
   ],
   "ordering_assertions": [

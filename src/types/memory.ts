@@ -79,6 +79,8 @@ export interface UserSettings {
   rollover_hour?: number;
   /** One-day bump to the new-card cap ("+5 new today"); ignored once `day` is not today. */
   extra_new?: { day: number; count: number };
+  /** Cards buried until the next rollover (manual "Bury"); ignored once `day` is not today. */
+  buried?: { day: number; keys: string[] };
 }
 
 export interface BackupPayload {

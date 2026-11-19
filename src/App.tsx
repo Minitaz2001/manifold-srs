@@ -33,6 +33,11 @@ import { RatioProbeWidget, type RatioProbeCompletePayload } from './widgets/Rati
 import { SettingsDrawer } from './components/SettingsDrawer';
 import { InboxModal } from './components/InboxModal';
 
+type UndoEntry =
+  | { kind: 'review'; key: string; prev: ItemState | undefined; logId: number; probe?: ProbeQueueEntry }
+  | { kind: 'suspend'; key: string; prev: ItemState | undefined }
+  | { kind: 'bury'; key: string };
+
 export function App() {
   const content = useMemo(() => getBundledContent(), []);
 
@@ -50,6 +55,8 @@ export function App() {
   const [clock, setClock] = useState(() => Date.now());
   const [studyAhead, setStudyAhead] = useState(false);
   const [leechNotice, setLeechNotice] = useState<string | null>(null);
+  const [undoStack, setUndoStack] = useState<UndoEntry[]>([]);
+  const [frontKey, setFrontKey] = useState<string | null>(null);
   const statesRef = useRef(states);
   statesRef.current = states;
 
@@ -115,7 +122,13 @@ export function App() {
     });
   }, [content, states, probes, todayLogs, logs, settings, now, studyAhead]);
 
-  const currentItem: SessionQueueItem | null = daily && daily.queue.length > 0 ? daily.queue[0] : null;
+  // After an undo, the restored card is shown next rather than wherever the shuffle put it.
+  const currentItem: SessionQueueItem | null = !daily || daily.queue.length === 0
+    ? null
+    : (frontKey && daily.queue.find((q) => q.item_key === frontKey)) || daily.queue[0];
+  const widgetKey = currentItem
+    ? `${currentItem.item_key}:${currentItem.kind === 'canonical' ? currentItem.state?.reps ?? 0 : 0}`
+    : '';
 
   // Resolve candidate anchors for a Ruler item: prefer mature anchors from anchor_set,
   // falling back to all anchors in anchor_set so Day 1 rulers always bracket truth cleanly.
@@ -161,6 +174,8 @@ export function App() {
     ) => {
       if (!settings) return;
       const reviewNow = new Date();
+      const existing = statesRef.current.get(item.item_key);
+      const consumedProbe = item.is_probe_followup ? probes.find((p) => p.item_key === item.item_key) : undefined;
       // Read through a ref so two quick completions never step from the same stale state
       const prev =
         statesRef.current.get(item.item_key) ??
@@ -230,9 +245,66 @@ export function App() {
         setProbes((prevProbes) => prevProbes.filter((p) => p.item_key !== item.item_key));
       }
       setSettings(updatedSettings);
+      setFrontKey(null);
+      setUndoStack((s) => [...s.slice(-19), { kind: 'review', key: item.item_key, prev: existing, logId: assignedId, probe: consumedProbe }]);
     },
-    [settings, states]
+    [settings, states, probes]
   );
+
+  const restoreItemState = useCallback(async (key: string, prev: ItemState | undefined) => {
+    if (prev) await db.item_state.put(prev);
+    else await db.item_state.delete(key);
+    const next = new Map(statesRef.current);
+    if (prev) next.set(key, prev);
+    else next.delete(key);
+    statesRef.current = next;
+    setStates(next);
+  }, []);
+
+  const handleUndo = useCallback(async () => {
+    const entry = undoStack[undoStack.length - 1];
+    if (!entry || !settings) return;
+    setUndoStack((s) => s.slice(0, -1));
+    if (entry.kind === 'review') {
+      await db.review_log.delete(entry.logId);
+      if (entry.probe) await db.probe_queue.put(entry.probe);
+      const nextSettings = { ...settings, reviews_since_backup: Math.max(0, settings.reviews_since_backup - 1) };
+      await db.settings.put(nextSettings);
+      setLogs((prev) => prev.filter((l) => l.id !== entry.logId));
+      if (entry.probe) setProbes((prev) => [...prev.filter((p) => p.item_key !== entry.key), entry.probe!]);
+      setSettings(nextSettings);
+      await restoreItemState(entry.key, entry.prev);
+    } else if (entry.kind === 'suspend') {
+      await restoreItemState(entry.key, entry.prev);
+    } else {
+      const keys = (settings.buried?.keys ?? []).filter((k) => k !== entry.key);
+      const nextSettings = { ...settings, buried: { day: settings.buried?.day ?? 0, keys } };
+      await db.settings.put(nextSettings);
+      setSettings(nextSettings);
+    }
+    setFrontKey(entry.key);
+  }, [undoStack, settings, restoreItemState]);
+
+  const handleBury = useCallback(async (key: string) => {
+    if (!settings) return;
+    const day = startOfLocalDay(new Date(), settings.rollover_hour);
+    const keys = settings.buried && settings.buried.day === day ? settings.buried.keys : [];
+    const nextSettings = { ...settings, buried: { day, keys: [...keys, key] } };
+    await db.settings.put(nextSettings);
+    setSettings(nextSettings);
+    setFrontKey(null);
+    setUndoStack((s) => [...s.slice(-19), { kind: 'bury', key }]);
+  }, [settings]);
+
+  const handleSuspend = useCallback(async (item: CanonicalQueueItem) => {
+    const existing = statesRef.current.get(item.item_key);
+    const base = existing ?? createInitialItemState({
+      entity_id: item.entity_id, dimension_id: item.dimension_id, task_type: item.task_type, module: item.module, now: new Date(),
+    });
+    await restoreItemState(item.item_key, { ...base, suspended: true, suspend_reason: 'manual' });
+    setFrontKey(null);
+    setUndoStack((s) => [...s.slice(-19), { kind: 'suspend', key: item.item_key, prev: existing }]);
+  }, [restoreItemState]);
 
   const handleRulerComplete = useCallback(
     (item: CanonicalQueueItem, p: RulerCompletePayload) => {
@@ -451,7 +523,8 @@ export function App() {
 
   const showPersistWarning =
     settings.persist_granted === false && !settings.persist_warned && !dismissPersistBanner;
-  const showBackupPrompt = shouldPromptBackup(settings, now) && !dismissBackupBanner;
+  // Only between sessions: mid-review the banner competed with the grade buttons.
+  const showBackupPrompt = !currentItem && shouldPromptBackup(settings, now) && !dismissBackupBanner;
 
   const remainingCapped = daily.queue.length;
 
@@ -522,6 +595,24 @@ export function App() {
         </div>
       )}
 
+      {(currentItem || undoStack.length > 0) && (
+        <div className="card-tools">
+          <button type="button" className="tool-btn" disabled={undoStack.length === 0} onClick={() => void handleUndo()}>
+            ↶ Undo
+          </button>
+          {currentItem && currentItem.kind === 'canonical' && (
+            <span className="card-tools-right">
+              <button type="button" className="tool-btn" onClick={() => void handleBury(currentItem.item_key)}>
+                Bury
+              </button>
+              <button type="button" className="tool-btn" onClick={() => void handleSuspend(currentItem)}>
+                Suspend
+              </button>
+            </span>
+          )}
+        </div>
+      )}
+
       <section className="stage">
         {!currentItem ? (
           <div className="empty-state">
@@ -556,13 +647,13 @@ export function App() {
           </div>
         ) : currentItem.kind === 'ratio_probe' ? (
           <RatioProbeWidget
-            key={currentItem.item_key}
+            key={widgetKey}
             probe={currentItem}
             onComplete={(p) => void handleRatioProbeComplete(currentItem, p)}
           />
         ) : currentItem.task_type === 'flash' ? (
           <FlashWidget
-            key={currentItem.item_key + (currentItem.is_new ? ':learn' : ':recall')}
+            key={widgetKey + (currentItem.is_new ? ':learn' : ':recall')}
             entity={currentItem.entity!}
             dimension={currentItem.dimension!}
             fact={currentItem.fact!}
@@ -571,7 +662,7 @@ export function App() {
           />
         ) : currentItem.task_type === 'place' || currentItem.task_type === 'place_timeline' ? (
           <RulerWidget
-            key={currentItem.item_key}
+            key={widgetKey}
             entity={currentItem.entity!}
             dimension={currentItem.dimension!}
             fact={currentItem.fact!}
@@ -582,7 +673,7 @@ export function App() {
           />
         ) : currentItem.task_type === 'occlude' ? (
           <OccludeWidget
-            key={currentItem.item_key + (currentItem.is_new ? ':learn' : ':test')}
+            key={widgetKey + (currentItem.is_new ? ':learn' : ':test')}
             figure={currentItem.figure!}
             targetRegion={currentItem.region!}
             repCount={currentItem.state?.reps ?? 0}
@@ -591,7 +682,7 @@ export function App() {
           />
         ) : (
           <PlainCardWidget
-            key={currentItem.item_key}
+            key={widgetKey}
             card={currentItem.plain_card!}
             onComplete={(p) => handlePlainCardComplete(currentItem, p)}
           />
