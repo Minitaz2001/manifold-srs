@@ -1,0 +1,2519 @@
+{
+  "pack_id": "are-built-environment",
+  "version": "0.2.0",
+  "release_date": "2026-11-19",
+  "module": "are_built",
+  "entities": [
+    {
+      "id": "ada-threshold-beveled-max",
+      "name": "ADA Max Beveled Level Change",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-stair-riser-min",
+      "name": "IBC Commercial Stair Riser (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "egress"
+      ]
+    },
+    {
+      "id": "ada-stair-riser-max",
+      "name": "IBC Commercial Stair Riser (Max)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "egress"
+      ]
+    },
+    {
+      "id": "ada-stair-tread-min",
+      "name": "IBC Commercial Stair Tread Depth (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "egress"
+      ]
+    },
+    {
+      "id": "ada-reach-low-min",
+      "name": "ADA Unobstructed Low Reach (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-water-closet-center",
+      "name": "ADA Water Closet Centerline from Side Wall",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-knee-clearance-height",
+      "name": "ADA Knee Clearance Height Under Lavatory",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-ramp-rise-max",
+      "name": "ADA Max Vertical Rise per Ramp Run",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-door-clear-width",
+      "name": "ADA Doorway Clear Opening Width (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-handrail-height",
+      "name": "ADA / IBC Handrail Gripping Height",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-accessible-route-width",
+      "name": "ADA Accessible Route Clear Width (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ]
+    },
+    {
+      "id": "ibc-guardrail-height",
+      "name": "IBC Commercial Guardrail Height (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "egress"
+      ]
+    },
+    {
+      "id": "ibc-corridor-width-comm",
+      "name": "IBC Commercial Corridor Width (≥50 Occ.)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "ada-reach-high",
+      "name": "ADA Unobstructed High Reach (Max)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-turning-circle",
+      "name": "ADA Wheelchair Turning Circle Diameter",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ]
+    },
+    {
+      "id": "ada-headroom-clearance",
+      "name": "ADA / IBC Circulation Headroom (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-assembly-standing",
+      "name": "Assembly Standing Space (IBC Occupant Load)",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-assembly-unfixed",
+      "name": "Assembly Unfixed Chairs Only",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-assembly-tables",
+      "name": "Assembly Tables & Chairs / Dining",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-classroom",
+      "name": "Educational Classroom Area",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-library-reading",
+      "name": "Library Reading Room / Shops",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-mercantile",
+      "name": "Mercantile / Retail Floor",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-industrial-lab",
+      "name": "Industrial Areas / Library Stacks",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-business",
+      "name": "Business / Office Area",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-residential",
+      "name": "Residential Dwellings",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "occ-warehouse-mech",
+      "name": "Storage Warehouse / Mechanical Room",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "soil-clay",
+      "name": "Clay / Sandy Clay / Silty Clay (IBC)",
+      "kind": "geotech",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ]
+    },
+    {
+      "id": "soil-sand-silty",
+      "name": "Sand / Silty Sand / Clayey Sand (IBC)",
+      "kind": "geotech",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ]
+    },
+    {
+      "id": "soil-gravel",
+      "name": "Sandy Gravel / Gravel (IBC)",
+      "kind": "geotech",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ]
+    },
+    {
+      "id": "soil-sedimentary",
+      "name": "Sedimentary / Foliated Rock (IBC)",
+      "kind": "geotech",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ]
+    },
+    {
+      "id": "soil-crystalline",
+      "name": "Crystalline Bedrock (IBC)",
+      "kind": "geotech",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ]
+    },
+    {
+      "id": "load-roof-ordinary",
+      "name": "Ordinary Flat Roof Live Load",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "load-residential-sleeping",
+      "name": "Residential Sleeping Areas Live Load",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "load-residential-other",
+      "name": "Residential Living Areas & Classrooms",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "load-office-floor",
+      "name": "Standard Office Floor Live Load",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "load-corridor-upper",
+      "name": "Upper-Floor Office Corridors",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "load-public-lobby-stairs",
+      "name": "Lobbies, Exit Stairs & Movable Assembly",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "load-library-stacks",
+      "name": "Library Stack Rooms Live Load",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "load-heavy-storage",
+      "name": "Heavy Storage Warehouse Live Load",
+      "kind": "structural_load",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "structures"
+      ]
+    },
+    {
+      "id": "r-concrete",
+      "name": "Poured Concrete (R per inch)",
+      "kind": "envelope_material",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "envelope"
+      ]
+    },
+    {
+      "id": "r-softwood",
+      "name": "Softwood Framing Stud (R per inch)",
+      "kind": "envelope_material",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "envelope"
+      ]
+    },
+    {
+      "id": "r-fiberglass-batt",
+      "name": "Fiberglass Batt Insulation (R per inch)",
+      "kind": "envelope_material",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "envelope"
+      ]
+    },
+    {
+      "id": "r-mineral-wool",
+      "name": "Mineral Wool / Rockwool (R per inch)",
+      "kind": "envelope_material",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "envelope"
+      ]
+    },
+    {
+      "id": "r-xps-foam",
+      "name": "Extruded Polystyrene — XPS (R per inch)",
+      "kind": "envelope_material",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "envelope"
+      ]
+    },
+    {
+      "id": "r-closed-cell-spray",
+      "name": "Closed-Cell Spray Foam / Polyiso (R per inch)",
+      "kind": "envelope_material",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "envelope"
+      ]
+    },
+    {
+      "id": "fee-bidding-pct",
+      "name": "Bidding / Negotiation Phase Fee Share",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "PcM"
+      ]
+    },
+    {
+      "id": "fee-retainage-pct",
+      "name": "Typical Construction Retainage Held",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ]
+    },
+    {
+      "id": "fee-sd-pct",
+      "name": "Schematic Design (SD) Phase Fee Share",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM"
+      ]
+    },
+    {
+      "id": "fee-dd-pct",
+      "name": "Design Development (DD) Phase Fee Share",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM"
+      ]
+    },
+    {
+      "id": "fee-ca-pct",
+      "name": "Construction Administration (CA) Fee Share",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "PcM"
+      ]
+    },
+    {
+      "id": "fee-cd-pct",
+      "name": "Construction Documents (CD) Phase Fee Share",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM"
+      ]
+    },
+    {
+      "id": "pm-utilization-target",
+      "name": "Healthy Firm-Wide Utilization Rate (Direct Labor)",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM"
+      ]
+    },
+    {
+      "id": "pa-ntg-office",
+      "name": "Typical Office Net-to-Gross Efficiency Ratio",
+      "kind": "pm_ratio",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "PjM"
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "code_dimension_in",
+      "name": "ADA / IBC Clearance",
+      "unit": "in",
+      "scale": "linear",
+      "tolerance": 4,
+      "tolerance_mode": "absolute",
+      "min_domain": 0,
+      "max_domain": 90
+    },
+    {
+      "id": "occupant_load_sf",
+      "name": "IBC Occupant Load Factor",
+      "unit": "sf/person",
+      "scale": "log",
+      "tolerance": 1.5,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "soil_bearing_psf",
+      "name": "IBC Presumptive Soil Bearing",
+      "unit": "psf",
+      "scale": "log",
+      "tolerance": 1.5,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "live_load_psf",
+      "name": "ASCE 7 / IBC Live Load",
+      "unit": "psf",
+      "scale": "linear",
+      "tolerance": 15,
+      "tolerance_mode": "absolute",
+      "min_domain": 0,
+      "max_domain": 280
+    },
+    {
+      "id": "r_value_per_in",
+      "name": "Thermal Resistance",
+      "unit": "R/in",
+      "scale": "linear",
+      "tolerance": 0.8,
+      "tolerance_mode": "absolute",
+      "min_domain": 0,
+      "max_domain": 8
+    },
+    {
+      "id": "project_pct",
+      "name": "Project & Practice Benchmark",
+      "unit": "%",
+      "scale": "linear",
+      "tolerance": 5,
+      "tolerance_mode": "absolute",
+      "min_domain": 0,
+      "max_domain": 100
+    },
+    {
+      "id": "wall_assembly",
+      "name": "Rainscreen Wall Section",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    },
+    {
+      "id": "aia_delivery_diagram",
+      "name": "AIA Contractual Topology",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    },
+    {
+      "id": "site_zoning_diagram",
+      "name": "Site & Zoning Envelope",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    }
+  ],
+  "facts": [
+    {
+      "entity_id": "ada-threshold-beveled-max",
+      "dimension_id": "code_dimension_in",
+      "value": 0.5,
+      "low": 0.5,
+      "high": 0.5,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §303.3: vertical changes 1/4–1/2 inch must be beveled at max 1:2 slope",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-stair-riser-min",
+      "dimension_id": "code_dimension_in",
+      "value": 4.0,
+      "low": 4.0,
+      "high": 4.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Stairs",
+      "source_note": "IBC §1011.5.2 minimum commercial stair riser height: 4 inches",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-stair-riser-max",
+      "dimension_id": "code_dimension_in",
+      "value": 7.0,
+      "low": 7.0,
+      "high": 7.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Stairs",
+      "source_note": "IBC §1011.5.2 maximum commercial stair riser height: 7 inches",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-stair-tread-min",
+      "dimension_id": "code_dimension_in",
+      "value": 11.0,
+      "low": 11.0,
+      "high": 11.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Stairs",
+      "source_note": "IBC §1011.5.2 minimum commercial stair tread depth: 11 inches",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-reach-low-min",
+      "dimension_id": "code_dimension_in",
+      "value": 15.0,
+      "low": 15.0,
+      "high": 15.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §308.2.1 & §308.3.1: 15 inches minimum low forward/side reach",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-water-closet-center",
+      "dimension_id": "code_dimension_in",
+      "value": 17.0,
+      "low": 16.0,
+      "high": 18.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §604.2: toilet centerline must be 16–18 inches from side wall",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-knee-clearance-height",
+      "dimension_id": "code_dimension_in",
+      "value": 27.0,
+      "low": 27.0,
+      "high": 27.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §306.3.1: 27 inches min vertical knee clearance",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-ramp-rise-max",
+      "dimension_id": "code_dimension_in",
+      "value": 30.0,
+      "low": 30.0,
+      "high": 30.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §405.6: 30 inches maximum vertical rise per ramp run before level landing",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-door-clear-width",
+      "dimension_id": "code_dimension_in",
+      "value": 32.0,
+      "low": 32.0,
+      "high": 32.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §404.2.3: 32 inches min clear opening at 90 degrees",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-handrail-height",
+      "dimension_id": "code_dimension_in",
+      "value": 36.0,
+      "low": 34.0,
+      "high": 38.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §505.4 & IBC §1014.2: top of gripping surfaces 34–38 inches above stair nosings/ramps",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-accessible-route-width",
+      "dimension_id": "code_dimension_in",
+      "value": 36.0,
+      "low": 36.0,
+      "high": 36.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §403.5.1: 36 inches continuous minimum clear width",
+      "volatile": false
+    },
+    {
+      "entity_id": "ibc-guardrail-height",
+      "dimension_id": "code_dimension_in",
+      "value": 42.0,
+      "low": 42.0,
+      "high": 42.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Guard_rail",
+      "source_note": "IBC §1015.3 minimum commercial guard height: 42 inches (36 in one/two-family)",
+      "volatile": false
+    },
+    {
+      "entity_id": "ibc-corridor-width-comm",
+      "dimension_id": "code_dimension_in",
+      "value": 44.0,
+      "low": 44.0,
+      "high": 44.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1020.2 minimum corridor width for occupant load ≥50: 44 inches (36 in if <50)",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-reach-high",
+      "dimension_id": "code_dimension_in",
+      "value": 48.0,
+      "low": 48.0,
+      "high": 48.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §308.2.1: 48 inches maximum unobstructed high reach",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-turning-circle",
+      "dimension_id": "code_dimension_in",
+      "value": 60.0,
+      "low": 60.0,
+      "high": 60.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §304.3.1: 60 inches minimum circular wheelchair turning space",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-headroom-clearance",
+      "dimension_id": "code_dimension_in",
+      "value": 80.0,
+      "low": 80.0,
+      "high": 80.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "2010 ADA §307.4 & IBC §1003.2: 80 inches minimum vertical headroom clearance",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-assembly-standing",
+      "dimension_id": "occupant_load_sf",
+      "value": 5.0,
+      "low": 5.0,
+      "high": 5.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 5 net sq ft/person for concentrated standing assembly",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-assembly-unfixed",
+      "dimension_id": "occupant_load_sf",
+      "value": 7.0,
+      "low": 7.0,
+      "high": 7.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 7 net sq ft/person for concentrated assembly without fixed seats",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-assembly-tables",
+      "dimension_id": "occupant_load_sf",
+      "value": 15.0,
+      "low": 15.0,
+      "high": 15.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 15 net sq ft/person for unconcentrated dining/conference tables",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-classroom",
+      "dimension_id": "occupant_load_sf",
+      "value": 20.0,
+      "low": 20.0,
+      "high": 20.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 20 net sq ft/person for educational classrooms",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-library-reading",
+      "dimension_id": "occupant_load_sf",
+      "value": 50.0,
+      "low": 50.0,
+      "high": 50.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 50 net sq ft/person for library reading rooms and vocational shops",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-mercantile",
+      "dimension_id": "occupant_load_sf",
+      "value": 60.0,
+      "low": 60.0,
+      "high": 60.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5 (2018+): 60 gross sq ft/person for mercantile retail areas",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-industrial-lab",
+      "dimension_id": "occupant_load_sf",
+      "value": 100.0,
+      "low": 100.0,
+      "high": 100.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 100 gross sq ft/person for industrial areas and library stacks",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-business",
+      "dimension_id": "occupant_load_sf",
+      "value": 150.0,
+      "low": 150.0,
+      "high": 150.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5 (2018+): 150 gross sq ft/person for business/office occupancies",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-residential",
+      "dimension_id": "occupant_load_sf",
+      "value": 200.0,
+      "low": 200.0,
+      "high": 200.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 200 gross sq ft/person for residential occupancies",
+      "volatile": false
+    },
+    {
+      "entity_id": "occ-warehouse-mech",
+      "dimension_id": "occupant_load_sf",
+      "value": 300.0,
+      "low": 300.0,
+      "high": 500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC Table 1004.5: 300 gross sq ft/person mechanical/accessory storage (500 gross warehouses)",
+      "volatile": false
+    },
+    {
+      "entity_id": "soil-clay",
+      "dimension_id": "soil_bearing_psf",
+      "value": 1500.0,
+      "low": 1500.0,
+      "high": 1500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
+      "source_note": "IBC Table 1806.2 presumptive vertical foundation pressure: 1,500 psf for clay/silty clay",
+      "volatile": false
+    },
+    {
+      "entity_id": "soil-sand-silty",
+      "dimension_id": "soil_bearing_psf",
+      "value": 2000.0,
+      "low": 2000.0,
+      "high": 2000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
+      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 2,000 psf for sand and silty gravel",
+      "volatile": false
+    },
+    {
+      "entity_id": "soil-gravel",
+      "dimension_id": "soil_bearing_psf",
+      "value": 3000.0,
+      "low": 3000.0,
+      "high": 3000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
+      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 3,000 psf for GW/GP gravel",
+      "volatile": false
+    },
+    {
+      "entity_id": "soil-sedimentary",
+      "dimension_id": "soil_bearing_psf",
+      "value": 4000.0,
+      "low": 4000.0,
+      "high": 4000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
+      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 4,000 psf for sedimentary/foliated rock",
+      "volatile": false
+    },
+    {
+      "entity_id": "soil-crystalline",
+      "dimension_id": "soil_bearing_psf",
+      "value": 12000.0,
+      "low": 12000.0,
+      "high": 12000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
+      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 12,000 psf for sound crystalline bedrock",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-roof-ordinary",
+      "dimension_id": "live_load_psf",
+      "value": 20.0,
+      "low": 20.0,
+      "high": 20.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 ordinary flat/pitched roof live load: 20 psf",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-residential-sleeping",
+      "dimension_id": "live_load_psf",
+      "value": 30.0,
+      "low": 30.0,
+      "high": 30.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 residential sleeping rooms: 30 psf",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-residential-other",
+      "dimension_id": "live_load_psf",
+      "value": 40.0,
+      "low": 40.0,
+      "high": 40.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 habitable residential rooms and classrooms: 40 psf",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-office-floor",
+      "dimension_id": "live_load_psf",
+      "value": 50.0,
+      "low": 50.0,
+      "high": 50.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 standard office floors: 50 psf",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-corridor-upper",
+      "dimension_id": "live_load_psf",
+      "value": 80.0,
+      "low": 80.0,
+      "high": 80.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 corridors above first floor: 80 psf",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-public-lobby-stairs",
+      "dimension_id": "live_load_psf",
+      "value": 100.0,
+      "low": 100.0,
+      "high": 100.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 lobbies, first-floor corridors, stairs, movable-seat assembly: 100 psf",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-library-stacks",
+      "dimension_id": "live_load_psf",
+      "value": 150.0,
+      "low": 150.0,
+      "high": 150.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 library stack rooms: 150 psf",
+      "volatile": false
+    },
+    {
+      "entity_id": "load-heavy-storage",
+      "dimension_id": "live_load_psf",
+      "value": 250.0,
+      "low": 250.0,
+      "high": 250.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Structural_load",
+      "source_note": "ASCE 7 / IBC Table 1607.1 heavy storage warehouses: 250 psf (light storage: 125 psf)",
+      "volatile": false
+    },
+    {
+      "entity_id": "r-concrete",
+      "dimension_id": "r_value_per_in",
+      "value": 0.1,
+      "low": 0.08,
+      "high": 0.2,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Normal-weight concrete ~0.08–0.2 R/in (major thermal bridge)",
+      "volatile": false
+    },
+    {
+      "entity_id": "r-softwood",
+      "dimension_id": "r_value_per_in",
+      "value": 1.25,
+      "low": 1.1,
+      "high": 1.4,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Softwood lumber ~1.25 R/in",
+      "volatile": false
+    },
+    {
+      "entity_id": "r-fiberglass-batt",
+      "dimension_id": "r_value_per_in",
+      "value": 3.4,
+      "low": 2.9,
+      "high": 3.8,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Standard fiberglass batt ~3.1–3.7 R/in",
+      "volatile": false
+    },
+    {
+      "entity_id": "r-mineral-wool",
+      "dimension_id": "r_value_per_in",
+      "value": 4.0,
+      "low": 3.7,
+      "high": 4.3,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Semi-rigid mineral wool ~3.7–4.3 R/in; non-combustible and vapor-open",
+      "volatile": false
+    },
+    {
+      "entity_id": "r-xps-foam",
+      "dimension_id": "r_value_per_in",
+      "value": 5.0,
+      "low": 4.8,
+      "high": 5.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Rigid XPS board ~R-5.0 per inch",
+      "volatile": false
+    },
+    {
+      "entity_id": "r-closed-cell-spray",
+      "dimension_id": "r_value_per_in",
+      "value": 6.5,
+      "low": 6.0,
+      "high": 7.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Closed-cell spray polyurethane / aged polyiso ~6.0–6.8 R/in",
+      "volatile": false
+    },
+    {
+      "entity_id": "fee-bidding-pct",
+      "dimension_id": "project_pct",
+      "value": 5.0,
+      "low": 5.0,
+      "high": 5.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "Standard AIA B101 basic-services fee split for Bidding/Negotiation: ~5%",
+      "volatile": false
+    },
+    {
+      "entity_id": "fee-retainage-pct",
+      "dimension_id": "project_pct",
+      "value": 10.0,
+      "low": 5.0,
+      "high": 10.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "Standard retainage withheld from contractor progress payments until substantial completion: 5–10%",
+      "volatile": false
+    },
+    {
+      "entity_id": "fee-sd-pct",
+      "dimension_id": "project_pct",
+      "value": 15.0,
+      "low": 15.0,
+      "high": 15.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "Standard AIA B101 basic-services fee split for Schematic Design: ~15%",
+      "volatile": false
+    },
+    {
+      "entity_id": "fee-dd-pct",
+      "dimension_id": "project_pct",
+      "value": 20.0,
+      "low": 20.0,
+      "high": 20.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "Standard AIA B101 basic-services fee split for Design Development: ~20%",
+      "volatile": false
+    },
+    {
+      "entity_id": "fee-ca-pct",
+      "dimension_id": "project_pct",
+      "value": 20.0,
+      "low": 20.0,
+      "high": 25.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "Standard AIA B101 basic-services fee split for Construction Phase Services: ~20–25%",
+      "volatile": false
+    },
+    {
+      "entity_id": "fee-cd-pct",
+      "dimension_id": "project_pct",
+      "value": 40.0,
+      "low": 35.0,
+      "high": 40.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "Standard AIA B101 basic-services fee split for Construction Documents: ~35–40%",
+      "volatile": false
+    },
+    {
+      "entity_id": "pm-utilization-target",
+      "dimension_id": "project_pct",
+      "value": 65.0,
+      "low": 60.0,
+      "high": 70.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "AIA Firm Survey benchmark: healthy all-staff billable utilization rate ~60–65% (technical staff ~75–85%)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pa-ntg-office",
+      "dimension_id": "project_pct",
+      "value": 80.0,
+      "low": 75.0,
+      "high": 85.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+      "source_note": "Programming rule of thumb: typical commercial office net-to-gross efficiency ~75–85% (hospitals ~55–65%)",
+      "volatile": false
+    }
+  ],
+  "anchor_sets": [
+    {
+      "dimension_id": "code_dimension_in",
+      "entity_ids": [
+        "ada-threshold-beveled-max",
+        "ada-stair-riser-max",
+        "ada-door-clear-width",
+        "ada-turning-circle",
+        "ada-headroom-clearance"
+      ]
+    },
+    {
+      "dimension_id": "occupant_load_sf",
+      "entity_ids": [
+        "occ-assembly-standing",
+        "occ-classroom",
+        "occ-mercantile",
+        "occ-business",
+        "occ-warehouse-mech"
+      ]
+    },
+    {
+      "dimension_id": "soil_bearing_psf",
+      "entity_ids": [
+        "soil-clay",
+        "soil-gravel",
+        "soil-crystalline"
+      ]
+    },
+    {
+      "dimension_id": "live_load_psf",
+      "entity_ids": [
+        "load-roof-ordinary",
+        "load-office-floor",
+        "load-public-lobby-stairs",
+        "load-heavy-storage"
+      ]
+    },
+    {
+      "dimension_id": "r_value_per_in",
+      "entity_ids": [
+        "r-concrete",
+        "r-fiberglass-batt",
+        "r-closed-cell-spray"
+      ]
+    },
+    {
+      "dimension_id": "project_pct",
+      "entity_ids": [
+        "fee-bidding-pct",
+        "fee-dd-pct",
+        "fee-cd-pct",
+        "pa-ntg-office"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "rainscreen-wall-section",
+      "title": "Rainscreen Exterior Wall Section",
+      "module": "are_built",
+      "dimension_id": "wall_assembly",
+      "svg_path": "figures/wall-section.svg",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Standard North American drained/ventilated exterior-insulated wall assembly",
+      "regions": [
+        {
+          "region_id": "ws-cladding",
+          "label": "Exterior Cladding (Rainscreen)",
+          "adjacent_ids": [
+            "ws-air-gap"
+          ]
+        },
+        {
+          "region_id": "ws-air-gap",
+          "label": "Drainage / Ventilated Air Cavity",
+          "adjacent_ids": [
+            "ws-cladding",
+            "ws-ext-insul"
+          ]
+        },
+        {
+          "region_id": "ws-ext-insul",
+          "label": "Continuous Exterior Insulation",
+          "adjacent_ids": [
+            "ws-air-gap",
+            "ws-wrb"
+          ]
+        },
+        {
+          "region_id": "ws-wrb",
+          "label": "WRB / Continuous Air Barrier",
+          "adjacent_ids": [
+            "ws-ext-insul",
+            "ws-sheathing"
+          ]
+        },
+        {
+          "region_id": "ws-sheathing",
+          "label": "Structural Sheathing",
+          "adjacent_ids": [
+            "ws-wrb",
+            "ws-stud-cavity"
+          ]
+        },
+        {
+          "region_id": "ws-stud-cavity",
+          "label": "Stud Framing + Cavity Insulation",
+          "adjacent_ids": [
+            "ws-sheathing",
+            "ws-gypsum"
+          ]
+        },
+        {
+          "region_id": "ws-gypsum",
+          "label": "Interior Gypsum Wallboard",
+          "adjacent_ids": [
+            "ws-stud-cavity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aia-delivery-map",
+      "title": "AIA Design-Bid-Build Relationships (PjM / CE)",
+      "module": "are_built",
+      "dimension_id": "aia_delivery_diagram",
+      "svg_path": "figures/aia-delivery-map.svg",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "Standard AIA Design-Bid-Build contractual topology (B101, A101/A201, C401, A401)",
+      "regions": [
+        {
+          "region_id": "aia-owner",
+          "label": "Owner (Client)",
+          "adjacent_ids": [
+            "aia-b101",
+            "aia-a101"
+          ]
+        },
+        {
+          "region_id": "aia-b101",
+          "label": "AIA B101 (Owner–Architect)",
+          "adjacent_ids": [
+            "aia-owner",
+            "aia-architect"
+          ]
+        },
+        {
+          "region_id": "aia-a101",
+          "label": "AIA A101 + A201 (Owner–GC)",
+          "adjacent_ids": [
+            "aia-owner",
+            "aia-contractor"
+          ]
+        },
+        {
+          "region_id": "aia-architect",
+          "label": "Architect (IDM / CA)",
+          "adjacent_ids": [
+            "aia-b101",
+            "aia-c401"
+          ]
+        },
+        {
+          "region_id": "aia-contractor",
+          "label": "General Contractor (Means & Safety)",
+          "adjacent_ids": [
+            "aia-a101",
+            "aia-a401"
+          ]
+        },
+        {
+          "region_id": "aia-c401",
+          "label": "AIA C401 (Architect–Consultant)",
+          "adjacent_ids": [
+            "aia-architect",
+            "aia-consultants"
+          ]
+        },
+        {
+          "region_id": "aia-a401",
+          "label": "AIA A401 (GC–Subcontractor)",
+          "adjacent_ids": [
+            "aia-contractor",
+            "aia-subs"
+          ]
+        },
+        {
+          "region_id": "aia-consultants",
+          "label": "Structural / MEP Consultants",
+          "adjacent_ids": [
+            "aia-c401"
+          ]
+        },
+        {
+          "region_id": "aia-subs",
+          "label": "Trade Subcontractors",
+          "adjacent_ids": [
+            "aia-a401"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "site-zoning-section",
+      "title": "Site & Zoning Envelope Section (PA)",
+      "module": "are_built",
+      "dimension_id": "site_zoning_diagram",
+      "svg_path": "figures/site-zoning-section.svg",
+      "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+      "source_note": "Standard urban zoning envelope, setbacks, easement, frost line, and water table section",
+      "regions": [
+        {
+          "region_id": "sz-sky-plane",
+          "label": "Sky Exposure Plane / Height Limit",
+          "adjacent_ids": [
+            "sz-envelope"
+          ]
+        },
+        {
+          "region_id": "sz-envelope",
+          "label": "Buildable Zoning Envelope (FAR)",
+          "adjacent_ids": [
+            "sz-sky-plane",
+            "sz-front-setback",
+            "sz-rear-setback"
+          ]
+        },
+        {
+          "region_id": "sz-front-setback",
+          "label": "Front Yard Setback",
+          "adjacent_ids": [
+            "sz-envelope",
+            "sz-frost-line"
+          ]
+        },
+        {
+          "region_id": "sz-rear-setback",
+          "label": "Rear Yard Setback",
+          "adjacent_ids": [
+            "sz-envelope",
+            "sz-easement"
+          ]
+        },
+        {
+          "region_id": "sz-easement",
+          "label": "Utility / Access Easement",
+          "adjacent_ids": [
+            "sz-rear-setback",
+            "sz-frost-line"
+          ]
+        },
+        {
+          "region_id": "sz-frost-line",
+          "label": "Frost Line Depth (Footing Bearing Below)",
+          "adjacent_ids": [
+            "sz-front-setback",
+            "sz-footing",
+            "sz-easement"
+          ]
+        },
+        {
+          "region_id": "sz-footing",
+          "label": "Spread Footing Below Frost Line",
+          "adjacent_ids": [
+            "sz-frost-line",
+            "sz-water-table"
+          ]
+        },
+        {
+          "region_id": "sz-water-table",
+          "label": "Groundwater Table (Hydrostatic Pressure)",
+          "adjacent_ids": [
+            "sz-footing"
+          ]
+        }
+      ]
+    }
+  ],
+  "plain_cards": [
+    {
+      "id": "are-aia-a101",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "PcM",
+        "aia"
+      ],
+      "front": "AIA A101 covers what agreement and pricing basis?",
+      "back": "Owner–Contractor agreement where basis of payment is a Stipulated Sum (Lump Sum). Incorporates A201 General Conditions.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/CE/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-a102",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "aia"
+      ],
+      "front": "AIA A102 vs. A103: what is the difference?",
+      "back": "Both are Owner–Contractor Cost of the Work Plus a Fee; A102 includes a Guaranteed Maximum Price (GMP), A103 has no GMP.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-a133",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "aia"
+      ],
+      "front": "AIA A133 covers which delivery method?",
+      "back": "Owner–Construction Manager as Constructor (CMaR) where basis of payment is Cost of the Work Plus a Fee with a GMP (preconstruction + construction).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-a141",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "aia"
+      ],
+      "front": "AIA A141 covers which delivery method?",
+      "back": "Owner–Design-Builder agreement (single contract holding both design and construction responsibility).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-a201",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "PcM",
+        "aia"
+      ],
+      "front": "AIA A201 is the keystone document for what?",
+      "back": "General Conditions of the Contract for Construction — defines rights, responsibilities, and relationships of Owner, Contractor, and Architect during construction.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/CE/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-a305",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM",
+        "aia"
+      ],
+      "front": "AIA A305 is used during bidding for what purpose?",
+      "back": "Contractor's Qualification Statement — vets bidder financial stability, bonding capacity, experience, and prior litigation before bidding/award.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-a310-a312",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM",
+        "aia"
+      ],
+      "front": "AIA A310 vs. A312: which bonds are which?",
+      "back": "A310 = Bid Bond (guarantees bidder will enter contract if awarded). A312 = Performance Bond + Payment Bond (guarantees completion & sub/supplier payment).",
+      "source_url": "https://en.wikipedia.org/wiki/Surety_bond",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-b101",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "PcM",
+        "aia"
+      ],
+      "front": "AIA B101 covers what agreement?",
+      "back": "Standard Owner–Architect Agreement for basic services (SD, DD, CD, Bidding, CA), supplemental/additional services, compensation, and instruments of service.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/CE/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-c401",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM",
+        "aia"
+      ],
+      "front": "AIA C401 covers what agreement?",
+      "back": "Architect–Consultant Agreement (e.g., structural, MEP, civil) — flows down B101 prime-agreement obligations ('conduit' / pass-through).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-g701",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "aia"
+      ],
+      "front": "AIA G701 is what construction administration form?",
+      "back": "Change Order — modifies Contract Sum and/or Contract Time; requires ALL THREE signatures: Owner, Architect, and Contractor.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-g702-g703",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "aia"
+      ],
+      "front": "AIA G702 and G703 are used for what?",
+      "back": "G702 = Application and Certificate for Payment (certified by Architect). G703 = Continuation Sheet / Schedule of Values itemizing % complete per line.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-g704",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "aia"
+      ],
+      "front": "AIA G704 certifies what milestone, and what starts on that date?",
+      "back": "Certificate of Substantial Completion — project is sufficiently complete for intended occupancy; starts warranty periods, transfers insurance/utilities to Owner, and triggers punch list.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-g706",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "aia"
+      ],
+      "front": "AIA G706 & G706A protect the Owner from what at closeout?",
+      "back": "G706 = Contractor's Affidavit of Payment of Debts & Claims; G706A = Affidavit of Release of Liens — protects Owner against mechanics' liens before final payment.",
+      "source_url": "https://en.wikipedia.org/wiki/Mechanic%27s_lien",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-g707",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "aia"
+      ],
+      "front": "AIA G707 is required before final payment when a project is bonded — what is it?",
+      "back": "Consent of Surety to Final Payment — ensures the surety agrees to release retainage/final payment without voiding bond coverage.",
+      "source_url": "https://en.wikipedia.org/wiki/Surety_bond",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-g710",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "aia"
+      ],
+      "front": "AIA G710 (ASI) does what — and what can it NOT change?",
+      "back": "Architect's Supplemental Instructions — clarifies drawings or makes minor changes ONLY if they involve NO change in Contract Sum and NO change in Contract Time.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-aia-g714",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "aia"
+      ],
+      "front": "AIA G714 (CCD) differs from a G701 Change Order how?",
+      "back": "Construction Change Directive — directs work when Owner & Contractor haven't agreed on cost/time; signed by Owner + Architect only (no Contractor signature required to start work).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-contract-standard-of-care",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM",
+        "contracts"
+      ],
+      "front": "Under AIA B101 §2.2, why must an architect reject 'highest standard' or 'warranty' wording?",
+      "back": "E&O insurance covers only ordinary negligence against the local professional Standard of Care; warranties or 'best/highest' promises create uninsured contractual liability.",
+      "source_url": "https://en.wikipedia.org/wiki/Standard_of_care",
+      "source_note": "ARE 5.0 (PjM/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-instruments-of-service",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM",
+        "contracts"
+      ],
+      "front": "Under AIA B101, who owns copyright to the Instruments of Service?",
+      "back": "The Architect (and consultants) retain copyright; upon payment, the Owner receives a nonexclusive license solely for constructing, using, and maintaining the project.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-consequential-damages",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM",
+        "CE"
+      ],
+      "front": "AIA B101 & A201 include a Mutual Waiver of Consequential Damages — what does it exclude?",
+      "back": "Indirect/downstream losses (lost rent, lost profits, financing penalties, reputational harm); parties limit claims to direct damages or agreed liquidated damages.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/PcM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-dispute-ladder",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE",
+        "PcM"
+      ],
+      "front": "What is the default dispute-resolution sequence under AIA A201?",
+      "back": "Initial Decision Maker (default: Architect) → Mediation (mandatory condition precedent) → Binding Dispute Resolution (Arbitration or Litigation, selected in agreement).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/CE/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-means-methods",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "Under A201, who is solely responsible for construction means, methods, techniques, and jobsite safety?",
+      "back": "The Contractor — never the Architect. Directing jobsite safety or construction methods transfers liability to the Architect.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-stop-work",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "Can the Architect stop construction work if they spot nonconforming work or an unsafe scaffold?",
+      "back": "NO. Only the Owner can issue a stop-work order (A201 §2.4). The Architect has authority to REJECT nonconforming work and notify the Owner/Contractor in writing.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-submittal-review",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "What is the Architect's scope when reviewing shop drawings and submittals?",
+      "back": "Limited to checking conformance with information given and design concept expressed in the Contract Documents — NOT verifying field dimensions, quantities, or safety.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-submittal-not-cd",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "Are approved shop drawings / submittals considered Contract Documents under A201?",
+      "back": "NO. Approved submittals do not modify the Contract Documents; any deviation requires a formal modification (CO, CCD, or ASI).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-rfi-purpose",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "What is an RFI (Request for Information) vs. an ASI?",
+      "back": "RFI = Contractor asks Architect to clarify ambiguities/conflicts in CDs (no cost/time change). ASI = Architect proactively issues minor clarification/change (no cost/time change).",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-proposal-request",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "When is a Proposal Request (PR / AIA G709) issued?",
+      "back": "When the Owner/Architect contemplates a change affecting cost or time and wants a Contractor price/schedule quote BEFORE authorizing work via Change Order.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-pay-app-timing",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "Under A201, how many days does the Architect have to certify (or withhold) a Contractor's G702 pay app?",
+      "back": "7 days after receipt (either certify for payment or notify Contractor and Owner in writing of reasons for withholding).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-stored-materials",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "Can a Contractor bill for materials stored off-site on a G702 pay application?",
+      "back": "Only with prior Owner approval plus proof of title/bill of sale, proper storage/identification, and insurance covering the off-site location.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-liquidated-damages",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "What makes Liquidated Damages enforceable vs. an unenforceable penalty?",
+      "back": "Must be a reasonable pre-estimate of hard-to-quantify daily Owner delay losses agreed at contract signing — cannot be punitive. Often paired with early-completion bonus.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-addenda-vs-co",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "Addendum vs. Change Order: when is each issued?",
+      "back": "Addendum modifies Bidding Documents BEFORE contract award (issued to all bidders). Change Order modifies Contract Documents AFTER contract execution.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-alternates-allowances",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "Bid Alternate vs. Allowance vs. Unit Price?",
+      "back": "Alternate = optional scope priced separately at bid. Allowance = placeholder dollar sum for an unspecified item (reconciled later). Unit Price = fixed rate per quantity (e.g., $/CY rock removal).",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-punch-list",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "Who prepares the initial Punch List before Substantial Completion under A201?",
+      "back": "The Contractor prepares the comprehensive list of items to be completed/corrected; the Architect then inspects and adds any omitted items before issuing G704.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-correction-period",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "What is the standard A201 one-year Correction of Work period vs. general warranty?",
+      "back": "Contractor must promptly correct defective work within 1 year after Substantial Completion (obligation to return); general warranty/statute of limitations can extend longer.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-mechanics-lien",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "What is a Mechanic's Lien and how do Owners prevent it?",
+      "back": "Statutory security interest filed against real property by an unpaid contractor/sub/supplier. Prevented via conditional/unconditional lien waivers with pay apps and payment bonds.",
+      "source_url": "https://en.wikipedia.org/wiki/Mechanic%27s_lien",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-builders-risk",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "Who typically carries Builder's Risk (property) insurance during construction under A201?",
+      "back": "The Owner (covering full insurable replacement value of work-in-progress against fire/theft/weather), while the Contractor carries Commercial General Liability (CGL) & Workers' Comp.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-div00-01",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat: what is in Division 00 vs. Division 01?",
+      "back": "Division 00 = Procurement & Contracting Requirements (bidding, agreements, A201). Division 01 = General Requirements (submittals, closeout, quality control, temporary facilities).",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-key-divs",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat key technical divisions: 03, 05, 07, 08, 09, 23, 26?",
+      "back": "03 Concrete, 05 Metals, 07 Thermal & Moisture Protection, 08 Openings (doors/windows), 09 Finishes, 23 HVAC, 26 Electrical.",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-spec-types",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "Performance vs. Prescriptive vs. Proprietary specifications?",
+      "back": "Performance = states required outcome/criteria (contractor picks means). Prescriptive = details exact materials/installation. Proprietary = names exact brand/product (closed or 'or equal').",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-spec-precedence",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "Under A201, if drawings and specifications conflict, which takes precedence?",
+      "back": "Neither automatically — Contract Documents are complementary! Architect interprets intent; typically more stringent/expensive requirement or specific detail over general governs unless specified otherwise.",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-delivery-dbb",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "Design-Bid-Build (DBB): defining feature, biggest pro, biggest con?",
+      "back": "Separate Owner contracts with Architect and GC; sequential phases. Pro: competitive low-bid price & checks/balances. Con: longest schedule, no contractor preconstruction input, adversarial claims.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-delivery-cmar",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "CM at Risk (CMaR / A133) vs. CM as Adviser (CMa / C132)?",
+      "back": "CMaR holds trade subcontracts and guarantees a GMP (at financial risk). CMa is a fee-only Owner consultant holding zero trade contracts (Owner holds multiple prime contracts).",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-delivery-db",
+      "module": "are_built",
+      "tags": [
+        "PjM"
+      ],
+      "front": "Design-Build (DB): biggest pro and biggest tradeoff for the Owner?",
+      "back": "Single point of responsibility + fastest overlapping schedule. Tradeoff: Owner loses independent Architect advocacy/checks-and-balances (bridging architect sometimes hired).",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-delivery-ipd",
+      "module": "are_built",
+      "tags": [
+        "PjM"
+      ],
+      "front": "Integrated Project Delivery (IPD): what distinguishes it contractually?",
+      "back": "Single multi-party agreement signed by Owner, Architect, and Contractor sharing risk/reward pool, early involvement of all parties, open-book accounting, and liability waivers among team.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-cpm-float",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "Critical Path Method (CPM): what is the Critical Path and what is its Float?",
+      "back": "Longest sequential chain of dependent activities determining minimum project duration. Every task on the critical path has ZERO Total Float.",
+      "source_url": "https://en.wikipedia.org/wiki/Critical_path_method",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-free-vs-total-float",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "Free Float vs. Total Float in a CPM schedule?",
+      "back": "Free Float = delay allowed without delaying the next activity's early start. Total Float = delay allowed without pushing out the final project completion date.",
+      "source_url": "https://en.wikipedia.org/wiki/Critical_path_method",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-fast-track",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "What is Fast-Track construction and its main risk?",
+      "back": "Starting early construction packages (excavation/foundation) before full CDs are complete. Cuts schedule, but raises coordination errors, redesign cost, and late change orders.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-net-multiplier",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM"
+      ],
+      "front": "Firm financial ratio: Net Multiplier formula & healthy range?",
+      "back": "Net Operating Revenue ÷ Direct Labor Cost. Measures how many dollars of revenue each direct labor dollar generates; healthy architectural firm target ~2.8–3.2 (must exceed Break-Even Rate = 1 + Overhead Rate).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-overhead-breakeven",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PcM"
+      ],
+      "front": "Overhead Rate and Break-Even Rate formulas?",
+      "back": "Overhead Rate = Total Indirect Expenses ÷ Total Direct Labor (typical ~1.3–1.7). Break-Even Rate = 1.0 + Overhead Rate (~2.3–2.7).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PjM/PcM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-proforma-caprate",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PA"
+      ],
+      "front": "Real estate pro forma: NOI and Capitalization Rate (Cap Rate) formula?",
+      "back": "NOI = Effective Gross Income − Operating Expenses (excludes debt service & depreciation). Property Value = NOI ÷ Cap Rate.",
+      "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+      "source_note": "ARE 5.0 (PjM/PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-hard-vs-soft",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "PA"
+      ],
+      "front": "Project budget: Hard Costs vs. Soft Costs?",
+      "back": "Hard Costs = physical construction (labor, materials, site work, GC overhead). Soft Costs = design/engineering fees, permits, legal, financing, testing, insurance (~20–30% of total).",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-contingency",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "Design Contingency vs. Construction Contingency?",
+      "back": "Design Contingency shrinks from ~15–20% in SD to ~0% at bid as scope hardens. Construction Contingency (~5% new build, ~10% renovation) covers unforeseen field conditions/COs.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-value-engineering",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "True Value Engineering (VE) vs. simple cost-cutting?",
+      "back": "VE analyzes life-cycle cost vs. function (achieving equal or better performance at lower total life-cycle cost), not merely slashing initial capital cost by degrading quality.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pjm-entity-types",
+      "module": "are_built",
+      "tags": [
+        "PcM",
+        "PjM"
+      ],
+      "front": "Sole Proprietorship vs. General Partnership vs. LLC vs. Corporation (liability)?",
+      "back": "Sole Prop & General Partnership = unlimited personal liability (and joint-and-several for partners). LLC / Corp / PC = shields personal assets from firm business debts (never from one's own malpractice).",
+      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+      "source_note": "ARE 5.0 (PcM/PjM) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-far",
+      "module": "are_built",
+      "tags": [
+        "PA"
+      ],
+      "front": "Floor Area Ratio (FAR): formula and what does FAR 4.0 allow on a 10,000 sf lot?",
+      "back": "FAR = Total Gross Building Floor Area ÷ Net Lot Area. FAR 4.0 on 10,000 sf = 40,000 sf total (e.g., 4 stories × 100% lot, or 8 stories × 50% lot coverage).",
+      "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-variance-vs-cup",
+      "module": "are_built",
+      "tags": [
+        "PA"
+      ],
+      "front": "Zoning Variance vs. Conditional Use Permit (CUP) vs. Rezoning?",
+      "back": "Variance = relief from dimensional rules (setback/height) proving unique site hardship. CUP = permitted use with extra conditions. Rezoning = legislative change to zoning map/text.",
+      "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-easement-vs-covenant",
+      "module": "are_built",
+      "tags": [
+        "PA"
+      ],
+      "front": "Easement vs. Restrictive Covenant (Deed Restriction)?",
+      "back": "Easement = legal right for another party to use/cross part of land (utility, access, solar). Covenant = private deed restriction limiting use/appearance (stricter of zoning or covenant governs).",
+      "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-esa-phase1-2",
+      "module": "are_built",
+      "tags": [
+        "PA"
+      ],
+      "front": "Environmental Site Assessment: Phase I ESA vs. Phase II ESA?",
+      "back": "Phase I = non-invasive historical records, site walk, interviews to spot Recognized Environmental Conditions (RECs). Phase II = physical soil/groundwater/asbestos sampling & lab testing if Phase I flags RECs.",
+      "source_url": "https://en.wikipedia.org/wiki/Phase_I_environmental_site_assessment",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-brownfield",
+      "module": "are_built",
+      "tags": [
+        "PA"
+      ],
+      "front": "Brownfield vs. Greyfield vs. Greenfield site?",
+      "back": "Brownfield = previously developed site with real or perceived environmental contamination. Greyfield = economically obsolete developed site (dead mall/parking lot) without major toxics. Greenfield = undeveloped land.",
+      "source_url": "https://en.wikipedia.org/wiki/Phase_I_environmental_site_assessment",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-ramp-slope",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ],
+      "front": "2010 ADA Standards: max running slope, max cross slope, and max rise per ramp run?",
+      "back": "1:12 max running slope (8.33%), 1:48 max cross slope (2.08%), and 30 inches max vertical rise per run before a 60-inch level landing (ADA §405).",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ARE 5.0 (PA/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-type-v-over-i",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "Why do '5-over-1' buildings dominate US urban infill?",
+      "back": "IBC §510.2 (podium/horizontal building separation) lets a Type IIIA or VA (sprinklered) building sit above a 3-hour horizontal assembly over a Type IA podium; the 5-story count needs Type IIIA (R-2, NFPA 13: IIIA = 5 stories, VA = 4 per Table 504.4), which is how it maximizes rentable area per dollar.",
+      "source_url": "https://en.wikipedia.org/wiki/5-over-1",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ibc-types",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC Construction Types I through V ordered from most to least fire-resistive?",
+      "back": "I = Noncombustible highest fire-resistance (concrete/protected steel); II = Noncombustible lower rating; III = Noncombustible ext. walls + combustible interior; IV = Heavy/Mass Timber; V = Combustible (wood frame). Suffix A = protected, B = unprotected.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ibc-occupancies",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC Occupancy Groups: A, B, E, F, H, I, M, R, S, U?",
+      "back": "A Assembly, B Business, E Educational, F Factory, H High-Hazard, I Institutional (hospitals/prisons), M Mercantile, R Residential, S Storage, U Utility/Misc.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-two-exits-rule",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC general rule: at what occupant load are two exits required (most occupancies)?",
+      "back": "≥50 occupants for Group A, B, E, F, M, U (≥10 for R-2/R-3 stories above 1st; ≥30 for S). When 2 exits are required, separate them by ≥1/2 diagonal (≥1/3 diagonal if fully sprinklered).",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-solar-orientation",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ],
+      "front": "Northern Hemisphere passive solar rule for South vs. East/West facades?",
+      "back": "South = high summer sun (easy to shade with horizontal overhangs), low winter sun (passive heat gain). East/West = low-angle harsh sun requiring vertical fins or minimized glazing.",
+      "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-slope-grading",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ],
+      "front": "Site grading slopes: drainage away from foundation, max accessible walk without ramp, max grass mowing slope?",
+      "back": "Foundation drainage = min 5% (6 in over first 10 ft). Accessible walkway (not a ramp) = ≤5% (1:20). Comfortable lawn mowing = ≤25–33% (4:1 to 3:1).",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-contour-rules",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ],
+      "front": "Topographic contour lines: how do valleys/swales vs. ridges point, and what does close spacing mean?",
+      "back": "Contours point UPHILL in valleys/swales and DOWNHILL on ridges. Closely spaced contours = steep slope; wide spacing = gentle/flat grade.",
+      "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-microclimate-urban",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ],
+      "front": "Heat Island mitigation & passive cooling: albedo, thermal mass, stack ventilation?",
+      "back": "High-albedo (reflective) surfaces & vegetated roofs cut urban heat island; high thermal mass flattens diurnal swings (hot-arid); stack ventilation vents hot air high and draws cool air low.",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-water-table-frost",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ],
+      "front": "Why must footings sit below the local frost line, and what happens below the water table?",
+      "back": "Below frost line prevents frost-heave cracking from freezing soil moisture. Below water table requires hydrostatic waterproofing, dewatering during construction, and uplift/buoyancy resistance.",
+      "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-historic-soi",
+      "module": "are_built",
+      "tags": [
+        "PA"
+      ],
+      "front": "Secretary of the Interior's four treatments for historic properties (most to least conservative)?",
+      "back": "Preservation (maintain existing form), Rehabilitation (compatible new use while keeping historic character — tax credit eligible), Restoration (return to one specific era), Reconstruction (rebuild vanished structure).",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "ARE 5.0 (PA) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    }
+  ],
+  "ordering_assertions": [
+    {
+      "dimension_id": "code_dimension_in",
+      "ordered_entity_ids": [
+        "ada-threshold-beveled-max",
+        "ada-stair-riser-min",
+        "ada-stair-riser-max",
+        "ada-stair-tread-min",
+        "ada-reach-low-min",
+        "ada-door-clear-width",
+        "ibc-guardrail-height",
+        "ada-turning-circle",
+        "ada-headroom-clearance"
+      ]
+    },
+    {
+      "dimension_id": "occupant_load_sf",
+      "ordered_entity_ids": [
+        "occ-assembly-standing",
+        "occ-assembly-unfixed",
+        "occ-assembly-tables",
+        "occ-classroom",
+        "occ-library-reading",
+        "occ-mercantile",
+        "occ-industrial-lab",
+        "occ-business",
+        "occ-residential",
+        "occ-warehouse-mech"
+      ]
+    },
+    {
+      "dimension_id": "soil_bearing_psf",
+      "ordered_entity_ids": [
+        "soil-clay",
+        "soil-sand-silty",
+        "soil-gravel",
+        "soil-sedimentary",
+        "soil-crystalline"
+      ]
+    },
+    {
+      "dimension_id": "live_load_psf",
+      "ordered_entity_ids": [
+        "load-roof-ordinary",
+        "load-residential-sleeping",
+        "load-residential-other",
+        "load-office-floor",
+        "load-corridor-upper",
+        "load-public-lobby-stairs",
+        "load-library-stacks",
+        "load-heavy-storage"
+      ]
+    }
+  ]
+}

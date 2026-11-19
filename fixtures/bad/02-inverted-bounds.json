@@ -1,0 +1,28 @@
+{
+  "pack_id": "bad-bounds",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "physics",
+  "entities": [
+    { "id": "steel", "name": "Carbon Steel", "kind": "material", "module": "physics", "tags": ["density"] }
+  ],
+  "dimensions": [
+    { "id": "density_kg_m3", "name": "Density", "unit": "kg/m³", "scale": "log", "tolerance": 2 }
+  ],
+  "facts": [
+    {
+      "entity_id": "steel",
+      "dimension_id": "density_kg_m3",
+      "value": 7850,
+      "low": 8000,
+      "high": 7900,
+      "as_of": "2025-01-01",
+      "source_url": "https://www.nist.gov/",
+      "source_note": "Inverted low/high range should fail",
+      "volatile": false
+    }
+  ],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": []
+}

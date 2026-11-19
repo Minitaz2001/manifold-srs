@@ -1,0 +1,26 @@
+{
+  "pack_id": "bad-orphan-entity",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "geography",
+  "entities": [],
+  "dimensions": [
+    { "id": "population", "name": "Population", "unit": "people", "scale": "log", "tolerance": 2 }
+  ],
+  "facts": [
+    {
+      "entity_id": "atlantis",
+      "dimension_id": "population",
+      "value": 1000000,
+      "low": 900000,
+      "high": 1100000,
+      "as_of": "2025-01-01",
+      "source_url": "https://data.worldbank.org/",
+      "source_note": "References non-existent entity",
+      "volatile": true
+    }
+  ],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": []
+}

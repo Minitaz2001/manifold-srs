@@ -1,0 +1,548 @@
+[
+ {
+  "key": "physics|fact|en-hydro-100m|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-supercapacitor|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-lead-acid|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-lfp-battery|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-li-ion-nmc|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-tnt|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-dry-wood|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-sugar-carb|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-bituminous-coal|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-ethanol|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-dietary-fat|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-diesel-jet|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-natural-gas|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-hydrogen|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-u235-fission|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-dt-fusion|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-smartphone|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-led-bulb|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-human-brain|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-human-basal|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-cyclist|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-us-home-elec|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-kettle|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-home-solar|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-car-engine|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-semi-truck|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-onshore-wind|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-boeing-747|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-datacenter|power_w",
+  "verdict": "wrong",
+  "corrected_value": 1000000000.0,
+  "evidence_url": null,
+  "note": "Label says Large AI campus: by late 2026 frontier AI campuses are ~0.3-1+ GW (xAI Colossus, Stargate Abilene, Meta Prometheus). 50-200 MW fits a typical single hyperscale datacenter; either relabel or raise value to ~1e9."
+ },
+ {
+  "key": "physics|fact|pwr-nuclear-unit|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-hoover-dam|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-three-gorges|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-us-primary|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-global-primary|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|pwr-earth-sunlight|power_w",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-air|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-eps-foam|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-cork|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-softwood|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-oak|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-gasoline|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-ice|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-water|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-brick|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-silicon|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-concrete|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-aluminum|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-titanium|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-steel|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-copper|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-lead|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-gold|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|den-osmium|density_kg_m3",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-cmb|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-liq-helium|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-liq-nitrogen|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-dry-ice|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-water-freeze|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-earth-mean|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-human-body|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-water-boil|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-paper-ignite|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-venus-surface|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-aluminum-melt|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-basalt-lava|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-steel-melt|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-tungsten-melt|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-sun-surface|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-lightning|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|tmp-sun-core|temperature_k",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-mars-surface|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-systolic-bp|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-everest-air|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-1atm|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-car-tire|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-water-main|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-espresso|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-scuba-tank|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ }
+]

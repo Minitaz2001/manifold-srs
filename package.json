@@ -1,0 +1,36 @@
+{
+  "name": "manifold-srs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && npm run check:bundle",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "check:bundle": "tsx scripts/check-bundle.ts",
+    "ci": "npm run validate:content && npm test && npm run build"
+  },
+  "dependencies": {
+    "dexie": "^4.4.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ts-fsrs": "5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "fake-indexeddb": "^6.2.8",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vite": "^7.0.0",
+    "vite-plugin-pwa": "^1.0.0",
+    "vitest": "^3.2.0"
+  }
+}

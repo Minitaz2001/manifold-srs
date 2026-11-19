@@ -1,0 +1,28 @@
+{
+  "pack_id": "bad-bracketing",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "physics",
+  "entities": [
+    { "id": "a1", "name": "Tiny", "kind": "scale", "module": "physics", "tags": [] },
+    { "id": "a2", "name": "Small", "kind": "scale", "module": "physics", "tags": [] },
+    { "id": "a3", "name": "Medium", "kind": "scale", "module": "physics", "tags": [] },
+    { "id": "a4", "name": "Large", "kind": "scale", "module": "physics", "tags": [] },
+    { "id": "a5", "name": "Huge", "kind": "scale", "module": "physics", "tags": [] }
+  ],
+  "dimensions": [
+    { "id": "power_w", "name": "Power", "unit": "W", "scale": "log", "tolerance": 2 }
+  ],
+  "facts": [
+    { "entity_id": "a1", "dimension_id": "power_w", "value": 1, "low": 1, "high": 1, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Reference 1 W", "volatile": false },
+    { "entity_id": "a2", "dimension_id": "power_w", "value": 10, "low": 10, "high": 10, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Reference 10 W", "volatile": false },
+    { "entity_id": "a3", "dimension_id": "power_w", "value": 1000, "low": 1000, "high": 1000, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Reference 1 kW", "volatile": false },
+    { "entity_id": "a4", "dimension_id": "power_w", "value": 100000, "low": 100000, "high": 100000, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Reference 100 kW", "volatile": false },
+    { "entity_id": "a5", "dimension_id": "power_w", "value": 10000000, "low": 10000000, "high": 10000000, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Reference 10 MW", "volatile": false }
+  ],
+  "anchor_sets": [
+    { "dimension_id": "power_w", "entity_ids": ["a1", "a2"] }
+  ],
+  "figures": [],
+  "plain_cards": []
+}

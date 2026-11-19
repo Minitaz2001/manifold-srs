@@ -1,0 +1,548 @@
+[
+ {
+  "key": "geography|fact|sri-lanka|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 21,756,000, within tolerance"
+ },
+ {
+  "key": "geography|fact|sri-lanka|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 5002,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "stale 2019 figure; WB 2025 nominal = 5002 (1.30x), outside band"
+ },
+ {
+  "key": "geography|fact|sri-lanka|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|nepal|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 29,618,118, within tolerance"
+ },
+ {
+  "key": "geography|fact|nepal|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 1536,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "stale 2019 figure; WB 2025 nominal = 1536 (1.43x), outside band"
+ },
+ {
+  "key": "geography|fact|nepal|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|tanzania|population",
+  "verdict": "wrong",
+  "corrected_value": 70545865,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "stale census/Wikidata figure; WB 2025 = 70,545,865 (+23%)"
+ },
+ {
+  "key": "geography|fact|tanzania|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 1319,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "stale 2019 figure; WB 2025 nominal = 1319 (1.21x), outside band"
+ },
+ {
+  "key": "geography|fact|tanzania|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|uganda|population",
+  "verdict": "unsure",
+  "corrected_value": 51384894,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 est 51.4M (UN-based) vs 2024 census 45.9M; value sits between, outside band of WB figure; pick a source"
+ },
+ {
+  "key": "geography|fact|uganda|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 1206,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "2019 Natural Earth figure is stale; WB 2025 nominal = 1206 (1.52x)"
+ },
+ {
+  "key": "geography|fact|uganda|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|senegal|population",
+  "verdict": "wrong",
+  "corrected_value": 18931966,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "stale census/Wikidata figure; WB 2025 = 18,931,966 (+12%)"
+ },
+ {
+  "key": "geography|fact|senegal|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 1955,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "stale 2019 figure; WB 2025 nominal = 1955 (1.35x), outside band"
+ },
+ {
+  "key": "geography|fact|senegal|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|c-te-divoire|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 32.7M, ~5% above; band slightly low, consider updating"
+ },
+ {
+  "key": "geography|fact|c-te-divoire|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 3050,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "stale 2019 figure; WB 2025 nominal = 3050 (1.34x), outside band"
+ },
+ {
+  "key": "geography|fact|c-te-divoire|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|zimbabwe|population",
+  "verdict": "wrong",
+  "corrected_value": 16950795,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "stale census/Wikidata figure; WB 2025 = 16,950,795 (+12%)"
+ },
+ {
+  "key": "geography|fact|zimbabwe|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 3021,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "2019 Natural Earth figure is stale; WB 2025 nominal = 3021 (2.06x)"
+ },
+ {
+  "key": "geography|fact|zimbabwe|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|angola|population",
+  "verdict": "unsure",
+  "corrected_value": 39040039,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 est 39.0M, ~6% above value and outside band; stale Wikidata figure"
+ },
+ {
+  "key": "geography|fact|angola|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "WB 2025 = 3129, near band"
+ },
+ {
+  "key": "geography|fact|angola|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|madagascar|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 32,740,678, within tolerance"
+ },
+ {
+  "key": "geography|fact|madagascar|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "WB 2025 = 599, near band"
+ },
+ {
+  "key": "geography|fact|madagascar|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|serbia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 6,549,143, within tolerance"
+ },
+ {
+  "key": "geography|fact|serbia|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 15262,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "2019 Natural Earth figure is stale; WB 2025 nominal = 15262 (2.06x)"
+ },
+ {
+  "key": "geography|fact|serbia|land_area_km2",
+  "verdict": "unsure",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "88,499 km2 includes Kosovo while the population (6.6M) excludes it; excl. Kosovo area is 77,474 km2. internally inconsistent card set"
+ },
+ {
+  "key": "geography|fact|croatia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 3,876,200, within tolerance"
+ },
+ {
+  "key": "geography|fact|croatia|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 27104,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "2019 Natural Earth figure is stale; WB 2025 nominal = 27104 (1.81x)"
+ },
+ {
+  "key": "geography|fact|croatia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|slovakia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 5,413,813, within tolerance"
+ },
+ {
+  "key": "geography|fact|slovakia|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 28544,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "2019 Natural Earth figure is stale; WB 2025 nominal = 28544 (1.48x)"
+ },
+ {
+  "key": "geography|fact|slovakia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|bulgaria|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 6,433,302, within tolerance"
+ },
+ {
+  "key": "geography|fact|bulgaria|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 20328,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "2019 Natural Earth figure is stale; WB 2025 nominal = 20328 (2.07x)"
+ },
+ {
+  "key": "geography|fact|bulgaria|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|lithuania|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+  "note": "WB 2025 = 2,888,774, within tolerance"
+ },
+ {
+  "key": "geography|fact|lithuania|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 32959,
+  "evidence_url": "https://api.worldbank.org/v2/country/LKA;NPL;TZA;UGA;SEN;CIV;ZWE;AGO;MDG;SRB;HRV;SVK;BGR;LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+  "note": "2019 Natural Earth figure is stale; WB 2025 nominal = 32959 (1.68x)"
+ },
+ {
+  "key": "geography|fact|lithuania|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|bronze-age-collapse|historical_year",
+  "verdict": "unsure",
+  "corrected_value": -1200,
+  "evidence_url": null,
+  "note": "collapse was a process c.1200-1150 BCE; 1177 is Cline's symbolic book-title date (Sea Peoples vs Ramesses III). band of exactly -1177 is misleading; widen to ~-1200..-1150"
+ },
+ {
+  "key": "geography|fact|founding-rome-republic|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|qin-unification|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|tang-dynasty-start|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|house-of-wisdom|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "Baghdad founded 762 correct; key says house-of-wisdom (founded later, c.800-830), entity mismatch with key"
+ },
+ {
+  "key": "geography|fact|song-dynasty-start|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|norman-conquest|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|black-death-europe|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|gutenberg-press|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "c.1440 invention, ~1450 operational; consider widening band to 1440-1450"
+ },
+ {
+  "key": "geography|fact|fall-constantinople|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|columbian-exchange|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|reformation-95-theses|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|tokugawa-shogunate|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|westphalia-peace|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|bank-of-england|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|us-independence|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|french-revolution|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|revolutions-1848|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|meiji-restoration|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|suez-canal-opens|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|federal-reserve-act|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|bretton-woods|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|transistor-invented|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|container-shipping|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|nixon-gold-shock|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|china-reform-opening|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|soviet-dissolution|historical_year",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-proton|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-hydrogen-atom|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-dna-width|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-transistor-gate|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-virus|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-visible-light|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-ecoli|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-red-blood-cell|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-human-hair|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ }
+]

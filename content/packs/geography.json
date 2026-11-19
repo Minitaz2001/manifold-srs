@@ -1,0 +1,5406 @@
+{
+  "pack_id": "geography-human-scale",
+  "version": "0.2.0",
+  "release_date": "2026-11-19",
+  "module": "geography",
+  "entities": [
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "luxembourg",
+      "name": "Luxembourg",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "estonia",
+      "name": "Estonia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "oceania",
+        "country"
+      ]
+    },
+    {
+      "id": "norway",
+      "name": "Norway",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "finland",
+      "name": "Finland",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "denmark",
+      "name": "Denmark",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "austria",
+      "name": "Austria",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "israel",
+      "name": "Israel",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "greece",
+      "name": "Greece",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "czechia",
+      "name": "Czechia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "chile",
+      "name": "Chile",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "kazakhstan",
+      "name": "Kazakhstan",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "romania",
+      "name": "Romania",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "oceania",
+        "country"
+      ]
+    },
+    {
+      "id": "north-korea",
+      "name": "North Korea",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "taiwan",
+      "name": "Taiwan",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "peru",
+      "name": "Peru",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "uzbekistan",
+      "name": "Uzbekistan",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "north-america",
+        "country"
+      ]
+    },
+    {
+      "id": "ukraine",
+      "name": "Ukraine",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "algeria",
+      "name": "Algeria",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "kenya",
+      "name": "Kenya",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "dr-congo",
+      "name": "DR Congo",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "ethiopia",
+      "name": "Ethiopia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "north-america",
+        "country"
+      ]
+    },
+    {
+      "id": "russia",
+      "name": "Russia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "pakistan",
+      "name": "Pakistan",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "north-america",
+        "country"
+      ]
+    },
+    {
+      "id": "peoples-republic-of-china",
+      "name": "People's Republic of China",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "cuba",
+      "name": "Cuba",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "north-america",
+        "country"
+      ]
+    },
+    {
+      "id": "panama",
+      "name": "Panama",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "north-america",
+        "country"
+      ]
+    },
+    {
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "north-america",
+        "country"
+      ]
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "ecuador",
+      "name": "Ecuador",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "bolivia",
+      "name": "Bolivia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "south-america",
+        "country"
+      ]
+    },
+    {
+      "id": "united-arab-emirates",
+      "name": "United Arab Emirates",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "oman",
+      "name": "Oman",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "laos",
+      "name": "Laos",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "sri-lanka",
+      "name": "Sri Lanka",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "nepal",
+      "name": "Nepal",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "asia",
+        "country"
+      ]
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzania",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "uganda",
+      "name": "Uganda",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "senegal",
+      "name": "Senegal",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "c-te-divoire",
+      "name": "Côte d'Ivoire",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "zimbabwe",
+      "name": "Zimbabwe",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "angola",
+      "name": "Angola",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "africa",
+        "country"
+      ]
+    },
+    {
+      "id": "serbia",
+      "name": "Serbia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "slovakia",
+      "name": "Slovakia",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "bulgaria",
+      "name": "Bulgaria",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "lithuania",
+      "name": "Lithuania",
+      "kind": "country",
+      "module": "geography",
+      "tags": [
+        "europe",
+        "country"
+      ]
+    },
+    {
+      "id": "bronze-age-collapse",
+      "name": "Late Bronze Age Collapse",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "ancient"
+      ]
+    },
+    {
+      "id": "founding-rome-republic",
+      "name": "Roman Republic Founded",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "ancient"
+      ]
+    },
+    {
+      "id": "qin-unification",
+      "name": "Qin Unification of China",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "ancient",
+        "east-asia"
+      ]
+    },
+    {
+      "id": "tang-dynasty-start",
+      "name": "Tang Dynasty Begins",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "medieval",
+        "east-asia"
+      ]
+    },
+    {
+      "id": "house-of-wisdom",
+      "name": "Abbasid Founding of Baghdad",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "medieval",
+        "mena"
+      ]
+    },
+    {
+      "id": "song-dynasty-start",
+      "name": "Song Dynasty Begins",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "medieval",
+        "east-asia"
+      ]
+    },
+    {
+      "id": "norman-conquest",
+      "name": "Norman Conquest of England",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "medieval",
+        "europe"
+      ]
+    },
+    {
+      "id": "black-death-europe",
+      "name": "Black Death Arrives in Europe",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "medieval",
+        "demographics"
+      ]
+    },
+    {
+      "id": "gutenberg-press",
+      "name": "Gutenberg Movable-Type Printing Press",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "early-modern",
+        "tech"
+      ]
+    },
+    {
+      "id": "fall-constantinople",
+      "name": "Fall of Constantinople",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "columbian-exchange",
+      "name": "Columbus Reaches the Americas",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "early-modern"
+      ]
+    },
+    {
+      "id": "reformation-95-theses",
+      "name": "Luther's Ninety-Five Theses",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "early-modern",
+        "europe"
+      ]
+    },
+    {
+      "id": "tokugawa-shogunate",
+      "name": "Tokugawa Shogunate Established",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "early-modern",
+        "east-asia"
+      ]
+    },
+    {
+      "id": "westphalia-peace",
+      "name": "Peace of Westphalia",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "early-modern",
+        "governance"
+      ]
+    },
+    {
+      "id": "bank-of-england",
+      "name": "Founding of the Bank of England",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "finance"
+      ]
+    },
+    {
+      "id": "us-independence",
+      "name": "US Declaration of Independence",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "governance"
+      ]
+    },
+    {
+      "id": "french-revolution",
+      "name": "French Revolution (Bastille)",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "governance"
+      ]
+    },
+    {
+      "id": "revolutions-1848",
+      "name": "European Revolutions of 1848",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "europe"
+      ]
+    },
+    {
+      "id": "meiji-restoration",
+      "name": "Meiji Restoration",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "east-asia"
+      ]
+    },
+    {
+      "id": "suez-canal-opens",
+      "name": "Opening of the Suez Canal",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "trade"
+      ]
+    },
+    {
+      "id": "federal-reserve-act",
+      "name": "US Federal Reserve Created",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "finance"
+      ]
+    },
+    {
+      "id": "bretton-woods",
+      "name": "Bretton Woods Conference",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "finance"
+      ]
+    },
+    {
+      "id": "transistor-invented",
+      "name": "Invention of the Transistor (Bell Labs)",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "tech"
+      ]
+    },
+    {
+      "id": "container-shipping",
+      "name": "First Container Ship Voyage (Ideal X)",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "trade"
+      ]
+    },
+    {
+      "id": "nixon-gold-shock",
+      "name": "End of Gold Convertibility (Nixon Shock)",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "finance"
+      ]
+    },
+    {
+      "id": "china-reform-opening",
+      "name": "China Reform and Opening-Up Begins",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "east-asia"
+      ]
+    },
+    {
+      "id": "soviet-dissolution",
+      "name": "Dissolution of the Soviet Union",
+      "kind": "historical_event",
+      "module": "geography",
+      "tags": [
+        "history",
+        "modern",
+        "geopolitics"
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "population",
+      "name": "Population",
+      "unit": "people",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "gdp_per_capita_usd",
+      "name": "GDP per capita",
+      "unit": "USD",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "land_area_km2",
+      "name": "Surface Area",
+      "unit": "km²",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "historical_year",
+      "name": "Historical Year",
+      "unit": "CE",
+      "scale": "date",
+      "tolerance": 0.02,
+      "tolerance_mode": "date_pct"
+    },
+    {
+      "id": "geo_east_se_asia",
+      "name": "East & Southeast Asia Map",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    },
+    {
+      "id": "geo_europe",
+      "name": "Europe Map",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    },
+    {
+      "id": "geo_americas",
+      "name": "The Americas Map",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    },
+    {
+      "id": "geo_africa_mena",
+      "name": "Africa & Middle East Map",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    }
+  ],
+  "facts": [
+    {
+      "entity_id": "iceland",
+      "dimension_id": "population",
+      "value": 392404,
+      "low": 380632,
+      "high": 404176,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ISL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "iceland",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 98323,
+      "low": 88491,
+      "high": 108155,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ISL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "iceland",
+      "dimension_id": "land_area_km2",
+      "value": 103004,
+      "low": 99914,
+      "high": 106094,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ISL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "luxembourg",
+      "dimension_id": "population",
+      "value": 686970,
+      "low": 666361,
+      "high": 707579,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LUX/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "luxembourg",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 147252,
+      "low": 132527,
+      "high": 161977,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LUX/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "luxembourg",
+      "dimension_id": "land_area_km2",
+      "value": 2593,
+      "low": 2515,
+      "high": 2671,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-LUX",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "estonia",
+      "dimension_id": "population",
+      "value": 1366475,
+      "low": 1325481,
+      "high": 1407469,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/EST/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "estonia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 34418,
+      "low": 30976,
+      "high": 37860,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/EST/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "estonia",
+      "dimension_id": "land_area_km2",
+      "value": 45335,
+      "low": 43975,
+      "high": 46695,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-EST",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "ireland",
+      "dimension_id": "population",
+      "value": 5484367,
+      "low": 5319836,
+      "high": 5648898,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IRL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "ireland",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 131592,
+      "low": 118433,
+      "high": 144751,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IRL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "ireland",
+      "dimension_id": "land_area_km2",
+      "value": 69797,
+      "low": 67703,
+      "high": 71891,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-IRL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "new-zealand",
+      "dimension_id": "population",
+      "value": 5324700,
+      "low": 5164959,
+      "high": 5484441,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NZL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "new-zealand",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 49591,
+      "low": 44632,
+      "high": 54550,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NZL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "new-zealand",
+      "dimension_id": "land_area_km2",
+      "value": 268021,
+      "low": 259980,
+      "high": 276062,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-NZL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "norway",
+      "dimension_id": "population",
+      "value": 5610870,
+      "low": 5442544,
+      "high": 5779196,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NOR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "norway",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 94594,
+      "low": 85135,
+      "high": 104053,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NOR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "norway",
+      "dimension_id": "land_area_km2",
+      "value": 385207,
+      "low": 373651,
+      "high": 396763,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-NOR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "finland",
+      "dimension_id": "population",
+      "value": 5646436,
+      "low": 5477043,
+      "high": 5815829,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/FIN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "finland",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 56149,
+      "low": 50534,
+      "high": 61764,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/FIN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "finland",
+      "dimension_id": "land_area_km2",
+      "value": 338478,
+      "low": 328324,
+      "high": 348633,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-FIN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "denmark",
+      "dimension_id": "population",
+      "value": 6009169,
+      "low": 5828894,
+      "high": 6189444,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/DNK/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "denmark",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 76970,
+      "low": 69273,
+      "high": 84667,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/DNK/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "denmark",
+      "dimension_id": "land_area_km2",
+      "value": 42925,
+      "low": 41638,
+      "high": 44213,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-DNK",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "switzerland",
+      "dimension_id": "population",
+      "value": 9092436,
+      "low": 8819663,
+      "high": 9365209,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CHE/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "switzerland",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 114769,
+      "low": 103292,
+      "high": 126246,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CHE/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "switzerland",
+      "dimension_id": "land_area_km2",
+      "value": 41291,
+      "low": 40052,
+      "high": 42530,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CHE",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "austria",
+      "dimension_id": "population",
+      "value": 9208163,
+      "low": 8931918,
+      "high": 9484408,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/AUT/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "austria",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 62930,
+      "low": 56637,
+      "high": 69223,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/AUT/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "austria",
+      "dimension_id": "land_area_km2",
+      "value": 83879,
+      "low": 81363,
+      "high": 86395,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-AUT",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "israel",
+      "dimension_id": "population",
+      "value": 10122800,
+      "low": 9819116,
+      "high": 10426484,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "israel",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 60337,
+      "low": 54303,
+      "high": 66371,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "israel",
+      "dimension_id": "land_area_km2",
+      "value": 20770,
+      "low": 20147,
+      "high": 21393,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ISR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "portugal",
+      "dimension_id": "population",
+      "value": 10804871,
+      "low": 10480725,
+      "high": 11129017,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PRT/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "portugal",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 32082,
+      "low": 28874,
+      "high": 35290,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PRT/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "portugal",
+      "dimension_id": "land_area_km2",
+      "value": 92225,
+      "low": 89458,
+      "high": 94992,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-PRT",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "sweden",
+      "dimension_id": "population",
+      "value": 10596620,
+      "low": 10278721,
+      "high": 10914519,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SWE/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "sweden",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 63133,
+      "low": 56820,
+      "high": 69446,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SWE/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "sweden",
+      "dimension_id": "land_area_km2",
+      "value": 447425,
+      "low": 434002,
+      "high": 460848,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-SWE",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "greece",
+      "dimension_id": "population",
+      "value": 10413962,
+      "low": 10101543,
+      "high": 10726381,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/GRC/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "greece",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 26948,
+      "low": 24253,
+      "high": 29643,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/GRC/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "greece",
+      "dimension_id": "land_area_km2",
+      "value": 131957,
+      "low": 127998,
+      "high": 135916,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-GRC",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "czechia",
+      "dimension_id": "population",
+      "value": 10886878,
+      "low": 10560272,
+      "high": 11213484,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CZE/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "czechia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 35917,
+      "low": 32325,
+      "high": 39509,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CZE/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "czechia",
+      "dimension_id": "land_area_km2",
+      "value": 78871,
+      "low": 76505,
+      "high": 81237,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CZE",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "hungary",
+      "dimension_id": "population",
+      "value": 9514251,
+      "low": 9228823,
+      "high": 9799679,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/HUN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "hungary",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 25907,
+      "low": 23316,
+      "high": 28498,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/HUN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "hungary",
+      "dimension_id": "land_area_km2",
+      "value": 93011,
+      "low": 90221,
+      "high": 95802,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-HUN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "belgium",
+      "dimension_id": "population",
+      "value": 11941781,
+      "low": 11583528,
+      "high": 12300034,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BEL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "belgium",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 60750,
+      "low": 54675,
+      "high": 66825,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BEL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "belgium",
+      "dimension_id": "land_area_km2",
+      "value": 30688,
+      "low": 29767,
+      "high": 31609,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-BEL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "netherlands",
+      "dimension_id": "population",
+      "value": 18087633,
+      "low": 17545004,
+      "high": 18630262,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NLD/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "netherlands",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 73684,
+      "low": 66316,
+      "high": 81052,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NLD/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "netherlands",
+      "dimension_id": "land_area_km2",
+      "value": 42201,
+      "low": 40935,
+      "high": 43467,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-NLD",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "chile",
+      "dimension_id": "population",
+      "value": 19859921,
+      "low": 19264123,
+      "high": 20455719,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CHL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "chile",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 17995,
+      "low": 16196,
+      "high": 19794,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CHL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "chile",
+      "dimension_id": "land_area_km2",
+      "value": 756102,
+      "low": 733419,
+      "high": 778785,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CHL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "kazakhstan",
+      "dimension_id": "population",
+      "value": 20843754,
+      "low": 20218441,
+      "high": 21469067,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KAZ/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "kazakhstan",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 14692,
+      "low": 13223,
+      "high": 16161,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KAZ/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "kazakhstan",
+      "dimension_id": "land_area_km2",
+      "value": 2724910,
+      "low": 2643163,
+      "high": 2806657,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-KAZ",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "romania",
+      "dimension_id": "population",
+      "value": 19020271,
+      "low": 18449663,
+      "high": 19590879,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ROU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "romania",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 22538,
+      "low": 20284,
+      "high": 24792,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ROU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "romania",
+      "dimension_id": "land_area_km2",
+      "value": 238397,
+      "low": 231245,
+      "high": 245549,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ROU",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "australia",
+      "dimension_id": "population",
+      "value": 27614411,
+      "low": 26785979,
+      "high": 28442843,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/AUS/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "australia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 65130,
+      "low": 58617,
+      "high": 71643,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/AUS/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "australia",
+      "dimension_id": "land_area_km2",
+      "value": 7688287,
+      "low": 7457638,
+      "high": 7918936,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-AUS",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "north-korea",
+      "dimension_id": "population",
+      "value": 26571036,
+      "low": 25773905,
+      "high": 27368167,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PRK/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "north-korea",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1558,
+      "low": 1403,
+      "high": 1714,
+      "as_of": "2026-11-19",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "source_note": "Nominal GDP per capita derived from Natural Earth GDP_MD/POP_EST (2016, current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "north-korea",
+      "dimension_id": "land_area_km2",
+      "value": 120540,
+      "low": 116924,
+      "high": 124156,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-PRK",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "taiwan",
+      "dimension_id": "population",
+      "value": 23262544,
+      "low": 22797293,
+      "high": 24039746,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#pop-TWN",
+      "source_note": "Wikidata P1082 national population (23,262,544); cross-checked with Natural Earth (23,568,378)",
+      "volatile": true
+    },
+    {
+      "entity_id": "taiwan",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 39500,
+      "low": 39500,
+      "high": 39500,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.taiwannews.com.tw/en/news/6343574",
+      "source_note": "Nominal GDP per capita derived from Natural Earth GDP_MD/POP_EST (2016, current USD) [agent-corrected: 47,818 is a PPP-style figure mislabeled nominal (2016 nominal was ~$22.6k); DGBAS 2025 nominal ~US$39,477]",
+      "volatile": true
+    },
+    {
+      "entity_id": "taiwan",
+      "dimension_id": "land_area_km2",
+      "value": 36197,
+      "low": 35111,
+      "high": 37283,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-TWN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "malaysia",
+      "dimension_id": "population",
+      "value": 35977838,
+      "low": 34898503,
+      "high": 37057173,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MYS/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "malaysia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 13125,
+      "low": 11812,
+      "high": 14438,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MYS/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "malaysia",
+      "dimension_id": "land_area_km2",
+      "value": 330803,
+      "low": 320879,
+      "high": 340727,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-MYS",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "ghana",
+      "dimension_id": "population",
+      "value": 35064272,
+      "low": 34012344,
+      "high": 36116200,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/GHA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "ghana",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3257,
+      "low": 2931,
+      "high": 3583,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/GHA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "ghana",
+      "dimension_id": "land_area_km2",
+      "value": 238535,
+      "low": 231379,
+      "high": 245691,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-GHA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "peru",
+      "dimension_id": "population",
+      "value": 34576665,
+      "low": 33539365,
+      "high": 35613965,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PER/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "peru",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 9684,
+      "low": 8716,
+      "high": 10652,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PER/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "peru",
+      "dimension_id": "land_area_km2",
+      "value": 1285216,
+      "low": 1246659,
+      "high": 1323772,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-PER",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "saudi-arabia",
+      "dimension_id": "population",
+      "value": 36973555,
+      "low": 35864348,
+      "high": 38082762,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "saudi-arabia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 34537,
+      "low": 31083,
+      "high": 37991,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "saudi-arabia",
+      "dimension_id": "land_area_km2",
+      "value": 2250000,
+      "low": 2182500,
+      "high": 2317500,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-SAU",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "uzbekistan",
+      "dimension_id": "population",
+      "value": 37053428,
+      "low": 35941825,
+      "high": 38165031,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/UZB/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "uzbekistan",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3968,
+      "low": 3571,
+      "high": 4365,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/UZB/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "uzbekistan",
+      "dimension_id": "land_area_km2",
+      "value": 448978,
+      "low": 435509,
+      "high": 462447,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-UZB",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "morocco",
+      "dimension_id": "population",
+      "value": 38430770,
+      "low": 37277847,
+      "high": 39583693,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MAR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "morocco",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 4672,
+      "low": 4205,
+      "high": 5139,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MAR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "morocco",
+      "dimension_id": "land_area_km2",
+      "value": 446550,
+      "low": 433154,
+      "high": 459946,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-MAR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "poland",
+      "dimension_id": "population",
+      "value": 36435861,
+      "low": 35342785,
+      "high": 37528937,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/POL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "poland",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 28420,
+      "low": 25578,
+      "high": 31262,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/POL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "poland",
+      "dimension_id": "land_area_km2",
+      "value": 312683,
+      "low": 303303,
+      "high": 322063,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-POL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "canada",
+      "dimension_id": "population",
+      "value": 41651653,
+      "low": 40402103,
+      "high": 42901203,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CAN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "canada",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 55698,
+      "low": 50128,
+      "high": 61268,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CAN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "canada",
+      "dimension_id": "land_area_km2",
+      "value": 9984670,
+      "low": 9685130,
+      "high": 10284210,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CAN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "ukraine",
+      "dimension_id": "population",
+      "value": 38980376,
+      "low": 37810965,
+      "high": 40149787,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/UKR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "ukraine",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 5866,
+      "low": 5279,
+      "high": 6453,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/UKR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "ukraine",
+      "dimension_id": "land_area_km2",
+      "value": 603550,
+      "low": 585444,
+      "high": 621656,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-UKR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "argentina",
+      "dimension_id": "population",
+      "value": 45851378,
+      "low": 44475837,
+      "high": 47226919,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ARG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "argentina",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 14898,
+      "low": 13408,
+      "high": 16388,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ARG/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "argentina",
+      "dimension_id": "land_area_km2",
+      "value": 2780085,
+      "low": 2696682,
+      "high": 2863488,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ARG",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "algeria",
+      "dimension_id": "population",
+      "value": 47435312,
+      "low": 46012253,
+      "high": 48858371,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/DZA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "algeria",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 6051,
+      "low": 5446,
+      "high": 6656,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/DZA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "algeria",
+      "dimension_id": "land_area_km2",
+      "value": 2381741,
+      "low": 2310289,
+      "high": 2453193,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-DZA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "iraq",
+      "dimension_id": "population",
+      "value": 47020774,
+      "low": 45610151,
+      "high": 48431397,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IRQ/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "iraq",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 5410,
+      "low": 4869,
+      "high": 5951,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IRQ/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "iraq",
+      "dimension_id": "land_area_km2",
+      "value": 437072,
+      "low": 423960,
+      "high": 450184,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-IRQ",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spain",
+      "dimension_id": "population",
+      "value": 49355143,
+      "low": 47874489,
+      "high": 50835797,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ESP/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "spain",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 38627,
+      "low": 34764,
+      "high": 42490,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "spain",
+      "dimension_id": "land_area_km2",
+      "value": 505990,
+      "low": 490810,
+      "high": 521170,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ESP",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "colombia",
+      "dimension_id": "population",
+      "value": 53425635,
+      "low": 51822866,
+      "high": 55028404,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/COL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "colombia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 8562,
+      "low": 7706,
+      "high": 9418,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/COL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "colombia",
+      "dimension_id": "land_area_km2",
+      "value": 1141748,
+      "low": 1107496,
+      "high": 1176000,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-COL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "south-korea",
+      "dimension_id": "population",
+      "value": 51684564,
+      "low": 50134027,
+      "high": 53235101,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KOR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "south-korea",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 36227,
+      "low": 32604,
+      "high": 39850,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "south-korea",
+      "dimension_id": "land_area_km2",
+      "value": 100295,
+      "low": 97286,
+      "high": 103304,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-KOR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "kenya",
+      "dimension_id": "population",
+      "value": 57532493,
+      "low": 55806518,
+      "high": 59258468,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KEN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "kenya",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 2363,
+      "low": 2127,
+      "high": 2599,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KEN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "kenya",
+      "dimension_id": "land_area_km2",
+      "value": 581309,
+      "low": 563870,
+      "high": 598748,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-KEN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "south-africa",
+      "dimension_id": "population",
+      "value": 64747319,
+      "low": 62804899,
+      "high": 66689739,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ZAF/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "south-africa",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 6598,
+      "low": 5938,
+      "high": 7258,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ZAF/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "south-africa",
+      "dimension_id": "land_area_km2",
+      "value": 1220813,
+      "low": 1184189,
+      "high": 1257437,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ZAF",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "italy",
+      "dimension_id": "population",
+      "value": 58915656,
+      "low": 57148186,
+      "high": 60683126,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ITA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "italy",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 43309,
+      "low": 38978,
+      "high": 47640,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ITA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "italy",
+      "dimension_id": "land_area_km2",
+      "value": 302068,
+      "low": 293006,
+      "high": 311130,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ITA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "united-kingdom",
+      "dimension_id": "population",
+      "value": 69487000,
+      "low": 67402390,
+      "high": 71571610,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/GBR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "united-kingdom",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 57602,
+      "low": 51842,
+      "high": 63362,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/GBR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "united-kingdom",
+      "dimension_id": "land_area_km2",
+      "value": 242495,
+      "low": 235220,
+      "high": 249770,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-GBR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "france",
+      "dimension_id": "population",
+      "value": 68720337,
+      "low": 66658727,
+      "high": 70781947,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/FRA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "france",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 48986,
+      "low": 44087,
+      "high": 53885,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/FRA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "france",
+      "dimension_id": "land_area_km2",
+      "value": 643801,
+      "low": 624487,
+      "high": 663115,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-FRA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "thailand",
+      "dimension_id": "population",
+      "value": 71619863,
+      "low": 69471267,
+      "high": 73768459,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/THA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "thailand",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 8057,
+      "low": 7251,
+      "high": 8863,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/THA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "thailand",
+      "dimension_id": "land_area_km2",
+      "value": 513120,
+      "low": 497726,
+      "high": 528513,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-THA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "germany",
+      "dimension_id": "population",
+      "value": 83491249,
+      "low": 80986512,
+      "high": 85995986,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/DEU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "germany",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 60496,
+      "low": 54446,
+      "high": 66546,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "germany",
+      "dimension_id": "land_area_km2",
+      "value": 357588,
+      "low": 346860,
+      "high": 368315,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-DEU",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "iran",
+      "dimension_id": "population",
+      "value": 92417681,
+      "low": 89645151,
+      "high": 95190211,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IRN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "iran",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3924,
+      "low": 3532,
+      "high": 4316,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IRN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "iran",
+      "dimension_id": "land_area_km2",
+      "value": 1648195,
+      "low": 1598749,
+      "high": 1697641,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-IRN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "turkey",
+      "dimension_id": "population",
+      "value": 85878556,
+      "low": 83302199,
+      "high": 88454913,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "turkey",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 18599,
+      "low": 16739,
+      "high": 20459,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "turkey",
+      "dimension_id": "land_area_km2",
+      "value": 783562,
+      "low": 760055,
+      "high": 807069,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-TUR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "vietnam",
+      "dimension_id": "population",
+      "value": 101598527,
+      "low": 98550571,
+      "high": 104646483,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/VNM/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "vietnam",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 5066,
+      "low": 4559,
+      "high": 5573,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/VNM/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "vietnam",
+      "dimension_id": "land_area_km2",
+      "value": 331690,
+      "low": 321739,
+      "high": 341641,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-VNM",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "dr-congo",
+      "dimension_id": "population",
+      "value": 112832473,
+      "low": 109447499,
+      "high": 116217447,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/COD/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "dr-congo",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 807,
+      "low": 726,
+      "high": 888,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/COD/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "dr-congo",
+      "dimension_id": "land_area_km2",
+      "value": 2345410,
+      "low": 2275048,
+      "high": 2415772,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-COD",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "egypt",
+      "dimension_id": "population",
+      "value": 118365995,
+      "low": 114815015,
+      "high": 121916975,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "egypt",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3086,
+      "low": 2777,
+      "high": 3395,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "egypt",
+      "dimension_id": "land_area_km2",
+      "value": 1010408,
+      "low": 980096,
+      "high": 1040720,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-EGY",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "philippines",
+      "dimension_id": "population",
+      "value": 116786962,
+      "low": 113283353,
+      "high": 120290571,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PHL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "philippines",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 4171,
+      "low": 3754,
+      "high": 4588,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PHL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "philippines",
+      "dimension_id": "land_area_km2",
+      "value": 343448,
+      "low": 333145,
+      "high": 353751,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-PHL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "ethiopia",
+      "dimension_id": "population",
+      "value": 135472051,
+      "low": 131407889,
+      "high": 139536213,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "ethiopia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 933,
+      "low": 840,
+      "high": 1026,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "ethiopia",
+      "dimension_id": "land_area_km2",
+      "value": 1129819,
+      "low": 1095924,
+      "high": 1163714,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ETH",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "japan",
+      "dimension_id": "population",
+      "value": 123366734,
+      "low": 119665732,
+      "high": 127067736,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/JPN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "japan",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 35951,
+      "low": 32356,
+      "high": 39546,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/JPN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "japan",
+      "dimension_id": "land_area_km2",
+      "value": 377974,
+      "low": 366634,
+      "high": 389313,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-JPN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mexico",
+      "dimension_id": "population",
+      "value": 131946900,
+      "low": 127988493,
+      "high": 135905307,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MEX/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "mexico",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 13889,
+      "low": 12500,
+      "high": 15278,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MEX/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "mexico",
+      "dimension_id": "land_area_km2",
+      "value": 1964375,
+      "low": 1905444,
+      "high": 2023306,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-MEX",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "russia",
+      "dimension_id": "population",
+      "value": 143513328,
+      "low": 139207928,
+      "high": 147818728,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "russia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 17547,
+      "low": 15792,
+      "high": 19302,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "russia",
+      "dimension_id": "land_area_km2",
+      "value": 17098246,
+      "low": 16585299,
+      "high": 17611193,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-RUS",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "bangladesh",
+      "dimension_id": "population",
+      "value": 175686899,
+      "low": 170416292,
+      "high": 180957506,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "bangladesh",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 2597,
+      "low": 2337,
+      "high": 2857,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "bangladesh",
+      "dimension_id": "land_area_km2",
+      "value": 147570,
+      "low": 143143,
+      "high": 151997,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-BGD",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "brazil",
+      "dimension_id": "population",
+      "value": 212812405,
+      "low": 206428033,
+      "high": 219196777,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "brazil",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 10713,
+      "low": 9642,
+      "high": 11784,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BRA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "brazil",
+      "dimension_id": "land_area_km2",
+      "value": 8509361,
+      "low": 8254080,
+      "high": 8764642,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-BRA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "nigeria",
+      "dimension_id": "population",
+      "value": 237527782,
+      "low": 230401949,
+      "high": 244653615,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "nigeria",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1224,
+      "low": 1102,
+      "high": 1346,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NGA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "nigeria",
+      "dimension_id": "land_area_km2",
+      "value": 923768,
+      "low": 896055,
+      "high": 951481,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-NGA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pakistan",
+      "dimension_id": "population",
+      "value": 255219554,
+      "low": 247562967,
+      "high": 262876141,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PAK/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "pakistan",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1596,
+      "low": 1436,
+      "high": 1756,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PAK/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "pakistan",
+      "dimension_id": "land_area_km2",
+      "value": 881913,
+      "low": 855456,
+      "high": 908370,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-PAK",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "indonesia",
+      "dimension_id": "population",
+      "value": 285721236,
+      "low": 277149599,
+      "high": 294292873,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IDN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "indonesia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 5060,
+      "low": 4554,
+      "high": 5566,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IDN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "indonesia",
+      "dimension_id": "land_area_km2",
+      "value": 1916907,
+      "low": 1859400,
+      "high": 1974414,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-IDN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "united-states",
+      "dimension_id": "population",
+      "value": 341784857,
+      "low": 331531311,
+      "high": 352038403,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/USA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "united-states",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 90027,
+      "low": 81024,
+      "high": 99030,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/USA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "united-states",
+      "dimension_id": "land_area_km2",
+      "value": 9833517,
+      "low": 9538511,
+      "high": 10128523,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-USA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "peoples-republic-of-china",
+      "dimension_id": "population",
+      "value": 1406585000,
+      "low": 1364387450,
+      "high": 1448782550,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CHN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "peoples-republic-of-china",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 13862,
+      "low": 12476,
+      "high": 15248,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CHN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "peoples-republic-of-china",
+      "dimension_id": "land_area_km2",
+      "value": 9562910,
+      "low": 9276023,
+      "high": 9849797,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CHN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "india",
+      "dimension_id": "population",
+      "value": 1463865525,
+      "low": 1419949559,
+      "high": 1507781491,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IND/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "india",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 2702,
+      "low": 2432,
+      "high": 2972,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "india",
+      "dimension_id": "land_area_km2",
+      "value": 3287593,
+      "low": 3188965,
+      "high": 3386221,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-IND",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "cuba",
+      "dimension_id": "population",
+      "value": 10937203,
+      "low": 10609087,
+      "high": 11265319,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CUB/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "cuba",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 9605,
+      "low": 8644,
+      "high": 10566,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CUB/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2020 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "cuba",
+      "dimension_id": "land_area_km2",
+      "value": 109884,
+      "low": 106587,
+      "high": 113181,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CUB",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "panama",
+      "dimension_id": "population",
+      "value": 4571189,
+      "low": 4434053,
+      "high": 4708325,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PAN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "panama",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 19790,
+      "low": 17811,
+      "high": 21769,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/PAN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "panama",
+      "dimension_id": "land_area_km2",
+      "value": 74177,
+      "low": 71952,
+      "high": 76403,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-PAN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "costa-rica",
+      "dimension_id": "population",
+      "value": 5152950,
+      "low": 4998362,
+      "high": 5307538,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CRI/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "costa-rica",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 19970,
+      "low": 17973,
+      "high": 21967,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CRI/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "costa-rica",
+      "dimension_id": "land_area_km2",
+      "value": 51180,
+      "low": 49645,
+      "high": 52715,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CRI",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "venezuela",
+      "dimension_id": "population",
+      "value": 28516896,
+      "low": 27661389,
+      "high": 29372403,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/VEN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "venezuela",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3495,
+      "low": 3146,
+      "high": 3845,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/VEN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "venezuela",
+      "dimension_id": "land_area_km2",
+      "value": 912050,
+      "low": 884688,
+      "high": 939412,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-VEN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "ecuador",
+      "dimension_id": "population",
+      "value": 18289896,
+      "low": 17741199,
+      "high": 18838593,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ECU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "ecuador",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 7125,
+      "low": 6412,
+      "high": 7838,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ECU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "ecuador",
+      "dimension_id": "land_area_km2",
+      "value": 257204,
+      "low": 249488,
+      "high": 264920,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ECU",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "bolivia",
+      "dimension_id": "population",
+      "value": 12581843,
+      "low": 12204388,
+      "high": 12959298,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BOL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "bolivia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 5148,
+      "low": 4633,
+      "high": 5663,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BOL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "bolivia",
+      "dimension_id": "land_area_km2",
+      "value": 1098581,
+      "low": 1065624,
+      "high": 1131538,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-BOL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "uruguay",
+      "dimension_id": "population",
+      "value": 3384688,
+      "low": 3283147,
+      "high": 3486229,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/URY/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "uruguay",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 25216,
+      "low": 22694,
+      "high": 27738,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/URY/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "uruguay",
+      "dimension_id": "land_area_km2",
+      "value": 176215,
+      "low": 170929,
+      "high": 181501,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-URY",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "united-arab-emirates",
+      "dimension_id": "population",
+      "value": 11513149,
+      "low": 11167755,
+      "high": 11858543,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ARE/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "united-arab-emirates",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 50274,
+      "low": 45247,
+      "high": 55301,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ARE/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2024 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "united-arab-emirates",
+      "dimension_id": "land_area_km2",
+      "value": 83600,
+      "low": 81092,
+      "high": 86108,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ARE",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "qatar",
+      "dimension_id": "population",
+      "value": 2972215,
+      "low": 2883049,
+      "high": 3061381,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/QAT/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "qatar",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 72525,
+      "low": 65272,
+      "high": 79778,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/QAT/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "qatar",
+      "dimension_id": "land_area_km2",
+      "value": 11437,
+      "low": 11094,
+      "high": 11780,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-QAT",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "oman",
+      "dimension_id": "population",
+      "value": 5494691,
+      "low": 5329850,
+      "high": 5659532,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/OMN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "oman",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 19947,
+      "low": 17952,
+      "high": 21942,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/OMN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "oman",
+      "dimension_id": "land_area_km2",
+      "value": 309500,
+      "low": 300215,
+      "high": 318785,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-OMN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "jordan",
+      "dimension_id": "population",
+      "value": 11520684,
+      "low": 11175063,
+      "high": 11866305,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/JOR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "jordan",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 5348,
+      "low": 4813,
+      "high": 5883,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/JOR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "jordan",
+      "dimension_id": "land_area_km2",
+      "value": 89341,
+      "low": 86661,
+      "high": 92021,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-JOR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "cambodia",
+      "dimension_id": "population",
+      "value": 17847982,
+      "low": 17312543,
+      "high": 18383421,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KHM/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "cambodia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 2872,
+      "low": 2585,
+      "high": 3159,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/KHM/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "cambodia",
+      "dimension_id": "land_area_km2",
+      "value": 181035,
+      "low": 175604,
+      "high": 186466,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-KHM",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "laos",
+      "dimension_id": "population",
+      "value": 7873046,
+      "low": 7636855,
+      "high": 8109237,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LAO/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "laos",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 2325,
+      "low": 2092,
+      "high": 2558,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LAO/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "laos",
+      "dimension_id": "land_area_km2",
+      "value": 236800,
+      "low": 229696,
+      "high": 243904,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-LAO",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "myanmar",
+      "dimension_id": "population",
+      "value": 54850648,
+      "low": 53205129,
+      "high": 56496167,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MMR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "myanmar",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1489,
+      "low": 1340,
+      "high": 1638,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MMR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "myanmar",
+      "dimension_id": "land_area_km2",
+      "value": 676577,
+      "low": 656280,
+      "high": 696875,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-MMR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "sri-lanka",
+      "dimension_id": "population",
+      "value": 21756000,
+      "low": 21103320,
+      "high": 22408680,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LKA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "sri-lanka",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 5002,
+      "low": 4502,
+      "high": 5502,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LKA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "sri-lanka",
+      "dimension_id": "land_area_km2",
+      "value": 65610,
+      "low": 63642,
+      "high": 67578,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-LKA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "nepal",
+      "dimension_id": "population",
+      "value": 29618118,
+      "low": 28729574,
+      "high": 30506662,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NPL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "nepal",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1536,
+      "low": 1382,
+      "high": 1690,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/NPL/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "nepal",
+      "dimension_id": "land_area_km2",
+      "value": 147181,
+      "low": 142766,
+      "high": 151597,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-NPL",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tanzania",
+      "dimension_id": "population",
+      "value": 70545865,
+      "low": 68429489,
+      "high": 72662241,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/TZA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "tanzania",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1319,
+      "low": 1187,
+      "high": 1451,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/TZA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "tanzania",
+      "dimension_id": "land_area_km2",
+      "value": 947303,
+      "low": 918884,
+      "high": 975722,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-TZA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "uganda",
+      "dimension_id": "population",
+      "value": 51384894,
+      "low": 49843347,
+      "high": 52926441,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/UGA/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "uganda",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1206,
+      "low": 1085,
+      "high": 1327,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/UGA/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "uganda",
+      "dimension_id": "land_area_km2",
+      "value": 241038,
+      "low": 233807,
+      "high": 248269,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-UGA",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "senegal",
+      "dimension_id": "population",
+      "value": 18931966,
+      "low": 18364007,
+      "high": 19499925,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SEN/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "senegal",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 1955,
+      "low": 1760,
+      "high": 2150,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SEN/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "senegal",
+      "dimension_id": "land_area_km2",
+      "value": 196722,
+      "low": 190820,
+      "high": 202624,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-SEN",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "c-te-divoire",
+      "dimension_id": "population",
+      "value": 32711547,
+      "low": 31730201,
+      "high": 33692893,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CIV/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "c-te-divoire",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3050,
+      "low": 2745,
+      "high": 3355,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/CIV/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "c-te-divoire",
+      "dimension_id": "land_area_km2",
+      "value": 322463,
+      "low": 312789,
+      "high": 332137,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-CIV",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "zimbabwe",
+      "dimension_id": "population",
+      "value": 16950795,
+      "low": 16442271,
+      "high": 17459319,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ZWE/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "zimbabwe",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3021,
+      "low": 2719,
+      "high": 3323,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/ZWE/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "zimbabwe",
+      "dimension_id": "land_area_km2",
+      "value": 390757,
+      "low": 379034,
+      "high": 402480,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-ZWE",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "angola",
+      "dimension_id": "population",
+      "value": 39040039,
+      "low": 37868838,
+      "high": 40211240,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/AGO/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "angola",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 3129,
+      "low": 2816,
+      "high": 3442,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/AGO/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "angola",
+      "dimension_id": "land_area_km2",
+      "value": 1246700,
+      "low": 1209299,
+      "high": 1284101,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-AGO",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "madagascar",
+      "dimension_id": "population",
+      "value": 32740678,
+      "low": 31758458,
+      "high": 33722898,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MDG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "madagascar",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 599,
+      "low": 539,
+      "high": 659,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/MDG/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "madagascar",
+      "dimension_id": "land_area_km2",
+      "value": 587295,
+      "low": 569676,
+      "high": 604914,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-MDG",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "serbia",
+      "dimension_id": "population",
+      "value": 6549143,
+      "low": 6352669,
+      "high": 6745617,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SRB/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "serbia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 15262,
+      "low": 13736,
+      "high": 16788,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SRB/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "serbia",
+      "dimension_id": "land_area_km2",
+      "value": 88499,
+      "low": 85844,
+      "high": 91154,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-SRB",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "croatia",
+      "dimension_id": "population",
+      "value": 3876200,
+      "low": 3759914,
+      "high": 3992486,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/HRV/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "croatia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 27104,
+      "low": 24394,
+      "high": 29814,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/HRV/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "croatia",
+      "dimension_id": "land_area_km2",
+      "value": 56594,
+      "low": 54896,
+      "high": 58292,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-HRV",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "slovakia",
+      "dimension_id": "population",
+      "value": 5413813,
+      "low": 5251399,
+      "high": 5576227,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SVK/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "slovakia",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 28544,
+      "low": 25690,
+      "high": 31398,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/SVK/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "slovakia",
+      "dimension_id": "land_area_km2",
+      "value": 49034,
+      "low": 47563,
+      "high": 50505,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-SVK",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "bulgaria",
+      "dimension_id": "population",
+      "value": 6433302,
+      "low": 6240303,
+      "high": 6626301,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BGR/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "bulgaria",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 20328,
+      "low": 18295,
+      "high": 22361,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/BGR/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "bulgaria",
+      "dimension_id": "land_area_km2",
+      "value": 110994,
+      "low": 107664,
+      "high": 114323,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-BGR",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "lithuania",
+      "dimension_id": "population",
+      "value": 2888774,
+      "low": 2802111,
+      "high": 2975437,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LTU/indicator/SP.POP.TOTL?format=json&mrnev=1",
+      "source_note": "World Bank SP.POP.TOTL, 2025",
+      "volatile": true
+    },
+    {
+      "entity_id": "lithuania",
+      "dimension_id": "gdp_per_capita_usd",
+      "value": 32959,
+      "low": 29663,
+      "high": 36255,
+      "as_of": "2026-11-19",
+      "source_url": "https://api.worldbank.org/v2/country/LTU/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1",
+      "source_note": "World Bank NY.GDP.PCAP.CD, 2025 (current USD)",
+      "volatile": true
+    },
+    {
+      "entity_id": "lithuania",
+      "dimension_id": "land_area_km2",
+      "value": 65300,
+      "low": 63341,
+      "high": 67259,
+      "as_of": "2026-11-19",
+      "source_url": "https://query.wikidata.org/#area-LTU",
+      "source_note": "Total sovereign territory area in km^2 (Wikidata P2046)",
+      "volatile": false
+    },
+    {
+      "entity_id": "bronze-age-collapse",
+      "dimension_id": "historical_year",
+      "value": -1177,
+      "low": -1177,
+      "high": -1177,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q208639",
+      "source_note": "Canonical historical year verified via Wikidata Q208639 (-1177)",
+      "volatile": false
+    },
+    {
+      "entity_id": "founding-rome-republic",
+      "dimension_id": "historical_year",
+      "value": -509,
+      "low": -509,
+      "high": -508,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q17167",
+      "source_note": "Canonical historical year verified via Wikidata Q17167 (-508)",
+      "volatile": false
+    },
+    {
+      "entity_id": "qin-unification",
+      "dimension_id": "historical_year",
+      "value": -221,
+      "low": -221,
+      "high": -220,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q7183",
+      "source_note": "Canonical historical year verified via Wikidata Q7183 (-220)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tang-dynasty-start",
+      "dimension_id": "historical_year",
+      "value": 618,
+      "low": 618,
+      "high": 618,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q9683",
+      "source_note": "Canonical historical year verified via Wikidata Q9683 (618)",
+      "volatile": false
+    },
+    {
+      "entity_id": "house-of-wisdom",
+      "dimension_id": "historical_year",
+      "value": 762,
+      "low": 762,
+      "high": 762,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q1530",
+      "source_note": "Canonical historical year verified via Wikidata Q1530 (762)",
+      "volatile": false
+    },
+    {
+      "entity_id": "song-dynasty-start",
+      "dimension_id": "historical_year",
+      "value": 960,
+      "low": 960,
+      "high": 960,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q7462",
+      "source_note": "Canonical historical year verified via Wikidata Q7462 (960)",
+      "volatile": false
+    },
+    {
+      "entity_id": "norman-conquest",
+      "dimension_id": "historical_year",
+      "value": 1066,
+      "low": 1066,
+      "high": 1066,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q200485",
+      "source_note": "Canonical historical year verified via Wikidata Q200485 (1066)",
+      "volatile": false
+    },
+    {
+      "entity_id": "black-death-europe",
+      "dimension_id": "historical_year",
+      "value": 1347,
+      "low": 1346,
+      "high": 1347,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q42005",
+      "source_note": "Canonical historical year verified via Wikidata Q42005 (1346)",
+      "volatile": false
+    },
+    {
+      "entity_id": "gutenberg-press",
+      "dimension_id": "historical_year",
+      "value": 1450,
+      "low": 1450,
+      "high": 1450,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q144334",
+      "source_note": "Canonical historical year verified via Wikidata Q144334 (1450)",
+      "volatile": false
+    },
+    {
+      "entity_id": "fall-constantinople",
+      "dimension_id": "historical_year",
+      "value": 1453,
+      "low": 1453,
+      "high": 1453,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q160077",
+      "source_note": "Canonical historical year verified via Wikidata Q160077 (1453)",
+      "volatile": false
+    },
+    {
+      "entity_id": "columbian-exchange",
+      "dimension_id": "historical_year",
+      "value": 1492,
+      "low": 1492,
+      "high": 1492,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q7322",
+      "source_note": "Canonical historical year verified via Wikidata Q7322 (1492)",
+      "volatile": false
+    },
+    {
+      "entity_id": "reformation-95-theses",
+      "dimension_id": "historical_year",
+      "value": 1517,
+      "low": 1517,
+      "high": 1517,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q157506",
+      "source_note": "Canonical historical year verified via Wikidata Q157506 (1517)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tokugawa-shogunate",
+      "dimension_id": "historical_year",
+      "value": 1603,
+      "low": 1603,
+      "high": 1603,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q205662",
+      "source_note": "Canonical historical year verified via Wikidata Q205662 (1603)",
+      "volatile": false
+    },
+    {
+      "entity_id": "westphalia-peace",
+      "dimension_id": "historical_year",
+      "value": 1648,
+      "low": 1648,
+      "high": 1648,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q150995",
+      "source_note": "Canonical historical year verified via Wikidata Q150995 (1648)",
+      "volatile": false
+    },
+    {
+      "entity_id": "bank-of-england",
+      "dimension_id": "historical_year",
+      "value": 1694,
+      "low": 1694,
+      "high": 1694,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q183231",
+      "source_note": "Canonical historical year verified via Wikidata Q183231 (1694)",
+      "volatile": false
+    },
+    {
+      "entity_id": "us-independence",
+      "dimension_id": "historical_year",
+      "value": 1776,
+      "low": 1776,
+      "high": 1776,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q127912",
+      "source_note": "Canonical historical year verified via Wikidata Q127912 (1776)",
+      "volatile": false
+    },
+    {
+      "entity_id": "french-revolution",
+      "dimension_id": "historical_year",
+      "value": 1789,
+      "low": 1789,
+      "high": 1789,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q6534",
+      "source_note": "Canonical historical year verified via Wikidata Q6534 (1789)",
+      "volatile": false
+    },
+    {
+      "entity_id": "revolutions-1848",
+      "dimension_id": "historical_year",
+      "value": 1848,
+      "low": 1848,
+      "high": 1848,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q129156",
+      "source_note": "Canonical historical year verified via Wikidata Q129156 (1848)",
+      "volatile": false
+    },
+    {
+      "entity_id": "meiji-restoration",
+      "dimension_id": "historical_year",
+      "value": 1868,
+      "low": 1868,
+      "high": 1868,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q8707",
+      "source_note": "Canonical historical year verified via Wikidata Q8707 (1868)",
+      "volatile": false
+    },
+    {
+      "entity_id": "suez-canal-opens",
+      "dimension_id": "historical_year",
+      "value": 1869,
+      "low": 1869,
+      "high": 1869,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q899",
+      "source_note": "Canonical historical year verified via Wikidata Q899 (1869)",
+      "volatile": false
+    },
+    {
+      "entity_id": "federal-reserve-act",
+      "dimension_id": "historical_year",
+      "value": 1913,
+      "low": 1913,
+      "high": 1913,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q53536",
+      "source_note": "Canonical historical year verified via Wikidata Q53536 (1913)",
+      "volatile": false
+    },
+    {
+      "entity_id": "bretton-woods",
+      "dimension_id": "historical_year",
+      "value": 1944,
+      "low": 1944,
+      "high": 1944,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q467054",
+      "source_note": "Canonical historical year verified via Wikidata Q467054 (1944)",
+      "volatile": false
+    },
+    {
+      "entity_id": "transistor-invented",
+      "dimension_id": "historical_year",
+      "value": 1947,
+      "low": 1947,
+      "high": 1947,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q5339",
+      "source_note": "Canonical historical year verified via Wikidata Q5339 (1947)",
+      "volatile": false
+    },
+    {
+      "entity_id": "container-shipping",
+      "dimension_id": "historical_year",
+      "value": 1956,
+      "low": 1956,
+      "high": 1956,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q1746910",
+      "source_note": "Canonical historical year verified via Wikidata Q1746910 (1956)",
+      "volatile": false
+    },
+    {
+      "entity_id": "nixon-gold-shock",
+      "dimension_id": "historical_year",
+      "value": 1971,
+      "low": 1971,
+      "high": 1971,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q2085686",
+      "source_note": "Canonical historical year verified via Wikidata Q2085686 (1971)",
+      "volatile": false
+    },
+    {
+      "entity_id": "china-reform-opening",
+      "dimension_id": "historical_year",
+      "value": 1978,
+      "low": 1978,
+      "high": 1978,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q1090624",
+      "source_note": "Canonical historical year verified via Wikidata Q1090624 (1978)",
+      "volatile": false
+    },
+    {
+      "entity_id": "soviet-dissolution",
+      "dimension_id": "historical_year",
+      "value": 1991,
+      "low": 1991,
+      "high": 1991,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.wikidata.org/wiki/Q5167679",
+      "source_note": "Canonical historical year verified via Wikidata Q5167679 (1991)",
+      "volatile": false
+    }
+  ],
+  "anchor_sets": [
+    {
+      "dimension_id": "population",
+      "entity_ids": [
+        "iceland",
+        "norway",
+        "australia",
+        "vietnam",
+        "united-states",
+        "india"
+      ]
+    },
+    {
+      "dimension_id": "gdp_per_capita_usd",
+      "entity_ids": [
+        "ethiopia",
+        "nigeria",
+        "vietnam",
+        "mexico",
+        "poland",
+        "united-kingdom",
+        "switzerland"
+      ]
+    },
+    {
+      "dimension_id": "land_area_km2",
+      "entity_ids": [
+        "luxembourg",
+        "switzerland",
+        "vietnam",
+        "france",
+        "argentina",
+        "canada",
+        "russia"
+      ]
+    },
+    {
+      "dimension_id": "historical_year",
+      "entity_ids": [
+        "bronze-age-collapse",
+        "black-death-europe",
+        "westphalia-peace",
+        "french-revolution",
+        "bretton-woods"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "east-se-asia-map",
+      "title": "East & Southeast Asia",
+      "module": "geography",
+      "dimension_id": "geo_east_se_asia",
+      "svg_path": "figures/east-se-asia.svg",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "source_note": "Natural Earth 110m Admin-0 Countries (public domain)",
+      "regions": [
+        {
+          "region_id": "region-eas-chn",
+          "label": "China",
+          "adjacent_ids": [
+            "region-eas-vnm",
+            "region-eas-mmr",
+            "region-eas-lao",
+            "region-eas-kor",
+            "region-eas-jpn",
+            "region-eas-twn",
+            "region-eas-prk"
+          ]
+        },
+        {
+          "region_id": "region-eas-jpn",
+          "label": "Japan",
+          "adjacent_ids": [
+            "region-eas-kor",
+            "region-eas-chn",
+            "region-eas-twn",
+            "region-eas-phl"
+          ]
+        },
+        {
+          "region_id": "region-eas-kor",
+          "label": "South Korea",
+          "adjacent_ids": [
+            "region-eas-prk",
+            "region-eas-chn",
+            "region-eas-jpn"
+          ]
+        },
+        {
+          "region_id": "region-eas-prk",
+          "label": "North Korea",
+          "adjacent_ids": [
+            "region-eas-chn",
+            "region-eas-kor"
+          ]
+        },
+        {
+          "region_id": "region-eas-twn",
+          "label": "Taiwan",
+          "adjacent_ids": [
+            "region-eas-chn",
+            "region-eas-jpn",
+            "region-eas-phl"
+          ]
+        },
+        {
+          "region_id": "region-eas-vnm",
+          "label": "Vietnam",
+          "adjacent_ids": [
+            "region-eas-chn",
+            "region-eas-lao",
+            "region-eas-khm",
+            "region-eas-tha",
+            "region-eas-phl"
+          ]
+        },
+        {
+          "region_id": "region-eas-tha",
+          "label": "Thailand",
+          "adjacent_ids": [
+            "region-eas-mmr",
+            "region-eas-lao",
+            "region-eas-khm",
+            "region-eas-mys",
+            "region-eas-vnm"
+          ]
+        },
+        {
+          "region_id": "region-eas-mmr",
+          "label": "Myanmar",
+          "adjacent_ids": [
+            "region-eas-chn",
+            "region-eas-lao",
+            "region-eas-tha"
+          ]
+        },
+        {
+          "region_id": "region-eas-lao",
+          "label": "Laos",
+          "adjacent_ids": [
+            "region-eas-chn",
+            "region-eas-vnm",
+            "region-eas-khm",
+            "region-eas-tha",
+            "region-eas-mmr"
+          ]
+        },
+        {
+          "region_id": "region-eas-khm",
+          "label": "Cambodia",
+          "adjacent_ids": [
+            "region-eas-tha",
+            "region-eas-lao",
+            "region-eas-vnm"
+          ]
+        },
+        {
+          "region_id": "region-eas-mys",
+          "label": "Malaysia",
+          "adjacent_ids": [
+            "region-eas-tha",
+            "region-eas-idn",
+            "region-eas-phl"
+          ]
+        },
+        {
+          "region_id": "region-eas-idn",
+          "label": "Indonesia",
+          "adjacent_ids": [
+            "region-eas-mys",
+            "region-eas-phl"
+          ]
+        },
+        {
+          "region_id": "region-eas-phl",
+          "label": "Philippines",
+          "adjacent_ids": [
+            "region-eas-twn",
+            "region-eas-vnm",
+            "region-eas-mys",
+            "region-eas-idn",
+            "region-eas-jpn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "europe-map",
+      "title": "Europe",
+      "module": "geography",
+      "dimension_id": "geo_europe",
+      "svg_path": "figures/europe.svg",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "source_note": "Natural Earth 110m Admin-0 Countries (public domain)",
+      "regions": [
+        {
+          "region_id": "region-eur-gbr",
+          "label": "United Kingdom",
+          "adjacent_ids": [
+            "region-eur-irl",
+            "region-eur-fra",
+            "region-eur-nld",
+            "region-eur-nor"
+          ]
+        },
+        {
+          "region_id": "region-eur-irl",
+          "label": "Ireland",
+          "adjacent_ids": [
+            "region-eur-gbr"
+          ]
+        },
+        {
+          "region_id": "region-eur-prt",
+          "label": "Portugal",
+          "adjacent_ids": [
+            "region-eur-esp"
+          ]
+        },
+        {
+          "region_id": "region-eur-esp",
+          "label": "Spain",
+          "adjacent_ids": [
+            "region-eur-prt",
+            "region-eur-fra"
+          ]
+        },
+        {
+          "region_id": "region-eur-fra",
+          "label": "France",
+          "adjacent_ids": [
+            "region-eur-esp",
+            "region-eur-bel",
+            "region-eur-deu",
+            "region-eur-che",
+            "region-eur-ita",
+            "region-eur-gbr"
+          ]
+        },
+        {
+          "region_id": "region-eur-bel",
+          "label": "Belgium",
+          "adjacent_ids": [
+            "region-eur-fra",
+            "region-eur-nld",
+            "region-eur-deu"
+          ]
+        },
+        {
+          "region_id": "region-eur-nld",
+          "label": "Netherlands",
+          "adjacent_ids": [
+            "region-eur-bel",
+            "region-eur-deu",
+            "region-eur-gbr"
+          ]
+        },
+        {
+          "region_id": "region-eur-deu",
+          "label": "Germany",
+          "adjacent_ids": [
+            "region-eur-nld",
+            "region-eur-bel",
+            "region-eur-fra",
+            "region-eur-che",
+            "region-eur-aut",
+            "region-eur-cze",
+            "region-eur-pol",
+            "region-eur-dnk"
+          ]
+        },
+        {
+          "region_id": "region-eur-che",
+          "label": "Switzerland",
+          "adjacent_ids": [
+            "region-eur-fra",
+            "region-eur-deu",
+            "region-eur-aut",
+            "region-eur-ita"
+          ]
+        },
+        {
+          "region_id": "region-eur-ita",
+          "label": "Italy",
+          "adjacent_ids": [
+            "region-eur-fra",
+            "region-eur-che",
+            "region-eur-aut",
+            "region-eur-grc"
+          ]
+        },
+        {
+          "region_id": "region-eur-aut",
+          "label": "Austria",
+          "adjacent_ids": [
+            "region-eur-deu",
+            "region-eur-cze",
+            "region-eur-hun",
+            "region-eur-ita",
+            "region-eur-che"
+          ]
+        },
+        {
+          "region_id": "region-eur-cze",
+          "label": "Czechia",
+          "adjacent_ids": [
+            "region-eur-deu",
+            "region-eur-pol",
+            "region-eur-aut"
+          ]
+        },
+        {
+          "region_id": "region-eur-pol",
+          "label": "Poland",
+          "adjacent_ids": [
+            "region-eur-deu",
+            "region-eur-cze",
+            "region-eur-ukr",
+            "region-eur-ltu"
+          ]
+        },
+        {
+          "region_id": "region-eur-dnk",
+          "label": "Denmark",
+          "adjacent_ids": [
+            "region-eur-deu",
+            "region-eur-swe",
+            "region-eur-nor"
+          ]
+        },
+        {
+          "region_id": "region-eur-nor",
+          "label": "Norway",
+          "adjacent_ids": [
+            "region-eur-swe",
+            "region-eur-fin",
+            "region-eur-dnk"
+          ]
+        },
+        {
+          "region_id": "region-eur-swe",
+          "label": "Sweden",
+          "adjacent_ids": [
+            "region-eur-nor",
+            "region-eur-fin",
+            "region-eur-dnk"
+          ]
+        },
+        {
+          "region_id": "region-eur-fin",
+          "label": "Finland",
+          "adjacent_ids": [
+            "region-eur-swe",
+            "region-eur-nor",
+            "region-eur-est"
+          ]
+        },
+        {
+          "region_id": "region-eur-est",
+          "label": "Estonia",
+          "adjacent_ids": [
+            "region-eur-fin",
+            "region-eur-ltu"
+          ]
+        },
+        {
+          "region_id": "region-eur-ltu",
+          "label": "Lithuania",
+          "adjacent_ids": [
+            "region-eur-pol",
+            "region-eur-est"
+          ]
+        },
+        {
+          "region_id": "region-eur-ukr",
+          "label": "Ukraine",
+          "adjacent_ids": [
+            "region-eur-pol",
+            "region-eur-hun",
+            "region-eur-rou"
+          ]
+        },
+        {
+          "region_id": "region-eur-rou",
+          "label": "Romania",
+          "adjacent_ids": [
+            "region-eur-ukr",
+            "region-eur-hun"
+          ]
+        },
+        {
+          "region_id": "region-eur-hun",
+          "label": "Hungary",
+          "adjacent_ids": [
+            "region-eur-aut",
+            "region-eur-ukr",
+            "region-eur-rou"
+          ]
+        },
+        {
+          "region_id": "region-eur-grc",
+          "label": "Greece",
+          "adjacent_ids": [
+            "region-eur-tur",
+            "region-eur-ita"
+          ]
+        },
+        {
+          "region_id": "region-eur-tur",
+          "label": "Turkey",
+          "adjacent_ids": [
+            "region-eur-grc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "americas-map",
+      "title": "The Americas",
+      "module": "geography",
+      "dimension_id": "geo_americas",
+      "svg_path": "figures/americas.svg",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "source_note": "Natural Earth 110m Admin-0 Countries (public domain)",
+      "regions": [
+        {
+          "region_id": "region-ame-can",
+          "label": "Canada",
+          "adjacent_ids": [
+            "region-ame-usa"
+          ]
+        },
+        {
+          "region_id": "region-ame-usa",
+          "label": "United States",
+          "adjacent_ids": [
+            "region-ame-can",
+            "region-ame-mex",
+            "region-ame-cub"
+          ]
+        },
+        {
+          "region_id": "region-ame-mex",
+          "label": "Mexico",
+          "adjacent_ids": [
+            "region-ame-usa",
+            "region-ame-cub"
+          ]
+        },
+        {
+          "region_id": "region-ame-cub",
+          "label": "Cuba",
+          "adjacent_ids": [
+            "region-ame-usa",
+            "region-ame-mex"
+          ]
+        },
+        {
+          "region_id": "region-ame-col",
+          "label": "Colombia",
+          "adjacent_ids": [
+            "region-ame-ven",
+            "region-ame-ecu",
+            "region-ame-per",
+            "region-ame-bra",
+            "region-ame-pan"
+          ]
+        },
+        {
+          "region_id": "region-ame-ven",
+          "label": "Venezuela",
+          "adjacent_ids": [
+            "region-ame-col",
+            "region-ame-bra"
+          ]
+        },
+        {
+          "region_id": "region-ame-ecu",
+          "label": "Ecuador",
+          "adjacent_ids": [
+            "region-ame-col",
+            "region-ame-per"
+          ]
+        },
+        {
+          "region_id": "region-ame-per",
+          "label": "Peru",
+          "adjacent_ids": [
+            "region-ame-ecu",
+            "region-ame-col",
+            "region-ame-bra",
+            "region-ame-bol",
+            "region-ame-chl"
+          ]
+        },
+        {
+          "region_id": "region-ame-bra",
+          "label": "Brazil",
+          "adjacent_ids": [
+            "region-ame-col",
+            "region-ame-ven",
+            "region-ame-per",
+            "region-ame-bol",
+            "region-ame-ury",
+            "region-ame-arg"
+          ]
+        },
+        {
+          "region_id": "region-ame-bol",
+          "label": "Bolivia",
+          "adjacent_ids": [
+            "region-ame-per",
+            "region-ame-bra",
+            "region-ame-chl",
+            "region-ame-arg"
+          ]
+        },
+        {
+          "region_id": "region-ame-chl",
+          "label": "Chile",
+          "adjacent_ids": [
+            "region-ame-per",
+            "region-ame-bol",
+            "region-ame-arg"
+          ]
+        },
+        {
+          "region_id": "region-ame-arg",
+          "label": "Argentina",
+          "adjacent_ids": [
+            "region-ame-chl",
+            "region-ame-bol",
+            "region-ame-bra",
+            "region-ame-ury"
+          ]
+        },
+        {
+          "region_id": "region-ame-ury",
+          "label": "Uruguay",
+          "adjacent_ids": [
+            "region-ame-bra",
+            "region-ame-arg"
+          ]
+        },
+        {
+          "region_id": "region-ame-pan",
+          "label": "Panama",
+          "adjacent_ids": [
+            "region-ame-cri",
+            "region-ame-col"
+          ]
+        },
+        {
+          "region_id": "region-ame-cri",
+          "label": "Costa Rica",
+          "adjacent_ids": [
+            "region-ame-pan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "africa-mena-map",
+      "title": "Africa & Middle East",
+      "module": "geography",
+      "dimension_id": "geo_africa_mena",
+      "svg_path": "figures/africa-mena.svg",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "source_note": "Natural Earth 110m Admin-0 Countries (public domain)",
+      "regions": [
+        {
+          "region_id": "region-afr-mar",
+          "label": "Morocco",
+          "adjacent_ids": [
+            "region-afr-dza"
+          ]
+        },
+        {
+          "region_id": "region-afr-dza",
+          "label": "Algeria",
+          "adjacent_ids": [
+            "region-afr-mar",
+            "region-afr-egy"
+          ]
+        },
+        {
+          "region_id": "region-afr-egy",
+          "label": "Egypt",
+          "adjacent_ids": [
+            "region-afr-dza",
+            "region-afr-isr",
+            "region-afr-jor",
+            "region-afr-sau"
+          ]
+        },
+        {
+          "region_id": "region-afr-isr",
+          "label": "Israel",
+          "adjacent_ids": [
+            "region-afr-egy",
+            "region-afr-jor"
+          ]
+        },
+        {
+          "region_id": "region-afr-jor",
+          "label": "Jordan",
+          "adjacent_ids": [
+            "region-afr-isr",
+            "region-afr-egy",
+            "region-afr-sau",
+            "region-afr-irq"
+          ]
+        },
+        {
+          "region_id": "region-afr-sau",
+          "label": "Saudi Arabia",
+          "adjacent_ids": [
+            "region-afr-jor",
+            "region-afr-irq",
+            "region-afr-are",
+            "region-afr-omn",
+            "region-afr-egy"
+          ]
+        },
+        {
+          "region_id": "region-afr-irq",
+          "label": "Iraq",
+          "adjacent_ids": [
+            "region-afr-irn",
+            "region-afr-jor",
+            "region-afr-sau"
+          ]
+        },
+        {
+          "region_id": "region-afr-irn",
+          "label": "Iran",
+          "adjacent_ids": [
+            "region-afr-irq",
+            "region-afr-are"
+          ]
+        },
+        {
+          "region_id": "region-afr-are",
+          "label": "United Arab Emirates",
+          "adjacent_ids": [
+            "region-afr-sau",
+            "region-afr-omn",
+            "region-afr-irn"
+          ]
+        },
+        {
+          "region_id": "region-afr-omn",
+          "label": "Oman",
+          "adjacent_ids": [
+            "region-afr-sau",
+            "region-afr-are"
+          ]
+        },
+        {
+          "region_id": "region-afr-nga",
+          "label": "Nigeria",
+          "adjacent_ids": [
+            "region-afr-gha",
+            "region-afr-civ"
+          ]
+        },
+        {
+          "region_id": "region-afr-gha",
+          "label": "Ghana",
+          "adjacent_ids": [
+            "region-afr-civ",
+            "region-afr-nga"
+          ]
+        },
+        {
+          "region_id": "region-afr-civ",
+          "label": "Côte d'Ivoire",
+          "adjacent_ids": [
+            "region-afr-gha",
+            "region-afr-nga"
+          ]
+        },
+        {
+          "region_id": "region-afr-eth",
+          "label": "Ethiopia",
+          "adjacent_ids": [
+            "region-afr-ken",
+            "region-afr-egy"
+          ]
+        },
+        {
+          "region_id": "region-afr-ken",
+          "label": "Kenya",
+          "adjacent_ids": [
+            "region-afr-eth",
+            "region-afr-tza"
+          ]
+        },
+        {
+          "region_id": "region-afr-tza",
+          "label": "Tanzania",
+          "adjacent_ids": [
+            "region-afr-ken",
+            "region-afr-cod"
+          ]
+        },
+        {
+          "region_id": "region-afr-cod",
+          "label": "DR Congo",
+          "adjacent_ids": [
+            "region-afr-tza",
+            "region-afr-ago"
+          ]
+        },
+        {
+          "region_id": "region-afr-ago",
+          "label": "Angola",
+          "adjacent_ids": [
+            "region-afr-cod",
+            "region-afr-zaf"
+          ]
+        },
+        {
+          "region_id": "region-afr-zaf",
+          "label": "South Africa",
+          "adjacent_ids": [
+            "region-afr-ago",
+            "region-afr-zwe"
+          ]
+        },
+        {
+          "region_id": "region-afr-zwe",
+          "label": "Zimbabwe",
+          "adjacent_ids": [
+            "region-afr-zaf"
+          ]
+        },
+        {
+          "region_id": "region-afr-mdg",
+          "label": "Madagascar",
+          "adjacent_ids": [
+            "region-afr-tza",
+            "region-afr-zaf"
+          ]
+        }
+      ]
+    }
+  ],
+  "plain_cards": [],
+  "ordering_assertions": [
+    {
+      "dimension_id": "population",
+      "ordered_entity_ids": [
+        "iceland",
+        "norway",
+        "australia",
+        "vietnam",
+        "japan",
+        "united-states",
+        "india"
+      ]
+    },
+    {
+      "dimension_id": "land_area_km2",
+      "ordered_entity_ids": [
+        "luxembourg",
+        "switzerland",
+        "united-kingdom",
+        "france",
+        "brazil",
+        "canada",
+        "russia"
+      ]
+    },
+    {
+      "dimension_id": "historical_year",
+      "ordered_entity_ids": [
+        "bronze-age-collapse",
+        "gutenberg-press",
+        "westphalia-peace",
+        "french-revolution",
+        "meiji-restoration",
+        "bretton-woods",
+        "nixon-gold-shock",
+        "soviet-dissolution"
+      ]
+    }
+  ]
+}

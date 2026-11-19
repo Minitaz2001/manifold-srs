@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" class="manifold-figure-svg">
+  <rect width="600" height="420" fill="var(--fig-bg, #131720)" rx="12" />
+  <text x="20" y="28" fill="var(--fig-muted, #8b95a5)" font-size="13" font-family="system-ui, sans-serif" font-weight="600">US PRIMARY ENERGY FLOW SCHEMATIC (~94 QUADS)</text>
+  <g id="regions-layer">
+    <rect id="ef-petroleum" data-region="ef-petroleum" data-label="Petroleum (~38%)" x="24" y="52" width="132" height="104" rx="6" class="figure-region" />
+    <rect id="ef-natural-gas" data-region="ef-natural-gas" data-label="Natural Gas (~36%)" x="24" y="168" width="132" height="96" rx="6" class="figure-region" />
+    <rect id="ef-coal" data-region="ef-coal" data-label="Coal (~9%)" x="24" y="276" width="132" height="40" rx="6" class="figure-region" />
+    <rect id="ef-nuclear" data-region="ef-nuclear" data-label="Nuclear (~9%)" x="24" y="326" width="132" height="36" rx="6" class="figure-region" />
+    <rect id="ef-renewables" data-region="ef-renewables" data-label="Renewables (~9%)" x="24" y="370" width="132" height="34" rx="6" class="figure-region" />
+    <rect id="ef-electricity" data-region="ef-electricity" data-label="Electricity Generation (~38%)" x="218" y="212" width="146" height="130" rx="6" class="figure-region" />
+    <rect id="ef-transport" data-region="ef-transport" data-label="Transportation (~28%)" x="424" y="52" width="152" height="72" rx="6" class="figure-region" />
+    <rect id="ef-industrial" data-region="ef-industrial" data-label="Industrial (~24%)" x="424" y="136" width="152" height="62" rx="6" class="figure-region" />
+    <rect id="ef-res-comm" data-region="ef-res-comm" data-label="Residential &amp; Commercial" x="424" y="210" width="152" height="58" rx="6" class="figure-region" />
+    <rect id="ef-rejected" data-region="ef-rejected" data-label="Rejected Waste Heat (~65%)" x="424" y="284" width="152" height="118" rx="6" class="figure-region" />
+  </g>
+  <g stroke="var(--fig-line, #4b5563)" stroke-width="2" fill="none" opacity="0.55" pointer-events="none">
+    <path d="M156,88 C280,88 300,88 424,88" />
+    <path d="M156,136 C280,136 300,156 424,156" />
+    <path d="M156,204 C260,204 320,174 424,174" />
+    <path d="M156,236 C188,236 188,246 218,246" />
+    <path d="M156,296 C188,296 188,284 218,284" />
+    <path d="M156,344 C188,344 188,312 218,312" />
+    <path d="M156,386 C188,386 188,330 218,330" />
+    <path d="M364,244 C394,244 394,238 424,238" />
+    <path d="M364,314 C394,314 394,342 424,342" />
+  </g>
+</svg>

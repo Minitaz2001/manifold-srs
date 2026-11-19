@@ -1,0 +1,533 @@
+[
+ {
+  "key": "are_built|fact|r-closed-cell-spray|r_value_per_in",
+  "entity": "Closed-Cell Spray Foam / Polyiso (R per inch)",
+  "dimension": "Thermal Resistance",
+  "unit": "R/in",
+  "scale": "linear",
+  "value": 6.5,
+  "low": 6.0,
+  "high": 7.0,
+  "note": "Closed-cell spray polyurethane / aged polyiso ~6.0–6.8 R/in",
+  "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|fee-bidding-pct|project_pct",
+  "entity": "Bidding / Negotiation Phase Fee Share",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 5.0,
+  "low": 5.0,
+  "high": 5.0,
+  "note": "Standard AIA B101 basic-services fee split for Bidding/Negotiation: ~5%",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|fee-retainage-pct|project_pct",
+  "entity": "Typical Construction Retainage Held",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 10.0,
+  "low": 5.0,
+  "high": 10.0,
+  "note": "Standard retainage withheld from contractor progress payments until substantial completion: 5–10%",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|fee-sd-pct|project_pct",
+  "entity": "Schematic Design (SD) Phase Fee Share",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 15.0,
+  "low": 15.0,
+  "high": 15.0,
+  "note": "Standard AIA B101 basic-services fee split for Schematic Design: ~15%",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|fee-dd-pct|project_pct",
+  "entity": "Design Development (DD) Phase Fee Share",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 20.0,
+  "low": 20.0,
+  "high": 20.0,
+  "note": "Standard AIA B101 basic-services fee split for Design Development: ~20%",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|fee-ca-pct|project_pct",
+  "entity": "Construction Administration (CA) Fee Share",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 20.0,
+  "low": 20.0,
+  "high": 25.0,
+  "note": "Standard AIA B101 basic-services fee split for Construction Phase Services: ~20–25%",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|fee-cd-pct|project_pct",
+  "entity": "Construction Documents (CD) Phase Fee Share",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 40.0,
+  "low": 35.0,
+  "high": 40.0,
+  "note": "Standard AIA B101 basic-services fee split for Construction Documents: ~35–40%",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|pm-utilization-target|project_pct",
+  "entity": "Healthy Firm-Wide Utilization Rate (Direct Labor)",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 65.0,
+  "low": 60.0,
+  "high": 70.0,
+  "note": "AIA Firm Survey benchmark: healthy all-staff billable utilization rate ~60–65% (technical staff ~75–85%)",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|fact|pa-ntg-office|project_pct",
+  "entity": "Typical Office Net-to-Gross Efficiency Ratio",
+  "dimension": "Project & Practice Benchmark",
+  "unit": "%",
+  "scale": "linear",
+  "value": 80.0,
+  "low": 75.0,
+  "high": 85.0,
+  "note": "Programming rule of thumb: typical commercial office net-to-gross efficiency ~75–85% (hospitals ~55–65%)",
+  "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
+  "as_of": "2026-11-19"
+ },
+ {
+  "key": "are_built|card|are-aia-a101",
+  "front": "AIA A101 covers what agreement and pricing basis?",
+  "back": "Owner–Contractor agreement where basis of payment is a Stipulated Sum (Lump Sum). Incorporates A201 General Conditions.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-a102",
+  "front": "AIA A102 vs. A103: what is the difference?",
+  "back": "Both are Owner–Contractor Cost of the Work Plus a Fee; A102 includes a Guaranteed Maximum Price (GMP), A103 has no GMP.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-a133",
+  "front": "AIA A133 covers which delivery method?",
+  "back": "Owner–Construction Manager as Constructor (CMaR) where basis of payment is Cost of the Work Plus a Fee with a GMP (preconstruction + construction).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-a141",
+  "front": "AIA A141 covers which delivery method?",
+  "back": "Owner–Design-Builder agreement (single contract holding both design and construction responsibility).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-a201",
+  "front": "AIA A201 is the keystone document for what?",
+  "back": "General Conditions of the Contract for Construction — defines rights, responsibilities, and relationships of Owner, Contractor, and Architect during construction.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-a305",
+  "front": "AIA A305 is used during bidding for what purpose?",
+  "back": "Contractor's Qualification Statement — vets bidder financial stability, bonding capacity, experience, and prior litigation before bidding/award.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-a310-a312",
+  "front": "AIA A310 vs. A312: which bonds are which?",
+  "back": "A310 = Bid Bond (guarantees bidder will enter contract if awarded). A312 = Performance Bond + Payment Bond (guarantees completion & sub/supplier payment).",
+  "source_url": "https://en.wikipedia.org/wiki/Surety_bond"
+ },
+ {
+  "key": "are_built|card|are-aia-b101",
+  "front": "AIA B101 covers what agreement?",
+  "back": "Standard Owner–Architect Agreement for basic services (SD, DD, CD, Bidding, CA), supplemental/additional services, compensation, and instruments of service.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-c401",
+  "front": "AIA C401 covers what agreement?",
+  "back": "Architect–Consultant Agreement (e.g., structural, MEP, civil) — flows down B101 prime-agreement obligations ('conduit' / pass-through).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-g701",
+  "front": "AIA G701 is what construction administration form?",
+  "back": "Change Order — modifies Contract Sum and/or Contract Time; requires ALL THREE signatures: Owner, Architect, and Contractor.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-g702-g703",
+  "front": "AIA G702 and G703 are used for what?",
+  "back": "G702 = Application and Certificate for Payment (certified by Architect). G703 = Continuation Sheet / Schedule of Values itemizing % complete per line.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-g704",
+  "front": "AIA G704 certifies what milestone, and what starts on that date?",
+  "back": "Certificate of Substantial Completion — project is sufficiently complete for intended occupancy; starts warranty periods, transfers insurance/utilities to Owner, and triggers punch list.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-g706",
+  "front": "AIA G706 & G706A protect the Owner from what at closeout?",
+  "back": "G706 = Contractor's Affidavit of Payment of Debts & Claims; G706A = Affidavit of Release of Liens — protects Owner against mechanics' liens before final payment.",
+  "source_url": "https://en.wikipedia.org/wiki/Mechanic%27s_lien"
+ },
+ {
+  "key": "are_built|card|are-aia-g707",
+  "front": "AIA G707 is required before final payment when a project is bonded — what is it?",
+  "back": "Consent of Surety to Final Payment — ensures the surety agrees to release retainage/final payment without voiding bond coverage.",
+  "source_url": "https://en.wikipedia.org/wiki/Surety_bond"
+ },
+ {
+  "key": "are_built|card|are-aia-g710",
+  "front": "AIA G710 (ASI) does what — and what can it NOT change?",
+  "back": "Architect's Supplemental Instructions — clarifies drawings or makes minor changes ONLY if they involve NO change in Contract Sum and NO change in Contract Time.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-aia-g714",
+  "front": "AIA G714 (CCD) differs from a G701 Change Order how?",
+  "back": "Construction Change Directive — directs work when Owner & Contractor haven't agreed on cost/time; signed by Owner + Architect only (no Contractor signature required to start work).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-contract-standard-of-care",
+  "front": "Under AIA B101 §2.2, why must an architect reject 'highest standard' or 'warranty' wording?",
+  "back": "E&O insurance covers only ordinary negligence against the local professional Standard of Care; warranties or 'best/highest' promises create uninsured contractual liability.",
+  "source_url": "https://en.wikipedia.org/wiki/Standard_of_care"
+ },
+ {
+  "key": "are_built|card|are-instruments-of-service",
+  "front": "Under AIA B101, who owns copyright to the Instruments of Service?",
+  "back": "The Architect (and consultants) retain copyright; upon payment, the Owner receives a nonexclusive license solely for constructing, using, and maintaining the project.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-consequential-damages",
+  "front": "AIA B101 & A201 include a Mutual Waiver of Consequential Damages — what does it exclude?",
+  "back": "Indirect/downstream losses (lost rent, lost profits, financing penalties, reputational harm); parties limit claims to direct damages or agreed liquidated damages.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-dispute-ladder",
+  "front": "What is the default dispute-resolution sequence under AIA A201?",
+  "back": "Initial Decision Maker (default: Architect) → Mediation (mandatory condition precedent) → Binding Dispute Resolution (Arbitration or Litigation, selected in agreement).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-means-methods",
+  "front": "Under A201, who is solely responsible for construction means, methods, techniques, and jobsite safety?",
+  "back": "The Contractor — never the Architect. Directing jobsite safety or construction methods transfers liability to the Architect.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-stop-work",
+  "front": "Can the Architect stop construction work if they spot nonconforming work or an unsafe scaffold?",
+  "back": "NO. Only the Owner can issue a stop-work order (A201 §2.4). The Architect has authority to REJECT nonconforming work and notify the Owner/Contractor in writing.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-submittal-review",
+  "front": "What is the Architect's scope when reviewing shop drawings and submittals?",
+  "back": "Limited to checking conformance with information given and design concept expressed in the Contract Documents — NOT verifying field dimensions, quantities, or safety.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-submittal-not-cd",
+  "front": "Are approved shop drawings / submittals considered Contract Documents under A201?",
+  "back": "NO. Approved submittals do not modify the Contract Documents; any deviation requires a formal modification (CO, CCD, or ASI).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-rfi-purpose",
+  "front": "What is an RFI (Request for Information) vs. an ASI?",
+  "back": "RFI = Contractor asks Architect to clarify ambiguities/conflicts in CDs (no cost/time change). ASI = Architect proactively issues minor clarification/change (no cost/time change).",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-ce-proposal-request",
+  "front": "When is a Proposal Request (PR / AIA G709) issued?",
+  "back": "When the Owner/Architect contemplates a change affecting cost or time and wants a Contractor price/schedule quote BEFORE authorizing work via Change Order.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-pay-app-timing",
+  "front": "Under A201, how many days does the Architect have to certify (or withhold) a Contractor's G702 pay app?",
+  "back": "7 days after receipt (either certify for payment or notify Contractor and Owner in writing of reasons for withholding).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-stored-materials",
+  "front": "Can a Contractor bill for materials stored off-site on a G702 pay application?",
+  "back": "Only with prior Owner approval plus proof of title/bill of sale, proper storage/identification, and insurance covering the off-site location.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-ce-liquidated-damages",
+  "front": "What makes Liquidated Damages enforceable vs. an unenforceable penalty?",
+  "back": "Must be a reasonable pre-estimate of hard-to-quantify daily Owner delay losses agreed at contract signing — cannot be punitive. Often paired with early-completion bonus.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-ce-addenda-vs-co",
+  "front": "Addendum vs. Change Order: when is each issued?",
+  "back": "Addendum modifies Bidding Documents BEFORE contract award (issued to all bidders). Change Order modifies Contract Documents AFTER contract execution.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-ce-alternates-allowances",
+  "front": "Bid Alternate vs. Allowance vs. Unit Price?",
+  "back": "Alternate = optional scope priced separately at bid. Allowance = placeholder dollar sum for an unspecified item (reconciled later). Unit Price = fixed rate per quantity (e.g., $/CY rock removal).",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-ce-punch-list",
+  "front": "Who prepares the initial Punch List before Substantial Completion under A201?",
+  "back": "The Contractor prepares the comprehensive list of items to be completed/corrected; the Architect then inspects and adds any omitted items before issuing G704.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-correction-period",
+  "front": "What is the standard A201 one-year Correction of Work period vs. general warranty?",
+  "back": "Contractor must promptly correct defective work within 1 year after Substantial Completion (obligation to return); general warranty/statute of limitations can extend longer.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-mechanics-lien",
+  "front": "What is a Mechanic's Lien and how do Owners prevent it?",
+  "back": "Statutory security interest filed against real property by an unpaid contractor/sub/supplier. Prevented via conditional/unconditional lien waivers with pay apps and payment bonds.",
+  "source_url": "https://en.wikipedia.org/wiki/Mechanic%27s_lien"
+ },
+ {
+  "key": "are_built|card|are-ce-builders-risk",
+  "front": "Who typically carries Builder's Risk (property) insurance during construction under A201?",
+  "back": "The Owner (covering full insurable replacement value of work-in-progress against fire/theft/weather), while the Contractor carries Commercial General Liability (CGL) & Workers' Comp.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-ce-csi-div00-01",
+  "front": "CSI MasterFormat: what is in Division 00 vs. Division 01?",
+  "back": "Division 00 = Procurement & Contracting Requirements (bidding, agreements, A201). Division 01 = General Requirements (submittals, closeout, quality control, temporary facilities).",
+  "source_url": "https://en.wikipedia.org/wiki/MasterFormat"
+ },
+ {
+  "key": "are_built|card|are-ce-csi-key-divs",
+  "front": "CSI MasterFormat key technical divisions: 03, 05, 07, 08, 09, 23, 26?",
+  "back": "03 Concrete, 05 Metals, 07 Thermal & Moisture Protection, 08 Openings (doors/windows), 09 Finishes, 23 HVAC, 26 Electrical.",
+  "source_url": "https://en.wikipedia.org/wiki/MasterFormat"
+ },
+ {
+  "key": "are_built|card|are-ce-spec-types",
+  "front": "Performance vs. Prescriptive vs. Proprietary specifications?",
+  "back": "Performance = states required outcome/criteria (contractor picks means). Prescriptive = details exact materials/installation. Proprietary = names exact brand/product (closed or 'or equal').",
+  "source_url": "https://en.wikipedia.org/wiki/MasterFormat"
+ },
+ {
+  "key": "are_built|card|are-ce-spec-precedence",
+  "front": "Under A201, if drawings and specifications conflict, which takes precedence?",
+  "back": "Neither automatically — Contract Documents are complementary! Architect interprets intent; typically more stringent/expensive requirement or specific detail over general governs unless specified otherwise.",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-delivery-dbb",
+  "front": "Design-Bid-Build (DBB): defining feature, biggest pro, biggest con?",
+  "back": "Separate Owner contracts with Architect and GC; sequential phases. Pro: competitive low-bid price & checks/balances. Con: longest schedule, no contractor preconstruction input, adversarial claims.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-delivery-cmar",
+  "front": "CM at Risk (CMaR / A133) vs. CM as Adviser (CMa / C132)?",
+  "back": "CMaR holds trade subcontracts and guarantees a GMP (at financial risk). CMa is a fee-only Owner consultant holding zero trade contracts (Owner holds multiple prime contracts).",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-delivery-db",
+  "front": "Design-Build (DB): biggest pro and biggest tradeoff for the Owner?",
+  "back": "Single point of responsibility + fastest overlapping schedule. Tradeoff: Owner loses independent Architect advocacy/checks-and-balances (bridging architect sometimes hired).",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-delivery-ipd",
+  "front": "Integrated Project Delivery (IPD): what distinguishes it contractually?",
+  "back": "Single multi-party agreement signed by Owner, Architect, and Contractor sharing risk/reward pool, early involvement of all parties, open-book accounting, and liability waivers among team.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-pjm-cpm-float",
+  "front": "Critical Path Method (CPM): what is the Critical Path and what is its Float?",
+  "back": "Longest sequential chain of dependent activities determining minimum project duration. Every task on the critical path has ZERO Total Float.",
+  "source_url": "https://en.wikipedia.org/wiki/Critical_path_method"
+ },
+ {
+  "key": "are_built|card|are-pjm-free-vs-total-float",
+  "front": "Free Float vs. Total Float in a CPM schedule?",
+  "back": "Free Float = delay allowed without delaying the next activity's early start. Total Float = delay allowed without pushing out the final project completion date.",
+  "source_url": "https://en.wikipedia.org/wiki/Critical_path_method"
+ },
+ {
+  "key": "are_built|card|are-pjm-fast-track",
+  "front": "What is Fast-Track construction and its main risk?",
+  "back": "Starting early construction packages (excavation/foundation) before full CDs are complete. Cuts schedule, but raises coordination errors, redesign cost, and late change orders.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-pjm-net-multiplier",
+  "front": "Firm financial ratio: Net Multiplier formula & healthy range?",
+  "back": "Net Operating Revenue ÷ Direct Labor Cost. Measures how many dollars of revenue each direct labor dollar generates; healthy architectural firm target ~2.8–3.2 (must exceed Break-Even Rate = 1 + Overhead Rate).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-pjm-overhead-breakeven",
+  "front": "Overhead Rate and Break-Even Rate formulas?",
+  "back": "Overhead Rate = Total Indirect Expenses ÷ Total Direct Labor (typical ~1.3–1.7). Break-Even Rate = 1.0 + Overhead Rate (~2.3–2.7).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-pjm-proforma-caprate",
+  "front": "Real estate pro forma: NOI and Capitalization Rate (Cap Rate) formula?",
+  "back": "NOI = Effective Gross Income − Operating Expenses (excludes debt service & depreciation). Property Value = NOI ÷ Cap Rate.",
+  "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio"
+ },
+ {
+  "key": "are_built|card|are-pjm-hard-vs-soft",
+  "front": "Project budget: Hard Costs vs. Soft Costs?",
+  "back": "Hard Costs = physical construction (labor, materials, site work, GC overhead). Soft Costs = design/engineering fees, permits, legal, financing, testing, insurance (~20–30% of total).",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-pjm-contingency",
+  "front": "Design Contingency vs. Construction Contingency?",
+  "back": "Design Contingency shrinks from ~15–20% in SD to ~0% at bid as scope hardens. Construction Contingency (~5% new build, ~10% renovation) covers unforeseen field conditions/COs.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-pjm-value-engineering",
+  "front": "True Value Engineering (VE) vs. simple cost-cutting?",
+  "back": "VE analyzes life-cycle cost vs. function (achieving equal or better performance at lower total life-cycle cost), not merely slashing initial capital cost by degrading quality.",
+  "source_url": "https://en.wikipedia.org/wiki/Construction_management"
+ },
+ {
+  "key": "are_built|card|are-pjm-entity-types",
+  "front": "Sole Proprietorship vs. General Partnership vs. LLC vs. Corporation (liability)?",
+  "back": "Sole Prop & General Partnership = unlimited personal liability (and joint-and-several for partners). LLC / Corp / PC = shields personal assets from firm business debts (never from one's own malpractice).",
+  "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects"
+ },
+ {
+  "key": "are_built|card|are-pa-far",
+  "front": "Floor Area Ratio (FAR): formula and what does FAR 4.0 allow on a 10,000 sf lot?",
+  "back": "FAR = Total Gross Building Floor Area ÷ Net Lot Area. FAR 4.0 on 10,000 sf = 40,000 sf total (e.g., 4 stories × 100% lot, or 8 stories × 50% lot coverage).",
+  "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio"
+ },
+ {
+  "key": "are_built|card|are-pa-variance-vs-cup",
+  "front": "Zoning Variance vs. Conditional Use Permit (CUP) vs. Rezoning?",
+  "back": "Variance = relief from dimensional rules (setback/height) proving unique site hardship. CUP = permitted use with extra conditions. Rezoning = legislative change to zoning map/text.",
+  "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio"
+ },
+ {
+  "key": "are_built|card|are-pa-easement-vs-covenant",
+  "front": "Easement vs. Restrictive Covenant (Deed Restriction)?",
+  "back": "Easement = legal right for another party to use/cross part of land (utility, access, solar). Covenant = private deed restriction limiting use/appearance (stricter of zoning or covenant governs).",
+  "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio"
+ },
+ {
+  "key": "are_built|card|are-pa-esa-phase1-2",
+  "front": "Environmental Site Assessment: Phase I ESA vs. Phase II ESA?",
+  "back": "Phase I = non-invasive historical records, site walk, interviews to spot Recognized Environmental Conditions (RECs). Phase II = physical soil/groundwater/asbestos sampling & lab testing if Phase I flags RECs.",
+  "source_url": "https://en.wikipedia.org/wiki/Phase_I_environmental_site_assessment"
+ },
+ {
+  "key": "are_built|card|are-pa-brownfield",
+  "front": "Brownfield vs. Greyfield vs. Greenfield site?",
+  "back": "Brownfield = previously developed site with real or perceived environmental contamination. Greyfield = economically obsolete developed site (dead mall/parking lot) without major toxics. Greenfield = undeveloped land.",
+  "source_url": "https://en.wikipedia.org/wiki/Phase_I_environmental_site_assessment"
+ },
+ {
+  "key": "are_built|card|are-pa-ada-ramp-slope",
+  "front": "2010 ADA Standards: max running slope, max cross slope, and max rise per ramp run?",
+  "back": "1:12 max running slope (8.33%), 1:48 max cross slope (2.08%), and 30 inches max vertical rise per run before a 60-inch level landing (ADA §405).",
+  "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/"
+ },
+ {
+  "key": "are_built|card|are-pa-type-v-over-i",
+  "front": "Why do '5-over-1' buildings dominate US urban infill?",
+  "back": "IBC §510.2 allows up to 5 stories of combustible wood framing (Type IIIA or VA, sprinklered) above a 3-hour fire-separated Type IA concrete podium, maximizing rentable area per dollar.",
+  "source_url": "https://en.wikipedia.org/wiki/5-over-1"
+ },
+ {
+  "key": "are_built|card|are-pa-ibc-types",
+  "front": "IBC Construction Types I through V ordered from most to least fire-resistive?",
+  "back": "I = Noncombustible highest fire-resistance (concrete/protected steel); II = Noncombustible lower rating; III = Noncombustible ext. walls + combustible interior; IV = Heavy/Mass Timber; V = Combustible (wood frame). Suffix A = protected, B = unprotected.",
+  "source_url": "https://en.wikipedia.org/wiki/International_Building_Code"
+ },
+ {
+  "key": "are_built|card|are-pa-ibc-occupancies",
+  "front": "IBC Occupancy Groups: A, B, E, F, H, I, M, R, S, U?",
+  "back": "A Assembly, B Business, E Educational, F Factory, H High-Hazard, I Institutional (hospitals/prisons), M Mercantile, R Residential, S Storage, U Utility/Misc.",
+  "source_url": "https://en.wikipedia.org/wiki/International_Building_Code"
+ },
+ {
+  "key": "are_built|card|are-pa-two-exits-rule",
+  "front": "IBC general rule: at what occupant load are two exits required (most occupancies)?",
+  "back": "≥50 occupants for Group A, B, E, F, M, U (≥10 for R-2/R-3 stories above 1st; ≥30 for S). When 2 exits are required, separate them by ≥1/2 diagonal (≥1/3 diagonal if fully sprinklered).",
+  "source_url": "https://en.wikipedia.org/wiki/International_Building_Code"
+ },
+ {
+  "key": "are_built|card|are-pa-solar-orientation",
+  "front": "Northern Hemisphere passive solar rule for South vs. East/West facades?",
+  "back": "South = high summer sun (easy to shade with horizontal overhangs), low winter sun (passive heat gain). East/West = low-angle harsh sun requiring vertical fins or minimized glazing.",
+  "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio"
+ },
+ {
+  "key": "are_built|card|are-pa-slope-grading",
+  "front": "Site grading slopes: drainage away from foundation, max accessible walk without ramp, max grass mowing slope?",
+  "back": "Foundation drainage = min 5% (6 in over first 10 ft). Accessible walkway (not a ramp) = ≤5% (1:20). Comfortable lawn mowing = ≤25–33% (4:1 to 3:1).",
+  "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/"
+ },
+ {
+  "key": "are_built|card|are-pa-contour-rules",
+  "front": "Topographic contour lines: how do valleys/swales vs. ridges point, and what does close spacing mean?",
+  "back": "Contours point UPHILL in valleys/swales and DOWNHILL on ridges. Closely spaced contours = steep slope; wide spacing = gentle/flat grade.",
+  "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity"
+ },
+ {
+  "key": "are_built|card|are-pa-microclimate-urban",
+  "front": "Heat Island mitigation & passive cooling: albedo, thermal mass, stack ventilation?",
+  "back": "High-albedo (reflective) surfaces & vegetated roofs cut urban heat island; high thermal mass flattens diurnal swings (hot-arid); stack ventilation vents hot air high and draws cool air low.",
+  "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)"
+ },
+ {
+  "key": "are_built|card|are-pa-water-table-frost",
+  "front": "Why must footings sit below the local frost line, and what happens below the water table?",
+  "back": "Below frost line prevents frost-heave cracking from freezing soil moisture. Below water table requires hydrostatic waterproofing, dewatering during construction, and uplift/buoyancy resistance.",
+  "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity"
+ },
+ {
+  "key": "are_built|card|are-pa-historic-soi",
+  "front": "Secretary of the Interior's four treatments for historic properties (most to least conservative)?",
+  "back": "Preservation (maintain existing form), Rehabilitation (compatible new use while keeping historic character — tax credit eligible), Restoration (return to one specific era), Reconstruction (rebuild vanished structure).",
+  "source_url": "https://en.wikipedia.org/wiki/International_Building_Code"
+ }
+]

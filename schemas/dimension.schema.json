@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://manifold-srs.local/schemas/dimension.schema.json",
+  "title": "Dimension",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "unit", "scale", "tolerance"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "unit": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "scale": {
+      "type": "string",
+      "enum": ["log", "linear", "date", "geo", "categorical"]
+    },
+    "tolerance": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "tolerance_mode": {
+      "type": "string",
+      "enum": ["factor", "absolute", "date_pct"],
+      "description": "Defaults to factor for log, absolute for linear, date_pct for date."
+    },
+    "min_domain": {
+      "type": "number"
+    },
+    "max_domain": {
+      "type": "number"
+    }
+  }
+}

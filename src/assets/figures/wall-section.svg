@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" class="manifold-figure-svg">
+  <rect width="600" height="420" fill="var(--fig-bg, #131720)" rx="12" />
+  <text x="20" y="28" fill="var(--fig-muted, #8b95a5)" font-size="13" font-family="system-ui, sans-serif" font-weight="600">EXTERIOR RAINSCREEN WALL SECTION (OUTSIDE LEFT → INSIDE RIGHT)</text>
+  <text x="26" y="54" fill="var(--fig-muted, #8b95a5)" font-size="11" font-family="ui-monospace, monospace">EXTERIOR</text>
+  <text x="506" y="54" fill="var(--fig-muted, #8b95a5)" font-size="11" font-family="ui-monospace, monospace">INTERIOR</text>
+  <g id="regions-layer">
+    <rect id="ws-cladding" data-region="ws-cladding" data-label="Exterior Cladding (Rainscreen)" x="34" y="68" width="54" height="316" rx="4" class="figure-region" />
+    <rect id="ws-air-gap" data-region="ws-air-gap" data-label="Drainage / Ventilated Air Cavity" x="96" y="68" width="38" height="316" rx="4" class="figure-region" />
+    <rect id="ws-ext-insul" data-region="ws-ext-insul" data-label="Continuous Exterior Insulation" x="142" y="68" width="76" height="316" rx="4" class="figure-region" />
+    <rect id="ws-wrb" data-region="ws-wrb" data-label="WRB / Continuous Air Barrier" x="226" y="68" width="24" height="316" rx="4" class="figure-region" />
+    <rect id="ws-sheathing" data-region="ws-sheathing" data-label="Structural Sheathing" x="258" y="68" width="44" height="316" rx="4" class="figure-region" />
+    <rect id="ws-stud-cavity" data-region="ws-stud-cavity" data-label="Stud Framing + Cavity Insulation" x="310" y="68" width="166" height="316" rx="4" class="figure-region" />
+    <rect id="ws-gypsum" data-region="ws-gypsum" data-label="Interior Gypsum Wallboard" x="484" y="68" width="46" height="316" rx="4" class="figure-region" />
+  </g>
+  <g stroke="var(--fig-line, #64748b)" stroke-width="1.2" opacity="0.4" pointer-events="none">
+    <line x1="34" y1="140" x2="88" y2="140" />
+    <line x1="34" y1="220" x2="88" y2="220" />
+    <line x1="34" y1="300" x2="88" y2="300" />
+    <line x1="310" y1="100" x2="476" y2="100" stroke-dasharray="4 4" />
+    <line x1="310" y1="352" x2="476" y2="352" stroke-dasharray="4 4" />
+    <path d="M115,96 L115,356 M108,344 L115,356 L122,344" stroke-width="1.5" />
+  </g>
+</svg>

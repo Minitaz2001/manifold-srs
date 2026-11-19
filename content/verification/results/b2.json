@@ -1,0 +1,548 @@
+[
+ {
+  "key": "geography|fact|ethiopia|population",
+  "verdict": "unsure",
+  "corrected_value": 135000000,
+  "evidence_url": null,
+  "note": "UN/WB 2025-26 ~132-136M; value ~5% low, at band edge"
+ },
+ {
+  "key": "geography|fact|ethiopia|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 1100,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; recent ~1,000-1,300 USD (volatile after 2024 birr float)"
+ },
+ {
+  "key": "geography|fact|ethiopia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|japan|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|japan|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 32500,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; yen depreciation: 2024 ~32-33k USD, below band"
+ },
+ {
+  "key": "geography|fact|japan|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|mexico|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|mexico|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 13900,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~13.9k USD (1.4x)"
+ },
+ {
+  "key": "geography|fact|mexico|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|russia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|russia|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 14900,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~14.9k USD (1.27x)"
+ },
+ {
+  "key": "geography|fact|russia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|bangladesh|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|bangladesh|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 2600,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~2.6k USD (1.4x)"
+ },
+ {
+  "key": "geography|fact|bangladesh|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|brazil|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|brazil|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "stale 2019 base but within ~1.2x of current"
+ },
+ {
+  "key": "geography|fact|brazil|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|nigeria|population",
+  "verdict": "wrong",
+  "corrected_value": 240000000,
+  "evidence_url": null,
+  "note": "UN WPP 2024: ~233M in 2024, ~240M+ by 2026; 211M is ~2021"
+ },
+ {
+  "key": "geography|fact|nigeria|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 1000,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; naira devaluation 2023-24 cut it to ~800-1,100 USD (post-2025 rebase ~1.1k); ~2x off"
+ },
+ {
+  "key": "geography|fact|nigeria|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|pakistan|population",
+  "verdict": "wrong",
+  "corrected_value": 250000000,
+  "evidence_url": null,
+  "note": "2023 census 241.5M; ~250M+ by 2026; 223.8M is ~2020"
+ },
+ {
+  "key": "geography|fact|pakistan|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "stale 2019 base but within ~1.2x of current"
+ },
+ {
+  "key": "geography|fact|pakistan|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|indonesia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "BPS 2025 ~284M, ~3% above value; acceptable"
+ },
+ {
+  "key": "geography|fact|indonesia|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "stale 2019 base but within ~1.2x of current"
+ },
+ {
+  "key": "geography|fact|indonesia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|united-states|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|united-states|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 85800,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~85.8k USD (1.31x), outside band"
+ },
+ {
+  "key": "geography|fact|united-states|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|peoples-republic-of-china|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|peoples-republic-of-china|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 13300,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~13.3k USD (1.30x)"
+ },
+ {
+  "key": "geography|fact|peoples-republic-of-china|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|india|population",
+  "verdict": "wrong",
+  "corrected_value": 1460000000,
+  "evidence_url": null,
+  "note": "UN WPP 2024: ~1.46B in 2025; 1.326B is ~2016-era; band excludes truth"
+ },
+ {
+  "key": "geography|fact|india|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 2700,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~2.7k USD (1.29x)"
+ },
+ {
+  "key": "geography|fact|india|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|cuba|population",
+  "verdict": "wrong",
+  "corrected_value": 9750000,
+  "evidence_url": null,
+  "note": "ONEI official 2024 ~9.75M (independent estimates lower, ~8-9M); 10.99M is pre-emigration-wave"
+ },
+ {
+  "key": "geography|fact|cuba|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "Cuban GDP in USD depends on official 1:24 exchange rate; figure poorly defined"
+ },
+ {
+  "key": "geography|fact|cuba|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|panama|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|panama|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 19000,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~18.5-19k USD (1.2x)"
+ },
+ {
+  "key": "geography|fact|panama|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|costa-rica|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|costa-rica|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 17000,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~17k USD (1.4x)"
+ },
+ {
+  "key": "geography|fact|costa-rica|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|venezuela|population",
+  "verdict": "unsure",
+  "corrected_value": 28500000,
+  "evidence_url": null,
+  "note": "UN WPP 2024 ~28.4M; official INE higher; disputed due to emigration"
+ },
+ {
+  "key": "geography|fact|venezuela|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 3800,
+  "evidence_url": null,
+  "note": "2014 figure before economic collapse; IMF/WB recent estimates ~3.5-4.5k USD, ~4x off"
+ },
+ {
+  "key": "geography|fact|venezuela|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|ecuador|population",
+  "verdict": "wrong",
+  "corrected_value": 18000000,
+  "evidence_url": null,
+  "note": "16,938,986 is the 2022 census count; 2025-26 estimates ~18.0-18.3M (~7% higher)"
+ },
+ {
+  "key": "geography|fact|ecuador|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "stale 2019 base but within ~1.2x of current"
+ },
+ {
+  "key": "geography|fact|ecuador|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|bolivia|population",
+  "verdict": "wrong",
+  "corrected_value": 11310000,
+  "evidence_url": null,
+  "note": "2024 census counted ~11.31M; 12.24M was an overprojection (~8% high)"
+ },
+ {
+  "key": "geography|fact|bolivia|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "stale 2019 base but within ~1.2x of current"
+ },
+ {
+  "key": "geography|fact|bolivia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|uruguay|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|uruguay|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 23000,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~23k USD (1.4x)"
+ },
+ {
+  "key": "geography|fact|uruguay|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|united-arab-emirates|population",
+  "verdict": "wrong",
+  "corrected_value": 10900000,
+  "evidence_url": null,
+  "note": "WB 2024 ~10.9M; UN ~11M; value ~10% low"
+ },
+ {
+  "key": "geography|fact|united-arab-emirates|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "stale 2019 base but within ~1.2x of current"
+ },
+ {
+  "key": "geography|fact|united-arab-emirates|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|qatar|population",
+  "verdict": "wrong",
+  "corrected_value": 3100000,
+  "evidence_url": null,
+  "note": "PSA monthly 2025 ~3.0-3.1M; value ~15% low"
+ },
+ {
+  "key": "geography|fact|qatar|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 76000,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~76k USD (1.22x)"
+ },
+ {
+  "key": "geography|fact|qatar|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|oman|population",
+  "verdict": "wrong",
+  "corrected_value": 5300000,
+  "evidence_url": null,
+  "note": "NCSI 2025 ~5.2-5.3M; value ~9% low"
+ },
+ {
+  "key": "geography|fact|oman|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 20000,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~19.5-20k USD (1.3x)"
+ },
+ {
+  "key": "geography|fact|oman|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|jordan|population",
+  "verdict": "wrong",
+  "corrected_value": 11600000,
+  "evidence_url": null,
+  "note": "DoS/WB 2024-25 ~11.5-11.7M; value ~10% low"
+ },
+ {
+  "key": "geography|fact|jordan|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "stale 2019 base but within ~1.2x of current"
+ },
+ {
+  "key": "geography|fact|jordan|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|cambodia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|cambodia|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 2600,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; 2024 ~2.6k USD (1.6x)"
+ },
+ {
+  "key": "geography|fact|cambodia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|laos|population",
+  "verdict": "wrong",
+  "corrected_value": 7700000,
+  "evidence_url": null,
+  "note": "official/UN 2024-25 ~7.6-7.9M; value ~12% low"
+ },
+ {
+  "key": "geography|fact|laos|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 2050,
+  "evidence_url": null,
+  "note": "stale 2019 Natural Earth figure; kip collapse: 2023-24 ~2.0-2.1k USD, below band"
+ },
+ {
+  "key": "geography|fact|laos|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|myanmar|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|myanmar|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "recent ~1.2-1.4k USD; within ~1.2x"
+ },
+ {
+  "key": "geography|fact|myanmar|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ }
+]

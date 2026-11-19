@@ -1,0 +1,24 @@
+{
+  "pack_id": "bad-anchor-collision",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "physics",
+  "entities": [
+    { "id": "b1", "name": "Alpha", "kind": "scale", "module": "physics", "tags": [] },
+    { "id": "b2", "name": "Beta", "kind": "scale", "module": "physics", "tags": [] },
+    { "id": "b3", "name": "Gamma", "kind": "scale", "module": "physics", "tags": [] }
+  ],
+  "dimensions": [
+    { "id": "energy_mj", "name": "Energy", "unit": "MJ", "scale": "log", "tolerance": 2 }
+  ],
+  "facts": [
+    { "entity_id": "b1", "dimension_id": "energy_mj", "value": 100, "low": 100, "high": 100, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Reference 100 MJ", "volatile": false },
+    { "entity_id": "b2", "dimension_id": "energy_mj", "value": 110, "low": 110, "high": 110, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Within 1.2x of Alpha", "volatile": false },
+    { "entity_id": "b3", "dimension_id": "energy_mj", "value": 10000, "low": 10000, "high": 10000, "as_of": "2025", "source_url": "https://www.nist.gov/", "source_note": "Reference 10000 MJ", "volatile": false }
+  ],
+  "anchor_sets": [
+    { "dimension_id": "energy_mj", "entity_ids": ["b1", "b2", "b3"] }
+  ],
+  "figures": [],
+  "plain_cards": []
+}

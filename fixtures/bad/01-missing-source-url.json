@@ -1,0 +1,28 @@
+{
+  "pack_id": "bad-missing-source",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "physics",
+  "entities": [
+    { "id": "water", "name": "Water", "kind": "material", "module": "physics", "tags": ["density"] }
+  ],
+  "dimensions": [
+    { "id": "density_kg_m3", "name": "Density", "unit": "kg/m³", "scale": "log", "tolerance": 2 }
+  ],
+  "facts": [
+    {
+      "entity_id": "water",
+      "dimension_id": "density_kg_m3",
+      "value": 1000,
+      "low": 997,
+      "high": 1000,
+      "as_of": "2025-01-01",
+      "source_url": "",
+      "source_note": "Liquid water at 4 C standard pressure",
+      "volatile": false
+    }
+  ],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": []
+}

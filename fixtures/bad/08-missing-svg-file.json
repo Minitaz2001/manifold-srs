@@ -1,0 +1,30 @@
+{
+  "pack_id": "bad-svg-missing",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "are_built",
+  "entities": [
+    { "id": "cladding", "name": "Cladding", "kind": "layer", "module": "are_built", "tags": [] }
+  ],
+  "dimensions": [
+    { "id": "wall_assembly", "name": "Wall Assembly", "unit": "", "scale": "geo", "tolerance": 1 }
+  ],
+  "facts": [],
+  "anchor_sets": [],
+  "figures": [
+    {
+      "id": "missing-fig",
+      "title": "Missing Wall SVG",
+      "module": "are_built",
+      "dimension_id": "wall_assembly",
+      "svg_path": "figures/does-not-exist.svg",
+      "regions": [
+        { "region_id": "r1", "label": "Cladding", "entity_id": "cladding" },
+        { "region_id": "r2", "label": "Gap" },
+        { "region_id": "r3", "label": "Insulation" },
+        { "region_id": "r4", "label": "Sheathing" }
+      ]
+    }
+  ],
+  "plain_cards": []
+}

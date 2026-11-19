@@ -1,0 +1,548 @@
+[
+ {
+  "key": "physics|fact|prs-concrete-strength|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-mariana-trench|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-steel-yield|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|prs-earth-core|pressure_pa",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mat-lithium|material_output_mt_yr",
+  "verdict": "wrong",
+  "corrected_value": 0.29,
+  "evidence_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+  "note": "USGS MCS 2026: 2025 world Li production ~290 kt (2024 ~240 kt); 0.18 is 2023-era, ~1.6x low. Widen band to ~0.24-0.33."
+ },
+ {
+  "key": "physics|fact|mat-copper|material_output_mt_yr",
+  "verdict": "wrong",
+  "corrected_value": 27.5,
+  "evidence_url": null,
+  "note": "Entity says REFINED copper but 22 Mt is mine output; refined is ~27-28 Mt/yr (ICSG 2024-25). Either relabel to 'mined' or set ~27.5 with band ~25-30."
+ },
+ {
+  "key": "physics|fact|mat-aluminum|material_output_mt_yr",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mat-ammonia|material_output_mt_yr",
+  "verdict": "wrong",
+  "corrected_value": 185.0,
+  "evidence_url": null,
+  "note": "Entity is ammonia but 150 is N-content; NH3 itself ~180-190 Mt/yr. Relabel to 'nitrogen content' or set ~185 (band 170-200)."
+ },
+ {
+  "key": "physics|fact|mat-plastics|material_output_mt_yr",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mat-steel|material_output_mt_yr",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "worldsteel 2024 ~1,882 Mt, 2025 ~1,85x Mt; fine."
+ },
+ {
+  "key": "physics|fact|mat-cement|material_output_mt_yr",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mat-crude-oil|material_output_mt_yr",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mat-coal|material_output_mt_yr",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "Slightly low: IEA reports record ~9.1-9.2 Gt in 2024-25; consider value 9000 and high 9400."
+ },
+ {
+  "key": "physics|fact|mat-co2-emissions|material_output_mt_yr",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-drag",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-square-cube",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-stefan-boltzmann",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-diffusion",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-db",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-carnot",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-kwh-mj",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-water-heat",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-solar-flux",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-wind-power",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-thunder-delay",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-hydrostatic",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-rule-of-72",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-pi-e7",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-margin-error",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-acre-ha",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-ms-mph",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-btu-kw",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-kelvin-ambient",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|card|phy-rule-ideal-gas",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-threshold-beveled-max|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-stair-riser-min|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-stair-riser-max|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-stair-tread-min|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-reach-low-min|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-water-closet-center|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-knee-clearance-height|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "Value right; section is §306.3.3, not 306.3.1."
+ },
+ {
+  "key": "are_built|fact|ada-ramp-rise-max|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-door-clear-width|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-handrail-height|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-accessible-route-width|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ibc-guardrail-height|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ibc-corridor-width-comm|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-reach-high|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-turning-circle|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|ada-headroom-clearance|code_dimension_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-assembly-standing|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-assembly-unfixed|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-assembly-tables|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-classroom|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-library-reading|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-mercantile|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-industrial-lab|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-business|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-residential|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|occ-warehouse-mech|occupant_load_sf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "300 gross accessory storage/mechanical, 500 gross warehouses; combined entity is fine with band."
+ },
+ {
+  "key": "are_built|fact|soil-clay|soil_bearing_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|soil-sand-silty|soil_bearing_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|soil-gravel|soil_bearing_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|soil-sedimentary|soil_bearing_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|soil-crystalline|soil_bearing_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-roof-ordinary|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-residential-sleeping|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-residential-other|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-office-floor|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-corridor-upper|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-public-lobby-stairs|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-library-stacks|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|load-heavy-storage|live_load_psf",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|r-concrete|r_value_per_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|r-softwood|r_value_per_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|r-fiberglass-batt|r_value_per_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|r-mineral-wool|r_value_per_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "are_built|fact|r-xps-foam|r_value_per_in",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ }
+]

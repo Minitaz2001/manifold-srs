@@ -1,0 +1,23 @@
+{
+  "pack_id": "bad-monotonicity",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "physics",
+  "entities": [
+    { "id": "li-ion", "name": "Li-ion", "kind": "fuel", "module": "physics", "tags": [] },
+    { "id": "diesel", "name": "Diesel", "kind": "fuel", "module": "physics", "tags": [] }
+  ],
+  "dimensions": [
+    { "id": "energy_density_mj_kg", "name": "Specific Energy", "unit": "MJ/kg", "scale": "log", "tolerance": 2 }
+  ],
+  "facts": [
+    { "entity_id": "li-ion", "dimension_id": "energy_density_mj_kg", "value": 50, "low": 50, "high": 50, "as_of": "2025", "source_url": "https://afdc.energy.gov/", "source_note": "Wrongly bigger than diesel", "volatile": false },
+    { "entity_id": "diesel", "dimension_id": "energy_density_mj_kg", "value": 1, "low": 1, "high": 1, "as_of": "2025", "source_url": "https://afdc.energy.gov/", "source_note": "Wrongly smaller than li-ion", "volatile": false }
+  ],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": [],
+  "ordering_assertions": [
+    { "dimension_id": "energy_density_mj_kg", "ordered_entity_ids": ["li-ion", "diesel"] }
+  ]
+}

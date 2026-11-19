@@ -1,0 +1,548 @@
+[
+ {
+  "key": "physics|fact|len-paper-sheet|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-credit-card|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-human-height|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-shipping-container|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "12.19 m is correct; 'high-cube' in note is unnecessary (standard and HC 40ft share length; HC differs in height)"
+ },
+ {
+  "key": "physics|fact|len-football-field|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-empire-state|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-burj-khalifa|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-mount-everest|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-commercial-cruise|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-karman-line|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-iss-orbit|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-earth-radius|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-geo-orbit|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-earth-moon|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-sun-radius|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-astronomical-unit|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|len-light-year|length_m",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-proton|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-ecoli|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-mammalian-cell|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-mosquito|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-raindrop|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-paperclip|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-smartphone|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-liter-water|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-human|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-passenger-car|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-blue-whale|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-boeing-747|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-container-ship|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "24k-TEU ships ~240k t DWT + ~60k t lightship => full displacement nearer 3e8 kg; 2.5e8 within tolerance"
+ },
+ {
+  "key": "physics|fact|mass-empire-state|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-great-pyramid|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-all-humans|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-earth-atmosphere|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-earth-oceans|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-moon|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-earth|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-jupiter|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|mass-sun|mass_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-cpu-cycle|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-l1-cache|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-ram-access|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-nvme-read|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-neuron-spike|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-frame-60hz|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-transatlantic-rtt|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-human-reaction|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-heartbeat|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-light-sun-earth|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-ecoli-division|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-solar-day|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-lunar-month|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-julian-year|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-human-lifespan|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "value fine; note's '~4,000 weeks' is rounded (80 yr = ~4,170 weeks)"
+ },
+ {
+  "key": "physics|fact|time-written-history|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-homo-sapiens|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-dino-extinction|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-earth-age|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|time-universe-age|time_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-plate-tectonics|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-snail|speed_m_s",
+  "verdict": "wrong",
+  "corrected_value": 0.001,
+  "evidence_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+  "note": "garden snail typically ~1 mm/s; world-record (Congham) snail only 0.00275 m/s. 1 cm/s is ~4-10x too fast; band should be ~5e-4 to 3e-3"
+ },
+ {
+  "key": "physics|fact|spd-human-walk|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-bicycle|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-usain-bolt|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-highway-car|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-cat5-hurricane|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-high-speed-rail|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-nerve-impulse|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-commercial-jet|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-sound-air|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-rifle-bullet|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-sound-water|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-sound-steel|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-leo-orbital|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-earth-escape|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-earth-orbit|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|spd-light-vacuum|speed_m_s",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "physics|fact|en-hydro-10m|energy_density_mj_kg",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ }
+]

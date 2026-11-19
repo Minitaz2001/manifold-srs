@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://manifold-srs.local/schemas/plain_card.schema.json",
+  "title": "PlainCard",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "module", "front", "back"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "module": {
+      "type": "string",
+      "enum": ["geography", "physics", "natural_world", "are_built"]
+    },
+    "entity_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "front": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 400
+    },
+    "back": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 800
+    },
+    "media": {
+      "type": "string",
+      "pattern": "^media/[a-zA-Z0-9_./-]+\\.(jpg|jpeg|png|webp|svg)$"
+    },
+    "attribution": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "source_note": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "as_of": {
+      "type": "string",
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"
+    },
+    "volatile": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,548 @@
+[
+ {
+  "key": "geography|fact|iceland|population",
+  "verdict": "wrong",
+  "corrected_value": 394000,
+  "evidence_url": "https://statice.is/publications/news-archive/inhabitants/the-population-on-1-january-2025",
+  "note": "Statistics Iceland: 389,444 (1 Jan 2025), ~394,500 end-2025; 364k is ~2021 vintage, ~8% low"
+ },
+ {
+  "key": "geography|fact|iceland|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 86000,
+  "evidence_url": null,
+  "note": "2019 data; 2024 nominal ~US$85-87k (WB/IMF), ~1.3x above band"
+ },
+ {
+  "key": "geography|fact|iceland|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|luxembourg|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|luxembourg|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|luxembourg|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|estonia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|estonia|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 31000,
+  "evidence_url": null,
+  "note": "2019 data; 2024 nominal ~US$31k (WB), ~1.3x above band"
+ },
+ {
+  "key": "geography|fact|estonia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|ireland|population",
+  "verdict": "wrong",
+  "corrected_value": 5460000,
+  "evidence_url": "https://www.cso.ie/en/releasesandpublications/ep/p-pme/populationandmigrationestimatesapril2025/keyfindings",
+  "note": "CSO April 2025 estimate 5,458,600; 5.15M is the 2022 census, ~6% low"
+ },
+ {
+  "key": "geography|fact|ireland|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 106000,
+  "evidence_url": null,
+  "note": "2019 data; 2024 nominal ~US$105-107k (WB), ~1.35x above band; also GDP heavily distorted by multinationals"
+ },
+ {
+  "key": "geography|fact|ireland|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|new-zealand|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|new-zealand|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|new-zealand|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|norway|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|norway|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|norway|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "Includes Svalbard and Jan Mayen; mainland is ~323,800 km2"
+ },
+ {
+  "key": "geography|fact|finland|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|finland|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|finland|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|denmark|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "~5.99-6.0M in 2025-26; value ~3% low"
+ },
+ {
+  "key": "geography|fact|denmark|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|denmark|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "Denmark proper (excl. Greenland/Faroes); note's 'total sovereign territory' wording is misleading — Realm is ~2.2M km2"
+ },
+ {
+  "key": "geography|fact|switzerland|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|switzerland|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "2019 data; 2024 ~US$104k, ~1.26x, within log tolerance but stale"
+ },
+ {
+  "key": "geography|fact|switzerland|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|austria|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "~9.2M in 2025; value ~2.5% low"
+ },
+ {
+  "key": "geography|fact|austria|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|austria|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|israel|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|israel|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "2019 data; 2024 ~US$54k, ~1.24x"
+ },
+ {
+  "key": "geography|fact|israel|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "Excludes Golan Heights/East Jerusalem (22,072 with them)"
+ },
+ {
+  "key": "geography|fact|portugal|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "INE ~10.75M end-2024; value ~4% low, near tolerance"
+ },
+ {
+  "key": "geography|fact|portugal|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "2019 data; 2024 ~US$28.8k, ~1.24x"
+ },
+ {
+  "key": "geography|fact|portugal|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|sweden|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|sweden|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|sweden|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|greece|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|greece|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "2019 data; 2024 ~US$24.5k, ~1.25x"
+ },
+ {
+  "key": "geography|fact|greece|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|czechia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|czechia|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 31500,
+  "evidence_url": null,
+  "note": "2019 data; 2024 nominal ~US$31-32k (WB), ~1.35x above band"
+ },
+ {
+  "key": "geography|fact|czechia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|hungary|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|hungary|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 23300,
+  "evidence_url": null,
+  "note": "2019 data; 2024 nominal ~US$23k (WB), ~1.39x above band"
+ },
+ {
+  "key": "geography|fact|hungary|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|belgium|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|belgium|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "2019 data; 2024 ~US$56.6k, ~1.22x"
+ },
+ {
+  "key": "geography|fact|belgium|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|netherlands|population",
+  "verdict": "wrong",
+  "corrected_value": 18130000,
+  "evidence_url": "https://www.cbs.nl/en-gb/news/2024/33/population-of-the-netherlands-reaches-18-million",
+  "note": "CBS: passed 18M in Aug 2024, 18,131,238 end-2025; 17.1M is ~2019"
+ },
+ {
+  "key": "geography|fact|netherlands|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": "2019 data; 2024 ~US$67k, ~1.29x, borderline stale"
+ },
+ {
+  "key": "geography|fact|netherlands|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|chile|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|chile|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|chile|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|kazakhstan|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|kazakhstan|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 13500,
+  "evidence_url": null,
+  "note": "2019 data; 2024 nominal ~US$13-14k (IMF/WB), ~1.35-1.4x above band"
+ },
+ {
+  "key": "geography|fact|kazakhstan|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|romania|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|romania|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 20080,
+  "evidence_url": "https://fred.stlouisfed.org/series/PCAGDPROA646NWDB",
+  "note": "World Bank 2024 current US$ 20,080; 2019 value 12,920 is 1.55x low"
+ },
+ {
+  "key": "geography|fact|romania|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|australia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|australia|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|australia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|north-korea|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|north-korea|gdp_per_capita_usd",
+  "verdict": "unsure",
+  "corrected_value": 1300,
+  "evidence_url": null,
+  "note": "2016 Natural Earth figure is CIA PPP-based, not nominal; nominal estimates range ~$650 (UN) to ~$1,300 (Bank of Korea GNI); inherently uncertain"
+ },
+ {
+  "key": "geography|fact|north-korea|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|taiwan|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|taiwan|gdp_per_capita_usd",
+  "verdict": "wrong",
+  "corrected_value": 39500,
+  "evidence_url": "https://www.taiwannews.com.tw/en/news/6343574",
+  "note": "47,818 is a PPP-style figure mislabeled nominal (2016 nominal was ~$22.6k); DGBAS 2025 nominal ~US$39,477"
+ },
+ {
+  "key": "geography|fact|taiwan|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|malaysia|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|malaysia|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|malaysia|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|ghana|population",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": "https://statsghana.gov.gh",
+  "note": "GSS 2025 est. 33.7M, 2026 projection 34.4M; value ~3-5% low, acceptable but near edge"
+ },
+ {
+  "key": "geography|fact|ghana|gdp_per_capita_usd",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ },
+ {
+  "key": "geography|fact|ghana|land_area_km2",
+  "verdict": "ok",
+  "corrected_value": null,
+  "evidence_url": null,
+  "note": ""
+ }
+]

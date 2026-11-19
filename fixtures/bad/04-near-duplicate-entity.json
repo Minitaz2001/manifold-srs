@@ -1,0 +1,15 @@
+{
+  "pack_id": "bad-near-duplicate",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "geography",
+  "entities": [
+    { "id": "colombia", "name": "Colombia", "kind": "country", "module": "geography", "tags": ["latam"] },
+    { "id": "columbia", "name": "Columbia", "kind": "country", "module": "geography", "tags": ["latam"] }
+  ],
+  "dimensions": [],
+  "facts": [],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": []
+}

@@ -1,0 +1,20 @@
+{
+  "pack_id": "bad-media-no-attribution",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "natural_world",
+  "entities": [],
+  "dimensions": [],
+  "facts": [],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": [
+    {
+      "id": "card-no-attr",
+      "module": "natural_world",
+      "front": "Identify this tree",
+      "back": "Red Maple",
+      "media": "media/natural-world/missing-tree.jpg"
+    }
+  ]
+}

@@ -1,0 +1,4046 @@
+{
+  "pack_id": "natural-world-northeast",
+  "version": "0.2.0",
+  "release_date": "2026-11-19",
+  "module": "natural_world",
+  "entities": [
+    {
+      "id": "red-maple",
+      "name": "Red Maple (Acer rubrum)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "sugar-maple",
+      "name": "Sugar Maple (Acer saccharum)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "norway-maple",
+      "name": "Norway Maple (Acer platanoides)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "silver-maple",
+      "name": "Silver Maple (Acer saccharinum)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "boxelder",
+      "name": "Boxelder (Acer negundo)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "eastern-white-pine",
+      "name": "Eastern White Pine (Pinus strobus)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "pitch-pine",
+      "name": "Pitch Pine (Pinus rigida)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "eastern-hemlock",
+      "name": "Eastern Hemlock (Tsuga canadensis)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "eastern-redcedar",
+      "name": "Eastern Redcedar (Juniperus virginiana)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "balsam-fir",
+      "name": "Balsam Fir (Abies balsamea)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "northern-red-oak",
+      "name": "Northern Red Oak (Quercus rubra)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "white-oak",
+      "name": "White Oak (Quercus alba)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "pin-oak",
+      "name": "Pin Oak (Quercus palustris)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "chestnut-oak",
+      "name": "Chestnut Oak (Quercus montana)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "american-sycamore",
+      "name": "American Sycamore (Platanus occidentalis)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "london-plane",
+      "name": "London Plane (Platanus x acerifolia)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "paper-birch",
+      "name": "Paper Birch (Betula papyrifera)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "yellow-birch",
+      "name": "Yellow Birch (Betula alleghaniensis)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "black-birch",
+      "name": "Sweet / Black Birch (Betula lenta)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "river-birch",
+      "name": "River Birch (Betula nigra)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "ginkgo-biloba",
+      "name": "Ginkgo (Ginkgo biloba)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "american-beech",
+      "name": "American Beech (Fagus grandifolia)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "tulip-poplar",
+      "name": "Tulip Tree (Liriodendron tulipifera)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "sweetgum",
+      "name": "American Sweetgum (Liquidambar styraciflua)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "black-cherry",
+      "name": "Black Cherry (Prunus serotina)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "american-elm",
+      "name": "American Elm (Ulmus americana)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "honeylocust",
+      "name": "Honeylocust (Gleditsia triacanthos)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "black-locust",
+      "name": "Black Locust (Robinia pseudoacacia)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "sassafras",
+      "name": "Sassafras (Sassafras albidum)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "shagbark-hickory",
+      "name": "Shagbark Hickory (Carya ovata)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "black-walnut",
+      "name": "Black Walnut (Juglans nigra)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "white-ash",
+      "name": "White Ash (Fraxinus americana)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "weeping-willow",
+      "name": "Weeping Willow (Salix babylonica)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "eastern-cottonwood",
+      "name": "Eastern Cottonwood (Populus deltoides)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "quaking-aspen",
+      "name": "Quaking Aspen (Populus tremuloides)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "flowering-dogwood",
+      "name": "Flowering Dogwood (Cornus florida)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "eastern-redbud",
+      "name": "Eastern Redbud (Cercis canadensis)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "american-holly",
+      "name": "American Holly (Ilex opaca)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "tree-of-heaven",
+      "name": "Tree of Heaven (Ailanthus altissima)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "bald-cypress",
+      "name": "Bald Cypress (Taxodium distichum)",
+      "kind": "tree",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "tree"
+      ]
+    },
+    {
+      "id": "red-tailed-hawk",
+      "name": "Red-tailed Hawk (Buteo jamaicensis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "peregrine-falcon",
+      "name": "Peregrine Falcon (Falco peregrinus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "american-kestrel",
+      "name": "American Kestrel (Falco sparverius)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "coopers-hawk",
+      "name": "Cooper's Hawk (Accipiter cooperii)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "bald-eagle",
+      "name": "Bald Eagle (Haliaeetus leucocephalus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "osprey",
+      "name": "Osprey (Pandion haliaetus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "great-horned-owl",
+      "name": "Great Horned Owl (Bubo virginianus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "barred-owl",
+      "name": "Barred Owl (Strix varia)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "great-blue-heron",
+      "name": "Great Blue Heron (Ardea herodias)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "great-egret",
+      "name": "Great Egret (Ardea alba)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "black-crowned-night-heron",
+      "name": "Black-crowned Night-Heron (Nycticorax nycticorax)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "double-crested-cormorant",
+      "name": "Double-crested Cormorant (Nannopterum auritum)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "canada-goose",
+      "name": "Canada Goose (Branta canadensis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "mallard",
+      "name": "Mallard (Anas platyrhynchos)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "wood-duck",
+      "name": "Wood Duck (Aix sponsa)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "herring-gull",
+      "name": "Herring Gull (Larus argentatus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "belted-kingfisher",
+      "name": "Belted Kingfisher (Megaceryle alcyon)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "rock-pigeon",
+      "name": "Rock Pigeon (Columba livia)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "mourning-dove",
+      "name": "Mourning Dove (Zenaida macroura)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "downy-woodpecker",
+      "name": "Downy Woodpecker (Dryobates pubescens)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "red-bellied-woodpecker",
+      "name": "Red-bellied Woodpecker (Melanerpes carolinus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "northern-flicker",
+      "name": "Northern Flicker (Colaptes auratus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "pileated-woodpecker",
+      "name": "Pileated Woodpecker (Dryocopus pileatus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "blue-jay",
+      "name": "Blue Jay (Cyanocitta cristata)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "american-crow",
+      "name": "American Crow (Corvus brachyrhynchos)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "black-capped-chickadee",
+      "name": "Black-capped Chickadee (Poecile atricapillus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "tufted-titmouse",
+      "name": "Tufted Titmouse (Baeolophus bicolor)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "white-breasted-nuthatch",
+      "name": "White-breasted Nuthatch (Sitta carolinensis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "american-robin",
+      "name": "American Robin (Turdus migratorius)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "gray-catbird",
+      "name": "Gray Catbird (Dumetella carolinensis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "northern-mockingbird",
+      "name": "Northern Mockingbird (Mimus polyglottos)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "european-starling",
+      "name": "European Starling (Sturnus vulgaris)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "cedar-waxwing",
+      "name": "Cedar Waxwing (Bombycilla cedrorum)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "yellow-warbler",
+      "name": "Yellow Warbler (Setophaga petechia)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "northern-cardinal",
+      "name": "Northern Cardinal (Cardinalis cardinalis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "red-winged-blackbird",
+      "name": "Red-winged Blackbird (Agelaius phoeniceus)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "common-grackle",
+      "name": "Common Grackle (Quiscalus quiscula)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "american-goldfinch",
+      "name": "American Goldfinch (Spinus tristis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "dark-eyed-junco",
+      "name": "Dark-eyed Junco (Junco hyemalis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "white-throated-sparrow",
+      "name": "White-throated Sparrow (Zonotrichia albicollis)",
+      "kind": "bird",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "bird"
+      ]
+    },
+    {
+      "id": "cumulonimbus",
+      "name": "Cumulonimbus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cumulus-humilis",
+      "name": "Cumulus Humilis (Fair-Weather Cumulus)",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cumulus-congestus",
+      "name": "Cumulus Congestus (Towering Cumulus)",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cirrus",
+      "name": "Cirrus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cirrostratus",
+      "name": "Cirrostratus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cirrocumulus",
+      "name": "Cirrocumulus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "altocumulus",
+      "name": "Altocumulus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "altostratus",
+      "name": "Altostratus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "stratus",
+      "name": "Stratus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "stratocumulus",
+      "name": "Stratocumulus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "nimbostratus",
+      "name": "Nimbostratus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "lenticular-cloud",
+      "name": "Altocumulus Lenticularis",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "mammatus-cloud",
+      "name": "Mammatus",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "kelvin-helmholtz-cloud",
+      "name": "Kelvin\u2013Helmholtz Cloud (Fluctus)",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "shelf-cloud",
+      "name": "Arcus / Shelf Cloud",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "virga",
+      "name": "Virga",
+      "kind": "cloud",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "cloud"
+      ]
+    },
+    {
+      "id": "sundog-parhelion",
+      "name": "Sundog (Parhelion)",
+      "kind": "atmosphere",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "atmosphere"
+      ]
+    },
+    {
+      "id": "crepuscular-rays",
+      "name": "Crepuscular Rays",
+      "kind": "atmosphere",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "atmosphere"
+      ]
+    },
+    {
+      "id": "alpenglow",
+      "name": "Belt of Venus / Alpenglow",
+      "kind": "atmosphere",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "atmosphere"
+      ]
+    },
+    {
+      "id": "radiation-fog",
+      "name": "Radiation Valley Fog",
+      "kind": "atmosphere",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "atmosphere"
+      ]
+    },
+    {
+      "id": "manhattan-schist",
+      "name": "Mica Schist",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "granite",
+      "name": "Granite",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "basalt-columns",
+      "name": "Columnar Basalt",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "gneiss",
+      "name": "Banded Gneiss",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "slate-rock",
+      "name": "Slate",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "marble-rock",
+      "name": "Marble",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "quartzite",
+      "name": "Quartzite",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "sandstone",
+      "name": "Cross-Bedded Sandstone",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "limestone",
+      "name": "Fossiliferous Limestone",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "shale-rock",
+      "name": "Shale",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "conglomerate",
+      "name": "Conglomerate",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "pumice",
+      "name": "Pumice",
+      "kind": "rock",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "rock"
+      ]
+    },
+    {
+      "id": "quartz-crystal",
+      "name": "Quartz Crystal (SiO2)",
+      "kind": "mineral",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mineral"
+      ]
+    },
+    {
+      "id": "pyrite",
+      "name": "Pyrite (Fool's Gold, FeS2)",
+      "kind": "mineral",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mineral"
+      ]
+    },
+    {
+      "id": "feldspar",
+      "name": "Potassium Feldspar (Orthoclase)",
+      "kind": "mineral",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mineral"
+      ]
+    },
+    {
+      "id": "calcite",
+      "name": "Calcite (CaCO3)",
+      "kind": "mineral",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mineral"
+      ]
+    },
+    {
+      "id": "muscovite-mica",
+      "name": "Muscovite Mica",
+      "kind": "mineral",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mineral"
+      ]
+    },
+    {
+      "id": "glacial-erratic",
+      "name": "Glacial Erratic Boulder",
+      "kind": "geology",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "geology"
+      ]
+    },
+    {
+      "id": "glacial-striations",
+      "name": "Glacial Striations",
+      "kind": "geology",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "geology"
+      ]
+    },
+    {
+      "id": "poison-ivy",
+      "name": "Poison Ivy (Toxicodendron radicans)",
+      "kind": "plant",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "plant"
+      ]
+    },
+    {
+      "id": "virginia-creeper",
+      "name": "Virginia Creeper (Parthenocissus quinquefolia)",
+      "kind": "plant",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "plant"
+      ]
+    },
+    {
+      "id": "staghorn-sumac",
+      "name": "Staghorn Sumac (Rhus typhina)",
+      "kind": "plant",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "plant"
+      ]
+    },
+    {
+      "id": "common-milkweed",
+      "name": "Common Milkweed (Asclepias syriaca)",
+      "kind": "plant",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "plant"
+      ]
+    },
+    {
+      "id": "golden-rod",
+      "name": "Canada Goldenrod (Solidago canadensis)",
+      "kind": "plant",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "plant"
+      ]
+    },
+    {
+      "id": "cattail",
+      "name": "Broadleaf Cattail (Typha latifolia)",
+      "kind": "plant",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "plant"
+      ]
+    },
+    {
+      "id": "japanese-knotweed",
+      "name": "Japanese Knotweed (Reynoutria japonica)",
+      "kind": "plant",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "plant"
+      ]
+    },
+    {
+      "id": "chicken-of-the-woods",
+      "name": "Chicken of the Woods (Laetiporus sulphureus)",
+      "kind": "fungus",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "fungus"
+      ]
+    },
+    {
+      "id": "hen-of-the-woods",
+      "name": "Hen of the Woods / Maitake (Grifola frondosa)",
+      "kind": "fungus",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "fungus"
+      ]
+    },
+    {
+      "id": "turkey-tail",
+      "name": "Turkey Tail (Trametes versicolor)",
+      "kind": "fungus",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "fungus"
+      ]
+    },
+    {
+      "id": "morel-mushroom",
+      "name": "Yellow Morel (Morchella esculenta)",
+      "kind": "fungus",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "fungus"
+      ]
+    },
+    {
+      "id": "destroying-angel",
+      "name": "Destroying Angel (Amanita bisporigera)",
+      "kind": "fungus",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "fungus"
+      ]
+    },
+    {
+      "id": "giant-puffball",
+      "name": "Giant Puffball (Calvatia gigantea)",
+      "kind": "fungus",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "fungus"
+      ]
+    },
+    {
+      "id": "monarch-butterfly",
+      "name": "Monarch Butterfly (Danaus plexippus)",
+      "kind": "insect",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "insect"
+      ]
+    },
+    {
+      "id": "eastern-tiger-swallowtail",
+      "name": "Eastern Tiger Swallowtail (Papilio glaucus)",
+      "kind": "insect",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "insect"
+      ]
+    },
+    {
+      "id": "spotted-lanternfly",
+      "name": "Spotted Lanternfly (Lycorma delicatula)",
+      "kind": "insect",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "insect"
+      ]
+    },
+    {
+      "id": "periodical-cicada",
+      "name": "Periodical Cicada (Magicicada)",
+      "kind": "insect",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "insect"
+      ]
+    },
+    {
+      "id": "bald-faced-hornet",
+      "name": "Bald-faced Hornet (Dolichovespula maculata)",
+      "kind": "insect",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "insect"
+      ]
+    },
+    {
+      "id": "eastern-gray-squirrel",
+      "name": "Eastern Gray Squirrel (Sciurus carolinensis)",
+      "kind": "mammal",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mammal"
+      ]
+    },
+    {
+      "id": "raccoon",
+      "name": "Raccoon (Procyon lotor)",
+      "kind": "mammal",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mammal"
+      ]
+    },
+    {
+      "id": "virginia-opossum",
+      "name": "Virginia Opossum (Didelphis virginiana)",
+      "kind": "mammal",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mammal"
+      ]
+    },
+    {
+      "id": "white-tailed-deer",
+      "name": "White-tailed Deer (Odocoileus virginianus)",
+      "kind": "mammal",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mammal"
+      ]
+    },
+    {
+      "id": "red-fox",
+      "name": "Red Fox (Vulpes vulpes)",
+      "kind": "mammal",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mammal"
+      ]
+    },
+    {
+      "id": "eastern-cottontail",
+      "name": "Eastern Cottontail (Sylvilagus floridanus)",
+      "kind": "mammal",
+      "module": "natural_world",
+      "tags": [
+        "northeast",
+        "nyc",
+        "mammal"
+      ]
+    }
+  ],
+  "dimensions": [],
+  "facts": [],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": [
+    {
+      "id": "nw-red-maple",
+      "module": "natural_world",
+      "entity_id": "red-maple",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Red Maple (Acer rubrum) \u2014 Opposite toothed 3\u20135 lobed leaf; red petioles; dominant Northeast wetland/upland deciduous tree.",
+      "media": "media/natural-world/red-maple.jpg",
+      "attribution": "The Cosmonaut \u00b7 CC BY-SA 2.5 ca (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Red_maple_leaf_on_paper_birch.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.5 ca)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-sugar-maple",
+      "module": "natural_world",
+      "entity_id": "sugar-maple",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Sugar Maple (Acer saccharum) \u2014 Opposite 5-lobed leaf with smooth U-shaped sinuses (no fine teeth); source of maple syrup.",
+      "media": "media/natural-world/sugar-maple.jpg",
+      "attribution": "Superior National Forest \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer_saccharum_(4976751017).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-norway-maple",
+      "module": "natural_world",
+      "entity_id": "norway-maple",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Norway Maple (Acer platanoides) \u2014 Broad 5\u20137 pointed lobes; milky white sap when leaf stalk breaks; common invasive NYC street tree.",
+      "media": "media/natural-world/norway-maple.jpg",
+      "attribution": "Dmitry Makeev \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Acer_platanoides._img-028.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-silver-maple",
+      "module": "natural_world",
+      "entity_id": "silver-maple",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Silver Maple (Acer saccharinum) \u2014 Deeply cut 5-lobed opposite leaves with silvery-white undersides; fast-growing floodplain tree.",
+      "media": "media/natural-world/silver-maple.jpg",
+      "attribution": "ChrisInMilton \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer_saccharinum_leaf_epidermis_and_stomata_print_100x.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-boxelder",
+      "module": "natural_world",
+      "entity_id": "boxelder",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Boxelder (Acer negundo) \u2014 Only native Northeast maple with compound (3\u20135 leaflet) opposite leaves; green twigs.",
+      "media": "media/natural-world/boxelder.jpg",
+      "attribution": "Dmitry Makeev \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Acer_negundo._img-027.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-white-pine",
+      "module": "natural_world",
+      "entity_id": "eastern-white-pine",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Eastern White Pine (Pinus strobus) \u2014 Only native Northeast pine with needles in bundles of 5 ('W-H-I-T-E'); feathery blue-green plumes.",
+      "media": "media/natural-world/eastern-white-pine.jpg",
+      "attribution": "KATHERINE WAGNER-REISS \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pinus_strobus_%27Pendula%27%E2%80%94candle_and_cones.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-pitch-pine",
+      "module": "natural_world",
+      "entity_id": "pitch-pine",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Pitch Pine (Pinus rigida) \u2014 Twisted needles in bundles of 3 sprouting straight from dark scaly bark; Pine Barrens fire-adapted tree.",
+      "media": "media/natural-world/pitch-pine.jpg",
+      "attribution": "Crusier \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pinus_rigida_foliage_Niepor%C4%99t.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-hemlock",
+      "module": "natural_world",
+      "entity_id": "eastern-hemlock",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Eastern Hemlock (Tsuga canadensis) \u2014 Flat lacy sprays of short blunt needles with two white stomatal stripes underneath; shade-tolerant ravine conifer.",
+      "media": "media/natural-world/eastern-hemlock.jpg",
+      "attribution": "Hladac \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:(ms)_Tsuga_canadensis_2.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-redcedar",
+      "module": "natural_world",
+      "entity_id": "eastern-redcedar",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Eastern Redcedar (Juniperus virginiana) \u2014 Scale-like foliage, fibrous peeling red-brown bark, and dusty blue berry-like cones; colonizes old fields.",
+      "media": "media/natural-world/eastern-redcedar.jpg",
+      "attribution": "USDA-NRCS PLANTS Database / Herman, D.E. et al. 1996. North Dakota tree handbook. USDA ... \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Juniperus_virginiana_berries.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-balsam-fir",
+      "module": "natural_world",
+      "entity_id": "balsam-fir",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Balsam Fir (Abies balsamea) \u2014 Flat fragrant needles on smooth resin-blistered bark; upright cones; classic Northeast boreal conifer.",
+      "media": "media/natural-world/balsam-fir.jpg",
+      "attribution": "U.S. Fish and Wildlife Service \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abies_balsamea.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-northern-red-oak",
+      "module": "natural_world",
+      "entity_id": "northern-red-oak",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Northern Red Oak (Quercus rubra) \u2014 Pointed bristle-tipped lobes (red oak group); flat saucer-like acorn cap; ski-track bark ridges.",
+      "media": "media/natural-world/northern-red-oak.jpg",
+      "attribution": "Kingfiser \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quercus_rubra_buds_and_leaf_scar.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-white-oak",
+      "module": "natural_world",
+      "entity_id": "white-oak",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "White Oak (Quercus alba) \u2014 Rounded bristle-free lobes; light ash-gray scaly bark; deep warty acorn cup; prized timber.",
+      "media": "media/natural-world/white-oak.jpg",
+      "attribution": "en:user:Harborsparrow \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quercus_alba_leaf_spring.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-pin-oak",
+      "module": "natural_world",
+      "entity_id": "pin-oak",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Pin Oak (Quercus palustris) \u2014 Deeply cut bristle-tipped lobes; lower branches droop down, middle horizontal, top upward; common NYC street tree.",
+      "media": "media/natural-world/pin-oak.jpg",
+      "attribution": "Krzysztof Golik \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quercus_palustris_in_Aveyron_(14).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-chestnut-oak",
+      "module": "natural_world",
+      "entity_id": "chestnut-oak",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Chestnut Oak (Quercus montana) \u2014 Deeply furrowed dark chunky bark; wavy scalloped margin leaves; dry Northeast ridgetops.",
+      "media": "media/natural-world/chestnut-oak.jpg",
+      "attribution": "Bruce Kirchoff from Greensboro, NC, USA \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quercus_montana-Bark_R_9_g_(23872217020).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-sycamore",
+      "module": "natural_world",
+      "entity_id": "american-sycamore",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "American Sycamore (Platanus occidentalis) \u2014 Camouflage exfoliating bark (white, olive, brown); broad maple-like leaves; single fuzzy seed balls.",
+      "media": "media/natural-world/american-sycamore.jpg",
+      "attribution": "Lee Ann Ratledge \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:American_Sycamore_(Platanus_occidentalis)_Trunk_and_Bark_-_Knoxville,_Tennessee_-_October_24,_2015.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-london-plane",
+      "module": "natural_world",
+      "entity_id": "london-plane",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "London Plane (Platanus x acerifolia) \u2014 Hybrid sycamore dominant on NYC avenues; olive-cream flaking bark and seed balls hanging in PAIRS.",
+      "media": "media/natural-world/london-plane.jpg",
+      "attribution": "Kmtextor \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Platanus_x_acerifolia_Basel.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-paper-birch",
+      "module": "natural_world",
+      "entity_id": "paper-birch",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Paper Birch (Betula papyrifera) \u2014 Chalky white peeling bark with horizontal dark lenticels; cool northern woods.",
+      "media": "media/natural-world/paper-birch.jpg",
+      "attribution": "Evelyn Simak \u00b7 CC BY-SA 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Paper_bark_birch_(Betula_papyrifera)_-_geograph.org.uk_-_6059346.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-yellow-birch",
+      "module": "natural_world",
+      "entity_id": "yellow-birch",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Yellow Birch (Betula alleghaniensis) \u2014 Metallic bronze-gold curling papery bark; twigs smell strongly of wintergreen when scratched.",
+      "media": "media/natural-world/yellow-birch.png",
+      "attribution": "Alexander Abair \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Betula_alleghaniensis_bark_in_Shenandoah_National_Park.png",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-black-birch",
+      "module": "natural_world",
+      "entity_id": "black-birch",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Sweet / Black Birch (Betula lenta) \u2014 Dark cherry-like smooth bark with horizontal lenticels; intense wintergreen-scented twigs.",
+      "media": "media/natural-world/black-birch.png",
+      "attribution": "Alexander Abair \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Betula_lenta_bark_in_Shenandoah_National_Park_1.png",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-river-birch",
+      "module": "natural_world",
+      "entity_id": "river-birch",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "River Birch (Betula nigra) \u2014 Shaggy cinnamon-salmon peeling bark; heat-tolerant ornamental and streamside birch.",
+      "media": "media/natural-world/river-birch.jpg",
+      "attribution": "Photo by and (c)2016 Derek Ramsey (Ram-Man) \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Birch_Betula_nigra_Bark_Vertical.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-ginkgo-biloba",
+      "module": "natural_world",
+      "entity_id": "ginkgo-biloba",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Ginkgo (Ginkgo biloba) \u2014 Unmistakable fan-shaped leaf with dichotomous veins; living fossil ubiquitous as an NYC street tree.",
+      "media": "media/natural-world/ginkgo-biloba.jpg",
+      "attribution": "Dietmar Rabich \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ginkgo-Blatt_--_2024_--_6855.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-beech",
+      "module": "natural_world",
+      "entity_id": "american-beech",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "American Beech (Fagus grandifolia) \u2014 Smooth elephant-skin silver-gray bark; serrated parallel-veined leaves clinging tan through winter.",
+      "media": "media/natural-world/american-beech.jpg",
+      "attribution": "Photo by and (c)2016 Derek Ramsey (Ram-Man) \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:American_Beech_Fagus_grandifolia_Bark_Horizontal.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-tulip-poplar",
+      "module": "natural_world",
+      "entity_id": "tulip-poplar",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Tulip Tree (Liriodendron tulipifera) \u2014 Four-lobed cat-face leaf with flat notched tip; tallest straight-trunked Eastern hardwood.",
+      "media": "media/natural-world/tulip-poplar.jpg",
+      "attribution": "Crusier \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liriodendron_tulipifera_PAN_leaf.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-sweetgum",
+      "module": "natural_world",
+      "entity_id": "sweetgum",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "American Sweetgum (Liquidambar styraciflua) \u2014 Symmetric 5-pointed star leaf; corky twig wings; spiky woody 'gumball' fruits.",
+      "media": "media/natural-world/sweetgum.jpg",
+      "attribution": "Dominicus Johannes Bergsma. \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amberboom_(Liquidambar_styraciflua)_14-04-2025_(d.j.b.)_02.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-black-cherry",
+      "module": "natural_world",
+      "entity_id": "black-cherry",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Black Cherry (Prunus serotina) \u2014 Dark flaky 'burnt potato chip' bark; narrow finely toothed leaves with rusty hairs along midrib.",
+      "media": "media/natural-world/black-cherry.jpg",
+      "attribution": "Gmihail at Serbian Wikipedia \u00b7 CC BY-SA 3.0 rs (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Prunus_serotina_bark.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0 rs)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-elm",
+      "module": "natural_world",
+      "entity_id": "american-elm",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "American Elm (Ulmus americana) \u2014 Graceful vase-shaped crown; lopsided doubly serrated sandpaper leaves; decimated by Dutch elm disease.",
+      "media": "media/natural-world/american-elm.jpg",
+      "attribution": "Cephas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jardin_jeanne_arc.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-honeylocust",
+      "module": "natural_world",
+      "entity_id": "honeylocust",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Honeylocust (Gleditsia triacanthos) \u2014 Airy bipinnately compound leaflets giving dappled shade; thornless cultivar dominates NYC sidewalks.",
+      "media": "media/natural-world/honeylocust.jpg",
+      "attribution": "Didier Descouens \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Gleditsia_triacanthos_-Immature_leaf_and_inflorescence_-_Boileau,_Bouloc,_France.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-black-locust",
+      "module": "natural_world",
+      "entity_id": "black-locust",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Black Locust (Robinia pseudoacacia) \u2014 Deeply braided rope-like bark; pinnately compound oval leaflets; ultra-rot-resistant fence-post wood.",
+      "media": "media/natural-world/black-locust.jpg",
+      "attribution": "Adrian Tync \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Anyphaena_accentuata_on_Robinia_pseudoacacia_Bytom.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-sassafras",
+      "module": "natural_world",
+      "entity_id": "sassafras",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Sassafras (Sassafras albidum) \u2014 Three distinct leaf shapes on one branch (oval, mitten, three-lobed); green citrus-scented twigs.",
+      "media": "media/natural-world/sassafras.jpg",
+      "attribution": "John Stockla \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sassafras_Leaf.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-shagbark-hickory",
+      "module": "natural_world",
+      "entity_id": "shagbark-hickory",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Shagbark Hickory (Carya ovata) \u2014 Long vertical curling plates of gray bark; 5-leaflet compound leaf with huge terminal leaflets.",
+      "media": "media/natural-world/shagbark-hickory.jpg",
+      "attribution": "KATHERINE WAGNER-REISS \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Carya_ovata%E2%80%94shaggy_bark.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-black-walnut",
+      "module": "natural_world",
+      "entity_id": "black-walnut",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Black Walnut (Juglans nigra) \u2014 Long pinnate leaves (15\u201323 leaflets); aromatic green husk nuts; chocolate-brown prized heartwood.",
+      "media": "media/natural-world/black-walnut.jpg",
+      "attribution": "Berthold Werner \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Juglans_nigra_BW_2024-04-09_17-44-42_Stack.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-white-ash",
+      "module": "natural_world",
+      "entity_id": "white-ash",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "White Ash (Fraxinus americana) \u2014 Diamond-patterned interlacing bark ridges; opposite compound leaves (7 leaflets); baseball bat wood.",
+      "media": "media/natural-world/white-ash.jpg",
+      "attribution": "Photo by and (c)2016 Derek Ramsey (Ram-Man) \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:White_Ash_Fraxinus_americana_Bark.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-weeping-willow",
+      "module": "natural_world",
+      "entity_id": "weeping-willow",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Weeping Willow (Salix babylonica) \u2014 Long pendulous golden-green whip branches with narrow lance-shaped leaves; always near water.",
+      "media": "media/natural-world/weeping-willow.jpg",
+      "attribution": "Alborzagros \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Salix_babylonica_Tehran_User_Alborzagos.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-cottonwood",
+      "module": "natural_world",
+      "entity_id": "eastern-cottonwood",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Eastern Cottonwood (Populus deltoides) \u2014 Triangular heart-shaped leaves on flattened petioles that tremble in light wind; deep furrowed bark.",
+      "media": "media/natural-world/eastern-cottonwood.jpg",
+      "attribution": "Matt Lavin from Bozeman, Montana, USA \u00b7 CC BY-SA 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Populus_deltoides_(5027342562).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-quaking-aspen",
+      "module": "natural_world",
+      "entity_id": "quaking-aspen",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Quaking Aspen (Populus tremuloides) \u2014 Chalky pale greenish-white bark with black eye knots; clonal root groves; round trembling leaves.",
+      "media": "media/natural-world/quaking-aspen.jpg",
+      "attribution": "E bailey \u00b7 CC0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bark_close-up_-_American_Aspen_-_Populus_tremuloides.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-flowering-dogwood",
+      "module": "natural_world",
+      "entity_id": "flowering-dogwood",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Flowering Dogwood (Cornus florida) \u2014 Opposite leaves with arcuate veins curving toward tip; 4 white notched bracts in spring; alligator-checkered bark.",
+      "media": "media/natural-world/flowering-dogwood.jpg",
+      "attribution": "Photo by and (c)2016 Derek Ramsey (Ram-Man) \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Flowering_Dogwood_Cornus_florida_Flower_Low_DoF.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-redbud",
+      "module": "natural_world",
+      "entity_id": "eastern-redbud",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Eastern Redbud (Cercis canadensis) \u2014 Magenta pea-like blossoms erupting directly from bare spring branches (cauliflory); heart-shaped leaves.",
+      "media": "media/natural-world/eastern-redbud.jpg",
+      "attribution": "Agnes Monkelbaan \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Judasboom_(Cercis_canadensis_%27Forest_Pansy%27)._15-04-2020._(actm.)_03.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-holly",
+      "module": "natural_world",
+      "entity_id": "american-holly",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "American Holly (Ilex opaca) \u2014 Broadleaf evergreen with stiff spiny matte green leaves and bright red winter berries on females.",
+      "media": "media/natural-world/american-holly.jpg",
+      "attribution": "Flocci Nivis \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20191031Ilex_opaca_Ludwigspark_02.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-tree-of-heaven",
+      "module": "natural_world",
+      "entity_id": "tree-of-heaven",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Tree of Heaven (Ailanthus altissima) \u2014 Huge compound leaves with glandular basal notch and burnt-peanut odor; invasive Brooklyn backyard weed-tree.",
+      "media": "media/natural-world/tree-of-heaven.jpg",
+      "attribution": "Kingfiser \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ailanthus_altissima,_Hokkaido.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-bald-cypress",
+      "module": "natural_world",
+      "entity_id": "bald-cypress",
+      "tags": [
+        "northeast",
+        "tree"
+      ],
+      "front": "Identify this tree",
+      "back": "Bald Cypress (Taxodium distichum) \u2014 Deciduous conifer with soft feathery needles turning rust-orange in autumn; fluted buttress base and 'knees'.",
+      "media": "media/natural-world/bald-cypress.jpg",
+      "attribution": "Dominicus Johannes Bergsma \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ademwortels_(pneumatoforen)_van_een_moerascipres_(Taxodium_distichum)_09-02-2023_(d.j.b.).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-red-tailed-hawk",
+      "module": "natural_world",
+      "entity_id": "red-tailed-hawk",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Red-tailed Hawk (Buteo jamaicensis) \u2014 Broad-winged soaring raptor; dark belly band and rust-red upper tail; common over NYC parks and highways.",
+      "media": "media/natural-world/red-tailed-hawk.jpg",
+      "attribution": "Perryprog \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Perched_juvenile_red-tailed_hawk_(Buteo_jamaicensis).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-peregrine-falcon",
+      "module": "natural_world",
+      "entity_id": "peregrine-falcon",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Peregrine Falcon (Falco peregrinus) \u2014 Dark malar 'helmet' stripe, slate back, barred breast; fastest animal in a stoop (>300 km/h); nests on bridges.",
+      "media": "media/natural-world/peregrine-falcon.jpg",
+      "attribution": "slagheap from Canada \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Falco_peregrinus_-perching_on_building-8.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-kestrel",
+      "module": "natural_world",
+      "entity_id": "american-kestrel",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "American Kestrel (Falco sparverius) \u2014 North America's smallest falcon; rusty back/tail, blue-gray wings on males, double black facial bars; hovers over fields.",
+      "media": "media/natural-world/american-kestrel.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:American_kestrel_(44273).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-coopers-hawk",
+      "module": "natural_world",
+      "entity_id": "coopers-hawk",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Cooper's Hawk (Accipiter cooperii) \u2014 Long barred tail and short rounded wings for weaving through trees hunting songbirds; dark cap, fiery red eye.",
+      "media": "media/natural-world/coopers-hawk.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cooper%27s_hawk_in_Prospect_Park_(22513).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-bald-eagle",
+      "module": "natural_world",
+      "entity_id": "bald-eagle",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Bald Eagle (Haliaeetus leucocephalus) \u2014 White head and tail, massive yellow bill, 2 m flat-winged soar; winters along the Hudson River.",
+      "media": "media/natural-world/bald-eagle.jpg",
+      "attribution": "AngMoKio \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Weisskopf_Seeadler_haliaeetus_leucocephalus_8_amk.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-osprey",
+      "module": "natural_world",
+      "entity_id": "osprey",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Osprey (Pandion haliaetus) \u2014 Fish-hunting raptor with crisp white underside, dark eye-stripe, and M-shaped crooked wings; huge stick nests on channel markers.",
+      "media": "media/natural-world/osprey.jpg",
+      "attribution": "NASA \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OspreyNASA.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-great-horned-owl",
+      "module": "natural_world",
+      "entity_id": "great-horned-owl",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Great Horned Owl (Bubo virginianus) \u2014 Large powerful nocturnal owl with prominent ear tufts ('horns'), white throat bib, and deep 5-syllable hoot.",
+      "media": "media/natural-world/great-horned-owl.jpg",
+      "attribution": "Giles Laurent \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:004_Great_horned_owl_under_a_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-barred-owl",
+      "module": "natural_world",
+      "entity_id": "barred-owl",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Barred Owl (Strix varia) \u2014 Round earless head, dark soulful eyes, vertical belly streaks; calls 'who cooks for you?'.",
+      "media": "media/natural-world/barred-owl.jpg",
+      "attribution": "Mdf \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Strix-varia-005.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-great-blue-heron",
+      "module": "natural_world",
+      "entity_id": "great-blue-heron",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Great Blue Heron (Ardea herodias) \u2014 Tall slate-blue wading bird (~1.2 m) with S-curved neck in flight and yellow dagger bill.",
+      "media": "media/natural-world/great-blue-heron.jpg",
+      "attribution": "Acarpentier \u00b7 CC BY 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Le_Grand_Heron_Profil.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-great-egret",
+      "module": "natural_world",
+      "entity_id": "great-egret",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Great Egret (Ardea alba) \u2014 Snow-white tall heron with yellow dagger bill and glossy black legs/feet.",
+      "media": "media/natural-world/great-egret.jpg",
+      "attribution": "Calibas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ardea_alba4.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-black-crowned-night-heron",
+      "module": "natural_world",
+      "entity_id": "black-crowned-night-heron",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Black-crowned Night-Heron (Nycticorax nycticorax) \u2014 Stocky hunched heron with black crown/back, pale gray wings, and ruby-red eyes; active at dusk in NYC parks.",
+      "media": "media/natural-world/black-crowned-night-heron.jpg",
+      "attribution": "Calibas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Young_night_heron.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-double-crested-cormorant",
+      "module": "natural_world",
+      "entity_id": "double-crested-cormorant",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Double-crested Cormorant (Nannopterum auritum) \u2014 Dark prehistoric-looking diving bird with hooked orange-throated bill; perches spreading wings to dry.",
+      "media": "media/natural-world/double-crested-cormorant.jpg",
+      "attribution": "Mdf \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Phalacrocorax-auritus-007.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-canada-goose",
+      "module": "natural_world",
+      "entity_id": "canada-goose",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Canada Goose (Branta canadensis) \u2014 Black head and neck with white chinstrap; V-formation migrant and permanent urban park resident.",
+      "media": "media/natural-world/canada-goose.jpg",
+      "attribution": "Image taken by Alan D. Wilson, and modified by Diliff (cropped and noise reduction appl... \u00b7 CC BY-SA 2.5 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Canada_goose_flight_cropped_and_NR.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.5)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-mallard",
+      "module": "natural_world",
+      "entity_id": "mallard",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Mallard (Anas platyrhynchos) \u2014 Iridescent green head, yellow bill, white neck ring on drake; mottled brown female with violet wing speculum.",
+      "media": "media/natural-world/mallard.jpg",
+      "attribution": "This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 IS USM ... \u00b7 CC BY-SA 2.5 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.5)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-wood-duck",
+      "module": "natural_world",
+      "entity_id": "wood-duck",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Wood Duck (Aix sponsa) \u2014 Ornate crested male with emerald-violet head and crisp white facial stripes; nests in tree cavities.",
+      "media": "media/natural-world/wood-duck.jpg",
+      "attribution": "Francis C. Franklin \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Male_Aix_sponsa_portrait.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-herring-gull",
+      "module": "natural_world",
+      "entity_id": "herring-gull",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Herring Gull (Larus argentatus) \u2014 Large classic NYC coastal gull: pale gray mantle, black wingtips, pink legs, yellow bill with red spot.",
+      "media": "media/natural-world/herring-gull.jpg",
+      "attribution": "\u0412\u0432\u043b\u0430\u0441\u0435\u043d\u043a\u043e \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Head_of_European_herring_gull_(Larus_argentatus)._Saint-Malo,_France.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-belted-kingfisher",
+      "module": "natural_world",
+      "entity_id": "belted-kingfisher",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Belted Kingfisher (Megaceryle alcyon) \u2014 Shaggy blue-gray crest, heavy dagger bill, rattling call; hovers then plunges headfirst for minnows.",
+      "media": "media/natural-world/belted-kingfisher.jpg",
+      "attribution": "Cephas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Megaceryle_alcyon_PIB.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-rock-pigeon",
+      "module": "natural_world",
+      "entity_id": "rock-pigeon",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Rock Pigeon (Columba livia) \u2014 Urban cliff-dweller descended from wild cliff doves; double black wing bars and iridescent neck sheen.",
+      "media": "media/natural-world/rock-pigeon.jpg",
+      "attribution": "Satdeep Gill \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Common_pigeon_at_Waterlow_Park,_London_01.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-mourning-dove",
+      "module": "natural_world",
+      "entity_id": "mourning-dove",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Mourning Dove (Zenaida macroura) \u2014 Sleek fawn-brown dove with pointed tail, whistling wingbeats on takeoff, and soft 'coo-OO-oo' song.",
+      "media": "media/natural-world/mourning-dove.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mourning_dove_perched_(61179).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-downy-woodpecker",
+      "module": "natural_world",
+      "entity_id": "downy-woodpecker",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Downy Woodpecker (Dryobates pubescens) \u2014 Smallest North American woodpecker; crisp white back stripe, tiny stubby bill, red nape patch on male.",
+      "media": "media/natural-world/downy-woodpecker.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Downy_woodpecker_in_PP_(90879).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-red-bellied-woodpecker",
+      "module": "natural_world",
+      "entity_id": "red-bellied-woodpecker",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Red-bellied Woodpecker (Melanerpes carolinus) \u2014 Zebra-striped black-and-white back with bright crimson cap/nape (barely visible reddish belly blush).",
+      "media": "media/natural-world/red-bellied-woodpecker.jpg",
+      "attribution": "Manjithkaini \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Red-bellied_Woodpecker_on_tree.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-northern-flicker",
+      "module": "natural_world",
+      "entity_id": "northern-flicker",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Northern Flicker (Colaptes auratus) \u2014 Brown spotted ground-foraging ant-eating woodpecker; black chest crescent, white rump, golden-yellow underwings.",
+      "media": "media/natural-world/northern-flicker.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Flicker_hole_in_CP_(31848).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-pileated-woodpecker",
+      "module": "natural_world",
+      "entity_id": "pileated-woodpecker",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Pileated Woodpecker (Dryocopus pileatus) \u2014 Crow-sized forest woodpecker with flaming red triangular crest; chisels huge rectangular holes in dead timber.",
+      "media": "media/natural-world/pileated-woodpecker.jpg",
+      "attribution": "Cephas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dryocopus_pileatus_MP2.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-blue-jay",
+      "module": "natural_world",
+      "entity_id": "blue-jay",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Blue Jay (Cyanocitta cristata) \u2014 Crested cobalt-blue corvid with black necklace; caches acorns and mimics Red-tailed Hawk calls.",
+      "media": "media/natural-world/blue-jay.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blue_jay_in_PP_(30960).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-crow",
+      "module": "natural_world",
+      "entity_id": "american-crow",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "American Crow (Corvus brachyrhynchos) \u2014 All-black intelligent social corvid; squared fan tail and classic 'caw' (smaller than wedge-tailed Common Raven).",
+      "media": "media/natural-world/american-crow.jpg",
+      "attribution": "Ianar\u00e9 S\u00e9vi \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Corvus_caurinus_(profile).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-black-capped-chickadee",
+      "module": "natural_world",
+      "entity_id": "black-capped-chickadee",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Black-capped Chickadee (Poecile atricapillus) \u2014 Black cap and bib, crisp white cheeks; caches thousands of seeds and grows its hippocampus each autumn.",
+      "media": "media/natural-world/black-capped-chickadee.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Black-capped_chickadee_(41417).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-tufted-titmouse",
+      "module": "natural_world",
+      "entity_id": "tufted-titmouse",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Tufted Titmouse (Baeolophus bicolor) \u2014 Mouse-gray songbird with pointed crest, big dark eyes, and peachy flanks; 'peter-peter-peter' call.",
+      "media": "media/natural-world/tufted-titmouse.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tufted_titmouse_in_Prospect_Park_(53493).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-white-breasted-nuthatch",
+      "module": "natural_world",
+      "entity_id": "white-breasted-nuthatch",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "White-breasted Nuthatch (Sitta carolinensis) \u2014 Blue-gray back, black cap, crisp white face; walks HEADFIRST down tree trunks probing bark crevices.",
+      "media": "media/natural-world/white-breasted-nuthatch.jpg",
+      "attribution": "Mdf \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sitta-carolinensis-001.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-robin",
+      "module": "natural_world",
+      "entity_id": "american-robin",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "American Robin (Turdus migratorius) \u2014 Large slate-backed thrush with warm brick-red breast; runs and pauses head-cocked on lawns listening for worms.",
+      "media": "media/natural-world/american-robin.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:American_robin_(71307).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-gray-catbird",
+      "module": "natural_world",
+      "entity_id": "gray-catbird",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Gray Catbird (Dumetella carolinensis) \u2014 Sleek all-slate songbird with black cap and chestnut undertail; unmistakable cat-like 'mew' from dense shrubs.",
+      "media": "media/natural-world/gray-catbird.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gray_catbird_(85315).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-northern-mockingbird",
+      "module": "natural_world",
+      "entity_id": "northern-mockingbird",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Northern Mockingbird (Mimus polyglottos) \u2014 Long-tailed gray mimic flashing bold white wing patches; repeats each imitated phrase 3+ times.",
+      "media": "media/natural-world/northern-mockingbird.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mockingbird_in_Bay_Ridge_(85082).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-european-starling",
+      "module": "natural_world",
+      "entity_id": "european-starling",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "European Starling (Sturnus vulgaris) \u2014 Iridescent purple-green glossy bird speckled with cream in winter; introduced to Central Park in 1890; forms murmurations.",
+      "media": "media/natural-world/european-starling.jpg",
+      "attribution": "Ingrid Taylar \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sturnus_vulgaris_-California-8.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cedar-waxwing",
+      "module": "natural_world",
+      "entity_id": "cedar-waxwing",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Cedar Waxwing (Bombycilla cedrorum) \u2014 Silky fawn-brown crested fruit-eater with sleek black bandit mask, yellow tail tip, and red waxy wing dots.",
+      "media": "media/natural-world/cedar-waxwing.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cedar_waxwing_in_Green-Wood_Cemetery_(55650).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-yellow-warbler",
+      "module": "natural_world",
+      "entity_id": "yellow-warbler",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Yellow Warbler (Setophaga petechia) \u2014 Sun-bright all-yellow spring migrant with rufous chest streaks on male; 'sweet-sweet-sweet, I'm so sweet!'.",
+      "media": "media/natural-world/yellow-warbler.jpg",
+      "attribution": "Charles J. Sharp \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mangrove_Warbler_(Setophaga_petechia_gundlachi)_male,_Cuba.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-northern-cardinal",
+      "module": "natural_world",
+      "entity_id": "northern-cardinal",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Northern Cardinal (Cardinalis cardinalis) \u2014 Crested crimson male with black mask and heavy conical seed-cracking bill; year-round Northeast resident.",
+      "media": "media/natural-world/northern-cardinal.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Male_northern_cardinal_in_Central_Park_(52612).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-red-winged-blackbird",
+      "module": "natural_world",
+      "entity_id": "red-winged-blackbird",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Red-winged Blackbird (Agelaius phoeniceus) \u2014 Jet-black marsh male flashing scarlet-and-yellow shoulder epaulets; 'conk-la-ree!' over cattails.",
+      "media": "media/natural-world/red-winged-blackbird.jpg",
+      "attribution": "Cephas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Agelaius_phoeniceus_PP.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-common-grackle",
+      "module": "natural_world",
+      "entity_id": "common-grackle",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Common Grackle (Quiscalus quiscula) \u2014 Long keel-tailed blackbird with piercing yellow eye and iridescent bronze-purple head.",
+      "media": "media/natural-world/common-grackle.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Common_grackle_in_PP_(36732).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-american-goldfinch",
+      "module": "natural_world",
+      "entity_id": "american-goldfinch",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "American Goldfinch (Spinus tristis) \u2014 Breeding male is electric lemon-yellow with black cap and wings; bouncy rollercoaster flight calling 'po-ta-to-chip'.",
+      "media": "media/natural-world/american-goldfinch.jpg",
+      "attribution": "Letartean \u00b7 CC BY 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Carduelis_tristis_male_2011.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-dark-eyed-junco",
+      "module": "natural_world",
+      "entity_id": "dark-eyed-junco",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "Dark-eyed Junco (Junco hyemalis) \u2014 Slate-gray hood/back, crisp white belly, pink bill, white outer tail feathers; classic Northeast winter 'snowbird'.",
+      "media": "media/natural-world/dark-eyed-junco.jpg",
+      "attribution": "Cephas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Junco_hyemalis_hyemalis_CT2.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-white-throated-sparrow",
+      "module": "natural_world",
+      "entity_id": "white-throated-sparrow",
+      "tags": [
+        "northeast",
+        "bird"
+      ],
+      "front": "Identify this bird",
+      "back": "White-throated Sparrow (Zonotrichia albicollis) \u2014 Bold black-and-white head stripes, bright yellow lore spot, crisp white throat; sings 'Old Sam Peabody'.",
+      "media": "media/natural-world/white-throated-sparrow.jpg",
+      "attribution": "Cephas \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zonotrichia_albicollis_CT1.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cumulonimbus",
+      "module": "natural_world",
+      "entity_id": "cumulonimbus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Cumulonimbus \u2014 Towering convective storm cloud reaching the tropopause with an ice-crystal anvil top; lightning & downpours.",
+      "media": "media/natural-world/cumulonimbus.jpg",
+      "attribution": "Rollcloud \u00b7 CC BY 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_anvil_cloud_with_pannus_1.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cumulus-humilis",
+      "module": "natural_world",
+      "entity_id": "cumulus-humilis",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Cumulus Humilis (Fair-Weather Cumulus) \u2014 Flat-bottomed puffy cotton clouds wider than tall; marks gentle daytime thermal convection and fair weather.",
+      "media": "media/natural-world/cumulus-humilis.jpg",
+      "attribution": "Glg \u00b7 CC BY-SA 2.0 de (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cumulus_cloud_above_Lechtaler_Alps_at_tannheim,_Austria.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.0 de)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cumulus-congestus",
+      "module": "natural_world",
+      "entity_id": "cumulus-congestus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Cumulus Congestus (Towering Cumulus) \u2014 Cauliflower-topped tall convective towers growing vertically; immediate precursor to thunderstorm cells.",
+      "media": "media/natural-world/cumulus-congestus.jpg",
+      "attribution": "Jacek Halicki \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2016_Chmura_Cumulus_congestus_01.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cirrus",
+      "module": "natural_world",
+      "entity_id": "cirrus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Cirrus \u2014 High-altitude (>6 km) wispy ice-crystal filaments ('mares' tails'); often precede a warm front by 12\u201324 h.",
+      "media": "media/natural-world/cirrus.jpg",
+      "attribution": "ADARSHluck \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cirrus_uncinus_clouds_in_the_morning_sky.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cirrostratus",
+      "module": "natural_world",
+      "entity_id": "cirrostratus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Cirrostratus \u2014 Thin milky high-altitude ice veil covering the sky and producing a crisp 22\u00b0 halo around the Sun or Moon.",
+      "media": "media/natural-world/cirrostratus.jpg",
+      "attribution": "Chrumps \u00b7 CC BY 2.5 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Halo_in_cirrostratus_1.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.5)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cirrocumulus",
+      "module": "natural_world",
+      "entity_id": "cirrocumulus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Cirrocumulus \u2014 High-altitude tiny rippled white cloudlets without shading ('fine mackerel sky'); indicates upper-level instability.",
+      "media": "media/natural-world/cirrocumulus.jpg",
+      "attribution": "Vitaium \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cirrus_and_Cirrocumulus_over_Jakarta.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-altocumulus",
+      "module": "natural_world",
+      "entity_id": "altocumulus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Altocumulus \u2014 Mid-level (2\u20136 km) dappled gray-white rolls or patches with shaded undersides; signals mid-level instability.",
+      "media": "media/natural-world/altocumulus.jpg",
+      "attribution": "Ximonic (Simo R\u00e4s\u00e4nen) \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oratunturi_central_summit_from_the_west_in_midnight,_Sodankyl%C3%A4,_Lapland,_Finland,_2019_June.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-altostratus",
+      "module": "natural_world",
+      "entity_id": "altostratus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Altostratus \u2014 Uniform blue-gray mid-level sheet dimming the Sun to a watery disk ('ground glass'); precedes steady rain.",
+      "media": "media/natural-world/altostratus.jpg",
+      "attribution": "Unknown \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sun_through_Altostratus.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-stratus",
+      "module": "natural_world",
+      "entity_id": "stratus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Stratus \u2014 Low featureless gray blanket (<2 km) resembling elevated fog; brings mist or light drizzle.",
+      "media": "media/natural-world/stratus.jpg",
+      "attribution": "Lee Ann Ratledge \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Stratus_Clouds_-_Knoxville,_Tennessee_-_March_19,_2014.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-stratocumulus",
+      "module": "natural_world",
+      "entity_id": "stratocumulus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Stratocumulus \u2014 Low lumpy gray-white cellular layer with blue breaks; most common cloud type over Earth's oceans.",
+      "media": "media/natural-world/stratocumulus.jpg",
+      "attribution": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Crochot) ... \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Stratocumulus_cumulogenitus_-_20150804_16h39_(10909).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-nimbostratus",
+      "module": "natural_world",
+      "entity_id": "nimbostratus",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Nimbostratus \u2014 Thick dark featureless low-to-mid rain deck completely blocking the Sun; steady multi-hour precipitation.",
+      "media": "media/natural-world/nimbostratus.jpg",
+      "attribution": "GerritR \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nimbostratus_pannus.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-lenticular-cloud",
+      "module": "natural_world",
+      "entity_id": "lenticular-cloud",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Altocumulus Lenticularis \u2014 Stationary lens-shaped standing wave cloud formed downwind of terrain; signals strong winds aloft and rotor turbulence.",
+      "media": "media/natural-world/lenticular-cloud.jpg",
+      "attribution": "Dmitry A. Mottl \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mont_Blanc_from_Les_Arcs_1950.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-mammatus-cloud",
+      "module": "natural_world",
+      "entity_id": "mammatus-cloud",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Mammatus \u2014 Pouch-like cellular lobes hanging beneath a cumulonimbus anvil; formed by sinking cold moist air pockets.",
+      "media": "media/natural-world/mammatus-cloud.png",
+      "attribution": "NOAA \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mammatus-clouds-Tulsa-1973.png",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-kelvin-helmholtz-cloud",
+      "module": "natural_world",
+      "entity_id": "kelvin-helmholtz-cloud",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Kelvin\u2013Helmholtz Cloud (Fluctus) \u2014 Breaking-ocean-wave cloud curls formed by strong vertical wind shear between two air layers.",
+      "media": "media/natural-world/kelvin-helmholtz-cloud.jpg",
+      "attribution": "Astronautilus \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kelvin-Helmholtz_waves.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-shelf-cloud",
+      "module": "natural_world",
+      "entity_id": "shelf-cloud",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Arcus / Shelf Cloud \u2014 Low horizontal wedge attached to the leading edge of a thunderstorm outflow gust front; signals sudden wind surge.",
+      "media": "media/natural-world/shelf-cloud.jpg",
+      "attribution": "Kristian Pikner \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Riiulpilv_-_Shelf_cloud_(2)_copy.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-virga",
+      "module": "natural_world",
+      "entity_id": "virga",
+      "tags": [
+        "northeast",
+        "cloud"
+      ],
+      "front": "Identify this cloud",
+      "back": "Virga \u2014 Wispy streaks of rain or snow falling from a cloud base that evaporate before reaching dry ground.",
+      "media": "media/natural-world/virga.jpg",
+      "attribution": "Sally V \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cloud_taken_in_springtime.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-sundog-parhelion",
+      "module": "natural_world",
+      "entity_id": "sundog-parhelion",
+      "tags": [
+        "northeast",
+        "atmosphere"
+      ],
+      "front": "Identify this atmosphere",
+      "back": "Sundog (Parhelion) \u2014 Bright rainbow-tinted light spots 22\u00b0 left and right of the Sun, refracted by horizontally aligned hexagonal ice plates.",
+      "media": "media/natural-world/sundog-parhelion.jpg",
+      "attribution": "W.carter \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sun_dog_with_reflection_over_Brofjorden.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-crepuscular-rays",
+      "module": "natural_world",
+      "entity_id": "crepuscular-rays",
+      "tags": [
+        "northeast",
+        "atmosphere"
+      ],
+      "front": "Identify this atmosphere",
+      "back": "Crepuscular Rays \u2014 Parallel shafts of sunlight streaming through cloud gaps that appear to fan outward due to linear perspective.",
+      "media": "media/natural-world/crepuscular-rays.jpg",
+      "attribution": "Brocken Inaglory \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Crepuscular_rays_09-11-2010_1.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-alpenglow",
+      "module": "natural_world",
+      "entity_id": "alpenglow",
+      "tags": [
+        "northeast",
+        "atmosphere"
+      ],
+      "front": "Identify this atmosphere",
+      "back": "Belt of Venus / Alpenglow \u2014 Pinkish-peach twilight arch above Earth's dark slate-blue shadow opposite the rising or setting Sun.",
+      "media": "media/natural-world/alpenglow.jpg",
+      "attribution": "W.carter \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Strong_pink_Belt_of_Venus_over_Brastad_1.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-radiation-fog",
+      "module": "natural_world",
+      "entity_id": "radiation-fog",
+      "tags": [
+        "northeast",
+        "atmosphere"
+      ],
+      "front": "Identify this atmosphere",
+      "back": "Radiation Valley Fog \u2014 Clear calm nights let ground radiate heat away, cooling dense air below dew point into pooled valley fog.",
+      "media": "media/natural-world/radiation-fog.jpg",
+      "attribution": "Frank Schulenburg \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Early_morning_fog_over_Mill_Valley_(Panorama).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-manhattan-schist",
+      "module": "natural_world",
+      "entity_id": "manhattan-schist",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Mica Schist \u2014 Foliated metamorphic rock sparkling with platy muscovite/biotite mica; bedrock beneath Midtown and Downtown Manhattan.",
+      "media": "media/natural-world/manhattan-schist.jpg",
+      "attribution": "James St. John \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Garnet-mica_schist_(Gassetts,_Vermont,_USA)_2.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-granite",
+      "module": "natural_world",
+      "entity_id": "granite",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Granite \u2014 Coarse-grained felsic intrusive igneous rock: interlocking quartz, pink/white feldspar, and dark biotite/hornblende.",
+      "media": "media/natural-world/granite.jpg",
+      "attribution": "Scarlett016 \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lilesville_Granite_close-up.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-basalt-columns",
+      "module": "natural_world",
+      "entity_id": "basalt-columns",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Columnar Basalt \u2014 Fine-grained dark mafic volcanic rock; hexagonal cooling joints (like the Palisades diabase sill across the Hudson).",
+      "media": "media/natural-world/basalt-columns.jpg",
+      "attribution": "Chmee2 \u00b7 CC BY 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Giant%27s_Causeway_(14).JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-gneiss",
+      "module": "natural_world",
+      "entity_id": "gneiss",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Banded Gneiss \u2014 High-grade metamorphic rock with bold alternating light (quartz/feldspar) and dark (biotite/hornblende) mineral bands.",
+      "media": "media/natural-world/gneiss.jpg",
+      "attribution": "No machine-readable author provided. Siim assumed (based on copyright claims). \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gneiss.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-slate-rock",
+      "module": "natural_world",
+      "entity_id": "slate-rock",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Slate \u2014 Fine-grained low-grade metamorphic rock derived from shale; splits along crisp flat cleavage planes (roofing tile).",
+      "media": "media/natural-world/slate-rock.jpg",
+      "attribution": "Postcard \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Postcard_of_Slate_Rock_on_the_Seekonk_River.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-marble-rock",
+      "module": "natural_world",
+      "entity_id": "marble-rock",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Marble \u2014 Metamorphosed limestone made of recrystallized interlocking calcite; soft (Mohs 3) and fizzes in weak acid.",
+      "media": "media/natural-world/marble-rock.png",
+      "attribution": "The original uploader was Seth Ilys at English Wikipedia. \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IAMap-doton-MarbleRock.PNG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-quartzite",
+      "module": "natural_world",
+      "entity_id": "quartzite",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Quartzite \u2014 Metamorphosed quartz sandstone fused so tightly it fractures cleanly across grains; ultra-hard (Mohs 7).",
+      "media": "media/natural-world/quartzite.jpg",
+      "attribution": "Tim Kiser \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rockfall_block_of_Sioux_Quartzite_in_Blue_Mounds_State_Park,_Minnesota,_August_11,_2025_(5184).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-sandstone",
+      "module": "natural_world",
+      "entity_id": "sandstone",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Cross-Bedded Sandstone \u2014 Clastic sedimentary rock of cemented sand grains; angled cross-beds preserve ancient dunes or river ripples.",
+      "media": "media/natural-world/sandstone.jpg",
+      "attribution": "Anne Burgess \u00b7 CC BY-SA 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cross-bedding_in_Carboniferous_Sandstone_-_geograph.org.uk_-_3013212.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-limestone",
+      "module": "natural_world",
+      "entity_id": "limestone",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Fossiliferous Limestone \u2014 Sedimentary rock mostly calcium carbonate (CaCO3) from marine shells/corals; forms karst caves and Portland cement.",
+      "media": "media/natural-world/limestone.jpg",
+      "attribution": "Ingolfson \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Limestone_Formation_In_Waitomo.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-shale-rock",
+      "module": "natural_world",
+      "entity_id": "shale-rock",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Shale \u2014 Fine-grained laminated mudstone sedimentary rock; splits in thin flakes; major hydrocarbon source rock.",
+      "media": "media/natural-world/shale-rock.jpg",
+      "attribution": "Unknown \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ShaleUSGOV.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-conglomerate",
+      "module": "natural_world",
+      "entity_id": "conglomerate",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Conglomerate \u2014 Sedimentary rock composed of rounded river/beach pebbles cemented in a finer matrix (angular clasts = breccia).",
+      "media": "media/natural-world/conglomerate.jpg",
+      "attribution": "Pascal Dih\u00e9 \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ND-086-NK-EPP_-_Steinrausche_-_Konglomerat.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-obsidian",
+      "module": "natural_world",
+      "entity_id": "obsidian",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Obsidian \u2014 Volcanic felsic glass cooled too fast for crystals; fractures with razor-sharp curved conchoidal ripples.",
+      "media": "media/natural-world/obsidian.jpg",
+      "attribution": "James St. John \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Obsidian_8.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-pumice",
+      "module": "natural_world",
+      "entity_id": "pumice",
+      "tags": [
+        "northeast",
+        "rock"
+      ],
+      "front": "Identify this rock",
+      "back": "Pumice \u2014 Froth-filled vesicular volcanic glass full of trapped gas bubbles; low enough density (<1.0 g/cm\u00b3) to float on water.",
+      "media": "media/natural-world/pumice.jpg",
+      "attribution": "Ambuj Saxena \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pumice_Stone.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-quartz-crystal",
+      "module": "natural_world",
+      "entity_id": "quartz-crystal",
+      "tags": [
+        "northeast",
+        "mineral"
+      ],
+      "front": "Identify this mineral",
+      "back": "Quartz Crystal (SiO2) \u2014 Hexagonal prismatic silicate crystal; Mohs hardness 7, glassy luster, conchoidal fracture, piezoelectric.",
+      "media": "media/natural-world/quartz-crystal.jpg",
+      "attribution": "JJ Harrison (https://www.jjharrison.com.au/) \u00b7 CC BY-SA 2.5 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quartz,_Tibet.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.5)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-pyrite",
+      "module": "natural_world",
+      "entity_id": "pyrite",
+      "tags": [
+        "northeast",
+        "mineral"
+      ],
+      "front": "Identify this mineral",
+      "back": "Pyrite (Fool's Gold, FeS2) \u2014 Brassy metallic isometric cubes with striated faces; harder (Mohs 6\u20136.5) and lighter than gold, greenish-black streak.",
+      "media": "media/natural-world/pyrite.jpg",
+      "attribution": "Ivar Leidus \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pyrite_-_Huanzala_mine,_Huallanca,_Bolognesi,_Ancash,_Peru.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-feldspar",
+      "module": "natural_world",
+      "entity_id": "feldspar",
+      "tags": [
+        "northeast",
+        "mineral"
+      ],
+      "front": "Identify this mineral",
+      "back": "Potassium Feldspar (Orthoclase) \u2014 Most abundant mineral group in Earth's crust (~60%); salmon-pink/white blocks with two clean 90\u00b0 cleavage planes (Mohs 6).",
+      "media": "media/natural-world/feldspar.jpg",
+      "attribution": "Didier Descouens \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OrthoclaseBresil.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-calcite",
+      "module": "natural_world",
+      "entity_id": "calcite",
+      "tags": [
+        "northeast",
+        "mineral"
+      ],
+      "front": "Identify this mineral",
+      "back": "Calcite (CaCO3) \u2014 Rhombohedral carbonate crystal (Mohs 3) famous for optical double refraction and vigorous fizzing in acid.",
+      "media": "media/natural-world/calcite.jpg",
+      "attribution": "Furrfu \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:3310.calcite_(Iceland_Spar)_birefringence.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-muscovite-mica",
+      "module": "natural_world",
+      "entity_id": "muscovite-mica",
+      "tags": [
+        "northeast",
+        "mineral"
+      ],
+      "front": "Identify this mineral",
+      "back": "Muscovite Mica \u2014 Silicate mineral with perfect basal cleavage peeling into flexible transparent silvery sheets.",
+      "media": "media/natural-world/muscovite-mica.jpg",
+      "attribution": "Robert M. Lavinsky \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Muscovite-237466.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-glacial-erratic",
+      "module": "natural_world",
+      "entity_id": "glacial-erratic",
+      "tags": [
+        "northeast",
+        "geology"
+      ],
+      "front": "Identify this geology",
+      "back": "Glacial Erratic Boulder \u2014 Massive foreign boulder plucked and carried miles by Pleistocene ice sheets (ubiquitous across Central Park & Hudson Valley).",
+      "media": "media/natural-world/glacial-erratic.jpg",
+      "attribution": "Marty Aligata \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Glacial_erratic_in_Central_Park_(alongside_The_Lake_near_Bow_Bridge)_(February_2026).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-glacial-striations",
+      "module": "natural_world",
+      "entity_id": "glacial-striations",
+      "tags": [
+        "northeast",
+        "geology"
+      ],
+      "front": "Identify this geology",
+      "back": "Glacial Striations \u2014 Parallel grooves scraped across exposed bedrock by rocks frozen into the base of advancing glaciers \u2014 shows ice flow direction.",
+      "media": "media/natural-world/glacial-striations.jpg",
+      "attribution": "Walter Siegmund \u00b7 CC BY 2.5 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Glacial_striation_21149.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.5)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-poison-ivy",
+      "module": "natural_world",
+      "entity_id": "poison-ivy",
+      "tags": [
+        "northeast",
+        "plant"
+      ],
+      "front": "Identify this plant",
+      "back": "Poison Ivy (Toxicodendron radicans) \u2014 'Leaves of three, let it be'; shiny compound leaf with notched/mitten outer margins and hairy climbing vine; urushiol oil.",
+      "media": "media/natural-world/poison-ivy.jpg",
+      "attribution": "Agnieszka Kwiecie\u0144, Nova \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Toxicodendron_radicans_syn._Rhus_radicans_Sumak_pn%C4%85cy_2020-08-07_01.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-virginia-creeper",
+      "module": "natural_world",
+      "entity_id": "virginia-creeper",
+      "tags": [
+        "northeast",
+        "plant"
+      ],
+      "front": "Identify this plant",
+      "back": "Virginia Creeper (Parthenocissus quinquefolia) \u2014 Harmless native vine with FIVE leaflets (often confused with 3-leaf poison ivy); turns brilliant crimson in autumn.",
+      "media": "media/natural-world/virginia-creeper.jpg",
+      "attribution": "JackyM59 \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vigne_vierge_(Parthenocissus_quinquefolia)_en_octobre.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-staghorn-sumac",
+      "module": "natural_world",
+      "entity_id": "staghorn-sumac",
+      "tags": [
+        "northeast",
+        "plant"
+      ],
+      "front": "Identify this plant",
+      "back": "Staghorn Sumac (Rhus typhina) \u2014 Fuzzy antler-like twigs, long ferny compound leaves, and upright velvety crimson berry cones along Northeast roadsides.",
+      "media": "media/natural-world/staghorn-sumac.jpg",
+      "attribution": "Crusier \u00b7 CC BY 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rhus_typhina_Marki.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-common-milkweed",
+      "module": "natural_world",
+      "entity_id": "common-milkweed",
+      "tags": [
+        "northeast",
+        "plant"
+      ],
+      "front": "Identify this plant",
+      "back": "Common Milkweed (Asclepias syriaca) \u2014 Thick opposite leaves oozing white latex, dusty-pink star flower umbels, warty seed pods; sole host plant of Monarch caterpillars.",
+      "media": "media/natural-world/common-milkweed.jpg",
+      "attribution": "Brocken Inaglory \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Asclepias_syriaca_close_up_of_the_seed_copy.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-golden-rod",
+      "module": "natural_world",
+      "entity_id": "golden-rod",
+      "tags": [
+        "northeast",
+        "plant"
+      ],
+      "front": "Identify this plant",
+      "back": "Canada Goldenrod (Solidago canadensis) \u2014 Plumed late-summer yellow wildflower pollinated by insects (NOT the cause of hay fever \u2014 wind-pollinated ragweed is).",
+      "media": "media/natural-world/golden-rod.jpg",
+      "attribution": "Dmitry Makeev \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Solidago_canadensis._img-011.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-cattail",
+      "module": "natural_world",
+      "entity_id": "cattail",
+      "tags": [
+        "northeast",
+        "plant"
+      ],
+      "front": "Identify this plant",
+      "back": "Broadleaf Cattail (Typha latifolia) \u2014 Sword-like marsh blades topped by a dense velvety dark-brown cylindrical seed spike.",
+      "media": "media/natural-world/cattail.jpg",
+      "attribution": "Dominicus Johannes Bergsma \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zaadpluizen_grote_lisdodde_(Typha_latifolia)._(d.j.b.).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-japanese-knotweed",
+      "module": "natural_world",
+      "entity_id": "japanese-knotweed",
+      "tags": [
+        "northeast",
+        "plant"
+      ],
+      "front": "Identify this plant",
+      "back": "Japanese Knotweed (Reynoutria japonica) \u2014 Bamboo-like hollow speckled stems, spade-shaped leaves; notoriously aggressive invasive rhizome cracking foundations.",
+      "media": "media/natural-world/japanese-knotweed.jpg",
+      "attribution": "Dmitry Makeev \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Reynoutria_japonica._img-005.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-chicken-of-the-woods",
+      "module": "natural_world",
+      "entity_id": "chicken-of-the-woods",
+      "tags": [
+        "northeast",
+        "fungus"
+      ],
+      "front": "Identify this fungus",
+      "back": "Chicken of the Woods (Laetiporus sulphureus) \u2014 Bright sulfur-yellow and traffic-cone-orange overlapping shelf brackets on dead/dying oaks; choice edible polypore.",
+      "media": "media/natural-world/chicken-of-the-woods.jpg",
+      "attribution": "Andreas Eichler \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2017.05.13.-04-Bruehl_Rohrhof--Laetiporus_sulphureus_(Gemeiner_Schwefelporling).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-hen-of-the-woods",
+      "module": "natural_world",
+      "entity_id": "hen-of-the-woods",
+      "tags": [
+        "northeast",
+        "fungus"
+      ],
+      "front": "Identify this fungus",
+      "back": "Hen of the Woods / Maitake (Grifola frondosa) \u2014 Frilly gray-brown rosette of overlapping caps fruiting at the base of mature oaks in autumn.",
+      "media": "media/natural-world/hen-of-the-woods.jpg",
+      "attribution": "George Chernilevsky \u00b7 Public domain (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Grifola_frondosa_2014_G1.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (Public domain)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-turkey-tail",
+      "module": "natural_world",
+      "entity_id": "turkey-tail",
+      "tags": [
+        "northeast",
+        "fungus"
+      ],
+      "front": "Identify this fungus",
+      "back": "Turkey Tail (Trametes versicolor) \u2014 Thin leathery fan brackets with concentric multicolored velvet zones and tiny white pores underneath; dead hardwood decomposer.",
+      "media": "media/natural-world/turkey-tail.jpg",
+      "attribution": "Ermell \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Trametes_Versicolor-20191227-RM-145922.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-morel-mushroom",
+      "module": "natural_world",
+      "entity_id": "morel-mushroom",
+      "tags": [
+        "northeast",
+        "fungus"
+      ],
+      "front": "Identify this fungus",
+      "back": "Yellow Morel (Morchella esculenta) \u2014 Honeycomb-pitted sponge cap completely HOLLOW from cap tip to stem base; prized spring woodland fungus.",
+      "media": "media/natural-world/morel-mushroom.jpg",
+      "attribution": "Holger Krisp \u00b7 CC BY 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Speise_Morchel_Morchella_esculenta.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-destroying-angel",
+      "module": "natural_world",
+      "entity_id": "destroying-angel",
+      "tags": [
+        "northeast",
+        "fungus"
+      ],
+      "front": "Identify this fungus",
+      "back": "Destroying Angel (Amanita bisporigera) \u2014 Pure ghostly white mushroom with cup-like basal volva, skirt ring, and white gills; contains lethal amatoxins.",
+      "media": "media/natural-world/destroying-angel.jpg",
+      "attribution": "Dan Molter (shroomydan) \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amanita_bisporigera_17932.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-giant-puffball",
+      "module": "natural_world",
+      "entity_id": "giant-puffball",
+      "tags": [
+        "northeast",
+        "fungus"
+      ],
+      "front": "Identify this fungus",
+      "back": "Giant Puffball (Calvatia gigantea) \u2014 Soccer-ball-sized white globe fruiting in late-summer meadows; solid marshmallow-white inside when young.",
+      "media": "media/natural-world/giant-puffball.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Calvatia_gigantea_(51422).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-monarch-butterfly",
+      "module": "natural_world",
+      "entity_id": "monarch-butterfly",
+      "tags": [
+        "northeast",
+        "insect"
+      ],
+      "front": "Identify this insect",
+      "back": "Monarch Butterfly (Danaus plexippus) \u2014 Stained-glass orange wings with black veins and white-spotted borders; multi-generation 4,000 km migration to central Mexico.",
+      "media": "media/natural-world/monarch-butterfly.jpg",
+      "attribution": "Thomas Bresson \u00b7 CC BY 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Danaus_plexippus_(7).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-tiger-swallowtail",
+      "module": "natural_world",
+      "entity_id": "eastern-tiger-swallowtail",
+      "tags": [
+        "northeast",
+        "insect"
+      ],
+      "front": "Identify this insect",
+      "back": "Eastern Tiger Swallowtail (Papilio glaucus) \u2014 Large lemon-yellow butterfly with bold black tiger stripes and hindwing tails; common Northeast summer butterfly.",
+      "media": "media/natural-world/eastern-tiger-swallowtail.jpg",
+      "attribution": "Manjithkaini \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eastern_tiger_swallowtail_Butterfly.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-spotted-lanternfly",
+      "module": "natural_world",
+      "entity_id": "spotted-lanternfly",
+      "tags": [
+        "northeast",
+        "insect"
+      ],
+      "front": "Identify this insect",
+      "back": "Spotted Lanternfly (Lycorma delicatula) \u2014 Invasive planthopper with polka-dotted tan forewings and flash-scarlet hindwings; favors Tree of Heaven and grapes.",
+      "media": "media/natural-world/spotted-lanternfly.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Spotted_lanternfly_in_BBG_(42972).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-periodical-cicada",
+      "module": "natural_world",
+      "entity_id": "periodical-cicada",
+      "tags": [
+        "northeast",
+        "insect"
+      ],
+      "front": "Identify this insect",
+      "back": "Periodical Cicada (Magicicada) \u2014 Jet-black body, bulging ruby-red eyes, orange-veined wings; emerges synchronously every 13 or 17 years to swamp predators.",
+      "media": "media/natural-world/periodical-cicada.jpg",
+      "attribution": "G. Edward Johnson \u00b7 CC BY 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cicada_with_extensive_abdomen_fungus_2021-05-31_093621_1_crop.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-bald-faced-hornet",
+      "module": "natural_world",
+      "entity_id": "bald-faced-hornet",
+      "tags": [
+        "northeast",
+        "insect"
+      ],
+      "front": "Identify this insect",
+      "back": "Bald-faced Hornet (Dolichovespula maculata) \u2014 Black-and-ivory aerial yellowjacket building basketball-sized gray paper nests hanging from tree limbs.",
+      "media": "media/natural-world/bald-faced-hornet.jpg",
+      "attribution": "The High Fin Sperm Whale \u00b7 CC BY-SA 3.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bald-faced_hornet_(Dolichovespula_maculata)_nest.JPG",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 3.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-gray-squirrel",
+      "module": "natural_world",
+      "entity_id": "eastern-gray-squirrel",
+      "tags": [
+        "northeast",
+        "mammal"
+      ],
+      "front": "Identify this mammal",
+      "back": "Eastern Gray Squirrel (Sciurus carolinensis) \u2014 Bushy-tailed scatter-hoarding rodent; ankle joints rotate 180\u00b0 to descend tree trunks headfirst.",
+      "media": "media/natural-world/eastern-gray-squirrel.jpg",
+      "attribution": "Wilfredor \u00b7 CC0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Melanistic_Sciurus_carolinensis_at_Jardin_botanique_Roger-Van_den_Hende.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-raccoon",
+      "module": "natural_world",
+      "entity_id": "raccoon",
+      "tags": [
+        "northeast",
+        "mammal"
+      ],
+      "front": "Identify this mammal",
+      "back": "Raccoon (Procyon lotor) \u2014 Black bandit mask, ringed tail, hyper-sensitive hairless forepaws whose tactile acuity doubles when wet.",
+      "media": "media/natural-world/raccoon.jpg",
+      "attribution": "Darkone \u00b7 CC BY-SA 2.5 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Raccoon_(Procyon_lotor)_2.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.5)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-virginia-opossum",
+      "module": "natural_world",
+      "entity_id": "virginia-opossum",
+      "tags": [
+        "northeast",
+        "mammal"
+      ],
+      "front": "Identify this mammal",
+      "back": "Virginia Opossum (Didelphis virginiana) \u2014 North America's only marsupial; 50 teeth, prehensile tail, immune to most snake venom, eats thousands of ticks.",
+      "media": "media/natural-world/virginia-opossum.jpg",
+      "attribution": "Cody Pope \u00b7 CC BY-SA 2.5 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Opossum_2.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.5)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-white-tailed-deer",
+      "module": "natural_world",
+      "entity_id": "white-tailed-deer",
+      "tags": [
+        "northeast",
+        "mammal"
+      ],
+      "front": "Identify this mammal",
+      "back": "White-tailed Deer (Odocoileus virginianus) \u2014 Reddish-summer / gray-winter coat; flashes bright white underside of tail as an alarm flag when bounding.",
+      "media": "media/natural-world/white-tailed-deer.jpg",
+      "attribution": "Charles J. Sharp \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:White-tailed_deer_(Odocoileus_virginianus_goudotii)_male_head_Chingaza.jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-red-fox",
+      "module": "natural_world",
+      "entity_id": "red-fox",
+      "tags": [
+        "northeast",
+        "mammal"
+      ],
+      "front": "Identify this mammal",
+      "back": "Red Fox (Vulpes vulpes) \u2014 Russet coat, black 'stocking' legs, white-tipped bushy tail; uses Earth's magnetic field to pounce on snow-buried voles.",
+      "media": "media/natural-world/red-fox.jpg",
+      "attribution": "Gregory \"Slobirdr\" Smith \u00b7 CC BY-SA 2.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alaska_Red_Fox_(Vulpes_vulpes).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 2.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "nw-eastern-cottontail",
+      "module": "natural_world",
+      "entity_id": "eastern-cottontail",
+      "tags": [
+        "northeast",
+        "mammal"
+      ],
+      "front": "Identify this mammal",
+      "back": "Eastern Cottontail (Sylvilagus floridanus) \u2014 Speckled brown-gray rabbit with rusty nape patch and powder-puff white tail; freezes motionless before zigzag sprinting.",
+      "media": "media/natural-world/eastern-cottontail.jpg",
+      "attribution": "Rhododendrites \u00b7 CC BY-SA 4.0 (Wikimedia Commons)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eastern_cottontail_headshot_(30826).jpg",
+      "source_note": "Wikimedia Commons openly licensed photograph (CC BY-SA 4.0)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    }
+  ]
+}

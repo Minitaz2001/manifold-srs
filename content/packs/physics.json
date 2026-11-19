@@ -1,0 +1,4543 @@
+{
+  "pack_id": "physics-quant-ladders",
+  "version": "0.2.0",
+  "release_date": "2026-11-19",
+  "module": "physics",
+  "entities": [
+    {
+      "id": "len-proton",
+      "name": "Proton Charge Radius",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "quantum",
+        "anchor"
+      ]
+    },
+    {
+      "id": "len-hydrogen-atom",
+      "name": "Hydrogen Atom Diameter (2× Bohr Radius)",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "quantum"
+      ]
+    },
+    {
+      "id": "len-dna-width",
+      "name": "DNA Double Helix Width",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "biology"
+      ]
+    },
+    {
+      "id": "len-transistor-gate",
+      "name": "Modern FinFET/GAA Transistor Gate Pitch",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "compute"
+      ]
+    },
+    {
+      "id": "len-virus",
+      "name": "Typical Respiratory Virus (Coronavirus)",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "biology"
+      ]
+    },
+    {
+      "id": "len-visible-light",
+      "name": "Green Visible Light Wavelength",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "optics",
+        "anchor"
+      ]
+    },
+    {
+      "id": "len-ecoli",
+      "name": "E. coli Bacterium Length",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "biology"
+      ]
+    },
+    {
+      "id": "len-red-blood-cell",
+      "name": "Human Red Blood Cell Diameter",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "biology"
+      ]
+    },
+    {
+      "id": "len-human-hair",
+      "name": "Human Hair Thickness",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "everyday"
+      ]
+    },
+    {
+      "id": "len-paper-sheet",
+      "name": "Standard Printer Paper Thickness",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "everyday"
+      ]
+    },
+    {
+      "id": "len-credit-card",
+      "name": "Credit Card Thickness",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "everyday"
+      ]
+    },
+    {
+      "id": "len-human-height",
+      "name": "Adult Human Height",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "len-shipping-container",
+      "name": "40-Foot ISO Shipping Container Length",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "built"
+      ]
+    },
+    {
+      "id": "len-football-field",
+      "name": "American Football Field (with End Zones)",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "everyday"
+      ]
+    },
+    {
+      "id": "len-empire-state",
+      "name": "Empire State Building Roof Height",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "built"
+      ]
+    },
+    {
+      "id": "len-burj-khalifa",
+      "name": "Burj Khalifa Total Height",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "built"
+      ]
+    },
+    {
+      "id": "len-mount-everest",
+      "name": "Mount Everest Elevation",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "earth",
+        "anchor"
+      ]
+    },
+    {
+      "id": "len-commercial-cruise",
+      "name": "Commercial Jet Cruising Altitude",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "earth"
+      ]
+    },
+    {
+      "id": "len-karman-line",
+      "name": "Kármán Line (Edge of Space)",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "space"
+      ]
+    },
+    {
+      "id": "len-iss-orbit",
+      "name": "ISS Low Earth Orbit Altitude",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "space"
+      ]
+    },
+    {
+      "id": "len-earth-radius",
+      "name": "Earth Mean Radius",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "earth",
+        "anchor"
+      ]
+    },
+    {
+      "id": "len-geo-orbit",
+      "name": "Geostationary Orbit Altitude",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "space"
+      ]
+    },
+    {
+      "id": "len-earth-moon",
+      "name": "Earth–Moon Mean Distance",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "space"
+      ]
+    },
+    {
+      "id": "len-sun-radius",
+      "name": "Solar Radius",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "space"
+      ]
+    },
+    {
+      "id": "len-astronomical-unit",
+      "name": "1 Astronomical Unit (Earth–Sun)",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "len-light-year",
+      "name": "1 Light-Year",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mass-proton",
+      "name": "Proton Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "quantum",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mass-ecoli",
+      "name": "Single E. coli Bacterium Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "biology"
+      ]
+    },
+    {
+      "id": "mass-mammalian-cell",
+      "name": "Human Somatic Cell Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "biology"
+      ]
+    },
+    {
+      "id": "mass-mosquito",
+      "name": "Mosquito Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "biology"
+      ]
+    },
+    {
+      "id": "mass-raindrop",
+      "name": "Typical Raindrop Mass (2 mm)",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "everyday"
+      ]
+    },
+    {
+      "id": "mass-paperclip",
+      "name": "Standard Metal Paperclip Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mass-smartphone",
+      "name": "Modern Smartphone Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "everyday"
+      ]
+    },
+    {
+      "id": "mass-liter-water",
+      "name": "1 Liter of Water Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mass-human",
+      "name": "Adult Human Body Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "biology"
+      ]
+    },
+    {
+      "id": "mass-passenger-car",
+      "name": "Passenger Car Curb Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "transport"
+      ]
+    },
+    {
+      "id": "mass-blue-whale",
+      "name": "Adult Blue Whale Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "biology"
+      ]
+    },
+    {
+      "id": "mass-boeing-747",
+      "name": "Boeing 747 Max Takeoff Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "transport",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mass-container-ship",
+      "name": "Ultra-Large Container Ship (Loaded)",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "transport"
+      ]
+    },
+    {
+      "id": "mass-empire-state",
+      "name": "Empire State Building Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "built"
+      ]
+    },
+    {
+      "id": "mass-great-pyramid",
+      "name": "Great Pyramid of Giza Mass",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "built"
+      ]
+    },
+    {
+      "id": "mass-all-humans",
+      "name": "Combined Mass of All Living Humans",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mass-earth-atmosphere",
+      "name": "Total Mass of Earth's Atmosphere",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "earth",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mass-earth-oceans",
+      "name": "Total Mass of Earth's Oceans",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "earth"
+      ]
+    },
+    {
+      "id": "mass-moon",
+      "name": "Mass of the Moon",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "space"
+      ]
+    },
+    {
+      "id": "mass-earth",
+      "name": "Mass of Earth",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mass-jupiter",
+      "name": "Mass of Jupiter",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "space"
+      ]
+    },
+    {
+      "id": "mass-sun",
+      "name": "Mass of the Sun",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "time-cpu-cycle",
+      "name": "Modern CPU Clock Cycle (~3 GHz)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "compute",
+        "anchor"
+      ]
+    },
+    {
+      "id": "time-l1-cache",
+      "name": "CPU L1 Cache Reference",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "compute"
+      ]
+    },
+    {
+      "id": "time-ram-access",
+      "name": "Main Memory (DRAM) Reference",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "compute"
+      ]
+    },
+    {
+      "id": "time-nvme-read",
+      "name": "NVMe SSD Random 4 KB Read",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "compute"
+      ]
+    },
+    {
+      "id": "time-neuron-spike",
+      "name": "Neuronal Action Potential Duration",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "biology"
+      ]
+    },
+    {
+      "id": "time-frame-60hz",
+      "name": "One 60 Hz Video Frame",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "compute"
+      ]
+    },
+    {
+      "id": "time-transatlantic-rtt",
+      "name": "NYC–London Fiber Round-Trip (RTT)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "compute"
+      ]
+    },
+    {
+      "id": "time-human-reaction",
+      "name": "Human Visual Reaction Time",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "biology",
+        "anchor"
+      ]
+    },
+    {
+      "id": "time-heartbeat",
+      "name": "Resting Human Heartbeat Interval",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "biology"
+      ]
+    },
+    {
+      "id": "time-light-sun-earth",
+      "name": "Sunlight Travel Time (Sun → Earth)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "space"
+      ]
+    },
+    {
+      "id": "time-ecoli-division",
+      "name": "E. coli Cell Division Time (Optimal)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "biology"
+      ]
+    },
+    {
+      "id": "time-solar-day",
+      "name": "1 Day (24 Hours)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "time-lunar-month",
+      "name": "Synodic Lunar Month",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "earth"
+      ]
+    },
+    {
+      "id": "time-julian-year",
+      "name": "1 Year (π × 10^7 s)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "time-human-lifespan",
+      "name": "Human Lifespan (~80 Years)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "biology"
+      ]
+    },
+    {
+      "id": "time-written-history",
+      "name": "Human Recorded History (~5,000 yr)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "civilization"
+      ]
+    },
+    {
+      "id": "time-homo-sapiens",
+      "name": "Age of Homo sapiens (~300 kyr)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "biology"
+      ]
+    },
+    {
+      "id": "time-dino-extinction",
+      "name": "Cretaceous–Paleogene Extinction (66 Myr)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "earth"
+      ]
+    },
+    {
+      "id": "time-earth-age",
+      "name": "Age of Earth (4.54 Gyr)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "time-universe-age",
+      "name": "Age of the Observable Universe (13.8 Gyr)",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "space"
+      ]
+    },
+    {
+      "id": "spd-plate-tectonics",
+      "name": "Tectonic Plate Drift / Fingernail Growth",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "earth",
+        "anchor"
+      ]
+    },
+    {
+      "id": "spd-snail",
+      "name": "Garden Snail Crawling Speed",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "biology"
+      ]
+    },
+    {
+      "id": "spd-human-walk",
+      "name": "Brisk Human Walking Speed",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "spd-bicycle",
+      "name": "Urban Cycling Speed",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "everyday"
+      ]
+    },
+    {
+      "id": "spd-usain-bolt",
+      "name": "Peak Human Sprint (Usain Bolt)",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "biology"
+      ]
+    },
+    {
+      "id": "spd-highway-car",
+      "name": "Highway Automobile (65–70 mph)",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "spd-cat5-hurricane",
+      "name": "Category 5 Hurricane Sustained Winds",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "earth"
+      ]
+    },
+    {
+      "id": "spd-high-speed-rail",
+      "name": "High-Speed Rail (Shinkansen / TGV)",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "transport"
+      ]
+    },
+    {
+      "id": "spd-nerve-impulse",
+      "name": "Fast Myelinated Nerve Impulse",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "biology"
+      ]
+    },
+    {
+      "id": "spd-commercial-jet",
+      "name": "Commercial Jet Airliner Cruise",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "transport"
+      ]
+    },
+    {
+      "id": "spd-sound-air",
+      "name": "Speed of Sound in Sea-Level Air (20 °C)",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "physics",
+        "anchor"
+      ]
+    },
+    {
+      "id": "spd-rifle-bullet",
+      "name": "High-Velocity Rifle Bullet (5.56 mm)",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "physics"
+      ]
+    },
+    {
+      "id": "spd-sound-water",
+      "name": "Speed of Sound in Seawater",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "physics"
+      ]
+    },
+    {
+      "id": "spd-sound-steel",
+      "name": "Speed of Sound in Steel",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "physics"
+      ]
+    },
+    {
+      "id": "spd-leo-orbital",
+      "name": "Low Earth Orbit (ISS) Velocity",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "spd-earth-escape",
+      "name": "Earth Escape Velocity (Surface)",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "space"
+      ]
+    },
+    {
+      "id": "spd-earth-orbit",
+      "name": "Earth Orbital Speed Around the Sun",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "space"
+      ]
+    },
+    {
+      "id": "spd-light-vacuum",
+      "name": "Speed of Light in Vacuum (c)",
+      "kind": "speed_scale",
+      "module": "physics",
+      "tags": [
+        "speed",
+        "physics",
+        "anchor"
+      ]
+    },
+    {
+      "id": "en-hydro-10m",
+      "name": "Low-Head Pumped Hydro (10 m drop)",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy"
+      ]
+    },
+    {
+      "id": "en-hydro-100m",
+      "name": "High-Head Dam Pumped Hydro (100 m)",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "anchor"
+      ]
+    },
+    {
+      "id": "en-supercapacitor",
+      "name": "Commercial Supercapacitor",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "battery"
+      ]
+    },
+    {
+      "id": "en-lead-acid",
+      "name": "Lead-Acid Battery",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "battery"
+      ]
+    },
+    {
+      "id": "en-lfp-battery",
+      "name": "LFP Lithium-Ion Battery Cell",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "battery"
+      ]
+    },
+    {
+      "id": "en-li-ion-nmc",
+      "name": "NMC Lithium-Ion Battery Cell",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "battery",
+        "anchor"
+      ]
+    },
+    {
+      "id": "en-tnt",
+      "name": "TNT (Trinitrotoluene)",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "chemical"
+      ]
+    },
+    {
+      "id": "en-dry-wood",
+      "name": "Dry Hardwood Fuel",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "biomass"
+      ]
+    },
+    {
+      "id": "en-sugar-carb",
+      "name": "Dietary Carbohydrates / Sugar",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "biology"
+      ]
+    },
+    {
+      "id": "en-bituminous-coal",
+      "name": "Bituminous Coal",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "fossil"
+      ]
+    },
+    {
+      "id": "en-ethanol",
+      "name": "Ethanol (Fuel Grade)",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "chemical"
+      ]
+    },
+    {
+      "id": "en-dietary-fat",
+      "name": "Dietary Fat / Vegetable Oil",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "biology"
+      ]
+    },
+    {
+      "id": "en-diesel-jet",
+      "name": "Diesel / Jet-A Aviation Fuel",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "fossil",
+        "anchor"
+      ]
+    },
+    {
+      "id": "en-natural-gas",
+      "name": "Methane / Natural Gas (LHV)",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "fossil"
+      ]
+    },
+    {
+      "id": "en-hydrogen",
+      "name": "Hydrogen Gas (H2, gravimetric)",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "chemical"
+      ]
+    },
+    {
+      "id": "en-u235-fission",
+      "name": "Uranium-235 Complete Fission",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "nuclear",
+        "anchor"
+      ]
+    },
+    {
+      "id": "en-dt-fusion",
+      "name": "Deuterium–Tritium Nuclear Fusion",
+      "kind": "energy_store",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "nuclear"
+      ]
+    },
+    {
+      "id": "pwr-smartphone",
+      "name": "Smartphone Average Active Draw",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "compute"
+      ]
+    },
+    {
+      "id": "pwr-led-bulb",
+      "name": "Household 60W-Equiv LED Bulb",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "pwr-human-brain",
+      "name": "Human Brain Metabolic Power",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "biology"
+      ]
+    },
+    {
+      "id": "pwr-human-basal",
+      "name": "Resting Adult Human Metabolism",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "biology",
+        "anchor"
+      ]
+    },
+    {
+      "id": "pwr-cyclist",
+      "name": "Sustained Trained Cyclist Mechanical Output",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "biology"
+      ]
+    },
+    {
+      "id": "pwr-us-home-elec",
+      "name": "Average US Household Electricity",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "civilization"
+      ]
+    },
+    {
+      "id": "pwr-kettle",
+      "name": "Electric Kettle / Hair Dryer Peak",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "everyday"
+      ]
+    },
+    {
+      "id": "pwr-home-solar",
+      "name": "Typical Residential Rooftop Solar Array",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "energy"
+      ]
+    },
+    {
+      "id": "pwr-car-engine",
+      "name": "Passenger Car Peak Power (~200 hp)",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "transport",
+        "anchor"
+      ]
+    },
+    {
+      "id": "pwr-semi-truck",
+      "name": "Heavy Semi-Truck Diesel Engine",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "transport"
+      ]
+    },
+    {
+      "id": "pwr-onshore-wind",
+      "name": "Modern Onshore Wind Turbine",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "energy"
+      ]
+    },
+    {
+      "id": "pwr-boeing-747",
+      "name": "Boeing 747 Takeoff Thrust Power",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "transport"
+      ]
+    },
+    {
+      "id": "pwr-datacenter",
+      "name": "Large AI / Hyperscale Datacenter Campus",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "compute"
+      ]
+    },
+    {
+      "id": "pwr-nuclear-unit",
+      "name": "Single Nuclear Reactor (Electric)",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "energy",
+        "anchor"
+      ]
+    },
+    {
+      "id": "pwr-hoover-dam",
+      "name": "Hoover Dam Nameplate Capacity",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "energy"
+      ]
+    },
+    {
+      "id": "pwr-three-gorges",
+      "name": "Three Gorges Dam Nameplate Capacity",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "energy"
+      ]
+    },
+    {
+      "id": "pwr-us-primary",
+      "name": "Total US Primary Energy Rate",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "civilization"
+      ]
+    },
+    {
+      "id": "pwr-global-primary",
+      "name": "Global Human Primary Power",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "civilization",
+        "anchor"
+      ]
+    },
+    {
+      "id": "pwr-earth-sunlight",
+      "name": "Total Sunlight Intercepted by Earth",
+      "kind": "power_scale",
+      "module": "physics",
+      "tags": [
+        "power",
+        "earth"
+      ]
+    },
+    {
+      "id": "den-air",
+      "name": "Dry Air (Sea Level, 15 °C)",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "anchor"
+      ]
+    },
+    {
+      "id": "den-eps-foam",
+      "name": "Expanded Polystyrene (EPS Foam)",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "built"
+      ]
+    },
+    {
+      "id": "den-cork",
+      "name": "Natural Cork",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "natural"
+      ]
+    },
+    {
+      "id": "den-softwood",
+      "name": "Softwood Structural Lumber (SPF/Fir)",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "built"
+      ]
+    },
+    {
+      "id": "den-oak",
+      "name": "White/Red Oak Hardwood",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "built"
+      ]
+    },
+    {
+      "id": "den-gasoline",
+      "name": "Gasoline / Diesel Fuel",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "energy"
+      ]
+    },
+    {
+      "id": "den-ice",
+      "name": "Water Ice (0 °C)",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "earth"
+      ]
+    },
+    {
+      "id": "den-water",
+      "name": "Liquid Water (4 °C)",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "anchor"
+      ]
+    },
+    {
+      "id": "den-brick",
+      "name": "Fired Clay Brick",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "built"
+      ]
+    },
+    {
+      "id": "den-silicon",
+      "name": "Crystalline Silicon",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "compute"
+      ]
+    },
+    {
+      "id": "den-concrete",
+      "name": "Normal-Weight Structural Concrete",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "built"
+      ]
+    },
+    {
+      "id": "den-aluminum",
+      "name": "Aluminum",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal"
+      ]
+    },
+    {
+      "id": "den-titanium",
+      "name": "Titanium",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal"
+      ]
+    },
+    {
+      "id": "den-steel",
+      "name": "Structural Carbon Steel",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal",
+        "anchor"
+      ]
+    },
+    {
+      "id": "den-copper",
+      "name": "Copper",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal"
+      ]
+    },
+    {
+      "id": "den-lead",
+      "name": "Lead",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal"
+      ]
+    },
+    {
+      "id": "den-gold",
+      "name": "Gold / Tungsten",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal",
+        "anchor"
+      ]
+    },
+    {
+      "id": "den-osmium",
+      "name": "Osmium (Densest Natural Element)",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal"
+      ]
+    },
+    {
+      "id": "tmp-cmb",
+      "name": "Cosmic Microwave Background",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "tmp-liq-helium",
+      "name": "Liquid Helium Boiling Point (1 atm)",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "cryo"
+      ]
+    },
+    {
+      "id": "tmp-liq-nitrogen",
+      "name": "Liquid Nitrogen Boiling Point (1 atm)",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "cryo",
+        "anchor"
+      ]
+    },
+    {
+      "id": "tmp-dry-ice",
+      "name": "Dry Ice (CO2 Sublimation, 1 atm)",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "cryo"
+      ]
+    },
+    {
+      "id": "tmp-water-freeze",
+      "name": "Water Freezing Point (0 °C)",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "tmp-earth-mean",
+      "name": "Earth Surface Mean Temperature",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "earth"
+      ]
+    },
+    {
+      "id": "tmp-human-body",
+      "name": "Normal Human Core Body Temperature",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "biology"
+      ]
+    },
+    {
+      "id": "tmp-water-boil",
+      "name": "Water Boiling Point (100 °C, 1 atm)",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "everyday"
+      ]
+    },
+    {
+      "id": "tmp-paper-ignite",
+      "name": "Paper Autoignition (~451 °F)",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "everyday"
+      ]
+    },
+    {
+      "id": "tmp-venus-surface",
+      "name": "Venus Surface Temperature",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "space"
+      ]
+    },
+    {
+      "id": "tmp-aluminum-melt",
+      "name": "Aluminum Melting Point",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "metal"
+      ]
+    },
+    {
+      "id": "tmp-basalt-lava",
+      "name": "Basaltic Lava Eruption Temperature",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "earth"
+      ]
+    },
+    {
+      "id": "tmp-steel-melt",
+      "name": "Structural Steel Melting Point",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "metal",
+        "anchor"
+      ]
+    },
+    {
+      "id": "tmp-tungsten-melt",
+      "name": "Tungsten Melting Point",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "metal"
+      ]
+    },
+    {
+      "id": "tmp-sun-surface",
+      "name": "Sun Photosphere (Surface) Temperature",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "tmp-lightning",
+      "name": "Lightning Bolt Peak Channel",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "earth"
+      ]
+    },
+    {
+      "id": "tmp-sun-core",
+      "name": "Core of the Sun",
+      "kind": "temp_scale",
+      "module": "physics",
+      "tags": [
+        "temp",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "prs-mars-surface",
+      "name": "Mars Surface Atmospheric Pressure",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "space",
+        "anchor"
+      ]
+    },
+    {
+      "id": "prs-systolic-bp",
+      "name": "Normal Human Systolic Blood Pressure (120 mmHg)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "biology"
+      ]
+    },
+    {
+      "id": "prs-everest-air",
+      "name": "Mount Everest Summit Air Pressure",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "earth"
+      ]
+    },
+    {
+      "id": "prs-1atm",
+      "name": "Standard Sea-Level Atmospheric Pressure (1 atm)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "earth",
+        "anchor"
+      ]
+    },
+    {
+      "id": "prs-car-tire",
+      "name": "Passenger Car Tire Gauge Pressure (~35 psi)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "everyday"
+      ]
+    },
+    {
+      "id": "prs-water-main",
+      "name": "Municipal Building Water Supply (~60 psi)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "built"
+      ]
+    },
+    {
+      "id": "prs-espresso",
+      "name": "Espresso Extraction Pressure (9 bar)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "everyday"
+      ]
+    },
+    {
+      "id": "prs-scuba-tank",
+      "name": "Full Scuba Cylinder (~3,000 psi)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "everyday",
+        "anchor"
+      ]
+    },
+    {
+      "id": "prs-concrete-strength",
+      "name": "Standard Structural Concrete Compressive Strength (4,000 psi)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "built"
+      ]
+    },
+    {
+      "id": "prs-mariana-trench",
+      "name": "Mariana Trench Bottom Pressure (~11 km depth)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "earth"
+      ]
+    },
+    {
+      "id": "prs-steel-yield",
+      "name": "A992 Structural Steel Yield Strength (50 ksi)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "built",
+        "anchor"
+      ]
+    },
+    {
+      "id": "prs-earth-core",
+      "name": "Pressure at Earth's Center",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "earth",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mat-lithium",
+      "name": "Global Annual Lithium Production (Metal Equiv.)",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mat-copper",
+      "name": "Global Annual Refined Copper Production",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mat-aluminum",
+      "name": "Global Annual Primary Aluminum Production",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mat-ammonia",
+      "name": "Global Annual Ammonia (Haber–Bosch) Production",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mat-plastics",
+      "name": "Global Annual Plastics Production",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization",
+        "anchor"
+      ]
+    },
+    {
+      "id": "mat-steel",
+      "name": "Global Annual Crude Steel Production",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mat-cement",
+      "name": "Global Annual Cement Production",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mat-crude-oil",
+      "name": "Global Annual Crude Oil Production (~100M bbl/d)",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mat-coal",
+      "name": "Global Annual Coal Production",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization"
+      ]
+    },
+    {
+      "id": "mat-co2-emissions",
+      "name": "Global Annual Fossil CO2 Emissions",
+      "kind": "material_flow",
+      "module": "physics",
+      "tags": [
+        "materials",
+        "civilization",
+        "anchor"
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "length_m",
+      "name": "Length / Distance",
+      "unit": "m",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "mass_kg",
+      "name": "Mass",
+      "unit": "kg",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "time_s",
+      "name": "Time / Latency",
+      "unit": "s",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "speed_m_s",
+      "name": "Speed",
+      "unit": "m/s",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "energy_density_mj_kg",
+      "name": "Specific Energy",
+      "unit": "MJ/kg",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "power_w",
+      "name": "Power",
+      "unit": "W",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "density_kg_m3",
+      "name": "Density",
+      "unit": "kg/m³",
+      "scale": "log",
+      "tolerance": 1.5,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "temperature_k",
+      "name": "Temperature",
+      "unit": "K",
+      "scale": "log",
+      "tolerance": 1.5,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "pressure_pa",
+      "name": "Pressure / Stress",
+      "unit": "Pa",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "material_output_mt_yr",
+      "name": "Global Annual Output",
+      "unit": "Mt/yr",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "energy_sankey",
+      "name": "US Energy Flow",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    },
+    {
+      "id": "em_spectrum_fig",
+      "name": "Electromagnetic Spectrum",
+      "unit": "",
+      "scale": "geo",
+      "tolerance": 1
+    }
+  ],
+  "facts": [
+    {
+      "entity_id": "len-proton",
+      "dimension_id": "length_m",
+      "value": 8.41e-16,
+      "low": 8.4e-16,
+      "high": 8.42e-16,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "CODATA proton RMS charge radius ~0.84 fm (8.41e-16 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-hydrogen-atom",
+      "dimension_id": "length_m",
+      "value": 1.06e-10,
+      "low": 1e-10,
+      "high": 1.1e-10,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Atomic scale ~1 Å (10^-10 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-dna-width",
+      "dimension_id": "length_m",
+      "value": 2e-09,
+      "low": 1.8e-09,
+      "high": 2.5e-09,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "B-DNA helix diameter ~2 nm (2e-9 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-transistor-gate",
+      "dimension_id": "length_m",
+      "value": 4.5e-08,
+      "low": 3.5e-08,
+      "high": 5.5e-08,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Leading-edge silicon contacted gate pitch ~45 nm (marketing node ~3 nm)",
+      "volatile": true
+    },
+    {
+      "entity_id": "len-virus",
+      "dimension_id": "length_m",
+      "value": 1e-07,
+      "low": 8e-08,
+      "high": 1.4e-07,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Viral virion diameter ~100 nm (0.1 µm)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-visible-light",
+      "dimension_id": "length_m",
+      "value": 5.5e-07,
+      "low": 4e-07,
+      "high": 7e-07,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Electromagnetic_spectrum",
+      "source_note": "Visible light spans ~400–700 nm; green peak sensitivity ~550 nm",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-ecoli",
+      "dimension_id": "length_m",
+      "value": 2e-06,
+      "low": 1.5e-06,
+      "high": 3e-06,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Rod-shaped prokaryote length ~2 µm (width ~0.5–1 µm)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-red-blood-cell",
+      "dimension_id": "length_m",
+      "value": 7.5e-06,
+      "low": 6.2e-06,
+      "high": 8.2e-06,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Erythrocyte disk diameter ~7–8 µm",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-human-hair",
+      "dimension_id": "length_m",
+      "value": 7e-05,
+      "low": 4e-05,
+      "high": 0.0001,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Typical human hair shaft diameter ~50–100 µm (~0.07 mm)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-paper-sheet",
+      "dimension_id": "length_m",
+      "value": 0.0001,
+      "low": 9e-05,
+      "high": 0.00011,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "20-lb copy paper ~0.1 mm (100 µm; 500-sheet ream ≈ 5 cm)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-credit-card",
+      "dimension_id": "length_m",
+      "value": 0.00076,
+      "low": 0.00075,
+      "high": 0.00078,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "ISO/IEC 7810 ID-1 card thickness 0.76 mm",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-human-height",
+      "dimension_id": "length_m",
+      "value": 1.7,
+      "low": 1.6,
+      "high": 1.85,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Global adult human stature ~1.6–1.85 m",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-shipping-container",
+      "dimension_id": "length_m",
+      "value": 12.2,
+      "low": 12.19,
+      "high": 12.2,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Standard 40 ft high-cube intermodal container length 12.19 m (width 2.44 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-football-field",
+      "dimension_id": "length_m",
+      "value": 110.0,
+      "low": 91.4,
+      "high": 110.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "120 yards total ≈ 110 m (100 yd playing field = 91.4 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-empire-state",
+      "dimension_id": "length_m",
+      "value": 381.0,
+      "low": 381.0,
+      "high": 443.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "381 m to roof (443 m to spire tip); ~102 floors",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-burj-khalifa",
+      "dimension_id": "length_m",
+      "value": 828.0,
+      "low": 828.0,
+      "high": 830.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Tallest human structure on Earth: 828 m (~0.83 km)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-mount-everest",
+      "dimension_id": "length_m",
+      "value": 8849.0,
+      "low": 8848.0,
+      "high": 8850.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Highest peak above sea level: 8,848.86 m (~8.85 km)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-commercial-cruise",
+      "dimension_id": "length_m",
+      "value": 10700.0,
+      "low": 9100.0,
+      "high": 12200.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
+      "source_note": "Typical airliner cruise 30,000–40,000 ft (~9–12 km, near tropopause)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-karman-line",
+      "dimension_id": "length_m",
+      "value": 100000.0,
+      "low": 100000.0,
+      "high": 100000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "FAI boundary of outer space: 100 km (10^5 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-iss-orbit",
+      "dimension_id": "length_m",
+      "value": 410000.0,
+      "low": 380000.0,
+      "high": 430000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "International Space Station altitude ~400–420 km",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-earth-radius",
+      "dimension_id": "length_m",
+      "value": 6371000.0,
+      "low": 6357000.0,
+      "high": 6378000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Earth mean radius 6,371 km (circumference ~40,075 km)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-geo-orbit",
+      "dimension_id": "length_m",
+      "value": 35786000.0,
+      "low": 35700000.0,
+      "high": 35900000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "24-hour geosynchronous orbit altitude 35,786 km above equator",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-earth-moon",
+      "dimension_id": "length_m",
+      "value": 384400000.0,
+      "low": 363000000.0,
+      "high": 405000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Mean lunar distance 384,400 km (~1.28 light-seconds)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-sun-radius",
+      "dimension_id": "length_m",
+      "value": 696000000.0,
+      "low": 695000000.0,
+      "high": 697000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Radius of the Sun ~696,000 km (~109× Earth radius)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-astronomical-unit",
+      "dimension_id": "length_m",
+      "value": 149600000000.0,
+      "low": 149500000000.0,
+      "high": 149700000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Defined IAU astronomical unit 149.6 million km (~8.3 light-minutes)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-light-year",
+      "dimension_id": "length_m",
+      "value": 9461000000000000.0,
+      "low": 9460000000000000.0,
+      "high": 9462000000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "source_note": "Distance light travels in one Julian year: 9.461 × 10^15 m",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-proton",
+      "dimension_id": "mass_kg",
+      "value": 1.673e-27,
+      "low": 1.672e-27,
+      "high": 1.674e-27,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "CODATA proton mass 1.6726 × 10^-27 kg (~1 Da)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-ecoli",
+      "dimension_id": "mass_kg",
+      "value": 1e-15,
+      "low": 6e-16,
+      "high": 1.5e-15,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Wet mass of one E. coli cell ~1 picogram (10^-15 kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-mammalian-cell",
+      "dimension_id": "mass_kg",
+      "value": 3e-12,
+      "low": 1e-12,
+      "high": 5e-12,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Typical mammalian cell ~1–4 nanograms (10^-12 kg; ~30 trillion cells/human)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-mosquito",
+      "dimension_id": "mass_kg",
+      "value": 2.5e-06,
+      "low": 2e-06,
+      "high": 5e-06,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Adult mosquito ~2–5 mg",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-raindrop",
+      "dimension_id": "mass_kg",
+      "value": 4e-06,
+      "low": 1e-06,
+      "high": 3e-05,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "2 mm diameter spherical water droplet ~4 mg",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-paperclip",
+      "dimension_id": "mass_kg",
+      "value": 0.001,
+      "low": 0.0008,
+      "high": 0.0012,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Everyday 1-gram tactile mass benchmark (10^-3 kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-smartphone",
+      "dimension_id": "mass_kg",
+      "value": 0.2,
+      "low": 0.17,
+      "high": 0.24,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Typical flagship smartphone ~180–230 g (~0.2 kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-liter-water",
+      "dimension_id": "mass_kg",
+      "value": 1.0,
+      "low": 0.997,
+      "high": 1.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "1 L (10 cm cube) of fresh water = 1.0 kg",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-human",
+      "dimension_id": "mass_kg",
+      "value": 70.0,
+      "low": 60.0,
+      "high": 85.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Reference adult human mass ~70 kg (~154 lb)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-passenger-car",
+      "dimension_id": "mass_kg",
+      "value": 1800.0,
+      "low": 1400.0,
+      "high": 2300.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Typical modern sedan/crossover ~1.5–2.2 metric tons",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-blue-whale",
+      "dimension_id": "mass_kg",
+      "value": 140000.0,
+      "low": 100000.0,
+      "high": 180000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Largest known animal ~100–180 metric tons (1.4e5 kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-boeing-747",
+      "dimension_id": "mass_kg",
+      "value": 400000.0,
+      "low": 370000.0,
+      "high": 448000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "747-400/8 maximum takeoff weight ~400–448 metric tons",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-container-ship",
+      "dimension_id": "mass_kg",
+      "value": 250000000.0,
+      "low": 200000000.0,
+      "high": 300000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Loaded 24,000-TEU container vessel displacement ~250,000–300,000 tons",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-empire-state",
+      "dimension_id": "mass_kg",
+      "value": 330000000.0,
+      "low": 320000000.0,
+      "high": 340000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Structural steel + limestone + concrete mass ~365,000 short tons (~3.3e8 kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-great-pyramid",
+      "dimension_id": "mass_kg",
+      "value": 6000000000.0,
+      "low": 5700000000.0,
+      "high": 6500000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "~2.3 million limestone blocks totaling ~6 million metric tons",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-all-humans",
+      "dimension_id": "mass_kg",
+      "value": 400000000000.0,
+      "low": 350000000000.0,
+      "high": 500000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "~8.1 billion people × ~50 kg mean (incl. children) ≈ 400 million tons",
+      "volatile": true
+    },
+    {
+      "entity_id": "mass-earth-atmosphere",
+      "dimension_id": "mass_kg",
+      "value": 5.15e+18,
+      "low": 5.1e+18,
+      "high": 5.2e+18,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
+      "source_note": "Surface pressure × Earth area ÷ g ≈ 5.15 × 10^18 kg",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-earth-oceans",
+      "dimension_id": "mass_kg",
+      "value": 1.37e+21,
+      "low": 1.33e+21,
+      "high": 1.4e+21,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "~1.335 billion km^3 of seawater ≈ 1.37 × 10^21 kg",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-moon",
+      "dimension_id": "mass_kg",
+      "value": 7.35e+22,
+      "low": 7.34e+22,
+      "high": 7.36e+22,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Lunar mass 7.342 × 10^22 kg (~1.2% of Earth's mass)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-earth",
+      "dimension_id": "mass_kg",
+      "value": 5.97e+24,
+      "low": 5.97e+24,
+      "high": 5.98e+24,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Earth mass 5.972 × 10^24 kg",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-jupiter",
+      "dimension_id": "mass_kg",
+      "value": 1.9e+27,
+      "low": 1.89e+27,
+      "high": 1.91e+27,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Jupiter mass 1.898 × 10^27 kg (~318 Earth masses)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-sun",
+      "dimension_id": "mass_kg",
+      "value": 1.99e+30,
+      "low": 1.988e+30,
+      "high": 1.99e+30,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(mass)",
+      "source_note": "Solar mass 1.989 × 10^30 kg (~333,000 Earth masses)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-cpu-cycle",
+      "dimension_id": "time_s",
+      "value": 3.3e-10,
+      "low": 2e-10,
+      "high": 5e-10,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Memory_hierarchy",
+      "source_note": "1 / 3 GHz ≈ 0.33 nanoseconds (light travels ~10 cm)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-l1-cache",
+      "dimension_id": "time_s",
+      "value": 1e-09,
+      "low": 5e-10,
+      "high": 1.5e-09,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Memory_hierarchy",
+      "source_note": "Jeff Dean latency ladder: L1 cache ~0.5–1 ns",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-ram-access",
+      "dimension_id": "time_s",
+      "value": 1e-07,
+      "low": 6e-08,
+      "high": 1.2e-07,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Memory_hierarchy",
+      "source_note": "Main RAM access ~80–100 ns (~100× slower than L1 cache)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-nvme-read",
+      "dimension_id": "time_s",
+      "value": 5e-05,
+      "low": 2e-05,
+      "high": 0.00015,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Memory_hierarchy",
+      "source_note": "Modern NVMe SSD random read ~20–100 µs",
+      "volatile": true
+    },
+    {
+      "entity_id": "time-neuron-spike",
+      "dimension_id": "time_s",
+      "value": 0.0015,
+      "low": 0.001,
+      "high": 0.002,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Cortical neuron spike width ~1–2 ms",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-frame-60hz",
+      "dimension_id": "time_s",
+      "value": 0.0167,
+      "low": 0.0166,
+      "high": 0.0168,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "1/60 s = 16.7 ms — budget for smooth interactive UI",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-transatlantic-rtt",
+      "dimension_id": "time_s",
+      "value": 0.07,
+      "low": 0.065,
+      "high": 0.085,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Memory_hierarchy",
+      "source_note": "~5,570 km × 2 ÷ (2e8 m/s in fiber) ≈ 56 ms speed-of-light floor; real RTT ~70 ms",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-human-reaction",
+      "dimension_id": "time_s",
+      "value": 0.25,
+      "low": 0.18,
+      "high": 0.3,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Simple visual-motor reaction time ~200–270 ms",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-heartbeat",
+      "dimension_id": "time_s",
+      "value": 0.9,
+      "low": 0.75,
+      "high": 1.1,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Resting heart rate ~60–75 bpm → ~0.8–1.0 s per beat",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-light-sun-earth",
+      "dimension_id": "time_s",
+      "value": 499.0,
+      "low": 490.0,
+      "high": 507.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "source_note": "1 AU ÷ c ≈ 499 seconds (8 minutes 19 seconds)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-ecoli-division",
+      "dimension_id": "time_s",
+      "value": 1200.0,
+      "low": 1200.0,
+      "high": 1800.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Fastest bacterial doubling time ~20 minutes (1,200 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-solar-day",
+      "dimension_id": "time_s",
+      "value": 86400.0,
+      "low": 86400.0,
+      "high": 86400.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "86,400 seconds ≈ 10^5 s",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-lunar-month",
+      "dimension_id": "time_s",
+      "value": 2550000.0,
+      "low": 2550000.0,
+      "high": 2550000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "29.53 days ≈ 2.55 × 10^6 s",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-julian-year",
+      "dimension_id": "time_s",
+      "value": 31560000.0,
+      "low": 31530000.0,
+      "high": 31560000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "365.25 days = 31,557,600 s (famous Fermi mnemonic: π × 10^7 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-human-lifespan",
+      "dimension_id": "time_s",
+      "value": 2520000000.0,
+      "low": 2200000000.0,
+      "high": 2700000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "~80 years ≈ 2.5 billion seconds (~4,000 weeks)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-written-history",
+      "dimension_id": "time_s",
+      "value": 160000000000.0,
+      "low": 150000000000.0,
+      "high": 170000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Cuneiform/hieroglyphs ~3200 BCE to present ≈ 5,200 yr (~1.6e11 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-homo-sapiens",
+      "dimension_id": "time_s",
+      "value": 9500000000000.0,
+      "low": 8000000000000.0,
+      "high": 11000000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Earliest anatomically modern H. sapiens fossils ~300,000 yr (~9.5e12 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-dino-extinction",
+      "dimension_id": "time_s",
+      "value": 2080000000000000.0,
+      "low": 2050000000000000.0,
+      "high": 2100000000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Chicxulub impact 66 million years ago (~2.08e15 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-earth-age",
+      "dimension_id": "time_s",
+      "value": 1.43e+17,
+      "low": 1.42e+17,
+      "high": 1.44e+17,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Radiometric age of Earth 4.54 billion years (~1.43e17 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-universe-age",
+      "dimension_id": "time_s",
+      "value": 4.35e+17,
+      "low": 4.34e+17,
+      "high": 4.36e+17,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(time)",
+      "source_note": "Planck mission age of universe 13.79 billion years (~4.35e17 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-plate-tectonics",
+      "dimension_id": "speed_m_s",
+      "value": 1e-09,
+      "low": 5e-10,
+      "high": 3e-09,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "~3 cm/year ≈ 10^-9 m/s (same order as fingernail growth)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-snail",
+      "dimension_id": "speed_m_s",
+      "value": 0.001,
+      "low": 0.001,
+      "high": 0.001,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "~1 cm/s (0.01 m/s) [agent-corrected: garden snail typically ~1 mm/s; world-record (Congham) snail only 0.00275 m/s. 1 cm/s is ~4-10x too fast; band should be ~5e-4 to 3e-3]",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-human-walk",
+      "dimension_id": "speed_m_s",
+      "value": 1.4,
+      "low": 1.2,
+      "high": 1.6,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "~5 km/h ≈ 3.1 mph ≈ 1.4 m/s",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-bicycle",
+      "dimension_id": "speed_m_s",
+      "value": 5.5,
+      "low": 4.5,
+      "high": 7.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "~20 km/h ≈ 12.5 mph ≈ 5.5 m/s",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-usain-bolt",
+      "dimension_id": "speed_m_s",
+      "value": 12.4,
+      "low": 10.4,
+      "high": 12.42,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "Top instantaneous speed 12.42 m/s (44.7 km/h; 100 m avg 10.44 m/s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-highway-car",
+      "dimension_id": "speed_m_s",
+      "value": 30.0,
+      "low": 27.0,
+      "high": 33.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "67 mph = 108 km/h = 30 m/s",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-cat5-hurricane",
+      "dimension_id": "speed_m_s",
+      "value": 70.0,
+      "low": 70.0,
+      "high": 85.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "Saffir-Simpson Cat 5 threshold ≥70 m/s (≥157 mph / 252 km/h)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-high-speed-rail",
+      "dimension_id": "speed_m_s",
+      "value": 89.0,
+      "low": 83.0,
+      "high": 97.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "320 km/h ≈ 200 mph ≈ 89 m/s",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-nerve-impulse",
+      "dimension_id": "speed_m_s",
+      "value": 100.0,
+      "low": 70.0,
+      "high": 120.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "A-alpha motor/proprioceptive axons conduct at 70–120 m/s",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-commercial-jet",
+      "dimension_id": "speed_m_s",
+      "value": 250.0,
+      "low": 235.0,
+      "high": 265.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "~900 km/h ≈ 560 mph ≈ 250 m/s (Mach 0.84 at cruise)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-sound-air",
+      "dimension_id": "speed_m_s",
+      "value": 343.0,
+      "low": 331.0,
+      "high": 344.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
+      "source_note": "343 m/s (1,235 km/h; ~3 seconds per km / 5 seconds per mile)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-rifle-bullet",
+      "dimension_id": "speed_m_s",
+      "value": 950.0,
+      "low": 850.0,
+      "high": 1000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "Muzzle velocity ~900–1,000 m/s (~Mach 2.8)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-sound-water",
+      "dimension_id": "speed_m_s",
+      "value": 1500.0,
+      "low": 1480.0,
+      "high": 1540.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "~1,500 m/s (~4.4× faster than in air)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-sound-steel",
+      "dimension_id": "speed_m_s",
+      "value": 5900.0,
+      "low": 5800.0,
+      "high": 6100.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "Longitudinal wave velocity in carbon steel ~5,900 m/s",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-leo-orbital",
+      "dimension_id": "speed_m_s",
+      "value": 7670.0,
+      "low": 7500.0,
+      "high": 7900.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "Circular LEO orbital speed ~7.67 km/s (~90 min orbit)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-earth-escape",
+      "dimension_id": "speed_m_s",
+      "value": 11186.0,
+      "low": 11180.0,
+      "high": 11200.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "sqrt(2gR) = 11.186 km/s (~√2 × LEO speed)",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-earth-orbit",
+      "dimension_id": "speed_m_s",
+      "value": 29780.0,
+      "low": 29290.0,
+      "high": 30290.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "2π(1 AU)/year ≈ 29.8 km/s",
+      "volatile": false
+    },
+    {
+      "entity_id": "spd-light-vacuum",
+      "dimension_id": "speed_m_s",
+      "value": 299800000.0,
+      "low": 299790000.0,
+      "high": 299800000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+      "source_note": "Exact SI definition: 299,792,458 m/s (~3 × 10^8 m/s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-hydro-10m",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 9.81e-05,
+      "low": 9.8e-05,
+      "high": 9.82e-05,
+      "as_of": "2026-11-19",
+      "source_url": "https://physics.nist.gov/cgi-bin/cuu/Value?gn",
+      "source_note": "g*h at 10 m head = 98.1 J/kg ≈ 0.0001 MJ/kg",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-hydro-100m",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 0.000981,
+      "low": 0.00098,
+      "high": 0.000982,
+      "as_of": "2026-11-19",
+      "source_url": "https://physics.nist.gov/cgi-bin/cuu/Value?gn",
+      "source_note": "g*h at 100 m head = 981 J/kg ≈ 0.001 MJ/kg (Hoover Dam ~180 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-supercapacitor",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 0.025,
+      "low": 0.015,
+      "high": 0.036,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "Double-layer ultracapacitor ~5–10 Wh/kg (0.018–0.036 MJ/kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-lead-acid",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 0.14,
+      "low": 0.11,
+      "high": 0.18,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "Typical lead-acid specific energy ~30–50 Wh/kg (0.11–0.18 MJ/kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-lfp-battery",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 0.61,
+      "low": 0.54,
+      "high": 0.72,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "Commercial LiFePO4 cell ~150–200 Wh/kg (0.54–0.72 MJ/kg)",
+      "volatile": true
+    },
+    {
+      "entity_id": "en-li-ion-nmc",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 0.9,
+      "low": 0.72,
+      "high": 1.08,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "Commercial NMC Li-ion cell ~200–300 Wh/kg (~0.9 MJ/kg; ~50× below jet fuel)",
+      "volatile": true
+    },
+    {
+      "entity_id": "en-tnt",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 4.184,
+      "low": 4.184,
+      "high": 4.6,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "NIST conventional TNT energy 4.184 MJ/kg (less energy than sugar, released fast)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-dry-wood",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 16.0,
+      "low": 14.5,
+      "high": 18.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "Air-dried hardwood heating value ~15–18 MJ/kg",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-sugar-carb",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 16.7,
+      "low": 16.0,
+      "high": 17.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "4 kcal/g = 16.7 MJ/kg (protein also ~17 MJ/kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-bituminous-coal",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 27.0,
+      "low": 24.0,
+      "high": 30.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.eia.gov/energyexplained/coal/",
+      "source_note": "Bituminous coal thermal content ~24–30 MJ/kg (EIA)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-ethanol",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 26.8,
+      "low": 26.7,
+      "high": 29.7,
+      "as_of": "2026-11-19",
+      "source_url": "https://afdc.energy.gov/fuels/properties",
+      "source_note": "Ethanol LHV 26.8 MJ/kg (~2/3 of gasoline per kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-dietary-fat",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 37.7,
+      "low": 37.0,
+      "high": 39.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "9 kcal/g = 37.7 MJ/kg (close to diesel fuel)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-diesel-jet",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 43.0,
+      "low": 42.6,
+      "high": 45.6,
+      "as_of": "2026-11-19",
+      "source_url": "https://afdc.energy.gov/fuels/properties",
+      "source_note": "Jet-A / No. 2 diesel LHV ~42.8–43.4 MJ/kg (~12 kWh/kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-natural-gas",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 50.0,
+      "low": 49.0,
+      "high": 55.5,
+      "as_of": "2026-11-19",
+      "source_url": "https://afdc.energy.gov/fuels/properties",
+      "source_note": "Methane LHV 50.0 MJ/kg (HHV 55.5 MJ/kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-hydrogen",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 120.0,
+      "low": 119.9,
+      "high": 141.8,
+      "as_of": "2026-11-19",
+      "source_url": "https://afdc.energy.gov/fuels/properties",
+      "source_note": "Hydrogen LHV 120 MJ/kg (highest chemical fuel by mass, poor by volume)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-u235-fission",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 80000000.0,
+      "low": 79000000.0,
+      "high": 83000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "~200 MeV/fission ≈ 80 TJ/kg = 8 × 10^7 MJ/kg (~2 million × diesel)",
+      "volatile": false
+    },
+    {
+      "entity_id": "en-dt-fusion",
+      "dimension_id": "energy_density_mj_kg",
+      "value": 340000000.0,
+      "low": 330000000.0,
+      "high": 350000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "17.6 MeV per D–T reaction ≈ 338 TJ/kg (~4× fission)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-smartphone",
+      "dimension_id": "power_w",
+      "value": 2.0,
+      "low": 1.0,
+      "high": 4.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Active smartphone draw ~1–4 W",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-led-bulb",
+      "dimension_id": "power_w",
+      "value": 10.0,
+      "low": 8.0,
+      "high": 12.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Typical 800-lumen LED draw ~8–12 W",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-human-brain",
+      "dimension_id": "power_w",
+      "value": 20.0,
+      "low": 18.0,
+      "high": 25.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "~20% of resting human BMR ≈ 20 W (2% of body mass)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-human-basal",
+      "dimension_id": "power_w",
+      "value": 100.0,
+      "low": 75.0,
+      "high": 120.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "~2,000 kcal/day ≈ 8.4 MJ/day ≈ 100 W continuous",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-cyclist",
+      "dimension_id": "power_w",
+      "value": 300.0,
+      "low": 200.0,
+      "high": 400.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Fit cyclist 1-hour FTP ~250–400 W (~0.4 hp)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-us-home-elec",
+      "dimension_id": "power_w",
+      "value": 1200.0,
+      "low": 1000.0,
+      "high": 1500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.eia.gov/tools/faqs/faq.php?id=97&t=3",
+      "source_note": "EIA ~10,500 kWh/yr ÷ 8,760 h ≈ 1.2 kW continuous average",
+      "volatile": true
+    },
+    {
+      "entity_id": "pwr-kettle",
+      "dimension_id": "power_w",
+      "value": 1500.0,
+      "low": 1200.0,
+      "high": 1800.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "US 120V/15A circuit practical max ~1.5 kW",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-home-solar",
+      "dimension_id": "power_w",
+      "value": 7000.0,
+      "low": 5000.0,
+      "high": 10000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.eia.gov/tools/faqs/faq.php?id=97&t=3",
+      "source_note": "Typical US home PV nameplate ~6–8 kW peak (~1–1.5 kW annual average)",
+      "volatile": true
+    },
+    {
+      "entity_id": "pwr-car-engine",
+      "dimension_id": "power_w",
+      "value": 150000.0,
+      "low": 100000.0,
+      "high": 220000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "200 hp × 745.7 W/hp ≈ 150 kW peak (highway cruise needs only ~15–25 kW)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-semi-truck",
+      "dimension_id": "power_w",
+      "value": 370000.0,
+      "low": 300000.0,
+      "high": 450000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Class 8 tractor ~450–550 hp ≈ 330–410 kW",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-onshore-wind",
+      "dimension_id": "power_w",
+      "value": 4000000.0,
+      "low": 3000000.0,
+      "high": 6000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Nameplate ~3–6 MW onshore (offshore ~12–15 MW)",
+      "volatile": true
+    },
+    {
+      "entity_id": "pwr-boeing-747",
+      "dimension_id": "power_w",
+      "value": 100000000.0,
+      "low": 80000000.0,
+      "high": 120000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Four widebody turbofans at takeoff/climb ~80–120 MW",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-datacenter",
+      "dimension_id": "power_w",
+      "value": 1000000000.0,
+      "low": 1000000000.0,
+      "high": 1000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Large modern hyperscale datacenter campus ~50–200 MW [agent-corrected: Label says Large AI campus: by late 2026 frontier AI campuses are ~0.3-1+ GW (xAI Colossus, Stargate Abilene, Meta Prometheus). 50-200 MW fits a typical single hyperscale datacenter; either relabel or raise value to ~1e9.]",
+      "volatile": true
+    },
+    {
+      "entity_id": "pwr-nuclear-unit",
+      "dimension_id": "power_w",
+      "value": 1000000000.0,
+      "low": 900000000.0,
+      "high": 1400000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.eia.gov/energyexplained/nuclear/us-nuclear-industry.php",
+      "source_note": "Typical commercial reactor ~1 GW electric (~3 GW thermal)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-hoover-dam",
+      "dimension_id": "power_w",
+      "value": 2080000000.0,
+      "low": 2000000000.0,
+      "high": 2100000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "2,080 MW nameplate (~4 TWh/yr → ~450 MW average output)",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-three-gorges",
+      "dimension_id": "power_w",
+      "value": 22500000000.0,
+      "low": 22000000000.0,
+      "high": 23000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "World's largest power station: 22.5 GW nameplate",
+      "volatile": false
+    },
+    {
+      "entity_id": "pwr-us-primary",
+      "dimension_id": "power_w",
+      "value": 3100000000000.0,
+      "low": 2900000000000.0,
+      "high": 3300000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://ourworldindata.org/energy-production-consumption",
+      "source_note": "~94 Quads/yr ≈ 3.1 TW (~9 kW per US resident)",
+      "volatile": true
+    },
+    {
+      "entity_id": "pwr-global-primary",
+      "dimension_id": "power_w",
+      "value": 20000000000000.0,
+      "low": 18000000000000.0,
+      "high": 22000000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://ourworldindata.org/energy-production-consumption",
+      "source_note": "~180,000 TWh/yr ÷ 8,760 h ≈ 20 TW continuous",
+      "volatile": true
+    },
+    {
+      "entity_id": "pwr-earth-sunlight",
+      "dimension_id": "power_w",
+      "value": 1.74e+17,
+      "low": 1.72e+17,
+      "high": 1.76e+17,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "1,361 W/m^2 × πR^2 ≈ 174,000 TW (~8,700× total human power)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-air",
+      "dimension_id": "density_kg_m3",
+      "value": 1.225,
+      "low": 1.18,
+      "high": 1.29,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
+      "source_note": "ISA sea-level air density 1.225 kg/m^3 (~1/800 of water)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-eps-foam",
+      "dimension_id": "density_kg_m3",
+      "value": 25.0,
+      "low": 15.0,
+      "high": 35.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Rigid EPS insulation / packaging foam ~15–35 kg/m^3",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-cork",
+      "dimension_id": "density_kg_m3",
+      "value": 240.0,
+      "low": 200.0,
+      "high": 260.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Cork bark density ~240 kg/m^3",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-softwood",
+      "dimension_id": "density_kg_m3",
+      "value": 500.0,
+      "low": 420.0,
+      "high": 560.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Air-dry framing lumber ~450–550 kg/m^3",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-oak",
+      "dimension_id": "density_kg_m3",
+      "value": 750.0,
+      "low": 680.0,
+      "high": 800.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Air-dry oak density ~700–770 kg/m^3",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-gasoline",
+      "dimension_id": "density_kg_m3",
+      "value": 780.0,
+      "low": 720.0,
+      "high": 850.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://afdc.energy.gov/fuels/properties",
+      "source_note": "Gasoline ~740 kg/m^3, Diesel ~840 kg/m^3 (floats on water)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-ice",
+      "dimension_id": "density_kg_m3",
+      "value": 917.0,
+      "low": 916.0,
+      "high": 918.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Solid ice 917 kg/m^3 (~8% less dense than liquid water)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-water",
+      "dimension_id": "density_kg_m3",
+      "value": 1000.0,
+      "low": 997.0,
+      "high": 1000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "1,000 kg/m^3 (1.0 g/cm^3; 62.4 lb/ft^3)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-brick",
+      "dimension_id": "density_kg_m3",
+      "value": 1900.0,
+      "low": 1700.0,
+      "high": 2100.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Common structural clay brick ~1,800–2,000 kg/m^3",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-silicon",
+      "dimension_id": "density_kg_m3",
+      "value": 2330.0,
+      "low": 2328.0,
+      "high": 2332.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Pure semiconductor silicon 2,329 kg/m^3 (close to concrete/glass)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-concrete",
+      "dimension_id": "density_kg_m3",
+      "value": 2400.0,
+      "low": 2250.0,
+      "high": 2500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/cement-statistics-and-information",
+      "source_note": "~2,400 kg/m^3 (~150 lb/ft^3)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-aluminum",
+      "dimension_id": "density_kg_m3",
+      "value": 2700.0,
+      "low": 2690.0,
+      "high": 2710.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/aluminum-statistics-and-information",
+      "source_note": "2,700 kg/m^3 (2.70 g/cm^3; ~1/3 steel)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-titanium",
+      "dimension_id": "density_kg_m3",
+      "value": 4500.0,
+      "low": 4430.0,
+      "high": 4510.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "4,506 kg/m^3 (~57% of steel density)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-steel",
+      "dimension_id": "density_kg_m3",
+      "value": 7850.0,
+      "low": 7750.0,
+      "high": 8050.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/iron-and-steel-statistics-and-information",
+      "source_note": "~7,850 kg/m^3 (~490 lb/ft^3)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-copper",
+      "dimension_id": "density_kg_m3",
+      "value": 8960.0,
+      "low": 8920.0,
+      "high": 8960.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
+      "source_note": "8,960 kg/m^3 (8.96 g/cm^3)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-lead",
+      "dimension_id": "density_kg_m3",
+      "value": 11340.0,
+      "low": 11300.0,
+      "high": 11350.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "11,340 kg/m^3 (11.34 g/cm^3)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-gold",
+      "dimension_id": "density_kg_m3",
+      "value": 19300.0,
+      "low": 19250.0,
+      "high": 19320.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Gold 19,300 kg/m^3 and Tungsten 19,250 kg/m^3 (~19.3× water)",
+      "volatile": false
+    },
+    {
+      "entity_id": "den-osmium",
+      "dimension_id": "density_kg_m3",
+      "value": 22590.0,
+      "low": 22580.0,
+      "high": 22600.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
+      "source_note": "Densest naturally occurring element: 22,590 kg/m^3",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-cmb",
+      "dimension_id": "temperature_k",
+      "value": 2.725,
+      "low": 2.72,
+      "high": 2.73,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "Mean temperature of empty space: 2.725 K",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-liq-helium",
+      "dimension_id": "temperature_k",
+      "value": 4.22,
+      "low": 4.2,
+      "high": 4.25,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "4.22 K (−268.9 °C); superconducting MRI magnets",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-liq-nitrogen",
+      "dimension_id": "temperature_k",
+      "value": 77.36,
+      "low": 77.0,
+      "high": 77.5,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "77.4 K (−195.8 °C); HTS superconductor threshold",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-dry-ice",
+      "dimension_id": "temperature_k",
+      "value": 194.7,
+      "low": 194.5,
+      "high": 195.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "194.7 K (−78.5 °C)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-water-freeze",
+      "dimension_id": "temperature_k",
+      "value": 273.15,
+      "low": 273.15,
+      "high": 273.15,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "273.15 K = 0 °C = 32 °F",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-earth-mean",
+      "dimension_id": "temperature_k",
+      "value": 288.0,
+      "low": 287.0,
+      "high": 289.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
+      "source_note": "~288 K (~15 °C / 59 °F)",
+      "volatile": true
+    },
+    {
+      "entity_id": "tmp-human-body",
+      "dimension_id": "temperature_k",
+      "value": 310.15,
+      "low": 309.5,
+      "high": 310.6,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "310.15 K (37.0 °C / 98.6 °F)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-water-boil",
+      "dimension_id": "temperature_k",
+      "value": 373.15,
+      "low": 373.15,
+      "high": 373.15,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "373.15 K = 100 °C = 212 °F",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-paper-ignite",
+      "dimension_id": "temperature_k",
+      "value": 506.0,
+      "low": 490.0,
+      "high": 525.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "~506 K (~233 °C / 451 °F)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-venus-surface",
+      "dimension_id": "temperature_k",
+      "value": 737.0,
+      "low": 730.0,
+      "high": 745.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "~737 K (~464 °C; hotter than lead melting point)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-aluminum-melt",
+      "dimension_id": "temperature_k",
+      "value": 933.5,
+      "low": 933.0,
+      "high": 934.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "933.5 K (660 °C)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-basalt-lava",
+      "dimension_id": "temperature_k",
+      "value": 1400.0,
+      "low": 1300.0,
+      "high": 1500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "~1,400 K (~1,100–1,200 °C)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-steel-melt",
+      "dimension_id": "temperature_k",
+      "value": 1750.0,
+      "low": 1690.0,
+      "high": 1811.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "Carbon steel ~1,700–1,810 K (~1,425–1,538 °C; loses half strength by ~850 K)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-tungsten-melt",
+      "dimension_id": "temperature_k",
+      "value": 3695.0,
+      "low": 3690.0,
+      "high": 3700.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "Highest melting metal: 3,695 K (3,422 °C)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-sun-surface",
+      "dimension_id": "temperature_k",
+      "value": 5778.0,
+      "low": 5770.0,
+      "high": 5785.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "5,778 K — sets daylight color temperature (~5,800 K) and Earth core ~6,000 K",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-lightning",
+      "dimension_id": "temperature_k",
+      "value": 30000.0,
+      "low": 25000.0,
+      "high": 35000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "~30,000 K (~5× the surface of the Sun)",
+      "volatile": false
+    },
+    {
+      "entity_id": "tmp-sun-core",
+      "dimension_id": "temperature_k",
+      "value": 15000000.0,
+      "low": 14500000.0,
+      "high": 15700000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "~15 million Kelvin — proton-proton hydrogen fusion",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-mars-surface",
+      "dimension_id": "pressure_pa",
+      "value": 610.0,
+      "low": 600.0,
+      "high": 700.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "~610 Pa (~0.6% of Earth sea-level pressure; near water triple point)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-systolic-bp",
+      "dimension_id": "pressure_pa",
+      "value": 16000.0,
+      "low": 14500.0,
+      "high": 16500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "120 mmHg gauge ≈ 16 kPa (~2.3 psi)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-everest-air",
+      "dimension_id": "pressure_pa",
+      "value": 33700.0,
+      "low": 31000.0,
+      "high": 34000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
+      "source_note": "~33 kPa (~1/3 of sea-level atmosphere)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-1atm",
+      "dimension_id": "pressure_pa",
+      "value": 101325.0,
+      "low": 101325.0,
+      "high": 101325.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "101,325 Pa = 101.3 kPa ≈ 1 bar ≈ 14.7 psi (10 m water column)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-car-tire",
+      "dimension_id": "pressure_pa",
+      "value": 240000.0,
+      "low": 210000.0,
+      "high": 280000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "32–36 psi gauge ≈ 220–250 kPa (~2.4 bar)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-water-main",
+      "dimension_id": "pressure_pa",
+      "value": 410000.0,
+      "low": 300000.0,
+      "high": 550000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "Typical US municipal supply 40–80 psi (~280–550 kPa)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-espresso",
+      "dimension_id": "pressure_pa",
+      "value": 900000.0,
+      "low": 850000.0,
+      "high": 950000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "9 bar = 900 kPa ≈ 130 psi",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-scuba-tank",
+      "dimension_id": "pressure_pa",
+      "value": 20700000.0,
+      "low": 20000000.0,
+      "high": 23000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "3,000 psi ≈ 207 bar ≈ 20.7 MPa",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-concrete-strength",
+      "dimension_id": "pressure_pa",
+      "value": 27600000.0,
+      "low": 21000000.0,
+      "high": 41000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/cement-statistics-and-information",
+      "source_note": "4,000 psi ≈ 28 MPa (high-rise columns 8,000–12,000 psi ≈ 55–83 MPa)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-mariana-trench",
+      "dimension_id": "pressure_pa",
+      "value": 109000000.0,
+      "low": 108000000.0,
+      "high": 110000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "~1,086 bar ≈ 109 MPa (~1,070 atm)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-steel-yield",
+      "dimension_id": "pressure_pa",
+      "value": 345000000.0,
+      "low": 250000000.0,
+      "high": 350000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/iron-and-steel-statistics-and-information",
+      "source_note": "ASTM A992 wide-flange steel yield: 50 ksi = 345 MPa (A36 = 250 MPa)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-earth-core",
+      "dimension_id": "pressure_pa",
+      "value": 360000000000.0,
+      "low": 330000000000.0,
+      "high": 370000000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "~360 GPa (~3.6 million atmospheres)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mat-lithium",
+      "dimension_id": "material_output_mt_yr",
+      "value": 0.29,
+      "low": 0.29,
+      "high": 0.29,
+      "as_of": "2026-11-19",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+      "source_note": "USGS Mineral Commodity Summaries: ~180–240 kt/yr (~0.18–0.24 Mt/yr) elemental Li [agent-corrected: USGS MCS 2026: 2025 world Li production ~290 kt (2024 ~240 kt); 0.18 is 2023-era, ~1.6x low. Widen band to ~0.24-0.33.]",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-copper",
+      "dimension_id": "material_output_mt_yr",
+      "value": 27.5,
+      "low": 27.5,
+      "high": 27.5,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
+      "source_note": "USGS mined copper ~22–23 Mt/yr (refined incl. scrap ~26 Mt/yr) [agent-corrected: Entity says REFINED copper but 22 Mt is mine output; refined is ~27-28 Mt/yr (ICSG 2024-25). Either relabel to 'mined' or set ~27.5 with band ~25-30.]",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-aluminum",
+      "dimension_id": "material_output_mt_yr",
+      "value": 70.0,
+      "low": 65.0,
+      "high": 74.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/aluminum-statistics-and-information",
+      "source_note": "USGS primary smelter aluminum ~70 Mt/yr",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-ammonia",
+      "dimension_id": "material_output_mt_yr",
+      "value": 185.0,
+      "low": 145.0,
+      "high": 185.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://ourworldindata.org/energy-production-consumption",
+      "source_note": "USGS nitrogen content ~150 Mt/yr (~180 Mt NH3); feeds ~half of humanity [agent-corrected: Entity is ammonia but 150 is N-content; NH3 itself ~180-190 Mt/yr. Relabel to 'nitrogen content' or set ~185 (band 170-200).]",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-plastics",
+      "dimension_id": "material_output_mt_yr",
+      "value": 400.0,
+      "low": 380.0,
+      "high": 460.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://ourworldindata.org/energy-production-consumption",
+      "source_note": "Global resin/polymer production ~400–450 Mt/yr",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-steel",
+      "dimension_id": "material_output_mt_yr",
+      "value": 1900.0,
+      "low": 1850.0,
+      "high": 1950.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/iron-and-steel-statistics-and-information",
+      "source_note": "USGS / World Steel ~1.9 Gt/yr (1,900 Mt/yr; ~half from China)",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-cement",
+      "dimension_id": "material_output_mt_yr",
+      "value": 4100.0,
+      "low": 4000.0,
+      "high": 4300.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/cement-statistics-and-information",
+      "source_note": "USGS global hydraulic cement ~4.1 Gt/yr (4,100 Mt/yr; ~7–8% of CO2)",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-crude-oil",
+      "dimension_id": "material_output_mt_yr",
+      "value": 4500.0,
+      "low": 4300.0,
+      "high": 4700.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://ourworldindata.org/energy-production-consumption",
+      "source_note": "~100 million barrels/day ≈ 4.5 Gt/yr (4,500 Mt/yr)",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-coal",
+      "dimension_id": "material_output_mt_yr",
+      "value": 8700.0,
+      "low": 8200.0,
+      "high": 9000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.eia.gov/energyexplained/coal/",
+      "source_note": "Global coal production ~8.5–8.8 Gt/yr (8,700 Mt/yr)",
+      "volatile": true
+    },
+    {
+      "entity_id": "mat-co2-emissions",
+      "dimension_id": "material_output_mt_yr",
+      "value": 37000.0,
+      "low": 36000.0,
+      "high": 38500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://ourworldindata.org/energy-production-consumption",
+      "source_note": "Global fossil/cement CO2 emissions ~37 Gt/yr (37,000 Mt/yr)",
+      "volatile": true
+    }
+  ],
+  "anchor_sets": [
+    {
+      "dimension_id": "length_m",
+      "entity_ids": [
+        "len-proton",
+        "len-visible-light",
+        "len-human-height",
+        "len-mount-everest",
+        "len-earth-radius",
+        "len-astronomical-unit",
+        "len-light-year"
+      ]
+    },
+    {
+      "dimension_id": "mass_kg",
+      "entity_ids": [
+        "mass-proton",
+        "mass-paperclip",
+        "mass-liter-water",
+        "mass-boeing-747",
+        "mass-earth-atmosphere",
+        "mass-earth",
+        "mass-sun"
+      ]
+    },
+    {
+      "dimension_id": "time_s",
+      "entity_ids": [
+        "time-cpu-cycle",
+        "time-human-reaction",
+        "time-solar-day",
+        "time-julian-year",
+        "time-earth-age"
+      ]
+    },
+    {
+      "dimension_id": "speed_m_s",
+      "entity_ids": [
+        "spd-plate-tectonics",
+        "spd-human-walk",
+        "spd-highway-car",
+        "spd-sound-air",
+        "spd-leo-orbital",
+        "spd-light-vacuum"
+      ]
+    },
+    {
+      "dimension_id": "energy_density_mj_kg",
+      "entity_ids": [
+        "en-hydro-100m",
+        "en-li-ion-nmc",
+        "en-diesel-jet",
+        "en-u235-fission"
+      ]
+    },
+    {
+      "dimension_id": "power_w",
+      "entity_ids": [
+        "pwr-led-bulb",
+        "pwr-human-basal",
+        "pwr-car-engine",
+        "pwr-nuclear-unit",
+        "pwr-global-primary"
+      ]
+    },
+    {
+      "dimension_id": "density_kg_m3",
+      "entity_ids": [
+        "den-air",
+        "den-water",
+        "den-steel",
+        "den-gold"
+      ]
+    },
+    {
+      "dimension_id": "temperature_k",
+      "entity_ids": [
+        "tmp-cmb",
+        "tmp-liq-nitrogen",
+        "tmp-water-freeze",
+        "tmp-steel-melt",
+        "tmp-sun-surface",
+        "tmp-sun-core"
+      ]
+    },
+    {
+      "dimension_id": "pressure_pa",
+      "entity_ids": [
+        "prs-mars-surface",
+        "prs-1atm",
+        "prs-scuba-tank",
+        "prs-steel-yield",
+        "prs-earth-core"
+      ]
+    },
+    {
+      "dimension_id": "material_output_mt_yr",
+      "entity_ids": [
+        "mat-lithium",
+        "mat-plastics",
+        "mat-co2-emissions"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "us-energy-sankey",
+      "title": "US Primary Energy Flow",
+      "module": "physics",
+      "dimension_id": "energy_sankey",
+      "svg_path": "figures/us-energy-sankey.svg",
+      "source_url": "https://flowcharts.llnl.gov/",
+      "source_note": "Schematic proportions derived from LLNL / EIA US Energy Flow Chart (~94 Quads)",
+      "regions": [
+        {
+          "region_id": "ef-petroleum",
+          "label": "Petroleum (~38%)",
+          "adjacent_ids": [
+            "ef-natural-gas",
+            "ef-transport",
+            "ef-industrial"
+          ]
+        },
+        {
+          "region_id": "ef-natural-gas",
+          "label": "Natural Gas (~36%)",
+          "adjacent_ids": [
+            "ef-petroleum",
+            "ef-coal",
+            "ef-electricity",
+            "ef-industrial"
+          ]
+        },
+        {
+          "region_id": "ef-coal",
+          "label": "Coal (~9%)",
+          "adjacent_ids": [
+            "ef-natural-gas",
+            "ef-nuclear",
+            "ef-electricity"
+          ]
+        },
+        {
+          "region_id": "ef-nuclear",
+          "label": "Nuclear (~9%)",
+          "adjacent_ids": [
+            "ef-coal",
+            "ef-renewables",
+            "ef-electricity"
+          ]
+        },
+        {
+          "region_id": "ef-renewables",
+          "label": "Renewables (~9%)",
+          "adjacent_ids": [
+            "ef-nuclear",
+            "ef-electricity"
+          ]
+        },
+        {
+          "region_id": "ef-electricity",
+          "label": "Electricity Generation (~38%)",
+          "adjacent_ids": [
+            "ef-natural-gas",
+            "ef-coal",
+            "ef-nuclear",
+            "ef-renewables",
+            "ef-res-comm",
+            "ef-rejected"
+          ]
+        },
+        {
+          "region_id": "ef-transport",
+          "label": "Transportation (~28%)",
+          "adjacent_ids": [
+            "ef-petroleum",
+            "ef-industrial"
+          ]
+        },
+        {
+          "region_id": "ef-industrial",
+          "label": "Industrial (~24%)",
+          "adjacent_ids": [
+            "ef-transport",
+            "ef-res-comm",
+            "ef-natural-gas"
+          ]
+        },
+        {
+          "region_id": "ef-res-comm",
+          "label": "Residential & Commercial",
+          "adjacent_ids": [
+            "ef-industrial",
+            "ef-rejected",
+            "ef-electricity"
+          ]
+        },
+        {
+          "region_id": "ef-rejected",
+          "label": "Rejected Waste Heat (~65%)",
+          "adjacent_ids": [
+            "ef-res-comm",
+            "ef-electricity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "em-spectrum-diagram",
+      "title": "Electromagnetic Spectrum",
+      "module": "physics",
+      "dimension_id": "em_spectrum_fig",
+      "svg_path": "figures/em-spectrum.svg",
+      "source_url": "https://en.wikipedia.org/wiki/Electromagnetic_spectrum",
+      "source_note": "Ordered electromagnetic spectrum bands from radio (>1 m) to gamma rays (<0.01 nm)",
+      "regions": [
+        {
+          "region_id": "em-radio",
+          "label": "Radio Waves (>1 m)",
+          "adjacent_ids": [
+            "em-microwave"
+          ]
+        },
+        {
+          "region_id": "em-microwave",
+          "label": "Microwaves (1 mm–1 m, Wi-Fi/5G)",
+          "adjacent_ids": [
+            "em-radio",
+            "em-infrared"
+          ]
+        },
+        {
+          "region_id": "em-infrared",
+          "label": "Infrared (700 nm–1 mm, Thermal)",
+          "adjacent_ids": [
+            "em-microwave",
+            "em-visible"
+          ]
+        },
+        {
+          "region_id": "em-visible",
+          "label": "Visible Light (400–700 nm)",
+          "adjacent_ids": [
+            "em-infrared",
+            "em-uv"
+          ]
+        },
+        {
+          "region_id": "em-uv",
+          "label": "Ultraviolet (10–400 nm)",
+          "adjacent_ids": [
+            "em-visible",
+            "em-xray"
+          ]
+        },
+        {
+          "region_id": "em-xray",
+          "label": "X-Rays (0.01–10 nm)",
+          "adjacent_ids": [
+            "em-uv",
+            "em-gamma"
+          ]
+        },
+        {
+          "region_id": "em-gamma",
+          "label": "Gamma Rays (<0.01 nm, Nuclear)",
+          "adjacent_ids": [
+            "em-xray"
+          ]
+        }
+      ]
+    }
+  ],
+  "plain_cards": [
+    {
+      "id": "phy-rule-drag",
+      "module": "physics",
+      "tags": [
+        "scaling"
+      ],
+      "front": "Aerodynamic drag force and required power scale with speed v how?",
+      "back": "Drag force F ∝ v²; required power P = F·v ∝ v³ (doubling speed multiplies drag 4× and power 8×).",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-square-cube",
+      "module": "physics",
+      "tags": [
+        "scaling"
+      ],
+      "front": "Square-cube law: if you double a structure's linear dimensions, what happens to surface area and mass?",
+      "back": "Surface area scales 4× (L²); volume and mass scale 8× (L³) — why elephants have pillar legs and small animals lose heat fast.",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-stefan-boltzmann",
+      "module": "physics",
+      "tags": [
+        "scaling",
+        "thermo"
+      ],
+      "front": "Radiative heat emission (Stefan–Boltzmann) scales with absolute temperature T how?",
+      "back": "P ∝ T⁴ (in Kelvin). Doubling absolute temperature increases thermal radiation 16×.",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-diffusion",
+      "module": "physics",
+      "tags": [
+        "scaling",
+        "transport"
+      ],
+      "front": "Characteristic diffusion time t across distance L scales how?",
+      "back": "t ≈ L² / D (scales with the SQUARE of distance — fast across a 1 µm cell, hopelessly slow across 1 cm).",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-db",
+      "module": "physics",
+      "tags": [
+        "scaling",
+        "acoustics"
+      ],
+      "front": "Decibels (dB): what power/intensity multiplier corresponds to +3 dB and +10 dB?",
+      "back": "+3 dB ≈ 2× power; +10 dB = 10× power (+20 dB = 100×; perceived loudness doubles roughly every +10 dB).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-carnot",
+      "module": "physics",
+      "tags": [
+        "thermo"
+      ],
+      "front": "Carnot maximum heat-engine efficiency formula (temperatures in Kelvin)?",
+      "back": "η_max = 1 − T_cold / T_hot. At 300 K ambient and 600 K steam, absolute ceiling is 50%.",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-kwh-mj",
+      "module": "physics",
+      "tags": [
+        "units"
+      ],
+      "front": "1 kilowatt-hour (kWh) equals how many megajoules (MJ) and kilocalories?",
+      "back": "1 kWh = 3.6 MJ ≈ 860 kcal (a human's ~2,000 kcal daily food intake is only ~2.3 kWh!).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-water-heat",
+      "module": "physics",
+      "tags": [
+        "thermo"
+      ],
+      "front": "Water specific heat capacity and latent heat of vaporization?",
+      "back": "Specific heat = 4.18 kJ/(kg·K); latent heat of vaporization = 2,260 kJ/kg (~5.4× the energy to heat water from 0→100 °C).",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-solar-flux",
+      "module": "physics",
+      "tags": [
+        "energy"
+      ],
+      "front": "Solar irradiance at top of atmosphere vs. peak clear noon vs. 24-hour global surface mean?",
+      "back": "Top of atmosphere = 1,361 W/m²; peak sea-level noon ≈ 1,000 W/m²; 24-hour global average ≈ 180–200 W/m².",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-wind-power",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "scaling"
+      ],
+      "front": "Wind turbine available power scales with rotor diameter D and wind speed v how?",
+      "back": "P = ½ ρ A v³ ∝ D² v³ — a 26% higher wind speed roughly DOUBLES available power.",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-thunder-delay",
+      "module": "physics",
+      "tags": [
+        "everyday"
+      ],
+      "front": "Speed-of-sound distance rule for lightning/thunder?",
+      "back": "Sound travels ~343 m/s → ~3 seconds per kilometer, ~5 seconds per mile.",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-hydrostatic",
+      "module": "physics",
+      "tags": [
+        "fluids"
+      ],
+      "front": "Hydrostatic water pressure increases by ~1 atmosphere every how many meters of depth?",
+      "back": "~10 meters (33 ft) of water adds ~1 atm (100 kPa / 14.7 psi). At 100 m depth, total pressure is ~11 atm.",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(pressure)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-rule-of-72",
+      "module": "physics",
+      "tags": [
+        "math"
+      ],
+      "front": "Rule of 72 (and Rule of 115): doubling and tripling time at r% compounding?",
+      "back": "Doubling time ≈ 72 / r (at 7% → ~10.3 yr). Tripling time ≈ 115 / r. (Exact: ln 2 ≈ 0.693).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-pi-e7",
+      "module": "physics",
+      "tags": [
+        "units"
+      ],
+      "front": "How many seconds are in one year (Fermi anchor)?",
+      "back": "≈ π × 10^7 seconds (exact: 3.1557 × 10^7 s, within 0.45% of π × 10^7).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-margin-error",
+      "module": "physics",
+      "tags": [
+        "stats"
+      ],
+      "front": "Quick 95% confidence margin of error for a random poll of size N?",
+      "back": "≈ 1 / √N (N = 100 → ±10%, N = 400 → ±5%, N = 1,000 → ±3.1%, N = 10,000 → ±1%).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-acre-ha",
+      "module": "physics",
+      "tags": [
+        "units"
+      ],
+      "front": "1 acre in square feet and hectares?",
+      "back": "1 acre = 43,560 sq ft (≈ 209 ft × 209 ft, roughly a football field without end zones) ≈ 0.405 hectares (1 ha = 10,000 m²).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-ms-mph",
+      "module": "physics",
+      "tags": [
+        "units"
+      ],
+      "front": "Converting meters per second (m/s) to mph and km/h?",
+      "back": "1 m/s = 3.6 km/h ≈ 2.24 mph (10 m/s ≈ 22 mph; 30 m/s ≈ 67 mph).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-btu-kw",
+      "module": "physics",
+      "tags": [
+        "units",
+        "thermo"
+      ],
+      "front": "HVAC cooling '1 Ton of Refrigeration' equals how many BTU/hr and kW thermal?",
+      "back": "1 ton = 12,000 BTU/hr ≈ 3.52 kW thermal (rate needed to melt 1 short ton of ice over 24 hours).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-kelvin-ambient",
+      "module": "physics",
+      "tags": [
+        "thermo"
+      ],
+      "front": "Room temperature (~20 °C / 68 °F) in Kelvin, and thermal energy k_B T in eV?",
+      "back": "~293 K (~300 K Fermi anchor); k_B T ≈ 0.026 eV (1/40 eV).",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-ideal-gas",
+      "module": "physics",
+      "tags": [
+        "chemistry"
+      ],
+      "front": "Volume of 1 mole of any ideal gas at STP (0 °C, 1 atm)?",
+      "back": "22.4 liters (at room temp 25 °C: ~24.5 L). Air mean molar mass ≈ 29 g/mol → 29 g / 24 L ≈ 1.2 kg/m³.",
+      "source_url": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    }
+  ],
+  "ordering_assertions": [
+    {
+      "dimension_id": "length_m",
+      "ordered_entity_ids": [
+        "len-proton",
+        "len-hydrogen-atom",
+        "len-virus",
+        "len-human-hair",
+        "len-human-height",
+        "len-mount-everest",
+        "len-earth-radius",
+        "len-astronomical-unit",
+        "len-light-year"
+      ]
+    },
+    {
+      "dimension_id": "energy_density_mj_kg",
+      "ordered_entity_ids": [
+        "en-hydro-10m",
+        "en-hydro-100m",
+        "en-lead-acid",
+        "en-lfp-battery",
+        "en-li-ion-nmc",
+        "en-tnt",
+        "en-dry-wood",
+        "en-bituminous-coal",
+        "en-diesel-jet",
+        "en-hydrogen",
+        "en-u235-fission",
+        "en-dt-fusion"
+      ]
+    },
+    {
+      "dimension_id": "power_w",
+      "ordered_entity_ids": [
+        "pwr-smartphone",
+        "pwr-led-bulb",
+        "pwr-human-basal",
+        "pwr-us-home-elec",
+        "pwr-car-engine",
+        "pwr-onshore-wind",
+        "pwr-nuclear-unit",
+        "pwr-global-primary",
+        "pwr-earth-sunlight"
+      ]
+    },
+    {
+      "dimension_id": "density_kg_m3",
+      "ordered_entity_ids": [
+        "den-air",
+        "den-eps-foam",
+        "den-softwood",
+        "den-water",
+        "den-concrete",
+        "den-aluminum",
+        "den-steel",
+        "den-copper",
+        "den-lead",
+        "den-gold",
+        "den-osmium"
+      ]
+    },
+    {
+      "dimension_id": "temperature_k",
+      "ordered_entity_ids": [
+        "tmp-cmb",
+        "tmp-liq-helium",
+        "tmp-liq-nitrogen",
+        "tmp-water-freeze",
+        "tmp-water-boil",
+        "tmp-aluminum-melt",
+        "tmp-steel-melt",
+        "tmp-sun-surface",
+        "tmp-sun-core"
+      ]
+    },
+    {
+      "dimension_id": "pressure_pa",
+      "ordered_entity_ids": [
+        "prs-mars-surface",
+        "prs-everest-air",
+        "prs-1atm",
+        "prs-car-tire",
+        "prs-scuba-tank",
+        "prs-mariana-trench",
+        "prs-steel-yield",
+        "prs-earth-core"
+      ]
+    }
+  ]
+}

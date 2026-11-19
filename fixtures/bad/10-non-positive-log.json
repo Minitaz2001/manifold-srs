@@ -1,0 +1,28 @@
+{
+  "pack_id": "bad-non-positive-log",
+  "version": "0.1.0",
+  "release_date": "2026-11-19",
+  "module": "physics",
+  "entities": [
+    { "id": "zero-thing", "name": "Zero Thing", "kind": "scale", "module": "physics", "tags": [] }
+  ],
+  "dimensions": [
+    { "id": "mass_kg", "name": "Mass", "unit": "kg", "scale": "log", "tolerance": 2 }
+  ],
+  "facts": [
+    {
+      "entity_id": "zero-thing",
+      "dimension_id": "mass_kg",
+      "value": 0,
+      "low": 0,
+      "high": 1,
+      "as_of": "2025",
+      "source_url": "https://www.nist.gov/",
+      "source_note": "Zero value on a log dimension must fail",
+      "volatile": false
+    }
+  ],
+  "anchor_sets": [],
+  "figures": [],
+  "plain_cards": []
+}

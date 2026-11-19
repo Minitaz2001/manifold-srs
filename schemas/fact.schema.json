@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://manifold-srs.local/schemas/fact.schema.json",
+  "title": "Fact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "entity_id",
+    "dimension_id",
+    "value",
+    "low",
+    "high",
+    "as_of",
+    "source_url",
+    "source_note",
+    "volatile"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "dimension_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+    },
+    "value": {
+      "type": "number"
+    },
+    "low": {
+      "type": "number"
+    },
+    "high": {
+      "type": "number"
+    },
+    "as_of": {
+      "type": "string",
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "source_note": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 400
+    },
+    "volatile": {
+      "type": "boolean"
+    },
+    "secondary_source_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "secondary_value": {
+      "type": "number"
+    }
+  }
+}

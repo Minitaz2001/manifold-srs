@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" class="manifold-figure-svg">
+  <rect width="600" height="420" fill="var(--fig-bg, #131720)" rx="12" />
+  <text x="20" y="28" fill="var(--fig-muted, #8b95a5)" font-size="13" font-family="system-ui, sans-serif" font-weight="600">AIA DESIGN-BID-BUILD CONTRACTUAL RELATIONSHIPS</text>
+  <!-- Connectors -->
+  <g stroke="var(--fig-line, #64748b)" stroke-width="2" fill="none" pointer-events="none">
+    <line x1="250" y1="92" x2="155" y2="178" />
+    <line x1="350" y1="92" x2="445" y2="178" />
+    <line x1="155" y1="234" x2="155" y2="316" />
+    <line x1="445" y1="234" x2="445" y2="316" />
+    <line x1="226" y1="206" x2="374" y2="206" stroke-dasharray="6 5" />
+  </g>
+  <text x="236" y="196" fill="var(--fig-muted, #8b95a5)" font-size="10" font-family="ui-monospace, monospace">NO CONTRACT (CA ONLY)</text>
+
+  <g id="regions-layer">
+    <rect id="aia-owner" data-region="aia-owner" data-label="Owner (Client)" x="220" y="48" width="160" height="48" rx="8" class="figure-region" />
+    <rect id="aia-b101" data-region="aia-b101" data-label="AIA B101 (Owner–Architect)" x="116" y="114" width="128" height="36" rx="6" class="figure-region" />
+    <rect id="aia-a101" data-region="aia-a101" data-label="AIA A101 + A201 (Owner–GC)" x="356" y="114" width="136" height="36" rx="6" class="figure-region" />
+    <rect id="aia-architect" data-region="aia-architect" data-label="Architect (IDM / CA)" x="76" y="178" width="150" height="56" rx="8" class="figure-region" />
+    <rect id="aia-contractor" data-region="aia-contractor" data-label="General Contractor (Means & Safety)" x="374" y="178" width="150" height="56" rx="8" class="figure-region" />
+    <rect id="aia-c401" data-region="aia-c401" data-label="AIA C401 (Architect–Consultant)" x="76" y="256" width="150" height="34" rx="6" class="figure-region" />
+    <rect id="aia-a401" data-region="aia-a401" data-label="AIA A401 (GC–Subcontractor)" x="374" y="256" width="150" height="34" rx="6" class="figure-region" />
+    <rect id="aia-consultants" data-region="aia-consultants" data-label="Structural / MEP Consultants" x="76" y="316" width="150" height="52" rx="8" class="figure-region" />
+    <rect id="aia-subs" data-region="aia-subs" data-label="Trade Subcontractors" x="374" y="316" width="150" height="52" rx="8" class="figure-region" />
+  </g>
+</svg>
