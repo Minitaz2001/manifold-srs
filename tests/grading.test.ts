@@ -222,3 +222,14 @@ describe('anti-collision & ruler anchor bracketing', () => {
     expect(evaluateRatioProbe({ truthA: 43, truthB: 0.9, guessedRatio: 10, toleranceFactor: 2 }).hit).toBe(false);
   });
 });
+
+describe('formatSci', () => {
+  it('rounds to a 1-digit mantissa and carries 9.6 up a decade', async () => {
+    const { formatSci } = await import('../src/core/grading');
+    expect(formatSci(8849)).toBe('9 × 10³');
+    expect(formatSci(9.6e5)).toBe('1 × 10⁶');
+    expect(formatSci(8.4e-16)).toBe('8 × 10⁻¹⁶');
+    expect(formatSci(1.45e9)).toBe('1 × 10⁹');
+    expect(formatSci(42)).toBe('4 × 10¹');
+  });
+});

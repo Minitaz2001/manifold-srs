@@ -3,6 +3,7 @@ import type { Dimension, Entity, Fact } from '../types/content';
 import type { GradeName } from '../types/memory';
 import {
   formatQuantity,
+  formatSci,
   gradePlacement,
   positionToValue,
   selectRulerConfig,
@@ -191,6 +192,7 @@ export function RulerWidget({
               <span className="truth-readout mono">
                 {formatQuantity(fact.value, dimension)}
               </span>
+              {dimension.scale !== 'date' && <span className="sci-readout mono">{formatSci(fact.value)}</span>}
               {fact.volatile && <span className="volatile-badge">as of {fact.as_of.slice(0, 4)}</span>}
             </div>
             <p className="source-note">{fact.source_note}</p>
@@ -199,7 +201,8 @@ export function RulerWidget({
         ) : (
           <div className="live-estimate mono">
             {currentAnswerVal !== null
-              ? formatQuantity(currentAnswerVal, dimension)
+              ? formatQuantity(currentAnswerVal, dimension) +
+                (dimension.scale !== 'date' ? `  ·  ${formatSci(currentAnswerVal)}` : '')
               : 'tap the scale below'}
           </div>
         )}

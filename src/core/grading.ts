@@ -361,6 +361,24 @@ export function positionToValue(pos01: number, min: number, max: number, scale: 
   return min + p * (max - min);
 }
 
+const SUPERSCRIPT: Record<string, string> = {
+  '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹', '-': '⁻',
+};
+
+/** Order-of-magnitude form with a 1-digit mantissa: 8849 → "9 × 10³", 8.4e-16 → "8 × 10⁻¹⁶". */
+export function formatSci(value: number): string {
+  if (!Number.isFinite(value) || value === 0) return '0';
+  const sign = value < 0 ? '−' : '';
+  let exp = Math.floor(Math.log10(Math.abs(value)));
+  let mant = Math.round(Math.abs(value) / Math.pow(10, exp));
+  if (mant >= 10) {
+    mant = 1;
+    exp += 1;
+  }
+  const sup = String(exp).split('').map((c) => SUPERSCRIPT[c] ?? c).join('');
+  return `${sign}${mant} × 10${sup}`;
+}
+
 export function formatQuantity(value: number, dimension: Pick<Dimension, 'scale' | 'unit'>): string {
   if (dimension.scale === 'date') {
     const yr = Math.round(value);
