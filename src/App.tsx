@@ -523,10 +523,11 @@ export function App() {
           />
         ) : currentItem.task_type === 'occlude' ? (
           <OccludeWidget
-            key={currentItem.item_key}
+            key={currentItem.item_key + (currentItem.is_new ? ':learn' : ':test')}
             figure={currentItem.figure!}
             targetRegion={currentItem.region!}
             repCount={currentItem.state?.reps ?? 0}
+            isNew={currentItem.is_new}
             onComplete={(p) => handleOccludeComplete(currentItem, p)}
           />
         ) : (

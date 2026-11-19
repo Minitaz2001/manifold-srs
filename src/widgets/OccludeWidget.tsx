@@ -18,11 +18,13 @@ interface OccludeWidgetProps {
   figure: Figure;
   targetRegion: FigureRegion;
   repCount: number;
+  /** First exposure: show the region labelled ("learn this"), no test. */
+  isNew?: boolean;
   onComplete: (payload: OccludeCompletePayload) => void;
 }
 
 
-export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: OccludeWidgetProps) {
+export function OccludeWidget({ figure, targetRegion, repCount, isNew = false, onComplete }: OccludeWidgetProps) {
   // Alternate between "name this region" (4 nearby labels) and "tap where X is"
   const mode: 'name_region' | 'tap_region' = repCount % 2 === 0 ? 'name_region' : 'tap_region';
   const rawSvg = BUNDLED_SVGS[figure.svg_path] ?? '';
@@ -74,7 +76,9 @@ export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: Oc
     regionEls.forEach((el) => {
       const rid = el.getAttribute('id') ?? el.getAttribute('data-region') ?? '';
       el.classList.remove('region-target', 'region-selected', 'region-correct', 'region-adjacent', 'region-wrong');
-      if (grade) {
+      if (isNew) {
+        if (rid === targetRegion.region_id) el.classList.add('region-correct');
+      } else if (grade) {
         if (rid === targetRegion.region_id) {
           el.classList.add('region-correct');
         } else if (rid === selectedId) {
@@ -86,7 +90,7 @@ export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: Oc
         el.classList.add('region-selected');
       }
     });
-  }, [rawSvg, mode, targetRegion.region_id, selectedId, grade]);
+  }, [rawSvg, mode, targetRegion.region_id, selectedId, grade, isNew]);
 
   const advanceNow = (p: OccludeCompletePayload) => {
     if (revealTimerRef.current !== null) {
@@ -126,6 +130,38 @@ export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: Oc
     setPayload(out);
 
   };
+
+  const finishLearn = () => {
+    triggerHaptic('success');
+    onComplete({
+      selected_region_id: targetRegion.region_id,
+      mode,
+      grade: 'Good',
+      error: 0,
+      latency_ms: Math.round(nowMs() - startTimeRef.current),
+      prompt_json: JSON.stringify({ figure_id: figure.id, target_region_id: targetRegion.region_id, mode: 'learn' }),
+    });
+  };
+
+  if (isNew) {
+    return (
+      <div className="widget-shell">
+        <div className="prompt-zone compact">
+          <div className="prompt-eyebrow">
+            <span className="new-pill">new</span>
+            <span>{figure.title}</span>
+          </div>
+          <h1 className="prompt-title">{targetRegion.label}</h1>
+        </div>
+        <div className="thumb-zone figure-thumb-zone">
+          <div ref={svgContainerRef} className="figure-canvas" dangerouslySetInnerHTML={{ __html: rawSvg }} />
+          <button type="button" className="btn-primary btn-flip-large" onClick={finishLearn}>
+            Got it
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   const handleSvgTap = (e: React.MouseEvent<HTMLDivElement>) => {
     if (grade || mode !== 'tap_region') return;
