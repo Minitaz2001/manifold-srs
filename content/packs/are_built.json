@@ -6,7 +6,7 @@
   "entities": [
     {
       "id": "ada-threshold-beveled-max",
-      "name": "ADA Max Beveled Level Change",
+      "name": "ADA 2010 Max Beveled Level Change",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -17,7 +17,7 @@
     },
     {
       "id": "ada-stair-riser-min",
-      "name": "IBC Commercial Stair Riser (Min)",
+      "name": "IBC 2021 Commercial Stair Riser (Min)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -28,7 +28,7 @@
     },
     {
       "id": "ada-stair-riser-max",
-      "name": "IBC Commercial Stair Riser (Max)",
+      "name": "IBC 2021 Commercial Stair Riser (Max)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -39,7 +39,7 @@
     },
     {
       "id": "ada-stair-tread-min",
-      "name": "IBC Commercial Stair Tread Depth (Min)",
+      "name": "IBC 2021 Commercial Stair Tread Depth (Min)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -50,7 +50,7 @@
     },
     {
       "id": "ada-reach-low-min",
-      "name": "ADA Unobstructed Low Reach (Min)",
+      "name": "ADA 2010 Unobstructed Low Reach (Min)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -60,7 +60,7 @@
     },
     {
       "id": "ada-water-closet-center",
-      "name": "ADA Water Closet Centerline from Side Wall",
+      "name": "ADA 2010 Water Closet Centerline from Side Wall",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -71,7 +71,7 @@
     },
     {
       "id": "ada-knee-clearance-height",
-      "name": "ADA Knee Clearance Height Under Lavatory",
+      "name": "ADA 2010 Knee Clearance Height Under Lavatory",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -81,7 +81,7 @@
     },
     {
       "id": "ada-ramp-rise-max",
-      "name": "ADA Max Vertical Rise per Ramp Run",
+      "name": "ADA 2010 Max Vertical Rise per Ramp Run",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -92,18 +92,7 @@
     },
     {
       "id": "ada-door-clear-width",
-      "name": "ADA Doorway Clear Opening Width (Min)",
-      "kind": "code_dim",
-      "module": "are_built",
-      "tags": [
-        "PA",
-        "CE",
-        "ada"
-      ]
-    },
-    {
-      "id": "ada-handrail-height",
-      "name": "ADA / IBC Handrail Gripping Height",
+      "name": "ADA 2010 Doorway Clear Opening Width (Min)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -114,7 +103,7 @@
     },
     {
       "id": "ada-accessible-route-width",
-      "name": "ADA Accessible Route Clear Width (Min)",
+      "name": "ADA 2010 Accessible Route Clear Width (Min)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -124,7 +113,7 @@
     },
     {
       "id": "ibc-guardrail-height",
-      "name": "IBC Commercial Guardrail Height (Min)",
+      "name": "IBC 2021 Commercial Guardrail Height (Min)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -135,7 +124,7 @@
     },
     {
       "id": "ibc-corridor-width-comm",
-      "name": "IBC Commercial Corridor Width (≥50 Occ.)",
+      "name": "IBC 2021 Corridor Width (50+ Occupants)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -145,7 +134,7 @@
     },
     {
       "id": "ada-reach-high",
-      "name": "ADA Unobstructed High Reach (Max)",
+      "name": "ADA 2010 Unobstructed High Reach (Max)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -155,7 +144,7 @@
     },
     {
       "id": "ada-turning-circle",
-      "name": "ADA Wheelchair Turning Circle Diameter",
+      "name": "ADA 2010 Wheelchair Turning Circle Diameter",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -166,7 +155,7 @@
     },
     {
       "id": "ada-headroom-clearance",
-      "name": "ADA / IBC Circulation Headroom (Min)",
+      "name": "ADA 2010 / IBC 2021 Circulation Headroom (Min)",
       "kind": "code_dim",
       "module": "are_built",
       "tags": [
@@ -177,7 +166,7 @@
     },
     {
       "id": "occ-assembly-standing",
-      "name": "Assembly Standing Space (IBC Occupant Load)",
+      "name": "Assembly Standing Space (IBC 2021 Occupant Load)",
       "kind": "code_occ",
       "module": "are_built",
       "tags": [
@@ -267,7 +256,7 @@
     },
     {
       "id": "occ-warehouse-mech",
-      "name": "Storage Warehouse / Mechanical Room",
+      "name": "Mechanical Equipment Room / Accessory Storage",
       "kind": "code_occ",
       "module": "are_built",
       "tags": [
@@ -277,7 +266,7 @@
     },
     {
       "id": "soil-clay",
-      "name": "Clay / Sandy Clay / Silty Clay (IBC)",
+      "name": "Clay / Sandy Clay / Silty Clay (IBC 2021)",
       "kind": "geotech",
       "module": "are_built",
       "tags": [
@@ -287,7 +276,7 @@
     },
     {
       "id": "soil-sand-silty",
-      "name": "Sand / Silty Sand / Clayey Sand (IBC)",
+      "name": "Sand / Silty Sand / Clayey Sand (IBC 2021)",
       "kind": "geotech",
       "module": "are_built",
       "tags": [
@@ -297,7 +286,7 @@
     },
     {
       "id": "soil-gravel",
-      "name": "Sandy Gravel / Gravel (IBC)",
+      "name": "Sandy Gravel / Gravel (IBC 2021)",
       "kind": "geotech",
       "module": "are_built",
       "tags": [
@@ -307,7 +296,7 @@
     },
     {
       "id": "soil-sedimentary",
-      "name": "Sedimentary / Foliated Rock (IBC)",
+      "name": "Sedimentary / Foliated Rock (IBC 2021)",
       "kind": "geotech",
       "module": "are_built",
       "tags": [
@@ -317,7 +306,7 @@
     },
     {
       "id": "soil-crystalline",
-      "name": "Crystalline Bedrock (IBC)",
+      "name": "Crystalline Bedrock (IBC 2021)",
       "kind": "geotech",
       "module": "are_built",
       "tags": [
@@ -462,7 +451,7 @@
     },
     {
       "id": "r-closed-cell-spray",
-      "name": "Closed-Cell Spray Foam / Polyiso (R per inch)",
+      "name": "Closed-Cell Spray Polyurethane Foam (R per inch)",
       "kind": "envelope_material",
       "module": "are_built",
       "tags": [
@@ -551,6 +540,49 @@
       "tags": [
         "PA",
         "PjM"
+      ]
+    },
+    {
+      "id": "occ-warehouse",
+      "name": "Warehouse",
+      "kind": "code_occ",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "egress"
+      ]
+    },
+    {
+      "id": "r-polyiso",
+      "name": "Polyisocyanurate (Polyiso) Board (R per inch)",
+      "kind": "envelope_material",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "envelope"
+      ]
+    },
+    {
+      "id": "ada-pull-latch-clearance",
+      "name": "ADA 2010 Pull-Side Latch Clearance, Front Approach (Min)",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ]
+    },
+    {
+      "id": "a117-turning-circle-new",
+      "name": "ICC A117.1-2017 Turning Circle Diameter, New Buildings",
+      "kind": "code_dim",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "accessibility"
       ]
     }
   ],
@@ -647,7 +679,7 @@
       "high": 0.5,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §303.3: vertical changes 1/4–1/2 inch must be beveled at max 1:2 slope",
+      "source_note": "ADA 2010 §303.3: vertical changes 1/4–1/2 inch must be beveled at max 1:2 slope",
       "volatile": false
     },
     {
@@ -658,7 +690,7 @@
       "high": 4.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Stairs",
-      "source_note": "IBC §1011.5.2 minimum commercial stair riser height: 4 inches",
+      "source_note": "IBC 2021 §1011.5.2 minimum commercial stair riser height: 4 inches",
       "volatile": false
     },
     {
@@ -669,7 +701,7 @@
       "high": 7.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Stairs",
-      "source_note": "IBC §1011.5.2 maximum commercial stair riser height: 7 inches",
+      "source_note": "IBC 2021 §1011.5.2 maximum commercial stair riser height: 7 inches",
       "volatile": false
     },
     {
@@ -680,7 +712,7 @@
       "high": 11.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Stairs",
-      "source_note": "IBC §1011.5.2 minimum commercial stair tread depth: 11 inches",
+      "source_note": "IBC 2021 §1011.5.2 minimum commercial stair tread depth: 11 inches",
       "volatile": false
     },
     {
@@ -691,7 +723,7 @@
       "high": 15.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §308.2.1 & §308.3.1: 15 inches minimum low forward/side reach",
+      "source_note": "ADA 2010 §308.2.1 & §308.3.1: 15 inches minimum low forward/side reach",
       "volatile": false
     },
     {
@@ -702,7 +734,7 @@
       "high": 18.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §604.2: toilet centerline must be 16–18 inches from side wall",
+      "source_note": "Range: 16–18 in. ADA 2010 §604.2: water closet centerline 16–18 inches from the side wall",
       "volatile": false
     },
     {
@@ -713,7 +745,7 @@
       "high": 27.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §306.3.1: 27 inches min vertical knee clearance",
+      "source_note": "ADA 2010 §306.3.1: 27 inches min vertical knee clearance",
       "volatile": false
     },
     {
@@ -724,7 +756,7 @@
       "high": 30.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §405.6: 30 inches maximum vertical rise per ramp run before level landing",
+      "source_note": "ADA 2010 §405.6: 30 inches maximum vertical rise per ramp run before level landing",
       "volatile": false
     },
     {
@@ -735,18 +767,7 @@
       "high": 32.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §404.2.3: 32 inches min clear opening at 90 degrees",
-      "volatile": false
-    },
-    {
-      "entity_id": "ada-handrail-height",
-      "dimension_id": "code_dimension_in",
-      "value": 36.0,
-      "low": 34.0,
-      "high": 38.0,
-      "as_of": "2026-11-19",
-      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §505.4 & IBC §1014.2: top of gripping surfaces 34–38 inches above stair nosings/ramps",
+      "source_note": "ADA 2010 §404.2.3: 32 inches min clear opening at 90 degrees",
       "volatile": false
     },
     {
@@ -757,7 +778,7 @@
       "high": 36.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §403.5.1: 36 inches continuous minimum clear width",
+      "source_note": "ADA 2010 §403.5.1: 36 inches continuous minimum clear width",
       "volatile": false
     },
     {
@@ -768,7 +789,7 @@
       "high": 42.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Guard_rail",
-      "source_note": "IBC §1015.3 minimum commercial guard height: 42 inches (36 in one/two-family)",
+      "source_note": "IBC 2021 §1015.3 minimum commercial guard height: 42 inches (36 in one/two-family)",
       "volatile": false
     },
     {
@@ -778,8 +799,8 @@
       "low": 44.0,
       "high": 44.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1020.2 minimum corridor width for occupant load ≥50: 44 inches (36 in if <50)",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1020.3: 44 inches minimum corridor width; 36 inches where occupant load is under 50 (ICC 2021 IBC Means of Egress seminar slides)",
       "volatile": false
     },
     {
@@ -790,7 +811,7 @@
       "high": 48.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §308.2.1: 48 inches maximum unobstructed high reach",
+      "source_note": "ADA 2010 §308.2.1: 48 inches maximum unobstructed high reach",
       "volatile": false
     },
     {
@@ -801,7 +822,7 @@
       "high": 60.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §304.3.1: 60 inches minimum circular wheelchair turning space",
+      "source_note": "ADA 2010 §304.3.1: 60 inches minimum circular wheelchair turning space",
       "volatile": false
     },
     {
@@ -812,7 +833,7 @@
       "high": 80.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "2010 ADA §307.4 & IBC §1003.2: 80 inches minimum vertical headroom clearance",
+      "source_note": "ADA 2010 §307.4 & IBC 2021 §1003.3.1: 80 inches minimum headroom clearance (IBC §1003.2 is the separate ceiling-height section)",
       "volatile": false
     },
     {
@@ -822,8 +843,8 @@
       "low": 5.0,
       "high": 5.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 5 net sq ft/person for concentrated standing assembly",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 5 net sq ft/person for concentrated standing assembly (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -833,8 +854,8 @@
       "low": 7.0,
       "high": 7.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 7 net sq ft/person for concentrated assembly without fixed seats",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 7 net sq ft/person for concentrated assembly without fixed seats (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -844,8 +865,8 @@
       "low": 15.0,
       "high": 15.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 15 net sq ft/person for unconcentrated dining/conference tables",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 15 net sq ft/person for unconcentrated dining/conference tables (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -855,8 +876,8 @@
       "low": 20.0,
       "high": 20.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 20 net sq ft/person for educational classrooms",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 20 net sq ft/person for educational classrooms (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -866,8 +887,8 @@
       "low": 50.0,
       "high": 50.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 50 net sq ft/person for library reading rooms and vocational shops",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 50 net sq ft/person for library reading rooms and vocational shops (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -877,8 +898,8 @@
       "low": 60.0,
       "high": 60.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5 (2018+): 60 gross sq ft/person for mercantile retail areas",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 60 gross sq ft/person for mercantile retail areas (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -888,8 +909,8 @@
       "low": 100.0,
       "high": 100.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 100 gross sq ft/person for industrial areas and library stacks",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 100 gross sq ft/person for industrial areas and library stacks (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -899,8 +920,8 @@
       "low": 150.0,
       "high": 150.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5 (2018+): 150 gross sq ft/person for business/office occupancies",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 150 gross sq ft/person for business/office occupancies (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -910,8 +931,8 @@
       "low": 200.0,
       "high": 200.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 200 gross sq ft/person for residential occupancies",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 200 gross sq ft/person for residential occupancies (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -919,10 +940,10 @@
       "dimension_id": "occupant_load_sf",
       "value": 300.0,
       "low": 300.0,
-      "high": 500.0,
+      "high": 300.0,
       "as_of": "2026-11-19",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "IBC Table 1004.5: 300 gross sq ft/person mechanical/accessory storage (500 gross warehouses)",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 300 gross sq ft/person for accessory storage areas and mechanical equipment rooms (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
       "volatile": false
     },
     {
@@ -933,7 +954,7 @@
       "high": 1500.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
-      "source_note": "IBC Table 1806.2 presumptive vertical foundation pressure: 1,500 psf for clay/silty clay",
+      "source_note": "IBC 2021 Table 1806.2 presumptive vertical foundation pressure: 1,500 psf for clay/silty clay",
       "volatile": false
     },
     {
@@ -944,7 +965,7 @@
       "high": 2000.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
-      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 2,000 psf for sand and silty gravel",
+      "source_note": "IBC 2021 Table 1806.2 presumptive bearing capacity: 2,000 psf for sand and silty gravel",
       "volatile": false
     },
     {
@@ -955,7 +976,7 @@
       "high": 3000.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
-      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 3,000 psf for GW/GP gravel",
+      "source_note": "IBC 2021 Table 1806.2 presumptive bearing capacity: 3,000 psf for GW/GP gravel",
       "volatile": false
     },
     {
@@ -966,7 +987,7 @@
       "high": 4000.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
-      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 4,000 psf for sedimentary/foliated rock",
+      "source_note": "IBC 2021 Table 1806.2 presumptive bearing capacity: 4,000 psf for sedimentary/foliated rock",
       "volatile": false
     },
     {
@@ -977,7 +998,7 @@
       "high": 12000.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Bearing_capacity",
-      "source_note": "IBC Table 1806.2 presumptive bearing capacity: 12,000 psf for sound crystalline bedrock",
+      "source_note": "IBC 2021 Table 1806.2 presumptive bearing capacity: 12,000 psf for sound crystalline bedrock",
       "volatile": false
     },
     {
@@ -988,7 +1009,7 @@
       "high": 20.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 ordinary flat/pitched roof live load: 20 psf",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 ordinary flat/pitched roof live load: 20 psf",
       "volatile": false
     },
     {
@@ -999,7 +1020,7 @@
       "high": 30.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 residential sleeping rooms: 30 psf",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 residential sleeping rooms: 30 psf",
       "volatile": false
     },
     {
@@ -1010,7 +1031,7 @@
       "high": 40.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 habitable residential rooms and classrooms: 40 psf",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 habitable residential rooms and classrooms: 40 psf",
       "volatile": false
     },
     {
@@ -1021,7 +1042,7 @@
       "high": 50.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 standard office floors: 50 psf",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 standard office floors: 50 psf",
       "volatile": false
     },
     {
@@ -1032,7 +1053,7 @@
       "high": 80.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 corridors above first floor: 80 psf",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 corridors above first floor: 80 psf",
       "volatile": false
     },
     {
@@ -1043,7 +1064,7 @@
       "high": 100.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 lobbies, first-floor corridors, stairs, movable-seat assembly: 100 psf",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 lobbies, first-floor corridors, stairs, movable-seat assembly: 100 psf",
       "volatile": false
     },
     {
@@ -1054,7 +1075,7 @@
       "high": 150.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 library stack rooms: 150 psf",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 library stack rooms: 150 psf",
       "volatile": false
     },
     {
@@ -1065,7 +1086,7 @@
       "high": 250.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Structural_load",
-      "source_note": "ASCE 7 / IBC Table 1607.1 heavy storage warehouses: 250 psf (light storage: 125 psf)",
+      "source_note": "ASCE 7 / IBC 2021 Table 1607.1 heavy storage warehouses: 250 psf (light storage: 125 psf)",
       "volatile": false
     },
     {
@@ -1127,11 +1148,11 @@
       "entity_id": "r-closed-cell-spray",
       "dimension_id": "r_value_per_in",
       "value": 6.5,
-      "low": 6.0,
+      "low": 5.5,
       "high": 7.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
-      "source_note": "Closed-cell spray polyurethane / aged polyiso ~6.0–6.8 R/in",
+      "source_note": "Closed-cell spray polyurethane foam ~5.5–6.5 R/in (some products cited near R-7)",
       "volatile": false
     },
     {
@@ -1142,7 +1163,7 @@
       "high": 5.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
-      "source_note": "Standard AIA B101 basic-services fee split for Bidding/Negotiation: ~5%",
+      "source_note": "Common rule-of-thumb split of basic-services fees by phase (an industry convention, not text of AIA B101): Bidding/Negotiation ~5%",
       "volatile": false
     },
     {
@@ -1153,7 +1174,7 @@
       "high": 10.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Construction_management",
-      "source_note": "Standard retainage withheld from contractor progress payments until substantial completion: 5–10%",
+      "source_note": "Range: 5–10%. Typical retainage withheld from contractor progress payments until substantial completion (10% is common; many contracts and statutes cap it at 5%)",
       "volatile": false
     },
     {
@@ -1164,7 +1185,7 @@
       "high": 15.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
-      "source_note": "Standard AIA B101 basic-services fee split for Schematic Design: ~15%",
+      "source_note": "Common rule-of-thumb split of basic-services fees by phase (an industry convention, not text of AIA B101): Schematic Design ~15%",
       "volatile": false
     },
     {
@@ -1175,7 +1196,7 @@
       "high": 20.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
-      "source_note": "Standard AIA B101 basic-services fee split for Design Development: ~20%",
+      "source_note": "Common rule-of-thumb split of basic-services fees by phase (an industry convention, not text of AIA B101): Design Development ~20%",
       "volatile": false
     },
     {
@@ -1186,7 +1207,7 @@
       "high": 25.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
-      "source_note": "Standard AIA B101 basic-services fee split for Construction Phase Services: ~20–25%",
+      "source_note": "Common rule-of-thumb split of basic-services fees by phase (an industry convention, not text of AIA B101): Construction Administration ~20–25%",
       "volatile": false
     },
     {
@@ -1197,7 +1218,7 @@
       "high": 40.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
-      "source_note": "Standard AIA B101 basic-services fee split for Construction Documents: ~35–40%",
+      "source_note": "Common rule-of-thumb split of basic-services fees by phase (an industry convention, not text of AIA B101): Construction Documents ~35–40%",
       "volatile": false
     },
     {
@@ -1221,6 +1242,50 @@
       "source_url": "https://en.wikipedia.org/wiki/Floor_area_ratio",
       "source_note": "Programming rule of thumb: typical commercial office net-to-gross efficiency ~75–85% (hospitals ~55–65%)",
       "volatile": false
+    },
+    {
+      "entity_id": "occ-warehouse",
+      "dimension_id": "occupant_load_sf",
+      "value": 500.0,
+      "low": 500.0,
+      "high": 500.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1004.5: 500 gross sq ft/person for warehouses (ICC 2021 IBC Means of Egress seminar slides, Table 1004.5)",
+      "volatile": false
+    },
+    {
+      "entity_id": "r-polyiso",
+      "dimension_id": "r_value_per_in",
+      "value": 5.8,
+      "low": 5.5,
+      "high": 6.5,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/R-value_(insulation)",
+      "source_note": "Polyisocyanurate board ~R-5.8 per inch; aged foil-faced ~R-5.5",
+      "volatile": false
+    },
+    {
+      "entity_id": "ada-pull-latch-clearance",
+      "dimension_id": "code_dimension_in",
+      "value": 18.0,
+      "low": 18.0,
+      "high": 18.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 Table 404.2.4.1: front approach, pull side: 18 inches minimum beyond the latch side (60 inches minimum maneuvering depth)",
+      "volatile": false
+    },
+    {
+      "entity_id": "a117-turning-circle-new",
+      "dimension_id": "code_dimension_in",
+      "value": 67.0,
+      "low": 67.0,
+      "high": 67.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://shop.iccsafe.org/media/wysiwyg/material/9033S175thptg-Sample.pdf",
+      "source_note": "ICC A117.1-2017 §304.3.1.1 (new buildings): 67 inch diameter; §304.3.1.2 existing buildings keep 60 inches. Distinct from the ADA 2010 60 inch circle",
+      "volatile": false
     }
   ],
   "anchor_sets": [
@@ -1241,7 +1306,7 @@
         "occ-classroom",
         "occ-mercantile",
         "occ-business",
-        "occ-warehouse-mech"
+        "occ-warehouse"
       ]
     },
     {
@@ -1818,10 +1883,10 @@
       "tags": [
         "CE"
       ],
-      "front": "Can the Architect stop construction work if they spot nonconforming work or an unsafe scaffold?",
-      "back": "NO. Only the Owner can issue a stop-work order (A201 §2.4). The Architect has authority to REJECT nonconforming work and notify the Owner/Contractor in writing.",
-      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
-      "source_note": "ARE 5.0 (CE) reference",
+      "front": "Under AIA A201-2017, who has the right to order the Contractor to stop the Work?",
+      "back": "The Owner, by written order (§2.4). The Architect can reject nonconforming work but cannot stop the Work.",
+      "source_url": "https://resources.finalsite.net/images/v1741109683/medfordk12orus/jawwwitztba9iq8b5mtr/A201-2017-SAMPLE.pdf",
+      "source_note": "AIA A201-2017 §2.4 Owner's Right to Stop the Work",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -1844,10 +1909,23 @@
       "tags": [
         "CE"
       ],
-      "front": "Are approved shop drawings / submittals considered Contract Documents under A201?",
-      "back": "NO. Approved submittals do not modify the Contract Documents; any deviation requires a formal modification (CO, CCD, or ASI).",
-      "source_url": "https://en.wikipedia.org/wiki/American_Institute_of_Architects",
-      "source_note": "ARE 5.0 (CE) reference",
+      "front": "Under AIA A201-2017, what is the contractual status of approved shop drawings, product data and samples?",
+      "back": "They are not Contract Documents (§3.12.4); they show how the Contractor proposes to conform. Changing the Work still needs a Change Order, Construction Change Directive or order for a minor change.",
+      "source_url": "https://resources.finalsite.net/images/v1741109683/medfordk12orus/jawwwitztba9iq8b5mtr/A201-2017-SAMPLE.pdf",
+      "source_note": "AIA A201-2017 §3.12.4",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-a201-claims-21",
+      "module": "are_built",
+      "tags": [
+        "CE"
+      ],
+      "front": "AIA A201-2017 §15.1.3.1: deadline for initiating a Claim?",
+      "back": "Within 21 days after the event giving rise to the Claim, or within 21 days after the claimant first recognizes the condition, whichever is later.",
+      "source_url": "https://resources.finalsite.net/images/v1741109683/medfordk12orus/jawwwitztba9iq8b5mtr/A201-2017-SAMPLE.pdf",
+      "source_note": "AIA A201-2017 §15.1.3.1 (sample document text)",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -2013,16 +2091,100 @@
       "volatile": false
     },
     {
-      "id": "are-ce-csi-key-divs",
+      "id": "are-ce-csi-div03",
       "module": "are_built",
       "tags": [
         "CE",
         "PjM"
       ],
-      "front": "CSI MasterFormat key technical divisions: 03, 05, 07, 08, 09, 23, 26?",
-      "back": "03 Concrete, 05 Metals, 07 Thermal & Moisture Protection, 08 Openings (doors/windows), 09 Finishes, 23 HVAC, 26 Electrical.",
+      "front": "CSI MasterFormat Division 03?",
+      "back": "Concrete.",
       "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
-      "source_note": "ARE 5.0 (CE/PjM) reference",
+      "source_note": "CSI MasterFormat division titles",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-div05",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat Division 05?",
+      "back": "Metals.",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "CSI MasterFormat division titles",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-div07",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat Division 07?",
+      "back": "Thermal and Moisture Protection.",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "CSI MasterFormat division titles",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-div08",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat Division 08?",
+      "back": "Openings (doors, windows, hardware).",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "CSI MasterFormat division titles",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-div09",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat Division 09?",
+      "back": "Finishes.",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "CSI MasterFormat division titles",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-div23",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat Division 23?",
+      "back": "Heating, Ventilating and Air Conditioning (HVAC).",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "CSI MasterFormat division titles",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-ce-csi-div26",
+      "module": "are_built",
+      "tags": [
+        "CE",
+        "PjM"
+      ],
+      "front": "CSI MasterFormat Division 26?",
+      "back": "Electrical.",
+      "source_url": "https://en.wikipedia.org/wiki/MasterFormat",
+      "source_note": "CSI MasterFormat division titles",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -2060,8 +2222,36 @@
         "PjM",
         "CE"
       ],
-      "front": "Design-Bid-Build (DBB): defining feature, biggest pro, biggest con?",
-      "back": "Separate Owner contracts with Architect and GC; sequential phases. Pro: competitive low-bid price & checks/balances. Con: longest schedule, no contractor preconstruction input, adversarial claims.",
+      "front": "Design-Bid-Build (DBB): defining feature?",
+      "back": "The Owner holds separate contracts with the Architect and the contractor, and design, bidding and construction run in sequence.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-delivery-dbb-pro",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "Design-Bid-Build (DBB): biggest advantage?",
+      "back": "A competitive low-bid price on a complete design, with the Architect acting as an independent check on the contractor.",
+      "source_url": "https://en.wikipedia.org/wiki/Construction_management",
+      "source_note": "ARE 5.0 (PjM/CE) reference",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-delivery-dbb-con",
+      "module": "are_built",
+      "tags": [
+        "PjM",
+        "CE"
+      ],
+      "front": "Design-Bid-Build (DBB): biggest drawback?",
+      "back": "The longest schedule, since phases cannot overlap and the contractor gives no input during design.",
       "source_url": "https://en.wikipedia.org/wiki/Construction_management",
       "source_note": "ARE 5.0 (PjM/CE) reference",
       "as_of": "2026-11-19",
@@ -2320,10 +2510,25 @@
         "CE",
         "ada"
       ],
-      "front": "2010 ADA Standards: max running slope, max cross slope, and max rise per ramp run?",
-      "back": "1:12 max running slope (8.33%), 1:48 max cross slope (2.08%), and 30 inches max vertical rise per run before a 60-inch level landing (ADA §405).",
+      "front": "ADA 2010 §405.2: maximum running slope of a ramp?",
+      "back": "1:12 (8.33%).",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "ARE 5.0 (PA/CE) reference",
+      "source_note": "ADA 2010 §405.2",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-ramp-cross",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ],
+      "front": "ADA 2010 §405.3: maximum cross slope of a ramp run?",
+      "back": "1:48 (about 2.08%).",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §405.3",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -2335,7 +2540,7 @@
         "codes"
       ],
       "front": "Why do '5-over-1' buildings dominate US urban infill?",
-      "back": "IBC §510.2 (podium/horizontal building separation) lets a Type IIIA or VA (sprinklered) building sit above a 3-hour horizontal assembly over a Type IA podium; the 5-story count needs Type IIIA (R-2, NFPA 13: IIIA = 5 stories, VA = 4 per Table 504.4), which is how it maximizes rentable area per dollar.",
+      "back": "IBC 2021 §510.2 (podium/horizontal building separation) lets a Type IIIA or VA (sprinklered) building sit above a 3-hour horizontal assembly over a Type IA podium; the 5-story count needs Type IIIA (R-2, NFPA 13: IIIA = 5 stories, VA = 4 per Table 504.4), which is how it maximizes rentable area per dollar.",
       "source_url": "https://en.wikipedia.org/wiki/5-over-1",
       "source_note": "ARE 5.0 (PA) reference",
       "as_of": "2026-11-19",
@@ -2348,7 +2553,7 @@
         "PA",
         "codes"
       ],
-      "front": "IBC Construction Types I through V ordered from most to least fire-resistive?",
+      "front": "IBC 2021 Construction Types I through V ordered from most to least fire-resistive?",
       "back": "I = Noncombustible highest fire-resistance (concrete/protected steel); II = Noncombustible lower rating; III = Noncombustible ext. walls + combustible interior; IV = Heavy/Mass Timber; V = Combustible (wood frame). Suffix A = protected, B = unprotected.",
       "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
       "source_note": "ARE 5.0 (PA) reference",
@@ -2356,16 +2561,142 @@
       "volatile": false
     },
     {
-      "id": "are-pa-ibc-occupancies",
+      "id": "are-pa-occ-a",
       "module": "are_built",
       "tags": [
         "PA",
         "codes"
       ],
-      "front": "IBC Occupancy Groups: A, B, E, F, H, I, M, R, S, U?",
-      "back": "A Assembly, B Business, E Educational, F Factory, H High-Hazard, I Institutional (hospitals/prisons), M Mercantile, R Residential, S Storage, U Utility/Misc.",
+      "front": "IBC 2021 occupancy group A?",
+      "back": "Assembly.",
       "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "ARE 5.0 (PA) reference",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-b",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group B?",
+      "back": "Business.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-e",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group E?",
+      "back": "Educational.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-f",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group F?",
+      "back": "Factory and Industrial.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-h",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group H?",
+      "back": "High-Hazard.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-i",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group I?",
+      "back": "Institutional (hospitals, care facilities, jails).",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-m",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group M?",
+      "back": "Mercantile.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-r",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group R?",
+      "back": "Residential.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-s",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group S?",
+      "back": "Storage.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-occ-u",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 occupancy group U?",
+      "back": "Utility and Miscellaneous.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
+      "source_note": "IBC 2021 Chapter 3 occupancy classification",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -2376,10 +2707,417 @@
         "PA",
         "codes"
       ],
-      "front": "IBC general rule: at what occupant load are two exits required (most occupancies)?",
-      "back": "≥50 occupants for Group A, B, E, F, M, U (≥10 for R-2/R-3 stories above 1st; ≥30 for S). When 2 exits are required, separate them by ≥1/2 diagonal (≥1/3 diagonal if fully sprinklered).",
-      "source_url": "https://en.wikipedia.org/wiki/International_Building_Code",
-      "source_note": "ARE 5.0 (PA) reference",
+      "front": "IBC 2021 Table 1006.2.1: maximum occupant load of a space with ONE exit, Groups A, B, E, F, M and U?",
+      "back": "49 (50 or more occupants needs two exits).",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1006.2.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-one-exit-s",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.2.1: maximum occupant load of a space with ONE exit, Group S?",
+      "back": "29.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1006.2.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-one-exit-r2",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.2.1: maximum occupant load of a space with ONE exit, Groups R-2, R-3 and R-4?",
+      "back": "20.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1006.2.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-one-exit-r1-i",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.2.1: maximum occupant load of a space with ONE exit, Groups R-1 and I?",
+      "back": "10.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1006.2.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-exit-separation",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1007.1.1: minimum separation between two required exits in an unsprinklered building?",
+      "back": "One-half the maximum overall diagonal of the area served.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1007.1.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-exit-separation-spr",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1007.1.1: minimum separation between two required exits in a fully sprinklered building?",
+      "back": "One-third the maximum overall diagonal of the area served.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1007.1.1 exception (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-exits-2",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.3.3: minimum number of exits from a story with an occupant load of 1–500?",
+      "back": "2 (subject to the single-exit story exceptions).",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1006.3.3 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-exits-3",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.3.3: minimum number of exits from a story with an occupant load of 501–1,000?",
+      "back": "3.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1006.2.1.1 / Table 1006.3.3 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-exits-4",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.3.3: minimum number of exits from a story with an occupant load over 1,000?",
+      "back": "4.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1006.2.1.1 / Table 1006.3.3 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-travel-b-spr",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1017.2: maximum exit access travel distance, Group B, sprinklered?",
+      "back": "300 ft.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1017.2 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-travel-b-unspr",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1017.2: maximum exit access travel distance, Group B, unsprinklered?",
+      "back": "200 ft.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1017.2 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-common-path-b-spr",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.2.1: maximum common path of egress travel, Group B, sprinklered?",
+      "back": "100 ft.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1006.2.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-common-path-b-unspr",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 Table 1006.2.1: maximum common path of egress travel, Group B, unsprinklered, occupant load over 30?",
+      "back": "75 ft (100 ft when the occupant load is 30 or fewer).",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 Table 1006.2.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-dead-end-general",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1020.5: maximum dead-end corridor length, general rule?",
+      "back": "20 ft.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1020.5 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-dead-end-spr",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1020.5: maximum dead-end corridor length for Groups B, E, F, I-1, M, R-1, R-2, S and U in a sprinklered building?",
+      "back": "50 ft.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1020.5 exception (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-egress-width-stair",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1005.3.1: egress capacity factor for stairways, in inches per occupant?",
+      "back": "0.3 in per occupant.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1005.3.1 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-egress-width-other",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1005.3.2: egress capacity factor for egress components other than stairways, in inches per occupant?",
+      "back": "0.2 in per occupant.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1005.3.2 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-guard-sphere",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1015.4: required guards must not allow passage of a sphere of what diameter?",
+      "back": "4 in.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/IBC-Egress-CAH2-compressed.pdf",
+      "source_note": "IBC §1015.4 4 inch sphere rule, as quoted in ICC 2024-cycle egress code change proposals",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-stair-flight-rise",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1011.8: maximum vertical rise of a single flight of stairs between landings?",
+      "back": "12 ft.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1011.8 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-exit-stair-2h",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1023.2: fire-resistance rating of an interior exit stair enclosure connecting four or more stories?",
+      "back": "2 hours.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1023.2 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-exit-stair-1h",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "codes"
+      ],
+      "front": "IBC 2021 §1023.2: fire-resistance rating of an interior exit stair enclosure connecting fewer than four stories?",
+      "back": "1 hour.",
+      "source_url": "https://www.iccsafe.org/wp-content/uploads/Session-62-and-63-2021-IBC-Means-of-Egress.pdf",
+      "source_note": "IBC 2021 §1023.2 (ICC 2021 IBC Means of Egress seminar slides)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-handrail-height",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "CE",
+        "ada"
+      ],
+      "front": "ADA 2010 / IBC 2021: required height range for the top of handrail gripping surfaces above stair nosings and ramp surfaces?",
+      "back": "34–38 in (a range, not a single value; compare the single 36 in minimum accessible route width).",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §505.4; IBC 2021 §1014.2",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-van-space",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ],
+      "front": "ADA 2010 §502.2: minimum width of a van-accessible parking space (with a standard access aisle)?",
+      "back": "132 in.",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §502.2",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-access-aisle",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ],
+      "front": "ADA 2010 §502.3.1: minimum width of an accessible parking access aisle?",
+      "back": "60 in.",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §502.3.1",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-van-alt",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ],
+      "front": "ADA 2010 §502.2 exception: alternative van-accessible parking layout?",
+      "back": "A 96 in wide van space with a 96 in wide access aisle.",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §502.2 exception",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-toilet-seat",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ],
+      "front": "ADA 2010 §604.4: required height range for the top of a water closet seat?",
+      "back": "17–19 in above the finish floor.",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §604.4",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-grab-bar",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ],
+      "front": "ADA 2010 §609.4: required height range for the top of grab bars?",
+      "back": "33–36 in above the finish floor.",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §609.4",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-operable-force",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ],
+      "front": "ADA 2010 §309.4: maximum force to activate operable parts?",
+      "back": "5 lbf.",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §309.4",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-ada-clear-floor",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "ada"
+      ],
+      "front": "ADA 2010 §305.3: minimum clear floor space for a wheelchair?",
+      "back": "30 × 48 in.",
+      "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "source_note": "ADA 2010 §305.3",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-a117-clear-floor",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "accessibility"
+      ],
+      "front": "ICC A117.1-2017 §305.3.1: minimum clear floor space for a wheelchair in NEW buildings?",
+      "back": "30 × 52 in (existing buildings and ADA 2010: 30 × 48 in).",
+      "source_url": "https://shop.iccsafe.org/media/wysiwyg/material/9033S175thptg-Sample.pdf",
+      "source_note": "ICC A117.1-2017 §305.3.1 (new buildings); §305.3.2 existing buildings 30 × 48 in",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -2404,10 +3142,39 @@
         "PA",
         "site"
       ],
-      "front": "Site grading slopes: drainage away from foundation, max accessible walk without ramp, max grass mowing slope?",
-      "back": "Foundation drainage = min 5% (6 in over first 10 ft). Accessible walkway (not a ramp) = ≤5% (1:20). Comfortable lawn mowing = ≤25–33% (4:1 to 3:1).",
+      "front": "IBC 2021 §1804.4: minimum slope of the ground away from a foundation, over the first 10 ft?",
+      "back": "5% (1:20), i.e. 6 in of fall in 10 ft.",
+      "source_url": "https://gocodebook.com/library/us/ca/ca-building-code/chapter-18-soils-and-foundations/section-1804-excavation-grading-and-fill",
+      "source_note": "California Building Code §1804.4, which carries the IBC 2021 §1804.4 text (swales and impervious surfaces: 2% min)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-slope-walk",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site",
+        "ada"
+      ],
+      "front": "ADA 2010 §403.3: steepest running slope of a walking surface before it must be designed as a ramp?",
+      "back": "1:20 (5%).",
       "source_url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-      "source_note": "ARE 5.0 (PA) reference",
+      "source_note": "ADA 2010 §403.3",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "are-pa-slope-mowing",
+      "module": "are_built",
+      "tags": [
+        "PA",
+        "site"
+      ],
+      "front": "Rule of thumb: steepest slope that can still be maintained as mowed lawn?",
+      "back": "About 33% (3:1); maintenance gets difficult from about 25% (4:1).",
+      "source_url": "https://s3.amazonaws.com/assets.cce.cornell.edu/attachments/3379/county_hope_for_your_slope.pdf",
+      "source_note": "Cornell Cooperative Extension, 'Dealing With A Slope': 33% absolute maximum for lawn maintenance; 25% spells trouble for mowing",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -2479,6 +3246,7 @@
         "ada-door-clear-width",
         "ibc-guardrail-height",
         "ada-turning-circle",
+        "a117-turning-circle-new",
         "ada-headroom-clearance"
       ]
     },
@@ -2494,7 +3262,8 @@
         "occ-industrial-lab",
         "occ-business",
         "occ-residential",
-        "occ-warehouse-mech"
+        "occ-warehouse-mech",
+        "occ-warehouse"
       ]
     },
     {

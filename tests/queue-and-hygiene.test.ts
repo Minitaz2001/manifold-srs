@@ -202,10 +202,7 @@ describe('hygiene interleaving, daily caps, and ratio probe selection', () => {
     });
 
     expect(daily.new_today_capped).toBe(0);
-    // No 11th new flashcard; only the supplemental drills those learned cards unlocked (capped at 5/day)
-    expect(daily.queue.length).toBe(5);
-    for (const q of daily.queue) {
-      if (q.kind === 'canonical') expect(q.task_type).toBe('place');
-    }
+    // No 11th new flashcard, and drills for cards learned today stay locked until tomorrow
+    expect(daily.queue.length).toBe(0);
   });
 });

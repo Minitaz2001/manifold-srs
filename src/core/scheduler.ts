@@ -2,7 +2,24 @@ import { createEmptyCard, fsrs, Rating, State, type Card, type Grade } from 'ts-
 import type { CanonicalTaskType, CompiledContent, ModuleId } from '../types/content';
 import { makeItemKey, type GradeName, type ItemState, type ReviewLogEntry, type UserSettings } from '../types/memory';
 
-export const LEECH_LAPSE_THRESHOLD = 5;
+/** Anki defaults: leech at 8 lapses, then again every 4 further lapses. */
+export const LEECH_LAPSE_THRESHOLD = 8;
+export const LEECH_REPEAT_EVERY = 4;
+export const DEFAULT_ROLLOVER_HOUR = 4;
+
+export function isLeechLapse(prevLapses: number, nextLapses: number): boolean {
+  if (nextLapses <= prevLapses || nextLapses < LEECH_LAPSE_THRESHOLD) return false;
+  return (nextLapses - LEECH_LAPSE_THRESHOLD) % LEECH_REPEAT_EVERY === 0;
+}
+
+/**
+ * ts-fsrs counts elapsed days on UTC calendar dates. Shifting every timestamp we hand it by
+ * (local offset - rollover hour) makes its "UTC day" equal the user's local study day, so a
+ * learning session that crosses 00:00 UTC (4 pm PST) is no longer treated as a multi-day gap.
+ */
+export function studyDayShiftMs(tzOffsetMin: number, rolloverHour: number = DEFAULT_ROLLOVER_HOUR): number {
+  return -tzOffsetMin * 60_000 - rolloverHour * 3_600_000;
+}
 export const VOLATILE_STALE_MONTHS = 24;
 export const MATURE_STABILITY_DAYS = 21;
 
@@ -26,7 +43,7 @@ export function getEffectiveRetention(settings: UserSettings, module: ModuleId):
 export function createScheduler(desiredRetention: number) {
   return fsrs({
     request_retention: desiredRetention,
-    enable_fuzz: false,
+    enable_fuzz: true,
     enable_short_term: true,
   });
 }
@@ -88,14 +105,31 @@ export function applyCanonicalReview(params: {
   signedError: number;
   now: Date;
   desiredRetention: number;
+  /** Date#getTimezoneOffset() at review time; defaults to the device's offset for `now`. */
+  tzOffsetMin?: number;
+  rolloverHour?: number;
 }): ItemState {
   const { prev, grade, error, signedError, now, desiredRetention } = params;
-  const scheduler = createScheduler(desiredRetention);
-  const card = itemStateToCard(prev);
-  const record = scheduler.repeat(card, now);
-  const nextCard = record[gradeNameToRating(grade)].card;
+  const shift = studyDayShiftMs(params.tzOffsetMin ?? now.getTimezoneOffset(), params.rolloverHour);
+  const sh = (d: Date) => new Date(d.getTime() + shift);
+  const unsh = (d: Date) => new Date(d.getTime() - shift);
 
-  const isLeech = nextCard.lapses >= LEECH_LAPSE_THRESHOLD;
+  const scheduler = createScheduler(desiredRetention);
+  const raw = itemStateToCard(prev);
+  const card: Card = {
+    ...raw,
+    due: sh(raw.due),
+    last_review: raw.last_review ? sh(raw.last_review) : undefined,
+  };
+  const record = scheduler.repeat(card, sh(now));
+  const shifted = record[gradeNameToRating(grade)].card;
+  const nextCard: Card = {
+    ...shifted,
+    due: unsh(shifted.due),
+    last_review: shifted.last_review ? unsh(shifted.last_review) : undefined,
+  };
+
+  const isLeech = isLeechLapse(prev.lapses, nextCard.lapses);
 
   return {
     ...prev,
@@ -184,6 +218,8 @@ export function replayReviewLog(params: {
       signedError: log.signed_error,
       now: reviewTime,
       desiredRetention: retention,
+      tzOffsetMin: log.tz_offset_min,
+      rolloverHour: settings.rollover_hour,
     });
     states.set(log.item_key, next);
   }

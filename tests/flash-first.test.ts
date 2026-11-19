@@ -37,7 +37,7 @@ describe('flashcards first, scale drills supplemental', () => {
     const content = compileContentPacks([pack(2)]);
     const learned: ItemState = {
       ...createInitialItemState({ entity_id: 'ent-0', dimension_id: 'power_w', task_type: 'flash', module: 'physics', now }),
-      reps: 3, state: 2, stability: 5, due: '2026-12-01T00:00:00Z',
+      reps: 3, state: 2, stability: 5, due: '2026-12-01T00:00:00Z', last_review: new Date(now.getTime() - 2 * 86400000).toISOString(),
     };
     const states = new Map([[learned.item_key, learned]]);
     const daily = buildDailyQueue({ content, states, probes: [], todayLogs: [], settings: DEFAULT_SETTINGS, now });
@@ -45,5 +45,16 @@ describe('flashcards first, scale drills supplemental', () => {
     expect(keys).toContain('ent-0::power_w::place');
     expect(keys).not.toContain('ent-1::power_w::place');
     expect(keys).toContain('ent-1::power_w::flash');
+  });
+
+  it('keeps a flashcard learned today from unlocking its drill until the next study day', () => {
+    const content = compileContentPacks([pack(1)]);
+    const learnedToday: ItemState = {
+      ...createInitialItemState({ entity_id: 'ent-0', dimension_id: 'power_w', task_type: 'flash', module: 'physics', now }),
+      reps: 2, state: 2, stability: 2, due: '2026-12-01T00:00:00Z', last_review: now.toISOString(),
+    };
+    const states = new Map([[learnedToday.item_key, learnedToday]]);
+    const daily = buildDailyQueue({ content, states, probes: [], todayLogs: [], settings: DEFAULT_SETTINGS, now });
+    expect(daily.queue.map((q) => q.item_key)).not.toContain('ent-0::power_w::place');
   });
 });

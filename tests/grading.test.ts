@@ -46,18 +46,18 @@ describe('gradePlacement — table-driven band-edge tests', () => {
     skipped?: boolean;
     expectedGrade: string;
   }[] = [
-    { name: 'exact fast -> Easy', answer: 100, latencyMs: 2500, expectedGrade: 'Easy' },
-    { name: 'at t/2 edge fast (141.42) -> Easy', answer: 100 * Math.sqrt(2), latencyMs: 3000, expectedGrade: 'Easy' },
-    { name: 'at t/2 edge slow (30s) -> still Easy (no time pressure)', answer: 100 * Math.sqrt(2), latencyMs: 30000, expectedGrade: 'Easy' },
-    { name: 'above t/2 inside t (180) fast -> Good', answer: 180, latencyMs: 1500, expectedGrade: 'Good' },
-    { name: 'at t upper edge (200) -> Good', answer: 200, latencyMs: 4000, expectedGrade: 'Good' },
-    { name: 'at t lower edge (50) -> Good', answer: 50, latencyMs: 4000, expectedGrade: 'Good' },
-    { name: 'just above t (201) -> Hard', answer: 201, latencyMs: 4000, expectedGrade: 'Hard' },
-    { name: 'at 2t upper edge (400) -> Hard', answer: 400, latencyMs: 4000, expectedGrade: 'Hard' },
-    { name: 'at 2t lower edge (25) -> Hard', answer: 25, latencyMs: 4000, expectedGrade: 'Hard' },
+    { name: 'exact fast -> Easy', answer: 100, latencyMs: 2500, expectedGrade: 'Good' },
+    { name: 'at t/2 edge fast (141.42) -> Easy', answer: 100 * Math.sqrt(2), latencyMs: 3000, expectedGrade: 'Good' },
+    { name: 'at t/2 edge slow (30s) -> still Easy (no time pressure)', answer: 100 * Math.sqrt(2), latencyMs: 30000, expectedGrade: 'Good' },
+    { name: 'above t/2 inside t (180) fast -> Good', answer: 180, latencyMs: 1500, expectedGrade: 'Hard' },
+    { name: 'at t upper edge (200) -> Good', answer: 200, latencyMs: 4000, expectedGrade: 'Hard' },
+    { name: 'at t lower edge (50) -> Good', answer: 50, latencyMs: 4000, expectedGrade: 'Hard' },
+    { name: 'just above t (201) -> Hard', answer: 201, latencyMs: 4000, expectedGrade: 'Again' },
+    { name: 'at 2t upper edge (400) -> Hard', answer: 400, latencyMs: 4000, expectedGrade: 'Again' },
+    { name: 'at 2t lower edge (25) -> Hard', answer: 25, latencyMs: 4000, expectedGrade: 'Again' },
     { name: 'just outside 2t (401) -> Again', answer: 401, latencyMs: 2000, expectedGrade: 'Again' },
     { name: 'just below 2t (24.9) -> Again', answer: 24.9, latencyMs: 2000, expectedGrade: 'Again' },
-    { name: 'very slow exact answer -> Easy (no timeout)', answer: 100, latencyMs: 60000, expectedGrade: 'Easy' },
+    { name: 'very slow exact answer -> Easy (no timeout)', answer: 100, latencyMs: 60000, expectedGrade: 'Good' },
     { name: 'skipped -> Again', answer: 100, latencyMs: 1000, skipped: true, expectedGrade: 'Again' },
     { name: 'null answer -> Again', answer: null, latencyMs: 1000, expectedGrade: 'Again' },
   ];
@@ -86,14 +86,14 @@ describe('gradePlacement — table-driven band-edge tests', () => {
     });
     expect(res.error).toBe(0);
     expect(res.signed_error).toBe(0);
-    expect(res.grade).toBe('Easy');
+    expect(res.grade).toBe('Good');
   });
 
   it('linear scale grades accurately at band edges (t = 4)', () => {
     const fact = { value: 36, low: 36, high: 36 };
-    expect(gradePlacement({ dimension: LINEAR_DIM, fact, answer: 38, latencyMs: 2500 }).grade).toBe('Easy');
-    expect(gradePlacement({ dimension: LINEAR_DIM, fact, answer: 40, latencyMs: 4000 }).grade).toBe('Good');
-    expect(gradePlacement({ dimension: LINEAR_DIM, fact, answer: 44, latencyMs: 4000 }).grade).toBe('Hard');
+    expect(gradePlacement({ dimension: LINEAR_DIM, fact, answer: 38, latencyMs: 2500 }).grade).toBe('Good');
+    expect(gradePlacement({ dimension: LINEAR_DIM, fact, answer: 40, latencyMs: 4000 }).grade).toBe('Hard');
+    expect(gradePlacement({ dimension: LINEAR_DIM, fact, answer: 44, latencyMs: 4000 }).grade).toBe('Again');
     expect(gradePlacement({ dimension: LINEAR_DIM, fact, answer: 44.1, latencyMs: 2000 }).grade).toBe('Again');
   });
 
@@ -106,7 +106,7 @@ describe('gradePlacement — table-driven band-edge tests', () => {
     const res1944 = gradePlacement({
       dimension: DATE_DIM,
       fact: { value: 1944, low: 1944, high: 1944 },
-      answer: 1946,
+      answer: 1945,
       latencyMs: 4500,
       currentYear: 2026,
     });
@@ -115,7 +115,7 @@ describe('gradePlacement — table-driven band-edge tests', () => {
     const resBronze = gradePlacement({
       dimension: DATE_DIM,
       fact: { value: -1177, low: -1177, high: -1177 },
-      answer: -1115,
+      answer: -1150,
       latencyMs: 4500,
       currentYear: 2026,
     });
@@ -130,9 +130,9 @@ describe('gradeOcclusion — exact, adjacent, non-adjacent, timeout', () => {
     adjacent_ids: ['region-chn', 'region-lao', 'region-khm'],
   };
 
-  it('grades exact match as Good, adjacent as Hard, distant or timeout as Again', () => {
+  it('grades exact match as Good, adjacent and distant or timeout as Again', () => {
     expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-vnm', latencyMs: 1800 }).grade).toBe('Good');
-    expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-lao', latencyMs: 2200 }).grade).toBe('Hard');
+    expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-lao', latencyMs: 2200 }).grade).toBe('Again');
     expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-jpn', latencyMs: 1800 }).grade).toBe('Again');
     expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-vnm', latencyMs: 60000 }).grade).toBe('Good');
   });

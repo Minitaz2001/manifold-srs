@@ -45,6 +45,8 @@ export interface ReviewLogEntry {
   grade: GradeName;
   latency_ms: number;
   is_probe?: boolean;
+  /** Local UTC offset (Date#getTimezoneOffset) at review time, so replay uses the same study-day shift. */
+  tz_offset_min?: number;
 }
 
 export interface ProbeQueueEntry {
@@ -73,6 +75,10 @@ export interface UserSettings {
   reviews_since_backup: number;
   persist_granted: boolean | null;
   persist_warned: boolean;
+  /** Local hour at which the study day rolls over (Anki default 4). */
+  rollover_hour?: number;
+  /** One-day bump to the new-card cap ("+5 new today"); ignored once `day` is not today. */
+  extra_new?: { day: number; count: number };
 }
 
 export interface BackupPayload {

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { getBundledContent } from './content/loader';
 import { db, getOrInitSettings } from './db/database';
 import {
@@ -47,6 +47,22 @@ export function App() {
   const [inboxOpen, setInboxOpen] = useState(false);
   const [dismissPersistBanner, setDismissPersistBanner] = useState(false);
   const [dismissBackupBanner, setDismissBackupBanner] = useState(false);
+  const [clock, setClock] = useState(() => Date.now());
+  const [studyAhead, setStudyAhead] = useState(false);
+  const [leechNotice, setLeechNotice] = useState<string | null>(null);
+  const statesRef = useRef(states);
+  statesRef.current = states;
+
+  // Keep "now" moving: learning steps come due while the app sits open, and the day rolls over.
+  useEffect(() => {
+    const tick = () => setClock(Date.now());
+    const id = window.setInterval(tick, 20_000);
+    document.addEventListener('visibilitychange', tick);
+    return () => {
+      window.clearInterval(id);
+      document.removeEventListener('visibilitychange', tick);
+    };
+  }, []);
 
   const loadAllFromDb = useCallback(async () => {
     const [stList, logList, probeList, inboxList, userSettings] = await Promise.all([
@@ -77,12 +93,13 @@ export function App() {
     void loadAllFromDb();
   }, [loadAllFromDb]);
 
-  const now = useMemo(() => new Date(), [logs.length, states.size]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const now = useMemo(() => new Date(), [logs.length, states.size, clock]);
 
   const todayLogs = useMemo(() => {
-    const dayStart = startOfLocalDay(now);
+    const dayStart = startOfLocalDay(now, settings?.rollover_hour);
     return logs.filter((l) => new Date(l.ts).getTime() >= dayStart);
-  }, [logs, now]);
+  }, [logs, now, settings?.rollover_hour]);
 
   const daily = useMemo(() => {
     if (!settings) return null;
@@ -94,8 +111,9 @@ export function App() {
       allLogs: logs,
       settings,
       now,
+      learnAheadMs: studyAhead ? Number.POSITIVE_INFINITY : undefined,
     });
-  }, [content, states, probes, todayLogs, logs, settings, now]);
+  }, [content, states, probes, todayLogs, logs, settings, now, studyAhead]);
 
   const currentItem: SessionQueueItem | null = daily && daily.queue.length > 0 ? daily.queue[0] : null;
 
@@ -143,8 +161,9 @@ export function App() {
     ) => {
       if (!settings) return;
       const reviewNow = new Date();
+      // Read through a ref so two quick completions never step from the same stale state
       const prev =
-        states.get(item.item_key) ??
+        statesRef.current.get(item.item_key) ??
         createInitialItemState({
           entity_id: item.entity_id,
           dimension_id: item.dimension_id,
@@ -161,7 +180,14 @@ export function App() {
         signedError: params.signed_error,
         now: reviewNow,
         desiredRetention: retention,
+        tzOffsetMin: reviewNow.getTimezoneOffset(),
+        rolloverHour: settings.rollover_hour,
       });
+      statesRef.current = new Map(statesRef.current).set(nextState.item_key, nextState);
+      if (nextState.suspended && !prev.suspended && nextState.suspend_reason === 'leech') {
+        const label = item.entity?.name ?? item.region?.label ?? item.plain_card?.front ?? item.item_key;
+        setLeechNotice(`${label} — ${nextState.lapses} lapses, suspended as a leech. Rewrite or restore it in Settings › Hygiene.`);
+      }
 
       const logEntry: ReviewLogEntry = {
         item_key: item.item_key,
@@ -175,6 +201,7 @@ export function App() {
         signed_error: params.signed_error,
         grade: params.grade,
         latency_ms: params.latency_ms,
+        tz_offset_min: reviewNow.getTimezoneOffset(),
       };
 
       const updatedSettings: UserSettings = {
@@ -400,6 +427,15 @@ export function App() {
     [settings]
   );
 
+  const handleExtraNew = useCallback(async () => {
+    if (!settings) return;
+    const day = startOfLocalDay(new Date(), settings.rollover_hour);
+    const prevExtra = settings.extra_new && settings.extra_new.day === day ? settings.extra_new.count : 0;
+    const next: UserSettings = { ...settings, extra_new: { day, count: prevExtra + 5 } };
+    await db.settings.put(next);
+    setSettings(next);
+  }, [settings]);
+
   const handleMarkInboxExported = useCallback(async () => {
     await db.inbox.toCollection().modify({ exported: true });
     setInbox((prev) => prev.map((x) => ({ ...x, exported: true })));
@@ -479,13 +515,36 @@ export function App() {
         </div>
       )}
 
+      {leechNotice && (
+        <div className="notice-banner" role="status">
+          <span>{leechNotice}</span>
+          <button type="button" className="banner-btn" onClick={() => setLeechNotice(null)}>OK</button>
+        </div>
+      )}
+
       <section className="stage">
         {!currentItem ? (
           <div className="empty-state">
-            <h1 className="done-title">Session complete</h1>
+            <h1 className="done-title">{daily.learning_pending > 0 ? 'Caught up for now' : 'Session complete'}</h1>
             <p className="muted-note">
-              {daily.done_today} reviewed today. Queue caps ({settings.new_per_day} new / {settings.reviews_per_day} rev) reset tomorrow.
+              {daily.done_today} reviewed today · {daily.due_tomorrow} due tomorrow.
             </p>
+            {daily.learning_pending > 0 && daily.next_learning_due !== null && (
+              <p className="muted-note">
+                {daily.learning_pending} {daily.learning_pending === 1 ? 'card' : 'cards'} coming back
+                {' '}in {Math.max(1, Math.ceil((daily.next_learning_due - now.getTime()) / 60000))} min.
+              </p>
+            )}
+            <div className="btn-row">
+              {daily.learning_pending > 0 && (
+                <button type="button" className="btn-primary small" onClick={() => setStudyAhead(true)}>
+                  Review them now
+                </button>
+              )}
+              <button type="button" className="btn-secondary small" onClick={() => void handleExtraNew()}>
+                +5 new today
+              </button>
+            </div>
             <div className="btn-row">
               <button type="button" className="btn-secondary small" onClick={() => setInboxOpen(true)}>
                 + Surprised me

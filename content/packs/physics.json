@@ -612,7 +612,7 @@
     },
     {
       "id": "time-solar-day",
-      "name": "1 Day (24 Hours)",
+      "name": "1 Day",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -633,7 +633,7 @@
     },
     {
       "id": "time-julian-year",
-      "name": "1 Year (π × 10^7 s)",
+      "name": "1 Year",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -644,7 +644,7 @@
     },
     {
       "id": "time-human-lifespan",
-      "name": "Human Lifespan (~80 Years)",
+      "name": "Human Lifespan",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -654,7 +654,7 @@
     },
     {
       "id": "time-written-history",
-      "name": "Human Recorded History (~5,000 yr)",
+      "name": "Human Recorded History",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -664,7 +664,7 @@
     },
     {
       "id": "time-homo-sapiens",
-      "name": "Age of Homo sapiens (~300 kyr)",
+      "name": "Age of Homo sapiens",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -674,7 +674,7 @@
     },
     {
       "id": "time-dino-extinction",
-      "name": "Cretaceous–Paleogene Extinction (66 Myr)",
+      "name": "Time Since the Cretaceous–Paleogene Extinction",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -684,7 +684,7 @@
     },
     {
       "id": "time-earth-age",
-      "name": "Age of Earth (4.54 Gyr)",
+      "name": "Age of Earth",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -695,7 +695,7 @@
     },
     {
       "id": "time-universe-age",
-      "name": "Age of the Observable Universe (13.8 Gyr)",
+      "name": "Age of the Observable Universe",
       "kind": "time_scale",
       "module": "physics",
       "tags": [
@@ -757,7 +757,7 @@
     },
     {
       "id": "spd-highway-car",
-      "name": "Highway Automobile (65–70 mph)",
+      "name": "Highway Automobile Cruising Speed",
       "kind": "speed_scale",
       "module": "physics",
       "tags": [
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "pwr-car-engine",
-      "name": "Passenger Car Peak Power (~200 hp)",
+      "name": "Passenger Car Peak Engine Power",
       "kind": "power_scale",
       "module": "physics",
       "tags": [
@@ -1186,7 +1186,7 @@
     },
     {
       "id": "pwr-datacenter",
-      "name": "Large AI / Hyperscale Datacenter Campus",
+      "name": "Frontier AI Datacenter Campus",
       "kind": "power_scale",
       "module": "physics",
       "tags": [
@@ -1419,7 +1419,7 @@
     },
     {
       "id": "den-gold",
-      "name": "Gold / Tungsten",
+      "name": "Gold",
       "kind": "material",
       "module": "physics",
       "tags": [
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "tmp-water-freeze",
-      "name": "Water Freezing Point (0 °C)",
+      "name": "Water Freezing Point (1 atm)",
       "kind": "temp_scale",
       "module": "physics",
       "tags": [
@@ -1513,7 +1513,7 @@
     },
     {
       "id": "tmp-water-boil",
-      "name": "Water Boiling Point (100 °C, 1 atm)",
+      "name": "Water Boiling Point (1 atm)",
       "kind": "temp_scale",
       "module": "physics",
       "tags": [
@@ -1523,7 +1523,7 @@
     },
     {
       "id": "tmp-paper-ignite",
-      "name": "Paper Autoignition (~451 °F)",
+      "name": "Paper Autoignition Temperature",
       "kind": "temp_scale",
       "module": "physics",
       "tags": [
@@ -1627,7 +1627,7 @@
     },
     {
       "id": "prs-systolic-bp",
-      "name": "Normal Human Systolic Blood Pressure (120 mmHg)",
+      "name": "Normal Human Systolic Blood Pressure",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1647,7 +1647,7 @@
     },
     {
       "id": "prs-1atm",
-      "name": "Standard Sea-Level Atmospheric Pressure (1 atm)",
+      "name": "Standard Sea-Level Atmospheric Pressure",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1658,7 +1658,7 @@
     },
     {
       "id": "prs-car-tire",
-      "name": "Passenger Car Tire Gauge Pressure (~35 psi)",
+      "name": "Passenger Car Tire Gauge Pressure",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1668,7 +1668,7 @@
     },
     {
       "id": "prs-water-main",
-      "name": "Municipal Building Water Supply (~60 psi)",
+      "name": "Municipal Building Water Supply Pressure",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1678,7 +1678,7 @@
     },
     {
       "id": "prs-espresso",
-      "name": "Espresso Extraction Pressure (9 bar)",
+      "name": "Espresso Extraction Pressure",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1688,7 +1688,7 @@
     },
     {
       "id": "prs-scuba-tank",
-      "name": "Full Scuba Cylinder (~3,000 psi)",
+      "name": "Full Scuba Cylinder Pressure",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1699,7 +1699,7 @@
     },
     {
       "id": "prs-concrete-strength",
-      "name": "Standard Structural Concrete Compressive Strength (4,000 psi)",
+      "name": "Standard Structural Concrete Compressive Strength",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1709,7 +1709,7 @@
     },
     {
       "id": "prs-mariana-trench",
-      "name": "Mariana Trench Bottom Pressure (~11 km depth)",
+      "name": "Mariana Trench Bottom Pressure",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1719,7 +1719,7 @@
     },
     {
       "id": "prs-steel-yield",
-      "name": "A992 Structural Steel Yield Strength (50 ksi)",
+      "name": "A992 Structural Steel Yield Strength",
       "kind": "pres_scale",
       "module": "physics",
       "tags": [
@@ -1813,7 +1813,7 @@
     },
     {
       "id": "mat-crude-oil",
-      "name": "Global Annual Crude Oil Production (~100M bbl/d)",
+      "name": "Global Annual Crude Oil Production",
       "kind": "material_flow",
       "module": "physics",
       "tags": [
@@ -1840,6 +1840,167 @@
         "materials",
         "civilization",
         "anchor"
+      ]
+    },
+    {
+      "id": "den-tungsten",
+      "name": "Tungsten",
+      "kind": "material",
+      "module": "physics",
+      "tags": [
+        "density",
+        "metal",
+        "anchor"
+      ]
+    },
+    {
+      "id": "enj-kwh",
+      "name": "1 Kilowatt-Hour",
+      "kind": "energy_scale",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "anchor"
+      ]
+    },
+    {
+      "id": "enj-food-day",
+      "name": "Adult Daily Food Energy Intake",
+      "kind": "energy_scale",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "anchor"
+      ]
+    },
+    {
+      "id": "enj-gasoline-gallon",
+      "name": "Chemical Energy in One US Gallon of Gasoline",
+      "kind": "energy_scale",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "anchor"
+      ]
+    },
+    {
+      "id": "enj-ton-tnt",
+      "name": "1 Ton of TNT Equivalent",
+      "kind": "energy_scale",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "anchor"
+      ]
+    },
+    {
+      "id": "enj-world-primary",
+      "name": "World Annual Primary Energy Consumption (2025)",
+      "kind": "energy_scale",
+      "module": "physics",
+      "tags": [
+        "energy",
+        "anchor"
+      ]
+    },
+    {
+      "id": "len-drywall",
+      "name": "Standard Drywall (Gypsum Board) Thickness",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "built"
+      ]
+    },
+    {
+      "id": "len-2x4-wide-face",
+      "name": "Nominal 2×4 Lumber, Actual Wide-Face Width",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "built"
+      ]
+    },
+    {
+      "id": "len-modular-brick",
+      "name": "US Modular Brick Length",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "built"
+      ]
+    },
+    {
+      "id": "len-plywood-sheet",
+      "name": "Standard Plywood Sheet, Long Side",
+      "kind": "length_scale",
+      "module": "physics",
+      "tags": [
+        "length",
+        "built"
+      ]
+    },
+    {
+      "id": "time-week",
+      "name": "1 Week",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "anchor"
+      ]
+    },
+    {
+      "id": "time-hdd-seek",
+      "name": "Hard Disk Drive Seek",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "computing"
+      ]
+    },
+    {
+      "id": "time-dc-round-trip",
+      "name": "Network Round Trip Within One Datacenter",
+      "kind": "time_scale",
+      "module": "physics",
+      "tags": [
+        "time",
+        "computing"
+      ]
+    },
+    {
+      "id": "mass-loaded-semi",
+      "name": "Fully Loaded US Semi-Truck (Federal Weight Limit)",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "built"
+      ]
+    },
+    {
+      "id": "mass-saturn-v",
+      "name": "Saturn V Rocket at Liftoff (Fully Fueled)",
+      "kind": "mass_scale",
+      "module": "physics",
+      "tags": [
+        "mass",
+        "space"
+      ]
+    },
+    {
+      "id": "prs-office-live-load",
+      "name": "Office Floor Design Live Load (as Pressure)",
+      "kind": "pres_scale",
+      "module": "physics",
+      "tags": [
+        "pressure",
+        "built"
       ]
     }
   ],
@@ -1920,6 +2081,14 @@
       "id": "material_output_mt_yr",
       "name": "Global Annual Output",
       "unit": "Mt/yr",
+      "scale": "log",
+      "tolerance": 2,
+      "tolerance_mode": "factor"
+    },
+    {
+      "id": "energy_j",
+      "name": "Energy",
+      "unit": "J",
       "scale": "log",
       "tolerance": 2,
       "tolerance_mode": "factor"
@@ -2703,11 +2872,11 @@
       "entity_id": "spd-snail",
       "dimension_id": "speed_m_s",
       "value": 0.001,
-      "low": 0.001,
-      "high": 0.001,
+      "low": 0.0005,
+      "high": 0.003,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(speed)",
-      "source_note": "~1 cm/s (0.01 m/s) [agent-corrected: garden snail typically ~1 mm/s; world-record (Congham) snail only 0.00275 m/s. 1 cm/s is ~4-10x too fast; band should be ~5e-4 to 3e-3]",
+      "source_note": "Garden snail typically ~1 mm/s; record racing snails ~2.75 mm/s",
       "volatile": false
     },
     {
@@ -3209,11 +3378,11 @@
       "entity_id": "pwr-datacenter",
       "dimension_id": "power_w",
       "value": 1000000000.0,
-      "low": 1000000000.0,
-      "high": 1000000000.0,
+      "low": 300000000.0,
+      "high": 2000000000.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
-      "source_note": "Large modern hyperscale datacenter campus ~50–200 MW [agent-corrected: Label says Large AI campus: by late 2026 frontier AI campuses are ~0.3-1+ GW (xAI Colossus, Stargate Abilene, Meta Prometheus). 50-200 MW fits a typical single hyperscale datacenter; either relabel or raise value to ~1e9.]",
+      "source_note": "Frontier AI datacenter campuses ~0.3–2 GW by late 2026 (e.g. xAI Colossus, Stargate Abilene); a single typical hyperscale datacenter is ~50–200 MW",
       "volatile": true
     },
     {
@@ -3466,7 +3635,7 @@
       "high": 19320.0,
       "as_of": "2026-11-19",
       "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(density)",
-      "source_note": "Gold 19,300 kg/m^3 and Tungsten 19,250 kg/m^3 (~19.3× water)",
+      "source_note": "Gold ~19,300 kg/m^3 (~19.3× water)",
       "volatile": false
     },
     {
@@ -3803,22 +3972,22 @@
       "entity_id": "mat-lithium",
       "dimension_id": "material_output_mt_yr",
       "value": 0.29,
-      "low": 0.29,
-      "high": 0.29,
+      "low": 0.24,
+      "high": 0.33,
       "as_of": "2026-11-19",
       "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
-      "source_note": "USGS Mineral Commodity Summaries: ~180–240 kt/yr (~0.18–0.24 Mt/yr) elemental Li [agent-corrected: USGS MCS 2026: 2025 world Li production ~290 kt (2024 ~240 kt); 0.18 is 2023-era, ~1.6x low. Widen band to ~0.24-0.33.]",
+      "source_note": "USGS Mineral Commodity Summaries 2026: 2025 world lithium production ~290 kt (2024 ~240 kt) elemental Li",
       "volatile": true
     },
     {
       "entity_id": "mat-copper",
       "dimension_id": "material_output_mt_yr",
       "value": 27.5,
-      "low": 27.5,
-      "high": 27.5,
+      "low": 25.0,
+      "high": 30.0,
       "as_of": "2026-11-19",
       "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
-      "source_note": "USGS mined copper ~22–23 Mt/yr (refined incl. scrap ~26 Mt/yr) [agent-corrected: Entity says REFINED copper but 22 Mt is mine output; refined is ~27-28 Mt/yr (ICSG 2024-25). Either relabel to 'mined' or set ~27.5 with band ~25-30.]",
+      "source_note": "Refined copper ~27–28 Mt/yr (ICSG 2024–25); mined output alone is ~22–23 Mt/yr",
       "volatile": true
     },
     {
@@ -3836,11 +4005,11 @@
       "entity_id": "mat-ammonia",
       "dimension_id": "material_output_mt_yr",
       "value": 185.0,
-      "low": 145.0,
-      "high": 185.0,
+      "low": 170.0,
+      "high": 200.0,
       "as_of": "2026-11-19",
       "source_url": "https://ourworldindata.org/energy-production-consumption",
-      "source_note": "USGS nitrogen content ~150 Mt/yr (~180 Mt NH3); feeds ~half of humanity [agent-corrected: Entity is ammonia but 150 is N-content; NH3 itself ~180-190 Mt/yr. Relabel to 'nitrogen content' or set ~185 (band 170-200).]",
+      "source_note": "Ammonia (NH3) ~180–190 Mt/yr (~150 Mt nitrogen content per USGS); feeds ~half of humanity",
       "volatile": true
     },
     {
@@ -3908,6 +4077,182 @@
       "source_url": "https://ourworldindata.org/energy-production-consumption",
       "source_note": "Global fossil/cement CO2 emissions ~37 Gt/yr (37,000 Mt/yr)",
       "volatile": true
+    },
+    {
+      "entity_id": "den-tungsten",
+      "dimension_id": "density_kg_m3",
+      "value": 19254.0,
+      "low": 19250.0,
+      "high": 19300.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Tungsten",
+      "source_note": "Tungsten density 19.254 g/cm^3 at 20 °C (Wikipedia infobox); nearly identical to gold",
+      "volatile": false
+    },
+    {
+      "entity_id": "enj-kwh",
+      "dimension_id": "energy_j",
+      "value": 3600000.0,
+      "low": 3600000.0,
+      "high": 3600000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "source_note": "NIST SP 811 Appendix B9: kWh = 3.6E+06 J",
+      "volatile": false
+    },
+    {
+      "entity_id": "enj-food-day",
+      "dimension_id": "energy_j",
+      "value": 8370000.0,
+      "low": 6700000.0,
+      "high": 10500000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "source_note": "FDA: 2,000 calories (kcal) a day is the general Nutrition Facts guide; × 4,184 J/kcal (NIST) ≈ 8.4 MJ. Band ~1,600–2,500 kcal",
+      "volatile": false
+    },
+    {
+      "entity_id": "enj-gasoline-gallon",
+      "dimension_id": "energy_j",
+      "value": 120000000.0,
+      "low": 118000000.0,
+      "high": 131000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://afdc.energy.gov/fuels/properties",
+      "source_note": "AFDC fuel properties: gasoline/E10 ~112,000–116,000 Btu/gal (LHV) to ~120,000–124,000 (HHV); × 1,055 J/Btu ≈ 1.2–1.3e8 J",
+      "volatile": false
+    },
+    {
+      "entity_id": "enj-ton-tnt",
+      "dimension_id": "energy_j",
+      "value": 4184000000.0,
+      "low": 4184000000.0,
+      "high": 4184000000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "source_note": "NIST SP 811 Appendix B9: ton of TNT (energy equivalent) = 4.184E+09 J",
+      "volatile": false
+    },
+    {
+      "entity_id": "enj-world-primary",
+      "dimension_id": "energy_j",
+      "value": 6e+20,
+      "low": 5.7e+20,
+      "high": 6.3e+20,
+      "as_of": "2026-11-19",
+      "source_url": "https://news.rice.edu/news/2026/global-energy-demand-hits-record-high-raising-new-questions-energy-policy",
+      "source_note": "Energy Institute Statistical Review of World Energy (75th ed.): 2025 global primary energy ~600 EJ",
+      "volatile": true
+    },
+    {
+      "entity_id": "len-drywall",
+      "dimension_id": "length_m",
+      "value": 0.0127,
+      "low": 0.0127,
+      "high": 0.0159,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Drywall",
+      "source_note": "Common drywall thicknesses are 1/2 in (12.7 mm) and 5/8 in (15.9 mm)",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-2x4-wide-face",
+      "dimension_id": "length_m",
+      "value": 0.0889,
+      "low": 0.0889,
+      "high": 0.0889,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Lumber",
+      "source_note": "A dressed 2×4 is actually 1 1/2 × 3 1/2 in; 3.5 in = 88.9 mm",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-modular-brick",
+      "dimension_id": "length_m",
+      "value": 0.194,
+      "low": 0.194,
+      "high": 0.203,
+      "as_of": "2026-11-19",
+      "source_url": "https://gobrick.com/media/file/10-dimensioning-and-estimating-brick-masonry.pdf",
+      "source_note": "BIA Technical Note 10: modular brick specified 3 5/8 × 2 1/4 × 7 5/8 in (92 × 57 × 194 mm); nominal 8 in with joint",
+      "volatile": false
+    },
+    {
+      "entity_id": "len-plywood-sheet",
+      "dimension_id": "length_m",
+      "value": 2.44,
+      "low": 2.4,
+      "high": 2.44,
+      "as_of": "2026-11-19",
+      "source_url": "https://en.wikipedia.org/wiki/Plywood",
+      "source_note": "Standard plywood sheet 1.2 × 2.4 m (4 × 8 ft = 1.22 × 2.44 m)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-week",
+      "dimension_id": "time_s",
+      "value": 604800.0,
+      "low": 604800.0,
+      "high": 604800.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "source_note": "7 days × 86,400 s (NIST SP 811 Appendix B9: day = 86,400 s)",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-hdd-seek",
+      "dimension_id": "time_s",
+      "value": 0.01,
+      "low": 0.005,
+      "high": 0.015,
+      "as_of": "2026-11-19",
+      "source_url": "https://gist.github.com/jboner/2841832",
+      "source_note": "Jeff Dean's 'Latency Numbers Every Programmer Should Know': disk seek ~10 ms",
+      "volatile": false
+    },
+    {
+      "entity_id": "time-dc-round-trip",
+      "dimension_id": "time_s",
+      "value": 0.0005,
+      "low": 0.0002,
+      "high": 0.001,
+      "as_of": "2026-11-19",
+      "source_url": "https://gist.github.com/jboner/2841832",
+      "source_note": "Jeff Dean's 'Latency Numbers Every Programmer Should Know': round trip within the same datacenter ~500 µs",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-loaded-semi",
+      "dimension_id": "mass_kg",
+      "value": 36287.0,
+      "low": 30000.0,
+      "high": 36287.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://ops.fhwa.dot.gov/freight/policy/rpt_congress/truck_sw_laws/",
+      "source_note": "FHWA: federal gross vehicle weight limit 80,000 lb on the Interstate (= 36,287 kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "mass-saturn-v",
+      "dimension_id": "mass_kg",
+      "value": 2800000.0,
+      "low": 2800000.0,
+      "high": 2950000.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://airandspace.si.edu/stories/editorial/new-view-rocketdyne-f-1-engine",
+      "source_note": "Smithsonian National Air and Space Museum: Saturn V weighed ~6.2 million lb fully fueled (~2.8e6 kg)",
+      "volatile": false
+    },
+    {
+      "entity_id": "prs-office-live-load",
+      "dimension_id": "pressure_pa",
+      "value": 2394.0,
+      "low": 2394.0,
+      "high": 2394.0,
+      "as_of": "2026-11-19",
+      "source_url": "https://regulations.justia.com/states/massachusetts/780-cmr/chapter-16/section-1607/subsection-1607-1",
+      "source_note": "IBC-based Table 1607.1 (Massachusetts 780 CMR): offices 50 psf; 50 psf × 47.88 Pa/psf ≈ 2,394 Pa ≈ 2.4 kPa",
+      "volatile": false
     }
   ],
   "anchor_sets": [
@@ -3916,6 +4261,7 @@
       "entity_ids": [
         "len-proton",
         "len-visible-light",
+        "len-modular-brick",
         "len-human-height",
         "len-mount-everest",
         "len-earth-radius",
@@ -4012,6 +4358,15 @@
         "mat-plastics",
         "mat-co2-emissions"
       ]
+    },
+    {
+      "dimension_id": "energy_j",
+      "entity_ids": [
+        "enj-kwh",
+        "enj-gasoline-gallon",
+        "enj-ton-tnt",
+        "enj-world-primary"
+      ]
     }
   ],
   "figures": [
@@ -4026,7 +4381,7 @@
       "regions": [
         {
           "region_id": "ef-petroleum",
-          "label": "Petroleum (~38%)",
+          "label": "Petroleum",
           "adjacent_ids": [
             "ef-natural-gas",
             "ef-transport",
@@ -4035,7 +4390,7 @@
         },
         {
           "region_id": "ef-natural-gas",
-          "label": "Natural Gas (~36%)",
+          "label": "Natural Gas",
           "adjacent_ids": [
             "ef-petroleum",
             "ef-coal",
@@ -4045,7 +4400,7 @@
         },
         {
           "region_id": "ef-coal",
-          "label": "Coal (~9%)",
+          "label": "Coal",
           "adjacent_ids": [
             "ef-natural-gas",
             "ef-nuclear",
@@ -4054,7 +4409,7 @@
         },
         {
           "region_id": "ef-nuclear",
-          "label": "Nuclear (~9%)",
+          "label": "Nuclear",
           "adjacent_ids": [
             "ef-coal",
             "ef-renewables",
@@ -4063,7 +4418,7 @@
         },
         {
           "region_id": "ef-renewables",
-          "label": "Renewables (~9%)",
+          "label": "Renewables",
           "adjacent_ids": [
             "ef-nuclear",
             "ef-electricity"
@@ -4071,7 +4426,7 @@
         },
         {
           "region_id": "ef-electricity",
-          "label": "Electricity Generation (~38%)",
+          "label": "Electricity Generation",
           "adjacent_ids": [
             "ef-natural-gas",
             "ef-coal",
@@ -4083,7 +4438,7 @@
         },
         {
           "region_id": "ef-transport",
-          "label": "Transportation (~28%)",
+          "label": "Transportation",
           "adjacent_ids": [
             "ef-petroleum",
             "ef-industrial"
@@ -4091,7 +4446,7 @@
         },
         {
           "region_id": "ef-industrial",
-          "label": "Industrial (~24%)",
+          "label": "Industrial",
           "adjacent_ids": [
             "ef-transport",
             "ef-res-comm",
@@ -4109,7 +4464,7 @@
         },
         {
           "region_id": "ef-rejected",
-          "label": "Rejected Waste Heat (~65%)",
+          "label": "Rejected Waste Heat",
           "adjacent_ids": [
             "ef-res-comm",
             "ef-electricity"
@@ -4128,14 +4483,14 @@
       "regions": [
         {
           "region_id": "em-radio",
-          "label": "Radio Waves (>1 m)",
+          "label": "Radio Waves",
           "adjacent_ids": [
             "em-microwave"
           ]
         },
         {
           "region_id": "em-microwave",
-          "label": "Microwaves (1 mm–1 m, Wi-Fi/5G)",
+          "label": "Microwaves",
           "adjacent_ids": [
             "em-radio",
             "em-infrared"
@@ -4143,7 +4498,7 @@
         },
         {
           "region_id": "em-infrared",
-          "label": "Infrared (700 nm–1 mm, Thermal)",
+          "label": "Infrared",
           "adjacent_ids": [
             "em-microwave",
             "em-visible"
@@ -4151,7 +4506,7 @@
         },
         {
           "region_id": "em-visible",
-          "label": "Visible Light (400–700 nm)",
+          "label": "Visible Light",
           "adjacent_ids": [
             "em-infrared",
             "em-uv"
@@ -4159,7 +4514,7 @@
         },
         {
           "region_id": "em-uv",
-          "label": "Ultraviolet (10–400 nm)",
+          "label": "Ultraviolet",
           "adjacent_ids": [
             "em-visible",
             "em-xray"
@@ -4167,7 +4522,7 @@
         },
         {
           "region_id": "em-xray",
-          "label": "X-Rays (0.01–10 nm)",
+          "label": "X-Rays",
           "adjacent_ids": [
             "em-uv",
             "em-gamma"
@@ -4175,7 +4530,7 @@
         },
         {
           "region_id": "em-gamma",
-          "label": "Gamma Rays (<0.01 nm, Nuclear)",
+          "label": "Gamma Rays",
           "adjacent_ids": [
             "em-xray"
           ]
@@ -4271,10 +4626,23 @@
       "tags": [
         "units"
       ],
-      "front": "1 kilowatt-hour (kWh) equals how many megajoules (MJ) and kilocalories?",
-      "back": "1 kWh = 3.6 MJ ≈ 860 kcal (a human's ~2,000 kcal daily food intake is only ~2.3 kWh!).",
-      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
-      "source_note": "Standard physical scaling law / SI unit conversion",
+      "front": "1 kilowatt-hour (kWh) in megajoules?",
+      "back": "3.6 MJ (exactly).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "source_note": "NIST SP 811 Appendix B9: kWh = 3.6E+06 J",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-kwh-kcal",
+      "module": "physics",
+      "tags": [
+        "units"
+      ],
+      "front": "1 kilowatt-hour (kWh) in kilocalories?",
+      "back": "≈ 860 kcal (so 2,000 kcal of daily food is only ~2.3 kWh).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "source_note": "NIST SP 811 Appendix B9: kWh = 3.6E+06 J; kcal_th = 4,184 J",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -4284,8 +4652,21 @@
       "tags": [
         "thermo"
       ],
-      "front": "Water specific heat capacity and latent heat of vaporization?",
-      "back": "Specific heat = 4.18 kJ/(kg·K); latent heat of vaporization = 2,260 kJ/kg (~5.4× the energy to heat water from 0→100 °C).",
+      "front": "Specific heat capacity of liquid water?",
+      "back": "≈ 4.18 kJ/(kg·K).",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_density",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-water-latent",
+      "module": "physics",
+      "tags": [
+        "thermo"
+      ],
+      "front": "Latent heat of vaporization of water?",
+      "back": "≈ 2,260 kJ/kg (about 5.4× the energy to heat water from 0 to 100 °C).",
       "source_url": "https://en.wikipedia.org/wiki/Energy_density",
       "source_note": "Standard physical scaling law / SI unit conversion",
       "as_of": "2026-11-19",
@@ -4297,8 +4678,34 @@
       "tags": [
         "energy"
       ],
-      "front": "Solar irradiance at top of atmosphere vs. peak clear noon vs. 24-hour global surface mean?",
-      "back": "Top of atmosphere = 1,361 W/m²; peak sea-level noon ≈ 1,000 W/m²; 24-hour global average ≈ 180–200 W/m².",
+      "front": "Solar irradiance at the top of Earth's atmosphere (the solar constant)?",
+      "back": "≈ 1,361 W/m².",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-solar-noon",
+      "module": "physics",
+      "tags": [
+        "energy"
+      ],
+      "front": "Peak clear-sky solar irradiance at sea level around noon?",
+      "back": "≈ 1,000 W/m².",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-solar-mean",
+      "module": "physics",
+      "tags": [
+        "energy"
+      ],
+      "front": "24-hour global-average solar irradiance at Earth's surface?",
+      "back": "≈ 180–200 W/m².",
       "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)",
       "source_note": "Standard physical scaling law / SI unit conversion",
       "as_of": "2026-11-19",
@@ -4416,10 +4823,24 @@
         "units",
         "thermo"
       ],
-      "front": "HVAC cooling '1 Ton of Refrigeration' equals how many BTU/hr and kW thermal?",
-      "back": "1 ton = 12,000 BTU/hr ≈ 3.52 kW thermal (rate needed to melt 1 short ton of ice over 24 hours).",
-      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors",
-      "source_note": "Standard physical scaling law / SI unit conversion",
+      "front": "1 ton of refrigeration (HVAC cooling) in BTU per hour?",
+      "back": "12,000 BTU/hr (the rate that melts 1 short ton of ice in 24 hours).",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "source_note": "NIST SP 811 Appendix B9: ton of refrigeration (12 000 Btu_IT/h)",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-ton-kw",
+      "module": "physics",
+      "tags": [
+        "units",
+        "thermo"
+      ],
+      "front": "1 ton of refrigeration (HVAC cooling) in kilowatts?",
+      "back": "≈ 3.52 kW thermal.",
+      "source_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "source_note": "NIST SP 811 Appendix B9: ton of refrigeration = 3.516853E+03 W",
       "as_of": "2026-11-19",
       "volatile": false
     },
@@ -4429,8 +4850,21 @@
       "tags": [
         "thermo"
       ],
-      "front": "Room temperature (~20 °C / 68 °F) in Kelvin, and thermal energy k_B T in eV?",
-      "back": "~293 K (~300 K Fermi anchor); k_B T ≈ 0.026 eV (1/40 eV).",
+      "front": "Room temperature (~20 °C / 68 °F) in kelvin?",
+      "back": "≈ 293 K (~300 K as a Fermi anchor).",
+      "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
+      "source_note": "Standard physical scaling law / SI unit conversion",
+      "as_of": "2026-11-19",
+      "volatile": false
+    },
+    {
+      "id": "phy-rule-kbt",
+      "module": "physics",
+      "tags": [
+        "thermo"
+      ],
+      "front": "Thermal energy k_B·T at room temperature, in electronvolts?",
+      "back": "≈ 0.025 eV (about 1/40 eV).",
       "source_url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(temperature)",
       "source_note": "Standard physical scaling law / SI unit conversion",
       "as_of": "2026-11-19",
@@ -4537,6 +4971,16 @@
         "prs-mariana-trench",
         "prs-steel-yield",
         "prs-earth-core"
+      ]
+    },
+    {
+      "dimension_id": "energy_j",
+      "ordered_entity_ids": [
+        "enj-kwh",
+        "enj-food-day",
+        "enj-gasoline-gallon",
+        "enj-ton-tnt",
+        "enj-world-primary"
       ]
     }
   ]

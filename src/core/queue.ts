@@ -17,7 +17,7 @@ import {
   type UserSettings,
 } from '../types/memory';
 import { canonicalTaskTypeForDimension, isLogCollision } from './grading';
-import { isMatureItem, isVolatileStale } from './scheduler';
+import { DEFAULT_ROLLOVER_HOUR, isMatureItem, isVolatileStale } from './scheduler';
 
 export interface CanonicalQueueItem {
   kind: 'canonical';
@@ -59,7 +59,16 @@ export interface DailyQueueResult {
   new_today_capped: number;
   done_today: number;
   stale_suspended_keys: string[];
+  /** Learning/relearning cards not yet due (they come back later today). */
+  learning_pending: number;
+  /** Epoch ms when the next pending learning card becomes due, or null. */
+  next_learning_due: number | null;
+  /** Review-state cards due before tomorrow's rollover (forecast for the done screen). */
+  due_tomorrow: number;
 }
+
+/** Anki-style learn-ahead: when nothing else is left, learning cards due within this window are shown early. */
+export const LEARN_AHEAD_MS = 20 * 60_000;
 
 /** Max supplemental scale drills unlocked per day (they never count against the new-card cap). */
 export const DRILL_UNLOCKS_PER_DAY = 5;
@@ -69,14 +78,33 @@ export function isFlashLearned(st: ItemState | undefined): boolean {
   return !!st && !st.suspended && st.reps >= 2 && st.state === 2;
 }
 
+/** Drills unlock only on a LATER study day than the flashcard's last review (no same-session massed test). */
+export function isDrillUnlocked(flash: ItemState | undefined, dayStart: number): boolean {
+  return isFlashLearned(flash) && !!flash!.last_review && new Date(flash!.last_review).getTime() < dayStart;
+}
+
 function isDrillTask(t: CanonicalTaskType): boolean {
   return t === 'place' || t === 'place_timeline';
 }
 
-export function startOfLocalDay(now: Date): number {
+/** Start of the current study day: the most recent local `rolloverHour` (default 4 am). */
+export function startOfLocalDay(now: Date, rolloverHour: number = DEFAULT_ROLLOVER_HOUR): number {
   const d = new Date(now);
-  d.setHours(0, 0, 0, 0);
+  d.setHours(rolloverHour, 0, 0, 0);
+  if (d.getTime() > now.getTime()) d.setDate(d.getDate() - 1);
   return d.getTime();
+}
+
+export function startOfNextDay(now: Date, rolloverHour: number = DEFAULT_ROLLOVER_HOUR): number {
+  const d = new Date(startOfLocalDay(now, rolloverHour));
+  d.setDate(d.getDate() + 1);
+  return d.getTime();
+}
+
+/** New-card cap for today including any "+N new today" bump. */
+export function effectiveNewCap(settings: UserSettings, dayStart: number): number {
+  const extra = settings.extra_new && settings.extra_new.day === dayStart ? settings.extra_new.count : 0;
+  return settings.new_per_day + extra;
 }
 
 /**
@@ -106,6 +134,7 @@ export function enumerateCanonicalItems(content: CompiledContent): CanonicalQueu
       dimension,
       fact,
     });
+    if (dimension.drill === false) continue;
     const taskType = canonicalTaskTypeForDimension(dimension.scale);
     items.push({
       kind: 'canonical',
@@ -305,18 +334,23 @@ export function buildDailyQueue(params: {
   allLogs?: ReviewLogEntry[];
   settings: UserSettings;
   now: Date;
+  /** Learn-ahead window for learning cards when nothing else is left (default LEARN_AHEAD_MS). */
+  learnAheadMs?: number;
 }): DailyQueueResult {
   const { content, states, probes, todayLogs, allLogs, settings, now } = params;
+  const learnAheadMs = params.learnAheadMs ?? LEARN_AHEAD_MS;
   const nowTs = now.getTime();
-  const dayStart = startOfLocalDay(now);
+  const rollover = settings.rollover_hour ?? DEFAULT_ROLLOVER_HOUR;
+  const dayStart = startOfLocalDay(now, rollover);
+  const nextDay = startOfNextDay(now, rollover);
   const daySeed = Math.floor(dayStart / 86400000);
 
   const canonicalLogsToday = todayLogs.filter((l) => !l.is_probe && l.task_type !== 'ratio_probe');
   const probeRanToday = todayLogs.some((l) => l.is_probe || l.task_type === 'ratio_probe');
+  const reviewedTodayKeys = new Set(canonicalLogsToday.map((l) => l.item_key));
 
   // Count how many new items were FIRST introduced today (robust even if re-reviewed in learning steps today)
-  let newIntroducedToday = 0;
-  let drillsIntroducedToday = 0;
+  const introducedTodayKeys = new Set<string>();
   if (allLogs) {
     const firstSeenByKey = new Map<string, number>();
     for (const log of allLogs) {
@@ -325,31 +359,57 @@ export function buildDailyQueue(params: {
       const prev = firstSeenByKey.get(log.item_key);
       if (prev === undefined || t < prev) firstSeenByKey.set(log.item_key, t);
     }
-    for (const [key, firstTs] of firstSeenByKey.entries()) {
-      if (firstTs < dayStart) continue;
-      if (/::place(_timeline)?$/.test(key)) drillsIntroducedToday++;
-      else newIntroducedToday++;
-    }
+    for (const [key, firstTs] of firstSeenByKey.entries()) if (firstTs >= dayStart) introducedTodayKeys.add(key);
   } else {
-    const reviewedTodayKeys = new Set(canonicalLogsToday.map((l) => l.item_key));
     for (const key of reviewedTodayKeys) {
       const st = states.get(key);
-      if (st && st.reps <= 1) newIntroducedToday++;
+      if (st && st.reps <= 1) introducedTodayKeys.add(key);
     }
   }
+  let newIntroducedToday = 0;
+  let drillsIntroducedToday = 0;
+  for (const key of introducedTodayKeys) {
+    if (/::place(_timeline)?$/.test(key)) drillsIntroducedToday++;
+    else newIntroducedToday++;
+  }
 
-  const reviewsRemaining = Math.max(0, settings.reviews_per_day - canonicalLogsToday.length);
-  const newRemaining = Math.max(0, settings.new_per_day - newIntroducedToday);
+  // Review cap counts each previously-learned card once per day. Learning-step repeats and
+  // new introductions never consume it (otherwise an Again-heavy day starves itself).
+  let reviewsUsed = 0;
+  for (const key of reviewedTodayKeys) if (!introducedTodayKeys.has(key)) reviewsUsed++;
+  const reviewsRemaining = Math.max(0, settings.reviews_per_day - reviewsUsed);
+  const newRemaining = Math.max(0, effectiveNewCap(settings, dayStart) - newIntroducedToday);
 
   const probeDueSet = new Set(
     probes.filter((p) => new Date(p.due_ts).getTime() <= nowTs).map((p) => p.item_key)
   );
 
+  // Siblings = the flashcard and drill of the same fact. Whichever was reviewed today buries the
+  // other (in Review state) until tomorrow, so one never answers the other.
+  const factKey = (k: string) => k.split('::').slice(0, 2).join('::');
+  const reviewedTodayByFact = new Map<string, Set<string>>();
+  for (const key of reviewedTodayKeys) {
+    const fk = factKey(key);
+    if (!reviewedTodayByFact.has(fk)) reviewedTodayByFact.set(fk, new Set());
+    reviewedTodayByFact.get(fk)!.add(key);
+  }
+  const isBuriedSibling = (key: string) => {
+    const set = reviewedTodayByFact.get(factKey(key));
+    if (!set) return false;
+    for (const k of set) if (k !== key) return true;
+    return false;
+  };
+
   const allItems = enumerateCanonicalItems(content);
   const staleSuspendedKeys: string[] = [];
+  const learningDue: CanonicalQueueItem[] = [];
+  const learningAhead: CanonicalQueueItem[] = [];
   const dueItems: CanonicalQueueItem[] = [];
   const newItems: CanonicalQueueItem[] = [];
   const newDrills: CanonicalQueueItem[] = [];
+  let learningPending = 0;
+  let nextLearningDue: number | null = null;
+  let dueTomorrow = 0;
 
   for (const item of allItems) {
     const st = states.get(item.item_key);
@@ -365,23 +425,39 @@ export function buildDailyQueue(params: {
 
     if (!st || st.reps === 0) {
       if (isDrillTask(item.task_type)) {
-        // Supplemental: only once the plain flashcard for this fact is learned
+        // Supplemental: only once the plain flashcard is learned, on a later day, and not today's sibling
         const flashKey = makeItemKey(item.entity_id, item.dimension_id, 'flash');
-        if (isFlashLearned(states.get(flashKey))) newDrills.push({ ...item, is_new: true, state: st });
+        if (isDrillUnlocked(states.get(flashKey), dayStart) && !isBuriedSibling(item.item_key)) {
+          newDrills.push({ ...item, is_new: true, state: st });
+        }
         continue;
       }
       newItems.push({ ...item, is_new: true, state: st });
-    } else {
-      const dueMs = new Date(st.due).getTime();
-      const isProbeFollowup = probeDueSet.has(item.item_key);
-      if (dueMs <= nowTs || isProbeFollowup) {
-        dueItems.push({
-          ...item,
-          is_new: false,
-          is_probe_followup: isProbeFollowup,
-          state: st,
-        });
+      continue;
+    }
+
+    const dueMs = new Date(st.due).getTime();
+    const isLearning = st.state === 1 || st.state === 3;
+    const entry: CanonicalQueueItem = { ...item, is_new: false, is_probe_followup: false, state: st };
+
+    if (isLearning) {
+      // Intraday learning steps run on exact timestamps and are never capped.
+      if (dueMs <= nowTs) learningDue.push(entry);
+      else {
+        learningPending++;
+        if (nextLearningDue === null || dueMs < nextLearningDue) nextLearningDue = dueMs;
+        if (dueMs <= nowTs + learnAheadMs) learningAhead.push(entry);
       }
+      continue;
+    }
+
+    const isProbeFollowup = probeDueSet.has(item.item_key);
+    // Review-state cards are due by study day, not by the minute they were scheduled.
+    if (dueMs < nextDay || isProbeFollowup) {
+      if (isBuriedSibling(item.item_key)) continue;
+      dueItems.push({ ...entry, is_probe_followup: isProbeFollowup });
+    } else if (dueMs < nextDay + 86_400_000) {
+      dueTomorrow++;
     }
   }
 
@@ -399,14 +475,19 @@ export function buildDailyQueue(params: {
   const balancedNew = interleaveItems(newItems, daySeed);
 
   const cappedDue = dueItems.slice(0, reviewsRemaining);
-  const slotsLeftForNew = Math.max(0, reviewsRemaining - cappedDue.length);
-  const cappedNew = balancedNew.slice(0, Math.min(newRemaining, slotsLeftForNew));
+  const cappedNew = balancedNew.slice(0, newRemaining);
   const drillsRemaining = Math.max(0, DRILL_UNLOCKS_PER_DAY - drillsIntroducedToday);
-  const slotsLeftForDrills = Math.max(0, slotsLeftForNew - cappedNew.length);
-  const cappedDrills = interleaveItems(newDrills, daySeed + 5).slice(0, Math.min(drillsRemaining, slotsLeftForDrills));
+  const cappedDrills = interleaveItems(newDrills, daySeed + 5).slice(0, drillsRemaining);
 
+  learningDue.sort((a, b) => new Date(a.state!.due).getTime() - new Date(b.state!.due).getTime());
   const combined = interleaveItems([...cappedDue, ...cappedNew, ...cappedDrills], daySeed + 17);
-  const queue: SessionQueueItem[] = [...combined];
+  // Due learning cards go first (they're time-sensitive); learn-ahead only when nothing else is left.
+  let queue: SessionQueueItem[] = [...learningDue, ...combined];
+  if (queue.length === 0 && learningAhead.length > 0) {
+    learningAhead.sort((a, b) => new Date(a.state!.due).getTime() - new Date(b.state!.due).getTime());
+    queue = [...learningAhead];
+    learningPending -= learningAhead.length;
+  }
 
   if (!probeRanToday && queue.length >= 2) {
     const probe = selectRatioProbe({ content, states, seed: daySeed });
@@ -422,5 +503,8 @@ export function buildDailyQueue(params: {
     new_today_capped: cappedNew.length,
     done_today: canonicalLogsToday.length,
     stale_suspended_keys: staleSuspendedKeys,
+    learning_pending: learningPending,
+    next_learning_due: nextLearningDue,
+    due_tomorrow: dueTomorrow,
   };
 }

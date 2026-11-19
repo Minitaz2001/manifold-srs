@@ -200,10 +200,8 @@ export function RulerWidget({
           </div>
         ) : (
           <div className="live-estimate mono">
-            {currentAnswerVal !== null
-              ? formatQuantity(currentAnswerVal, dimension) +
-                (dimension.scale !== 'date' ? `  ·  ${formatLog(currentAnswerVal)}` : '')
-              : 'tap the scale below'}
+            {/* No live number while placing: judge position against the anchors, not by dialing in a memorized value */}
+            {currentAnswerVal !== null ? 'marker placed — confirm when ready' : 'tap the scale below'}
           </div>
         )}
       </div>

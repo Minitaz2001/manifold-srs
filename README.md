@@ -11,11 +11,11 @@ npm run dev         # local dev server
 npm run preview     # preview production PWA build (with service worker)
 ```
 
-## Content Launch (M3 — 882 items)
+## Content Launch (M3 — 935 items)
 
-- `geography.json` — 376 items (303 facts across 92 countries & 31 historical dates + 4 Natural Earth SVG maps with 73 regions).
-- `physics.json` — 216 items (179 facts across 10 quantitative ladders + 20 scaling-law cards + 2 SVGs with 17 regions).
-- `are_built.json` — 146 items aimed at ARE 5.0 PjM / CE / PA (+ shared PcM AIA contracts): 53 code/load/soil/practice facts + 69 recall cards + 3 architectural SVGs (24 regions).
+- `geography.json` — 354 items (281 facts across 82 countries, a World aggregate & 27 historical dates + 4 Natural Earth SVG maps with 73 regions).
+- `physics.json` — 238 items (195 facts across 11 quantitative ladders + 26 scaling-law cards + 2 SVGs with 17 regions).
+- `are_built.json` — 199 items aimed at ARE 5.0 PjM / CE / PA (+ shared PcM AIA contracts): 56 code/load/soil/practice facts + 119 recall cards + 3 architectural SVGs (24 regions).
 - `natural_world.json` — 144 NYC & Northeast visual cards with locally bundled openly licensed Wikimedia Commons photographs and per-image attribution.
 
 ### What "verified" means here (2026-11-19 audit)
@@ -25,6 +25,10 @@ The original pipeline's "two-source" check only confirmed each cited URL returne
 - **Population & GDP per capita (181 of 184):** re-sourced from the World Bank API, most recent year (`scripts/pipeline/refresh_worldbank.py`). Taiwan (both) and North Korea GDP are not covered and carry agent-audited values.
 - **Everything else (facts + recall cards, 624 items audited):** independent LLM fact-check, one pass per item, mostly from model knowledge with web lookups where uncertain. Results in `content/verification/agent-audit.json`: 541 ok, 46 corrected, 37 unsure (kept). Applied by `scripts/pipeline/apply_agent_audit.py`. This is a careful second opinion, not a second primary source.
 - **Natural-world photo cards:** not audited (image ↔ species match unchecked).
+
+### Hand edits after the audit (2026-11-19, see `docs/review-2026-11-19.md`)
+
+Packs were then edited directly: list cards split, answer leaks stripped, IBC 2021 / ADA 2010 / A117.1-2017 labels, 10 near-duplicate countries cut, World totals + `gdp_total_usd` + `energy_j` + architect-band / ARE egress facts added. **The `scripts/pipeline/build_*` and `fetch_*` scripts predate these edits; rerunning them would revert them.** Exact-value dimensions carry `"drill": false` (flashcards only).
 
 ## Architecture
 

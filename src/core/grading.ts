@@ -82,10 +82,9 @@ export function toleranceBand(
  * Pure placement grading function (Design Doc v0.1 §4):
  * - If answer inside [fact.low, fact.high], error = 0.
  * - Else e = |log10(answer / truth)| for log, |answer - truth| for linear/date.
- * - e <= t/2 -> Easy (latency never affects the grade)
- * - e <= t -> Good
- * - e <= 2*t -> Hard
- * - e > 2*t, or skip -> Again
+ * - e <= t/2 -> Good (never Easy: precision is not retrieval ease; latency never affects the grade)
+ * - e <= t -> Hard
+ * - e > t (beyond 2x on log), or skip -> Again
  */
 export function gradePlacement(params: {
   dimension: Dimension;
@@ -136,11 +135,10 @@ export function gradePlacement(params: {
 
   const eps = 1e-12;
   let grade: GradeName;
+  // Precision is not retrieval ease, so placement never awards Easy; outside tolerance (2x on log) is a lapse.
   if (error <= t / 2 + eps) {
-    grade = 'Easy';
-  } else if (error <= t + eps) {
     grade = 'Good';
-  } else if (error <= 2 * t + eps) {
+  } else if (error <= t + eps) {
     grade = 'Hard';
   } else {
     grade = 'Again';
@@ -158,7 +156,7 @@ export function gradePlacement(params: {
 
 /**
  * Pure occlusion grading function (Design Doc v0.1 §4):
- * Exact target region -> Good; adjacent region -> Hard; anything else / timeout / skip -> Again.
+ * Exact target region -> Good; adjacent region (error 0.5) or anything else / timeout / skip -> Again.
  */
 export function gradeOcclusion(params: {
   targetRegion: FigureRegion;
@@ -173,8 +171,9 @@ export function gradeOcclusion(params: {
   if (selectedRegionId === targetRegion.region_id) {
     return { grade: 'Good', error: 0 };
   }
+  // A neighbouring region is still a miss (error 0.5 keeps it distinguishable in telemetry)
   if ((targetRegion.adjacent_ids ?? []).includes(selectedRegionId)) {
-    return { grade: 'Hard', error: 0.5 };
+    return { grade: 'Again', error: 0.5 };
   }
   return { grade: 'Again', error: 1 };
 }
@@ -230,7 +229,8 @@ export const LINEAR_WINDOW_TOLERANCES = 14;
  * (atom to universe made every tolerance band a few pixels wide):
  * - Window is LOG_WINDOW_DECADES (log) or LINEAR_WINDOW_TOLERANCES x t (linear/date) wide,
  *   always containing the fact's [low, high] band.
- * - Truth sits at a random 25-75% position so the window itself does not leak the answer.
+ * - Truth sits at a random 10-90% position and the anchor layout varies (both sides / one side /
+ *   single), so neither the window nor the anchors leak the answer.
  * - Up to 3 anchors from inside the window: never the target, never within 1.2x (log),
  *   never closer than 0.5 decades / 2t to truth, spaced apart from each other.
  */
@@ -244,7 +244,9 @@ export function selectRulerConfig(params: {
 }): RulerConfig {
   const { dimension, targetFact, candidateAnchors, allDimensionFacts, currentYear = 2026, rand = Math.random } = params;
   const truth = targetFact.value;
-  const offset = 0.25 + 0.5 * rand();
+  const offset = 0.1 + 0.8 * rand();
+  // Vary the scaffold so the answer isn't always bracketed by the first two anchors
+  const layoutRoll = rand();
 
   const eligible = candidateAnchors
     .filter((a) => a.entity_id !== targetFact.entity_id)
@@ -265,9 +267,18 @@ export function selectRulerConfig(params: {
       if (chosen.some((x) => x.entity_id === c.entity_id)) return;
       if (chosen.every((x) => dist(x.value, c.value) >= minApart)) chosen.push(c);
     };
-    tryAdd(below[0]);
-    tryAdd(above[0]);
-    for (const c of [...below.slice(1), ...above.slice(1)]) tryAdd(c);
+    if (layoutRoll < 0.2) {
+      // one side only (whichever side has anchors), up to 2
+      const side = below.length >= above.length ? below : above;
+      for (const c of side.slice(0, 2)) tryAdd(c);
+    } else if (layoutRoll < 0.35) {
+      // single anchor, either side
+      tryAdd(below[0] ?? above[0]);
+    } else {
+      tryAdd(below[0]);
+      tryAdd(above[0]);
+      for (const c of [...below.slice(1), ...above.slice(1)]) tryAdd(c);
+    }
     return chosen.sort((x, y) => x.value - y.value);
   };
 
