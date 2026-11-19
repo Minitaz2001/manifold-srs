@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Dimension, Entity, Fact } from '../types/content';
 import type { GradeName } from '../types/memory';
-import { formatQuantity, formatSci } from '../core/grading';
+import { formatQuantity, formatLog } from '../core/grading';
 import { nowMs, triggerHaptic } from '../platform';
 
 export interface FlashCompletePayload {
@@ -66,7 +66,7 @@ export function FlashWidget({ entity, dimension, fact, isNew, onComplete }: Flas
         {flipped && (
           <div className="plain-back-box" role="region" aria-label="Answer">
             <p className="flash-answer">{answer}</p>
-            {dimension.scale !== 'date' && <p className="sci-readout mono">{formatSci(fact.value)}</p>}
+            {dimension.scale !== 'date' && <p className="sci-readout mono">{formatLog(fact.value)}</p>}
             {range && <p className="source-note">range {range}</p>}
             {fact.source_note && <p className="source-note">{fact.source_note}</p>}
           </div>

@@ -223,13 +223,12 @@ describe('anti-collision & ruler anchor bracketing', () => {
   });
 });
 
-describe('formatSci', () => {
-  it('rounds to a 1-digit mantissa and carries 9.6 up a decade', async () => {
-    const { formatSci } = await import('../src/core/grading');
-    expect(formatSci(8849)).toBe('9 × 10³');
-    expect(formatSci(9.6e5)).toBe('1 × 10⁶');
-    expect(formatSci(8.4e-16)).toBe('8 × 10⁻¹⁶');
-    expect(formatSci(1.45e9)).toBe('1 × 10⁹');
-    expect(formatSci(42)).toBe('4 × 10¹');
+describe('formatLog', () => {
+  it('shows log10 to one decimal', async () => {
+    const { formatLog } = await import('../src/core/grading');
+    expect(formatLog(33700)).toBe('log 4.5');
+    expect(formatLog(8849)).toBe('log 3.9');
+    expect(formatLog(8.4e-16)).toBe('log −15.1');
+    expect(formatLog(1e9)).toBe('log 9.0');
   });
 });
