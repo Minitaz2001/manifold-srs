@@ -224,11 +224,11 @@ describe('anti-collision & ruler anchor bracketing', () => {
 });
 
 describe('formatLog', () => {
-  it('shows log10 to one decimal', async () => {
+  it('shows log10 to two decimals', async () => {
     const { formatLog } = await import('../src/core/grading');
-    expect(formatLog(33700)).toBe('log 4.5');
-    expect(formatLog(8849)).toBe('log 3.9');
-    expect(formatLog(8.4e-16)).toBe('log −15.1');
-    expect(formatLog(1e9)).toBe('log 9.0');
+    expect(formatLog(33700)).toBe('log 4.53');
+    expect(formatLog(8849)).toBe('log 3.95');
+    expect(formatLog(8.4e-16)).toBe('log −15.08');
+    expect(formatLog(1e9)).toBe('log 9.00');
   });
 });

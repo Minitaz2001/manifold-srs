@@ -362,13 +362,13 @@ export function positionToValue(pos01: number, min: number, max: number, scale: 
 }
 
 /**
- * log10 with a 1-digit mantissa (the fractional part of the log): 33.7k → "log 4.5",
- * 8.4e-16 → "log −15.1". Negative values show the log of the magnitude with a sign.
+ * log10 to two decimals: 33.7k → "log 4.53",
+ * 8.4e-16 → "log −15.08". Negative values show the log of the magnitude with a sign.
  */
 export function formatLog(value: number): string {
   if (!Number.isFinite(value) || value === 0) return 'log −∞';
   const l = Math.log10(Math.abs(value));
-  const txt = (Math.round(l * 10) / 10).toFixed(1).replace('-', '−');
+  const txt = (Math.round(l * 100) / 100).toFixed(2).replace('-', '−');
   return `${value < 0 ? '−' : ''}log ${txt}`;
 }
 
