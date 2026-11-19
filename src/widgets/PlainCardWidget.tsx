@@ -2,9 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import type { PlainCard } from '../types/content';
 import type { GradeName } from '../types/memory';
 import { nowMs, triggerHaptic } from '../platform';
+import { GradeRow } from './FlashWidget';
 
 export interface PlainCardCompletePayload {
-  grade: Extract<GradeName, 'Again' | 'Good'>;
+  grade: GradeName;
   latency_ms: number;
   prompt_json: string;
 }
@@ -16,7 +17,7 @@ interface PlainCardWidgetProps {
 
 /**
  * Widget 3: Plain card (`recall`).
- * Front, tap to flip, then self-grade with Again or Good ONLY (Design Doc v0.1 §5).
+ * Front, tap to flip, then self-grade Again / Hard / Good / Easy. No timer.
  */
 export function PlainCardWidget({ card, onComplete }: PlainCardWidgetProps) {
   const startTimeRef = useRef<number>(nowMs());
@@ -27,7 +28,7 @@ export function PlainCardWidget({ card, onComplete }: PlainCardWidgetProps) {
     setFlipped(false);
   }, [card.id]);
 
-  const handleGrade = (grade: 'Again' | 'Good') => {
+  const handleGrade = (grade: GradeName) => {
     const latencyMs = Math.round(nowMs() - startTimeRef.current);
     triggerHaptic(grade === 'Again' ? 'error' : 'success');
     onComplete({
@@ -78,22 +79,7 @@ export function PlainCardWidget({ card, onComplete }: PlainCardWidgetProps) {
             Tap to reveal
           </button>
         ) : (
-          <div className="action-row two-up">
-            <button
-              type="button"
-              className="btn-again"
-              onClick={() => handleGrade('Again')}
-            >
-              Again
-            </button>
-            <button
-              type="button"
-              className="btn-good"
-              onClick={() => handleGrade('Good')}
-            >
-              Good
-            </button>
-          </div>
+          <GradeRow onGrade={handleGrade} />
         )}
       </div>
     </div>

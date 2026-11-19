@@ -18,7 +18,6 @@ interface RatioProbeWidgetProps {
   onComplete: (payload: RatioProbeCompletePayload) => void;
 }
 
-const REVEAL_MS = 1400;
 
 /**
  * Unscored ratio probe detector (Design Doc §4):
@@ -96,7 +95,6 @@ export function RatioProbeWidget({ probe, onComplete }: RatioProbeWidgetProps) {
       }),
     };
     setResult(payload);
-    timerRef.current = window.setTimeout(() => advanceNow(payload), REVEAL_MS);
   };
 
   return (

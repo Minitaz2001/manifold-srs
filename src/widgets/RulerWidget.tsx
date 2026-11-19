@@ -6,7 +6,6 @@ import {
   gradePlacement,
   positionToValue,
   selectRulerConfig,
-  TIMEOUT_LATENCY_MS,
   valueToPosition,
   type PlacementGradeResult,
   type RulerAnchor,
@@ -32,7 +31,6 @@ interface RulerWidgetProps {
   onComplete: (payload: RulerCompletePayload) => void;
 }
 
-const REVEAL_MS = 1200;
 
 export function RulerWidget({
   entity,
@@ -66,7 +64,6 @@ export function RulerWidget({
   const [dragging, setDragging] = useState(false);
   const [revealed, setRevealed] = useState<PlacementGradeResult | null>(null);
   const [revealPayload, setRevealPayload] = useState<RulerCompletePayload | null>(null);
-  const [elapsedRatio, setElapsedRatio] = useState(0);
 
   // Reset when item changes
   useEffect(() => {
@@ -76,28 +73,12 @@ export function RulerWidget({
     setDragging(false);
     setRevealed(null);
     setRevealPayload(null);
-    setElapsedRatio(0);
     return () => {
       if (revealTimerRef.current !== null) {
         window.clearTimeout(revealTimerRef.current);
       }
     };
   }, [entity.id, dimension.id]);
-
-  // 10s timeout timer + hairline progress
-  useEffect(() => {
-    if (revealed) return;
-    const id = window.setInterval(() => {
-      const elapsed = nowMs() - startTimeRef.current;
-      setElapsedRatio(Math.min(1, elapsed / TIMEOUT_LATENCY_MS));
-      if (elapsed >= TIMEOUT_LATENCY_MS && !finishedRef.current) {
-        window.clearInterval(id);
-        submitAnswer(null, true);
-      }
-    }, 60);
-    return () => window.clearInterval(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [revealed, entity.id, dimension.id]);
 
   const posFromClientX = (clientX: number): number => {
     const el = trackRef.current;
@@ -170,9 +151,6 @@ export function RulerWidget({
     setRevealed(result);
     setRevealPayload(payload);
 
-    revealTimerRef.current = window.setTimeout(() => {
-      advanceNow(payload);
-    }, REVEAL_MS);
   };
 
   const currentAnswerVal =
@@ -191,12 +169,6 @@ export function RulerWidget({
         }
       }}
     >
-      <div className="timeout-bar-track" aria-hidden="true">
-        <div
-          className="timeout-bar-fill"
-          style={{ width: `${(revealed ? 0 : elapsedRatio) * 100}%` }}
-        />
-      </div>
 
       {/* Top 40%: calm prompt & reveal readout */}
       <div className="prompt-zone">
@@ -222,7 +194,7 @@ export function RulerWidget({
               {fact.volatile && <span className="volatile-badge">as of {fact.as_of.slice(0, 4)}</span>}
             </div>
             <p className="source-note">{fact.source_note}</p>
-            <div className="reveal-hint">tap anywhere to advance</div>
+            <div className="reveal-hint">tap anywhere to continue</div>
           </div>
         ) : (
           <div className="live-estimate mono">

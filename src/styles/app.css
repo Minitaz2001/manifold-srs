@@ -927,3 +927,48 @@ body,
   font-size: 15px;
   resize: vertical;
 }
+
+/* --- plain flashcards: 4-grade row, learn view --- */
+.action-row.four-up {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.action-row.four-up > button {
+  padding: 0 4px;
+  font-size: 15px;
+}
+.btn-hard,
+.btn-easy {
+  min-height: 54px;
+  border-radius: 14px;
+  font-weight: 650;
+  cursor: pointer;
+}
+.btn-hard {
+  background: var(--hard-soft);
+  color: var(--hard);
+  border: 1px solid var(--hard);
+}
+.btn-easy {
+  background: var(--accent-soft);
+  color: var(--ink);
+  border: 1px solid var(--border);
+}
+.flash-answer {
+  margin: 0 0 6px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+}
+.new-pill {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  margin-right: 6px;
+}

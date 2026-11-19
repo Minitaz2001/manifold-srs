@@ -4,7 +4,8 @@ export type DimensionScale = 'log' | 'linear' | 'date' | 'geo' | 'categorical';
 
 export type ToleranceMode = 'factor' | 'absolute' | 'date_pct';
 
-export type CanonicalTaskType = 'place' | 'place_timeline' | 'occlude' | 'recall';
+/** `flash` = plain number flashcard (primary); `place`/`place_timeline` = supplemental scale drills. */
+export type CanonicalTaskType = 'flash' | 'place' | 'place_timeline' | 'occlude' | 'recall';
 
 export type ReviewTaskType = CanonicalTaskType | 'ratio_probe';
 

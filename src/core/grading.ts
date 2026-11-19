@@ -2,7 +2,8 @@ import type { CanonicalTaskType, Dimension, Fact, FigureRegion } from '../types/
 import type { GradeName } from '../types/memory';
 
 export const EASY_LATENCY_MS = 3000;
-export const TIMEOUT_LATENCY_MS = 10000;
+/** No time pressure: latency is recorded for telemetry only and never affects grades. */
+export const TIMEOUT_LATENCY_MS = Number.POSITIVE_INFINITY;
 export const ANTI_COLLISION_LOG_FACTOR = 1.2;
 export const MIN_LOG_ANCHOR_GAP_DECADES = 0.5;
 export const DATE_TOLERANCE_FLOOR_YEARS = 2;
@@ -81,10 +82,10 @@ export function toleranceBand(
  * Pure placement grading function (Design Doc v0.1 §4):
  * - If answer inside [fact.low, fact.high], error = 0.
  * - Else e = |log10(answer / truth)| for log, |answer - truth| for linear/date.
- * - e <= t/2 and latency <= 3000ms -> Easy
+ * - e <= t/2 -> Easy (latency never affects the grade)
  * - e <= t -> Good
  * - e <= 2*t -> Hard
- * - e > 2*t, timeout (>= 10000ms), or skip -> Again
+ * - e > 2*t, or skip -> Again
  */
 export function gradePlacement(params: {
   dimension: Dimension;
@@ -135,7 +136,7 @@ export function gradePlacement(params: {
 
   const eps = 1e-12;
   let grade: GradeName;
-  if (error <= t / 2 + eps && latencyMs <= EASY_LATENCY_MS) {
+  if (error <= t / 2 + eps) {
     grade = 'Easy';
   } else if (error <= t + eps) {
     grade = 'Good';

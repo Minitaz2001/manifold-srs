@@ -92,7 +92,7 @@ export function computeLatencyStats(logs: ReviewLogEntry[], now = new Date()): {
   const weekAgo = now.getTime() - 7 * 86400000;
   const recent = logs.filter((l) => new Date(l.ts).getTime() >= weekAgo && l.latency_ms > 0);
 
-  const taskTypes: ReviewTaskType[] = ['place', 'place_timeline', 'occlude', 'recall'];
+  const taskTypes: ReviewTaskType[] = ['flash', 'recall', 'place', 'place_timeline', 'occlude'];
   const byWidget: WidgetLatencySummary[] = taskTypes.map((task_type) => {
     const subset = recent.filter((l) => l.task_type === task_type);
     const med = median(subset.map((s) => s.latency_ms));

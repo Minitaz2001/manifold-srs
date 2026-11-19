@@ -163,12 +163,12 @@ describe('hygiene interleaving, daily caps, and ratio probe selection', () => {
     const logs = [];
     // Simulate 10 new cards introduced today, each reviewed TWICE (reps = 2) and now scheduled tomorrow
     for (let i = 0; i < 10; i++) {
-      const key = `ent-${i}::power_w::place`;
+      const key = `ent-${i}::power_w::flash`;
       states.set(key, {
         item_key: key,
         entity_id: `ent-${i}`,
         dimension_id: 'power_w',
-        task_type: 'place',
+        task_type: 'flash',
         module: 'physics',
         due: '2026-11-20T12:00:00Z',
         stability: 2,
@@ -186,8 +186,8 @@ describe('hygiene interleaving, daily caps, and ratio probe selection', () => {
         last_signed_error: 0.1,
       });
       logs.push(
-        { item_key: key, ts: '2026-11-19T10:00:00Z', task_type: 'place' as const, module: 'physics' as const, dimension_id: 'power_w', prompt_json: '{}', response: '10', error: 0.5, signed_error: 0.5, grade: 'Again' as const, latency_ms: 2000 },
-        { item_key: key, ts: '2026-11-19T11:00:00Z', task_type: 'place' as const, module: 'physics' as const, dimension_id: 'power_w', prompt_json: '{}', response: '10', error: 0.1, signed_error: 0.1, grade: 'Good' as const, latency_ms: 2000 }
+        { item_key: key, ts: '2026-11-19T10:00:00Z', task_type: 'flash' as const, module: 'physics' as const, dimension_id: 'power_w', prompt_json: '{}', response: '10', error: 0.5, signed_error: 0.5, grade: 'Again' as const, latency_ms: 2000 },
+        { item_key: key, ts: '2026-11-19T11:00:00Z', task_type: 'flash' as const, module: 'physics' as const, dimension_id: 'power_w', prompt_json: '{}', response: '10', error: 0.1, signed_error: 0.1, grade: 'Good' as const, latency_ms: 2000 }
       );
     }
 
@@ -202,6 +202,10 @@ describe('hygiene interleaving, daily caps, and ratio probe selection', () => {
     });
 
     expect(daily.new_today_capped).toBe(0);
-    expect(daily.queue.length).toBe(0);
+    // No 11th new flashcard; only the supplemental drills those learned cards unlocked (capped at 5/day)
+    expect(daily.queue.length).toBe(5);
+    for (const q of daily.queue) {
+      if (q.kind === 'canonical') expect(q.task_type).toBe('place');
+    }
   });
 });

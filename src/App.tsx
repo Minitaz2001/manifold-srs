@@ -28,6 +28,7 @@ import { requestPersistentStorage, shareOrDownloadJson } from './platform';
 import { RulerWidget, type RulerCompletePayload } from './widgets/RulerWidget';
 import { OccludeWidget, type OccludeCompletePayload } from './widgets/OccludeWidget';
 import { PlainCardWidget, type PlainCardCompletePayload } from './widgets/PlainCardWidget';
+import { FlashWidget, type FlashCompletePayload } from './widgets/FlashWidget';
 import { RatioProbeWidget, type RatioProbeCompletePayload } from './widgets/RatioProbeWidget';
 import { SettingsDrawer } from './components/SettingsDrawer';
 import { InboxModal } from './components/InboxModal';
@@ -238,7 +239,21 @@ export function App() {
     (item: CanonicalQueueItem, p: PlainCardCompletePayload) => {
       void commitCanonicalReview(item, {
         response: p.grade,
-        error: p.grade === 'Good' ? 0 : 1,
+        error: p.grade === 'Again' ? 1 : 0,
+        signed_error: 0,
+        grade: p.grade,
+        latency_ms: p.latency_ms,
+        prompt_json: p.prompt_json,
+      });
+    },
+    [commitCanonicalReview]
+  );
+
+  const handleFlashComplete = useCallback(
+    (item: CanonicalQueueItem, p: FlashCompletePayload) => {
+      void commitCanonicalReview(item, {
+        response: p.grade,
+        error: p.grade === 'Again' ? 1 : 0,
         signed_error: 0,
         grade: p.grade,
         latency_ms: p.latency_ms,
@@ -475,6 +490,15 @@ export function App() {
             key={currentItem.item_key}
             probe={currentItem}
             onComplete={(p) => void handleRatioProbeComplete(currentItem, p)}
+          />
+        ) : currentItem.task_type === 'flash' ? (
+          <FlashWidget
+            key={currentItem.item_key + (currentItem.is_new ? ':learn' : ':recall')}
+            entity={currentItem.entity!}
+            dimension={currentItem.dimension!}
+            fact={currentItem.fact!}
+            isNew={currentItem.is_new}
+            onComplete={(p) => handleFlashComplete(currentItem, p)}
           />
         ) : currentItem.task_type === 'place' || currentItem.task_type === 'place_timeline' ? (
           <RulerWidget

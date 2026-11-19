@@ -48,7 +48,7 @@ describe('gradePlacement — table-driven band-edge tests', () => {
   }[] = [
     { name: 'exact fast -> Easy', answer: 100, latencyMs: 2500, expectedGrade: 'Easy' },
     { name: 'at t/2 edge fast (141.42) -> Easy', answer: 100 * Math.sqrt(2), latencyMs: 3000, expectedGrade: 'Easy' },
-    { name: 'at t/2 edge slow (3001ms) -> Good', answer: 100 * Math.sqrt(2), latencyMs: 3001, expectedGrade: 'Good' },
+    { name: 'at t/2 edge slow (30s) -> still Easy (no time pressure)', answer: 100 * Math.sqrt(2), latencyMs: 30000, expectedGrade: 'Easy' },
     { name: 'above t/2 inside t (180) fast -> Good', answer: 180, latencyMs: 1500, expectedGrade: 'Good' },
     { name: 'at t upper edge (200) -> Good', answer: 200, latencyMs: 4000, expectedGrade: 'Good' },
     { name: 'at t lower edge (50) -> Good', answer: 50, latencyMs: 4000, expectedGrade: 'Good' },
@@ -57,7 +57,7 @@ describe('gradePlacement — table-driven band-edge tests', () => {
     { name: 'at 2t lower edge (25) -> Hard', answer: 25, latencyMs: 4000, expectedGrade: 'Hard' },
     { name: 'just outside 2t (401) -> Again', answer: 401, latencyMs: 2000, expectedGrade: 'Again' },
     { name: 'just below 2t (24.9) -> Again', answer: 24.9, latencyMs: 2000, expectedGrade: 'Again' },
-    { name: 'timeout at 10000ms exact answer -> Again', answer: 100, latencyMs: 10000, expectedGrade: 'Again' },
+    { name: 'very slow exact answer -> Easy (no timeout)', answer: 100, latencyMs: 60000, expectedGrade: 'Easy' },
     { name: 'skipped -> Again', answer: 100, latencyMs: 1000, skipped: true, expectedGrade: 'Again' },
     { name: 'null answer -> Again', answer: null, latencyMs: 1000, expectedGrade: 'Again' },
   ];
@@ -134,7 +134,7 @@ describe('gradeOcclusion — exact, adjacent, non-adjacent, timeout', () => {
     expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-vnm', latencyMs: 1800 }).grade).toBe('Good');
     expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-lao', latencyMs: 2200 }).grade).toBe('Hard');
     expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-jpn', latencyMs: 1800 }).grade).toBe('Again');
-    expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-vnm', latencyMs: 10000 }).grade).toBe('Again');
+    expect(gradeOcclusion({ targetRegion: target, selectedRegionId: 'region-vnm', latencyMs: 60000 }).grade).toBe('Good');
   });
 });
 

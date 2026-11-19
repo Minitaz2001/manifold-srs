@@ -61,6 +61,18 @@ export interface DailyQueueResult {
   stale_suspended_keys: string[];
 }
 
+/** Max supplemental scale drills unlocked per day (they never count against the new-card cap). */
+export const DRILL_UNLOCKS_PER_DAY = 5;
+
+/** A flashcard counts as learned once it has graduated out of FSRS learning steps into Review. */
+export function isFlashLearned(st: ItemState | undefined): boolean {
+  return !!st && !st.suspended && st.reps >= 2 && st.state === 2;
+}
+
+function isDrillTask(t: CanonicalTaskType): boolean {
+  return t === 'place' || t === 'place_timeline';
+}
+
 export function startOfLocalDay(now: Date): number {
   const d = new Date(now);
   d.setHours(0, 0, 0, 0);
@@ -69,7 +81,8 @@ export function startOfLocalDay(now: Date): number {
 
 /**
  * Enumerates every schedulable canonical item from compiled static content packs.
- * - Every Fact produces one canonical item (`place` or `place_timeline`).
+ * - Every Fact produces a `flash` item (learn the number as a normal flashcard) AND a supplemental
+ *   scale drill (`place` / `place_timeline`) that only unlocks once the flashcard is learned.
  * - Every Figure region produces one `occlude` item keyed to `(figure.id:region.region_id, figure.dimension_id, occlude)`.
  * - Every PlainCard produces one `recall` item keyed to `(card.id, plain_card, recall)`.
  */
@@ -80,6 +93,19 @@ export function enumerateCanonicalItems(content: CompiledContent): CanonicalQueu
     const entity = content.entities.get(fact.entity_id);
     const dimension = content.dimensions.get(fact.dimension_id);
     if (!entity || !dimension) continue;
+    items.push({
+      kind: 'canonical',
+      item_key: makeItemKey(fact.entity_id, fact.dimension_id, 'flash'),
+      entity_id: fact.entity_id,
+      dimension_id: fact.dimension_id,
+      task_type: 'flash',
+      module: entity.module,
+      is_new: true,
+      is_probe_followup: false,
+      entity,
+      dimension,
+      fact,
+    });
     const taskType = canonicalTaskTypeForDimension(dimension.scale);
     items.push({
       kind: 'canonical',
@@ -290,6 +316,7 @@ export function buildDailyQueue(params: {
 
   // Count how many new items were FIRST introduced today (robust even if re-reviewed in learning steps today)
   let newIntroducedToday = 0;
+  let drillsIntroducedToday = 0;
   if (allLogs) {
     const firstSeenByKey = new Map<string, number>();
     for (const log of allLogs) {
@@ -298,8 +325,10 @@ export function buildDailyQueue(params: {
       const prev = firstSeenByKey.get(log.item_key);
       if (prev === undefined || t < prev) firstSeenByKey.set(log.item_key, t);
     }
-    for (const firstTs of firstSeenByKey.values()) {
-      if (firstTs >= dayStart) newIntroducedToday++;
+    for (const [key, firstTs] of firstSeenByKey.entries()) {
+      if (firstTs < dayStart) continue;
+      if (/::place(_timeline)?$/.test(key)) drillsIntroducedToday++;
+      else newIntroducedToday++;
     }
   } else {
     const reviewedTodayKeys = new Set(canonicalLogsToday.map((l) => l.item_key));
@@ -320,6 +349,7 @@ export function buildDailyQueue(params: {
   const staleSuspendedKeys: string[] = [];
   const dueItems: CanonicalQueueItem[] = [];
   const newItems: CanonicalQueueItem[] = [];
+  const newDrills: CanonicalQueueItem[] = [];
 
   for (const item of allItems) {
     const st = states.get(item.item_key);
@@ -334,6 +364,12 @@ export function buildDailyQueue(params: {
     }
 
     if (!st || st.reps === 0) {
+      if (isDrillTask(item.task_type)) {
+        // Supplemental: only once the plain flashcard for this fact is learned
+        const flashKey = makeItemKey(item.entity_id, item.dimension_id, 'flash');
+        if (isFlashLearned(states.get(flashKey))) newDrills.push({ ...item, is_new: true, state: st });
+        continue;
+      }
       newItems.push({ ...item, is_new: true, state: st });
     } else {
       const dueMs = new Date(st.due).getTime();
@@ -365,8 +401,11 @@ export function buildDailyQueue(params: {
   const cappedDue = dueItems.slice(0, reviewsRemaining);
   const slotsLeftForNew = Math.max(0, reviewsRemaining - cappedDue.length);
   const cappedNew = balancedNew.slice(0, Math.min(newRemaining, slotsLeftForNew));
+  const drillsRemaining = Math.max(0, DRILL_UNLOCKS_PER_DAY - drillsIntroducedToday);
+  const slotsLeftForDrills = Math.max(0, slotsLeftForNew - cappedNew.length);
+  const cappedDrills = interleaveItems(newDrills, daySeed + 5).slice(0, Math.min(drillsRemaining, slotsLeftForDrills));
 
-  const combined = interleaveItems([...cappedDue, ...cappedNew], daySeed + 17);
+  const combined = interleaveItems([...cappedDue, ...cappedNew, ...cappedDrills], daySeed + 17);
   const queue: SessionQueueItem[] = [...combined];
 
   if (!probeRanToday && queue.length >= 2) {

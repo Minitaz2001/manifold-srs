@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import type { Figure, FigureRegion } from '../types/content';
 import type { GradeName } from '../types/memory';
 import { BUNDLED_SVGS } from '../content/loader';
-import { gradeOcclusion, TIMEOUT_LATENCY_MS } from '../core/grading';
+import { gradeOcclusion } from '../core/grading';
 import { nowMs, triggerHaptic } from '../platform';
 
 export interface OccludeCompletePayload {
@@ -21,7 +21,6 @@ interface OccludeWidgetProps {
   onComplete: (payload: OccludeCompletePayload) => void;
 }
 
-const REVEAL_MS = 1200;
 
 export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: OccludeWidgetProps) {
   // Alternate between "name this region" (4 nearby labels) and "tap where X is"
@@ -36,7 +35,6 @@ export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: Oc
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [grade, setGrade] = useState<GradeName | null>(null);
   const [payload, setPayload] = useState<OccludeCompletePayload | null>(null);
-  const [elapsedRatio, setElapsedRatio] = useState(0);
 
   // Pick 4 nearby/adjacent label choices for "name_region" mode
   const labelChoices = useMemo(() => {
@@ -63,26 +61,10 @@ export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: Oc
     setSelectedId(null);
     setGrade(null);
     setPayload(null);
-    setElapsedRatio(0);
     return () => {
       if (revealTimerRef.current !== null) window.clearTimeout(revealTimerRef.current);
     };
   }, [figure.id, targetRegion.region_id, mode]);
-
-  // 10s timeout
-  useEffect(() => {
-    if (grade) return;
-    const id = window.setInterval(() => {
-      const elapsed = nowMs() - startTimeRef.current;
-      setElapsedRatio(Math.min(1, elapsed / TIMEOUT_LATENCY_MS));
-      if (elapsed >= TIMEOUT_LATENCY_MS && !finishedRef.current) {
-        window.clearInterval(id);
-        submitChoice(null, true);
-      }
-    }, 60);
-    return () => window.clearInterval(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [grade, figure.id, targetRegion.region_id]);
 
   // Style SVG regions dynamically based on mode & reveal state
   useEffect(() => {
@@ -143,9 +125,6 @@ export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: Oc
     setGrade(res.grade);
     setPayload(out);
 
-    revealTimerRef.current = window.setTimeout(() => {
-      advanceNow(out);
-    }, REVEAL_MS);
   };
 
   const handleSvgTap = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -168,9 +147,6 @@ export function OccludeWidget({ figure, targetRegion, repCount, onComplete }: Oc
         if (grade && payload) advanceNow(payload);
       }}
     >
-      <div className="timeout-bar-track" aria-hidden="true">
-        <div className="timeout-bar-fill" style={{ width: `${(grade ? 0 : elapsedRatio) * 100}%` }} />
-      </div>
 
       <div className="prompt-zone compact">
         <div className="prompt-eyebrow">
