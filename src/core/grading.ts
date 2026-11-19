@@ -220,12 +220,19 @@ export interface RulerConfig {
   ticks: number[];
 }
 
+/** Log rulers show a fixed window this many decades wide (Good band ~15% of the ruler). */
+export const LOG_WINDOW_DECADES = 4;
+/** Linear/date rulers show a window this many tolerances wide (Good band ~14% of the ruler). */
+export const LINEAR_WINDOW_TOLERANCES = 14;
+
 /**
- * Selects 2-3 bracketing anchors for a target fact on a ruler/timeline:
- * - Never includes the target entity itself
- * - Never includes an anchor within 1.2x on log scales
- * - Prefers one below and one above at least 0.5 decades (log) or 1 tick (linear/date) from truth
- * - Adds a 3rd informative anchor if available cleanly inside the span
+ * Builds a ZOOMED ruler around the target instead of spanning the whole dimension
+ * (atom to universe made every tolerance band a few pixels wide):
+ * - Window is LOG_WINDOW_DECADES (log) or LINEAR_WINDOW_TOLERANCES x t (linear/date) wide,
+ *   always containing the fact's [low, high] band.
+ * - Truth sits at a random 25-75% position so the window itself does not leak the answer.
+ * - Up to 3 anchors from inside the window: never the target, never within 1.2x (log),
+ *   never closer than 0.5 decades / 2t to truth, spaced apart from each other.
  */
 export function selectRulerConfig(params: {
   dimension: Dimension;
@@ -233,95 +240,86 @@ export function selectRulerConfig(params: {
   candidateAnchors: RulerAnchor[];
   allDimensionFacts: Fact[];
   currentYear?: number;
+  rand?: () => number;
 }): RulerConfig {
-  const { dimension, targetFact, candidateAnchors, allDimensionFacts, currentYear = 2026 } = params;
+  const { dimension, targetFact, candidateAnchors, allDimensionFacts, currentYear = 2026, rand = Math.random } = params;
   const truth = targetFact.value;
+  const offset = 0.25 + 0.5 * rand();
 
   const eligible = candidateAnchors
     .filter((a) => a.entity_id !== targetFact.entity_id)
-    .filter((a) => (dimension.scale === 'log' ? !isLogCollision(a.value, truth) : a.value !== truth))
-    .sort((a, b) => a.value - b.value);
+    .filter((a) => (dimension.scale === 'log' ? a.value > 0 && !isLogCollision(a.value, truth) : a.value !== truth));
+
+  const pickAnchors = (
+    inWindow: RulerAnchor[],
+    dist: (a: number, b: number) => number,
+    minFromTruth: number,
+    minApart: number
+  ): RulerAnchor[] => {
+    const pool = inWindow.filter((a) => dist(a.value, truth) >= minFromTruth);
+    const below = pool.filter((a) => a.value < truth).sort((x, y) => y.value - x.value);
+    const above = pool.filter((a) => a.value > truth).sort((x, y) => x.value - y.value);
+    const chosen: RulerAnchor[] = [];
+    const tryAdd = (c: RulerAnchor | undefined) => {
+      if (!c || chosen.length >= 3) return;
+      if (chosen.some((x) => x.entity_id === c.entity_id)) return;
+      if (chosen.every((x) => dist(x.value, c.value) >= minApart)) chosen.push(c);
+    };
+    tryAdd(below[0]);
+    tryAdd(above[0]);
+    for (const c of [...below.slice(1), ...above.slice(1)]) tryAdd(c);
+    return chosen.sort((x, y) => x.value - y.value);
+  };
 
   if (dimension.scale === 'log') {
-    const belowCandidates = eligible.filter((a) => Math.log10(truth / a.value) >= MIN_LOG_ANCHOR_GAP_DECADES);
-    const aboveCandidates = eligible.filter((a) => Math.log10(a.value / truth) >= MIN_LOG_ANCHOR_GAP_DECADES);
+    const lt = Math.log10(truth);
+    const bandLo = Math.log10(Math.min(targetFact.low > 0 ? targetFact.low : truth, truth));
+    const bandHi = Math.log10(Math.max(targetFact.high, truth));
+    const width = Math.max(LOG_WINDOW_DECADES, bandHi - bandLo + 1);
+    let minExp = lt - offset * width;
+    if (minExp > bandLo - 0.2) minExp = bandLo - 0.2;
+    if (minExp + width < bandHi + 0.2) minExp = bandHi + 0.2 - width;
+    const maxExp = minExp + width;
 
-    // Fallback to any non-colliding lower/upper anchor if target is near the extreme end
-    const belowPool = belowCandidates.length > 0 ? belowCandidates : eligible.filter((a) => a.value < truth);
-    const abovePool = aboveCandidates.length > 0 ? aboveCandidates : eligible.filter((a) => a.value > truth);
+    const logDist = (a: number, b: number) => Math.abs(Math.log10(a / b));
+    const inWindow = eligible.filter((a) => {
+      const la = Math.log10(a.value);
+      return la >= minExp + 0.15 && la <= maxExp - 0.15;
+    });
+    const anchors = pickAnchors(inWindow, logDist, MIN_LOG_ANCHOR_GAP_DECADES, 0.4);
 
-    const chosen: RulerAnchor[] = [];
-    if (belowPool.length > 0) chosen.push(belowPool[belowPool.length - 1]);
-    if (abovePool.length > 0) chosen.push(abovePool[0]);
-
-    // Optional 3rd anchor spaced well outside chosen two for broader visual scale
-    for (const cand of eligible) {
-      if (chosen.length >= 3) break;
-      if (chosen.some((c) => c.entity_id === cand.entity_id)) continue;
-      if (chosen.every((c) => Math.abs(Math.log10(c.value / cand.value)) >= 0.6)) {
-        if (Math.abs(Math.log10(truth / cand.value)) >= MIN_LOG_ANCHOR_GAP_DECADES) {
-          chosen.push(cand);
-        }
-      }
-    }
-    chosen.sort((a, b) => a.value - b.value);
-
-    const allVals = [...chosen.map((c) => c.value), truth, targetFact.low, targetFact.high].filter((v) => v > 0);
-    const minExp = Math.floor(Math.log10(Math.min(...allVals))) - 0.5;
-    const maxExp = Math.ceil(Math.log10(Math.max(...allVals))) + 0.5;
     const ticks: number[] = [];
-    for (let e = Math.ceil(minExp); e <= Math.floor(maxExp); e++) {
-      ticks.push(Math.pow(10, e));
-    }
-    return {
-      min: Math.pow(10, minExp),
-      max: Math.pow(10, maxExp),
-      anchors: chosen,
-      ticks,
-    };
+    for (let e = Math.ceil(minExp); e <= Math.floor(maxExp); e++) ticks.push(Math.pow(10, e));
+    return { min: Math.pow(10, minExp), max: Math.pow(10, maxExp), anchors, ticks };
   }
 
   // Linear or Date ruler
-  const allVals = allDimensionFacts.map((f) => f.value);
-  const rawMin = dimension.min_domain ?? Math.min(...allVals);
-  const rawMax = dimension.max_domain ?? Math.max(...allVals);
-  const span = Math.max(1, rawMax - rawMin);
-  const tickStep = chooseLinearTickStep(span, dimension.scale === 'date');
+  const t = effectiveTolerance(dimension, truth, currentYear);
+  const lo = Math.min(targetFact.low, truth);
+  const hi = Math.max(targetFact.high, truth);
+  const width = Math.max(LINEAR_WINDOW_TOLERANCES * t, hi - lo + 4 * t);
+  let minRaw = truth - offset * width;
+  if (minRaw > lo - t) minRaw = lo - t;
+  if (minRaw + width < hi + t) minRaw = hi + t - width;
 
-  const minGap = dimension.scale === 'date' ? Math.max(tickStep * 0.5, effectiveTolerance(dimension, truth, currentYear) * 2) : tickStep;
-  const belowCandidates = eligible.filter((a) => truth - a.value >= minGap);
-  const aboveCandidates = eligible.filter((a) => a.value - truth >= minGap);
-  const belowPool = belowCandidates.length > 0 ? belowCandidates : eligible.filter((a) => a.value < truth);
-  const abovePool = aboveCandidates.length > 0 ? aboveCandidates : eligible.filter((a) => a.value > truth);
+  const allNonNeg = allDimensionFacts.every((f) => f.value >= 0) && truth >= 0;
+  const floor = dimension.min_domain ?? (dimension.scale !== 'date' && allNonNeg ? 0 : -Infinity);
+  const ceiling = dimension.max_domain ?? (dimension.scale === 'date' ? currentYear : Infinity);
+  if (minRaw < floor) minRaw = floor;
+  if (minRaw + width > ceiling) minRaw = Math.max(floor, ceiling - width);
+  const maxRaw = minRaw + width;
 
-  const chosen: RulerAnchor[] = [];
-  if (belowPool.length > 0) chosen.push(belowPool[belowPool.length - 1]);
-  if (abovePool.length > 0) chosen.push(abovePool[0]);
-  if (chosen.length < 3) {
-    for (const cand of eligible) {
-      if (chosen.length >= 3) break;
-      if (chosen.some((c) => c.entity_id === cand.entity_id)) continue;
-      if (Math.abs(cand.value - truth) >= minGap && chosen.every((c) => Math.abs(c.value - cand.value) >= tickStep * 0.8)) {
-        chosen.push(cand);
-      }
-    }
-  }
-  chosen.sort((a, b) => a.value - b.value);
+  const tickStep = chooseLinearTickStep(width, dimension.scale === 'date');
+  const minVal = Math.max(floor, Math.floor(minRaw / tickStep) * tickStep);
+  const maxVal = Math.ceil(maxRaw / tickStep) * tickStep;
 
-  const domainVals = [...chosen.map((c) => c.value), truth, rawMin, rawMax];
-  const minVal = Math.floor(Math.min(...domainVals) / tickStep) * tickStep;
-  const maxVal = Math.ceil(Math.max(...domainVals) / tickStep) * tickStep;
+  const linDist = (a: number, b: number) => Math.abs(a - b);
+  const inWindow = eligible.filter((a) => a.value >= minVal && a.value <= maxVal);
+  const anchors = pickAnchors(inWindow, linDist, 2 * t, Math.max(tickStep * 0.8, t));
+
   const ticks: number[] = [];
-  for (let v = minVal; v <= maxVal + tickStep * 0.001; v += tickStep) {
-    ticks.push(Number(v.toFixed(6)));
-  }
-
-  return {
-    min: minVal,
-    max: maxVal,
-    anchors: chosen,
-    ticks,
-  };
+  for (let v = minVal; v <= maxVal + tickStep * 0.001; v += tickStep) ticks.push(Number(v.toFixed(6)));
+  return { min: minVal, max: maxVal, anchors, ticks };
 }
 
 function chooseLinearTickStep(span: number, isDate: boolean): number {
@@ -329,8 +327,9 @@ function chooseLinearTickStep(span: number, isDate: boolean): number {
     if (span >= 1500) return 500;
     if (span >= 600) return 200;
     if (span >= 250) return 100;
-    if (span >= 80) return 50;
-    return 10;
+    if (span >= 80) return 20;
+    if (span >= 30) return 10;
+    return 5;
   }
   const rough = span / 5;
   const pow = Math.pow(10, Math.floor(Math.log10(rough)));

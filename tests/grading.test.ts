@@ -171,6 +171,7 @@ describe('anti-collision & ruler anchor bracketing', () => {
       targetFact,
       candidateAnchors: candidates,
       allDimensionFacts: [targetFact],
+      rand: () => 0.5,
     });
     expect(cfg.anchors.some((a) => a.entity_id === 'vietnam')).toBe(false);
     expect(cfg.anchors.some((a) => a.entity_id === 'egypt')).toBe(false);
@@ -178,6 +179,41 @@ describe('anti-collision & ruler anchor bracketing', () => {
     expect(cfg.anchors.some((a) => a.value > targetFact.value)).toBe(true);
     expect(cfg.min).toBeLessThan(targetFact.value);
     expect(cfg.max).toBeGreaterThan(targetFact.value);
+  });
+
+  it('zooms log rulers to a fixed window so the Good band is a usable width', () => {
+    const targetFact: Fact = {
+      entity_id: 'everest', dimension_id: 'length_m', value: 8849, low: 8848, high: 8850,
+      as_of: '2026-01-01', source_url: 'https://example.org', source_note: 'x', volatile: false,
+    } as Fact;
+    const lengthDim = { id: 'length_m', name: 'Length', unit: 'm', scale: 'log', tolerance: 2 } as unknown as Dimension;
+    const candidates = [
+      { entity_id: 'proton', name: 'Proton', value: 8.4e-16 },
+      { entity_id: 'empire', name: 'Empire State', value: 381 },
+      { entity_id: 'cruise', name: 'Jet cruise', value: 10700 },
+      { entity_id: 'karman', name: 'Karman line', value: 1e5 },
+      { entity_id: 'ly', name: 'Light-year', value: 9.46e15 },
+    ];
+    for (const r of [0, 0.5, 0.999]) {
+      const cfg = selectRulerConfig({ dimension: lengthDim, targetFact, candidateAnchors: candidates, allDimensionFacts: [targetFact], rand: () => r });
+      const decades = Math.log10(cfg.max / cfg.min);
+      expect(decades).toBeCloseTo(4, 5);
+      expect(cfg.min).toBeLessThan(8848);
+      expect(cfg.max).toBeGreaterThan(8850);
+      expect(cfg.anchors.some((a) => a.entity_id === 'proton' || a.entity_id === 'ly')).toBe(false);
+    }
+  });
+
+  it('zooms date rulers to a narrow window that never runs past the present', () => {
+    const fact = {
+      entity_id: 'moon', dimension_id: 'historical_year', value: 1969, low: 1969, high: 1969,
+      as_of: '2026-01-01', source_url: 'https://example.org', source_note: 'x', volatile: false,
+    } as Fact;
+    const cfg = selectRulerConfig({ dimension: DATE_DIM, targetFact: fact, candidateAnchors: [], allDimensionFacts: [fact], currentYear: 2026, rand: () => 0.9 });
+    expect(cfg.max).toBeLessThanOrEqual(2030);
+    expect(cfg.max - cfg.min).toBeLessThanOrEqual(120);
+    expect(cfg.min).toBeLessThan(1969);
+    expect(cfg.max).toBeGreaterThan(1969);
   });
 
   it('evaluates ratio probes within tolerance factor', () => {

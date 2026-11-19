@@ -18,6 +18,7 @@ interface SettingsDrawerProps {
   onUnsuspendItem: (itemKey: string) => Promise<void>;
   onRequestRewrite: (itemKey: string, label: string) => Promise<void>;
   onUpdateRetention: (module: ModuleId | 'global', retention: number | null) => Promise<void>;
+  onUpdateCaps: (caps: { new_per_day?: number; reviews_per_day?: number }) => Promise<void>;
   onMarkInboxExported: () => Promise<void>;
 }
 
@@ -64,6 +65,7 @@ export function SettingsDrawer({
   onUnsuspendItem,
   onRequestRewrite,
   onUpdateRetention,
+  onUpdateCaps,
   onMarkInboxExported,
 }: SettingsDrawerProps) {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -226,10 +228,24 @@ export function SettingsDrawer({
         <section className="settings-section">
           <h3>FSRS Scheduling</h3>
           <div className="kv-row">
-            <span>Daily caps</span>
-            <span className="mono">
-              {settings.new_per_day} new / {settings.reviews_per_day} rev
-            </span>
+            <span>New cards / day</span>
+            <div className="stepper">
+              <button type="button" className="seg-btn" aria-label="Fewer new cards"
+                onClick={() => onUpdateCaps({ new_per_day: Math.max(0, settings.new_per_day - 5) })}>−</button>
+              <span className="mono stepper-val">{settings.new_per_day}</span>
+              <button type="button" className="seg-btn" aria-label="More new cards"
+                onClick={() => onUpdateCaps({ new_per_day: Math.min(100, settings.new_per_day + 5) })}>+</button>
+            </div>
+          </div>
+          <div className="kv-row">
+            <span>Reviews / day</span>
+            <div className="stepper">
+              <button type="button" className="seg-btn" aria-label="Fewer reviews"
+                onClick={() => onUpdateCaps({ reviews_per_day: Math.max(10, settings.reviews_per_day - 20) })}>−</button>
+              <span className="mono stepper-val">{settings.reviews_per_day}</span>
+              <button type="button" className="seg-btn" aria-label="More reviews"
+                onClick={() => onUpdateCaps({ reviews_per_day: Math.min(500, settings.reviews_per_day + 20) })}>+</button>
+            </div>
           </div>
           <div className="kv-row">
             <span>Desired retention (global)</span>

@@ -390,6 +390,16 @@ export function App() {
     [settings]
   );
 
+  const handleUpdateCaps = useCallback(
+    async (caps: { new_per_day?: number; reviews_per_day?: number }) => {
+      if (!settings) return;
+      const next: UserSettings = { ...settings, ...caps };
+      await db.settings.put(next);
+      setSettings(next);
+    },
+    [settings]
+  );
+
   const handleMarkInboxExported = useCallback(async () => {
     await db.inbox.toCollection().modify({ exported: true });
     setInbox((prev) => prev.map((x) => ({ ...x, exported: true })));
@@ -542,6 +552,7 @@ export function App() {
         onUnsuspendItem={handleUnsuspend}
         onRequestRewrite={handleRequestRewrite}
         onUpdateRetention={handleUpdateRetention}
+        onUpdateCaps={handleUpdateCaps}
         onMarkInboxExported={handleMarkInboxExported}
       />
 
