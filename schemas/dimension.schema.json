@@ -39,6 +39,10 @@
     },
     "max_domain": {
       "type": "number"
+    },
+    "drill": {
+      "type": "boolean",
+      "description": "false = exact-value dimension (code tables, fee splits): flashcards only, no tolerance-graded ruler drill. Defaults to true."
     }
   }
 }

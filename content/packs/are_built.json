@@ -563,7 +563,8 @@
       "tolerance": 4,
       "tolerance_mode": "absolute",
       "min_domain": 0,
-      "max_domain": 90
+      "max_domain": 90,
+      "drill": false
     },
     {
       "id": "occupant_load_sf",
@@ -571,7 +572,8 @@
       "unit": "sf/person",
       "scale": "log",
       "tolerance": 1.5,
-      "tolerance_mode": "factor"
+      "tolerance_mode": "factor",
+      "drill": false
     },
     {
       "id": "soil_bearing_psf",
@@ -579,7 +581,8 @@
       "unit": "psf",
       "scale": "log",
       "tolerance": 1.5,
-      "tolerance_mode": "factor"
+      "tolerance_mode": "factor",
+      "drill": false
     },
     {
       "id": "live_load_psf",
@@ -589,7 +592,8 @@
       "tolerance": 15,
       "tolerance_mode": "absolute",
       "min_domain": 0,
-      "max_domain": 280
+      "max_domain": 280,
+      "drill": false
     },
     {
       "id": "r_value_per_in",
@@ -609,7 +613,8 @@
       "tolerance": 5,
       "tolerance_mode": "absolute",
       "min_domain": 0,
-      "max_domain": 100
+      "max_domain": 100,
+      "drill": false
     },
     {
       "id": "wall_assembly",

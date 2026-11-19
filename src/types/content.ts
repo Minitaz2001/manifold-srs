@@ -26,6 +26,8 @@ export interface Dimension {
   tolerance_mode?: ToleranceMode;
   min_domain?: number;
   max_domain?: number;
+  /** false = exact-value dimension: flashcards only, no ruler drill. */
+  drill?: boolean;
 }
 
 export interface Fact {
